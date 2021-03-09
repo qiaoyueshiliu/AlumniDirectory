@@ -13,7 +13,7 @@
   </head>
   <body>
   <div id="head_wrapper" class="head_wrapper"></div>
-  <h1 style="color:orangered">校友录1</h1>
+  <h1 style="color:orangered">校友录</h1>
   <p>登录界面</p>
   </body>
 </html>
