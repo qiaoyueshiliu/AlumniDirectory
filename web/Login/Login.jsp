@@ -11,7 +11,10 @@
     <title>登录</title>
 </head>
 <body>
-    <p>登录页面</p>
+    <h1>登录页面</h1>
+    <
+<%--    <p>用户名</p>--%>
+
     <a href="../index.jsp">返回首页</a>
 </body>
 </html>
