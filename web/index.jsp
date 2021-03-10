@@ -15,9 +15,6 @@
     <title>校友录</title>
   </head>
   <body>
-
-
-
   <div>
     <h1 class="head_wrapper">校友录</h1>
   </div>
