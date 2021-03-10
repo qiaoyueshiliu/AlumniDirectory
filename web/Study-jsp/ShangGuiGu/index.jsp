@@ -1,0 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: DELL
+  Date: 2021/3/10
+  Time: 16:18
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>尚硅谷教程首页</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+<a href="034-JavaScript与HTML结合的第一种方式.jsp"><h3>034-JavaScript与HTML结合的第一种方式</h3></a>
+</body>
+</html>

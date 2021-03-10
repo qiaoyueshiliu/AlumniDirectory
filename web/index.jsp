@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="./head_css/head.css" type="text/css">
 <html>
   <head>
+    <script type="text/javascript"></script>
     <title>校友录</title>
   </head>
   <body>
