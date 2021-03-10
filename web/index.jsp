@@ -8,6 +8,6 @@
   <div>
     <h1 class="head_wrapper">校友录</h1>
   </div>
-  <a href="./Login/Login.jsp">登录</a>
+  <a href="./Login/Login.jsp">登录1</a>
   </body>
 </html>
