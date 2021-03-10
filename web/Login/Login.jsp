@@ -12,9 +12,6 @@
 </head>
 <body>
     <h1>登录页面</h1>
-    <
-<%--    <p>用户名</p>--%>
-
     <a href="../index.jsp">返回首页</a>
 </body>
 </html>
