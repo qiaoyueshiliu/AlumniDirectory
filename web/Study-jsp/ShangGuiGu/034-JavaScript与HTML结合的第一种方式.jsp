@@ -9,8 +9,10 @@
 <html>
 <head>
     <title>034-JavaScript与HTML结合的第一种方式</title>
+    <script type="text/javascript">
+        alert("Hello JavaScript")
+    </script>
 </head>
 <body>
-
 </body>
 </html>
