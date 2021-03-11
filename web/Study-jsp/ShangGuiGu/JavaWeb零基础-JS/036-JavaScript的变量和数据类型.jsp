@@ -20,6 +20,6 @@
 <body>
 <h1>036-JavaScript的变量和数据类型</h1>
 <p>typeof()是JavaScript提供的返回变量类型的函数2</p>
-<a href="index.jsp"><h3>返回首页</h3></a>
+<a href="index.jsp"><h3>返回首页1</h3></a>
 </body>
 </html>
