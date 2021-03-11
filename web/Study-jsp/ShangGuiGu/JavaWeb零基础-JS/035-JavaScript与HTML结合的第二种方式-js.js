@@ -1,0 +1,1 @@
+alert("JavaScript和HTML结合的第二种方式")
