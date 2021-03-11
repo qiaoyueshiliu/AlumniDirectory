@@ -17,6 +17,6 @@
     <a href="036-JavaScript的变量和数据类型.jsp"><h3>036-JavaScript的变量和数据类型</h3></a>
     <a href="037-JavaScript-关系运算符.jsp"><h3>037-JavaScript-关系运算符</h3></a>
     <a href="038-JavaScript-逻辑运算符.jsp"><h3>038-JavaScript-逻辑运算符</h3></a>
-    <a href="038-JavaScript-逻辑运算符.jsp"><h3>038-JavaScript-逻辑运算符</h3></a>
+    <a href="039-JavaScript-数组.jsp"><h3>039-JavaScript-数组</h3></a>
 </body>
 </html>
