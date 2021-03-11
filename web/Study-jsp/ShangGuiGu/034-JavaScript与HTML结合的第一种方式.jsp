@@ -14,5 +14,6 @@
     </script>
 </head>
 <body>
+<a href="index.jsp"><h3>返回首页</h3></a>
 </body>
 </html>

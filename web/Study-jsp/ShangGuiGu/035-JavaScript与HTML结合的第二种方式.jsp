@@ -10,9 +10,8 @@
 <head>
     <title>035-JavaScript与HTML结合的第二种方式</title>
     <script type="text/javascript" src="JavaWeb零基础-JS/035-JavaScript与HTML结合的第二种方式-js.js"></script>
-
 </head>
 <body>
-
+<a href="index.jsp"><h3>返回首页</h3></a>
 </body>
 </html>
