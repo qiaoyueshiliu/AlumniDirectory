@@ -20,9 +20,9 @@
     </script>
 </head>
 <body>
-<a href="JavaWeb零基础-JS/035-JavaScript与HTML结合的第二种方式-js.js">数组</a>
+<a href="../035-JavaScript与HTML结合的第二种方式-js.js">数组</a>
 <h3>alert(arr.length);//数组长度</h3>
 <h3>赋值会使数组自动扩容</h3>
-<a href="index.jsp"><h3>返回首页</h3></a>
+<a href="../../index.jsp"><h3>返回首页</h3></a>
 </body>
 </html>
