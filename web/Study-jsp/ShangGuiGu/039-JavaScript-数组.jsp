@@ -11,13 +11,18 @@
     <title>039-JavaScript-数组</title>
     <script>
         var arr=[];//空数组
-        alert(arr.length);//输出数组长度
+        // alert(arr.length);//输出数组长度
         arr[0]=12;
+        arr[2]="abc";
+        for (var i=0;i<arr.length;i++){//数组的遍历
+            alert(arr[i]);
+        }
     </script>
 </head>
 <body>
 <a href="JavaWeb零基础-JS/035-JavaScript与HTML结合的第二种方式-js.js">数组</a>
 <h3>alert(arr.length);//数组长度</h3>
+<h3>赋值会使数组自动扩容</h3>
 <a href="index.jsp"><h3>返回首页</h3></a>
 </body>
 </html>
