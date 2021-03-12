@@ -8,6 +8,16 @@
 <html>
 <head>
     <title>041-JavaScript-函数第二种定义方式</title>
+    <script type="text/javascript">
+        var fun = function (){
+            alert("无参函数");
+        }
+        fun();
+        var fun2 = function (a,b){
+            alert("有参函数a=" + a );
+        }
+        fun2(1,2);
+    </script>
 </head>
 <body>
 
