@@ -10,8 +10,14 @@
 <head>
     <title>Title</title>
     <script type="text/javascript">
-        var obj = {};
-
+        var obj = {
+            id : 1 ,
+            age : 18 ,
+            fun : function () {
+                alert(this.id + this.age);
+            }
+        };
+        obj.fun();
     </script>
 </head>
 <body>
