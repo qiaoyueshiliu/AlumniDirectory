@@ -10,8 +10,10 @@
 <head>
     <title>Title</title>
     <script type="text/javascript">
-        var patt = /^\w{5,12}$/;
-
+        //表示要求字符串中，必须包含字母e
+        var patt = new RegExp("e");
+        var str = "abcde";
+        alert(patt.test(str));
     </script>
 </head>
 <body>
