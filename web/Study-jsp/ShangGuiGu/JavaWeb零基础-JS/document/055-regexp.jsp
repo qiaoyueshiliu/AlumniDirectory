@@ -9,11 +9,21 @@
 <html>
 <head>
     <title>Title</title>
+    <style type="text/css">
+        body {background-color:black}
+        p {color:white}
+    </style>
     <script type="text/javascript">
         //表示要求字符串中，必须包含字母e
-        var patt = new RegExp("e");
+        //var patt = new RegExp("e");
+        ///abc/表示查找要求字符串中是否包含a或b或c
+        //var patt = /abc/;
+        //表示要求字符串
+        var patt = /a-z/;
         var str = "abcde";
+        var str1 = "1234";
         alert(patt.test(str));
+        alert(patt.test(str1));
     </script>
 </head>
 <body>
