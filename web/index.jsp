@@ -8,6 +8,7 @@
   <div>
     <h1 class="head_wrapper">校友录</h1>
   </div>
-  <a href="./Login/Login.jsp">登录2</a>
+  <a href="./Login/Login.jsp">登录</a>
+  <a href="Register/Registration_Page.jsp">注册</a>
   </body>
 </html>

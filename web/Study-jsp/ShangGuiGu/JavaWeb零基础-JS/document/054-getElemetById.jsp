@@ -4,6 +4,9 @@
   Date: 2021/3/14
   Time: 23:40
   To change this template use File | Settings | File Templates.
+
+  验证用户名是否合法
+
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
