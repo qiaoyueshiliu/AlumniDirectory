@@ -29,17 +29,21 @@
             usernameSpanObj.innerHTML = "用户名错误！！！"
             if(patt.test(usernameText)){
                 // alert("用户名合法！");
-                usernameSpanObj.innerHTML = "用户名合法！"
+                // usernameSpanObj.innerHTML = "用户名合法！"
+                usernameSpanObj.innerHTML = "<img src=\"../../../../img/Tick.jpg\" width=\"16\" height=\"16\">";
             }else {
                 // alert('用户名不合法！');
-                usernameSpanObj.innerHTML = "用户名不合法！"
+                // usernameSpanObj.innerHTML = "用户名不合法！" ;
+                usernameSpanObj.innerHTML = "<img src=\"../../../../img/Cross.jpeg\" width=\"16\" height=\"16\">";
             }
         }
     </script>
 </head>
 <body>
-用户名：<input type="text" id="uesrname">
-<span id="usernameSpan" style="color:red"></span>
-<button onclick="onclickFun()">校验</button>
+    用户名：<input type="text" id="uesrname">
+    <span id="usernameSpan" style="color:red">
+<%--        <img src="../../../../img/Tick.jpg" width="16" height="16">--%>
+    </span>
+    <button onclick="onclickFun()">校验</button>
 </body>
 </html>
