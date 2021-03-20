@@ -21,20 +21,34 @@
             //hobbies[0].value 查看第1个元素的value值
             //hoobies[0].checked 检查这个 input 框的checked值,查看是否被选中了
             //check表示复选框的状态,如果选中是True,如果没有被选中是False;这个属性可读可写
+            for (var i = 0 ; i < hobbies.length ; i++){
+                hobbies[i].checked = true ;
+            }
         }
         //全不选
         function checkNo() {
-
+            var hobbies = document.getElementsByName("hobby");
+            for (var i = 0 ; i < hobbies.length ; i++){
+                hobbies[i].checked= false ;
+            }
         }
         //反选
         function checkReverse() {
-
+            var hobbies = document.getElementsByName("hobby");
+            for (var i = 0 ; i < hobbies.length ; i++){
+                hobbies[i].checked = !hobbies[i].checked;
+                // if(hobbies[i].checked){
+                //     hobbies[i].checked = false;
+                // }else {
+                //     hobbies[i].checked = true;
+                // }
+            }
         }
     </script>
 </head>
 <body>
 兴趣爱好：
-<input type="checkbox" name="hobby" value="cpp">C++
+<input type="checkbox" name="hobby" value="cpp" checked="checked">C++
 <input type="checkbox" name="hobby" value="java">Java
 <input type="checkbox" name="hobby" value="js">JavaScript
 <br>
