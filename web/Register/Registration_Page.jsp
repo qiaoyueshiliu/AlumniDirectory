@@ -50,9 +50,17 @@
                 }
                 // 验证邮箱：xxxxx@xxx.com
                 // 1、获取邮箱里的内容 Email
+                var emailText = $("#Email").val();
                 // 2、创建正则表达式
+                // var emailPatt = /^[a-z/\d]+(\.[a-z\d]+)*@[\da-z](-[\da-z])?)+(\.{1,2}[a-z]+)+$/;
+                // var emailPatt = /'[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+'/;
+                var emailPatt = /^\w+@[a-zA-Z0-9]{2,10}(?:\.[a-z]{2,4}){1,3}$/;
                 // 3、用test方法验证是否合法
-                // 4、提示用户
+                if (!emailPatt.test(emailText)){
+                    // 4、提示用户
+                    $("span.errorMsg").text("邮箱格式不合法！");
+                    return false;
+                }
                 // 验证码
             });
         });
@@ -97,6 +105,7 @@
 </p>
 <br>
 <a href="../index.jsp">返回首页</a>
+<form action="regist_success.jsp">
 <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
     <tr>
         <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
@@ -157,5 +166,6 @@
         </td>
     </tr>
 </table>
+</form>
 </body>
 </html>
