@@ -1,0 +1,30 @@
+.headerMoudle{
+    background-color: #ffffff;
+    box-shadow:
+        0 0px 3px 0 rgba(0,0,0,.02),0 4px 8px 0 rgba(0,0,0,.02);
+    position: absolute;
+    height: 50px;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.headerModule .box {
+    *zoom: 1;
+    height: 50px;
+    line-height: 50px;
+    width: 1210px;
+    margin: 0 auto
+}
+.headerModule .box .nav {
+    float: left;
+    margin-left: 8px
+}
+.clearfix {
+    zoom: 1;
+}
+
+.headerModule .box .menu {
+    float: right;
+    margin-right: 8px
+}

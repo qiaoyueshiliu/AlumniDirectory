@@ -17,7 +17,7 @@ public abstract class BaseDao {
     private QueryRunner queryRunner = new QueryRunner();
 //    updata() 方法用来执行：Insert\Updata\Delete语句
 //    @return 如果返回-1,说明执行失败,返回其他表示影响的行数
-    public int updata(String sql,Object ... args){
+    public int update(String sql,Object ... args){
         Connection connection = JdbcUtils.getConnection();
         try {
             return queryRunner.update(connection,sql,args);
@@ -69,12 +69,22 @@ public abstract class BaseDao {
         }
         return null;
     }
+
+    /**
+     * 返回一行一列的sql语句
+     * @param sql 执行的sql
+     * @param args sql对应的参数值
+     * @return
+     */
+
     public Object queryForSingleValue(String sql,Object...args){
         Connection conn = JdbcUtils.getConnection();
         try {
             queryRunner.query(conn,sql,new ScalarHandler(),args);
         }catch (Exception e){
             e.printStackTrace();
+        }finally {
+            JdbcUtils.close(conn);
         }
         return null;
 
