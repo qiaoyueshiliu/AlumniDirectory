@@ -16,14 +16,14 @@
   </style>
 </head>
 <body>
-<%@include file="public_jsp/header.jsp"%>
+<%@include file="../public_jsp/header.jsp"%>
 <%--<c:import url="../public_jsp/header.jsp"></c:import>--%>
 <%--空白div--%>
 <div class="KongBaiDiv_GaoDu50">空白div</div>
 <div class="indexPage">
   <h1 class="head_wrapper">校友录</h1>
-  <a href="./Login/Login.jsp">登录</a>
-  <a href="Register/Registration_Page.jsp">注册</a>
+  <a href="../Login/Login.jsp">登录</a>
+  <a href="../Register/Registration_Page.jsp">注册</a>
 </div>
 </body>
 </html>

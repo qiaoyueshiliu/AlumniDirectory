@@ -90,7 +90,8 @@
     </script>
 </head>
 <body>
-<%@include file="../public_jsp/header.jsp"%>
+<%--<%@include file="../public_jsp/header.jsp"%>--%>
+<%@include file="../public_jsp/header02.jsp"%>
 <h1>注册页面</h1>
 <h3>用户名为5-12位的数字、字母、下划线组成</h3>
 <p>
@@ -105,7 +106,7 @@
 <%--    <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
 </p>
 <br>
-<a href="../index.jsp">返回首页</a>
+<a href="../index/index.jsp">返回首页</a>
 <div>
     <form action="regist_success.jsp">
         <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">

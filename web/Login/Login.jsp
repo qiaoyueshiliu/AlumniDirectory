@@ -11,7 +11,7 @@
     <title>登录</title>
 </head>
 <body>
+<%@include file="../public_jsp/header02.jsp"%>
     <h1>登录页面</h1>
-    <a href="../index.jsp">返回首页</a>
 </body>
 </html>

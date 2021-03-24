@@ -11,9 +11,9 @@
     <title>Title</title>
 </head>
 <body>
-<%@include file="public_jsp/header02.jsp"%>
+<%@include file="../public_jsp/header02.jsp"%>
 <ul>
-    <li><a class="active" href="#home">主页</a></li>
+    <li><a class="active" href="../Register/Registration_Page.jsp">主页</a></li>
     <li><a href="#news">新闻</a></li>
     <li><a href="#contact">联系</a></li>
     <li><a href="#about">关于</a></li>
