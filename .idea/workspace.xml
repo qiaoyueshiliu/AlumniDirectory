@@ -6,15 +6,59 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaa6e5eb-f944-4686-9f7b-78ffa78175e7" name="Default Changelist" comment="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成">
-      <change afterPath="$PROJECT_DIR$/web/index/index.html" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlumniDirectory/com/atguigu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlumniDirectory/com/atguigu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlumniDirectory/com/atguigu/test/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlumniDirectory/com/atguigu/test/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <folding>
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +83,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/web/index/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java" />
+      </list>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -46,9 +100,82 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="40" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
   <component name="ProjectId" id="1pXn6tTcmZPInoNTWKlwSoNoaVv" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,14 +189,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Tencent Files/347091231/FileRecv/atom_wallpaper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\AlumniDirectory\src\com" />
+      <recent name="D:\IDEA\AlumniDirectory\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\index" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\Study" />
@@ -79,20 +210,46 @@
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="excludedTypes">
-      <set>
-        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
-      </set>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.61">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="JUnit.UserDaoTest.saveUser">
+    <configuration name="UserDaoTest.queryUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="queryUserByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,14 +432,21 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
       <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
+      <item itemvalue="JUnit.UserDaoTest.saveUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.saveUser" />
+        <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
         <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="2021-3-9 17:42:22 (06-Company) Commit+Push">
       <created>1615284872535</created>
@@ -560,6 +724,80 @@
     <option name="localTasksCounter" value="38" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 06m 39s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 17m 57s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 31m 49s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 31m 59s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 37m 54s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 41m 36s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 44m 14s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_queryUserByUsername - 2021.03.24 at 20h 44m 35s.xml">
+      <configuration name="UserDaoTest.queryUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_saveUser - 2021.03.24 at 20h 47m 23s.xml">
+      <configuration name="UserDaoTest.saveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_saveUser - 2021.03.24 at 20h 50m 26s.xml">
+      <configuration name="UserDaoTest.saveUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3595000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73126614" visible="true" weight="0.21715818" />
+      <window_info id="Structure" order="1" sideWeight="0.50591713" side_tool="true" weight="0.26407507" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.26873386" side_tool="true" visible="true" weight="0.21715818" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49463806" visible="true" weight="0.45184135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.13314448" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49731904" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053619" side_tool="true" weight="0.45042494" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.36827195" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49329758" weight="0.3186969" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="15" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.14343163" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -568,12 +806,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -603,5 +861,106 @@
     <MESSAGE value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
     <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
     <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="152" column="7" lean-forward="true" selection-start-line="152" selection-start-column="7" selection-end-line="152" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/head_css/head.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/JdbcUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1415#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
