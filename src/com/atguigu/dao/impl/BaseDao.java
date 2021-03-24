@@ -1,7 +1,7 @@
 package com.atguigu.dao.impl;
 
 import com.atguigu.utils.JdbcUtils;
-import com.mysql.cj.QueryBindings;
+//import com.mysql.cj.QueryBindings;//2021-3-24 09:08:38 --- The package was not detected --- from Company PC
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
@@ -28,8 +28,6 @@ public abstract class BaseDao {
         }
         return -1;
     }
-
-
     /**
      * 查询返回一个javaBean的sql语句
      * @param type  返回的对象类型
@@ -49,7 +47,6 @@ public abstract class BaseDao {
         }
         return null;
     }
-
     /**
      * 查询返回多个javaBean的sql语句
      * @param type  返回的对象类型
@@ -69,14 +66,12 @@ public abstract class BaseDao {
         }
         return null;
     }
-
     /**
      * 返回一行一列的sql语句
      * @param sql 执行的sql
      * @param args sql对应的参数值
      * @return
      */
-
     public Object queryForSingleValue(String sql,Object...args){
         Connection conn = JdbcUtils.getConnection();
         try {
@@ -87,11 +82,5 @@ public abstract class BaseDao {
             JdbcUtils.close(conn);
         }
         return null;
-
     }
-
-
-
-
-
 }

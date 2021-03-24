@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<link rel="stylesheet" href="../public_jsp/header.css" type="text/css">
 <html>
 <head>
     <title>Title</title>
@@ -64,7 +65,6 @@
                 // 验证码
             });
         });
-
 <%--    验证用户名是否合法的函数--%>
         function Check_UserName_Legal(){
             // Register_UserName_Box_Id_Obj 注册页面用户名框的id的对象
@@ -90,6 +90,7 @@
     </script>
 </head>
 <body>
+<%@include file="../public_jsp/header.jsp"%>
 <h1>注册页面</h1>
 <h3>用户名为5-12位的数字、字母、下划线组成</h3>
 <p>
@@ -105,67 +106,69 @@
 </p>
 <br>
 <a href="../index.jsp">返回首页</a>
-<form action="regist_success.jsp">
-<table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
-    <tr>
-        <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
-        </td>
-        <td width="200" valign="top" bgcolor="#FFFFFF">
-            <input name="UserName" type="text" maxlength="20" size="15"
-                   id="Register_UserName_Box_Id" class="input" />
-<%--            <span id="Register_UserName_Box_Span" style="color: red"></span>--%>
-<%--            <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" bgcolor="#FFFFFF">用户昵称 </td>
-        <td valign="top" bgcolor="#FFFFFF">
-            <input name="NickName" type="text" maxlength="20" size="15"
-                   id="NickName" class="input"/>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" bgcolor="#FFFFFF">登录密码</td>
-        <td valign="top" bgcolor="#FFFFFF">
-            <input name="Passwd" type="password" maxlength="20" size="15"
-                   id="Passwd" class="input"/>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" bgcolor="#FFFFFF">再次输入登录密码</td>
-        <td valign="top" bgcolor="#FFFFFF">
-            <input name="Passwd2" type="password" maxlength="20" size="15"
-                   id="Passwd2" class="input"/>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" bgcolor="#FFFFFF">常用邮件地址</td>
-        <td valign="top" bgcolor="#FFFFFF">
-            <input name="Email" type="text" maxlength="50" size="15"
-                   id="Email" class="input"/>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" bgcolor="#FFFFFF">取回密码的问题</td>
-        <td valign="top" bgcolor="#FFFFFF">
-            <input name="Question" type="text" maxlength="20" size="15"
-                   id="Question" class="input"/>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top" bgcolor="#FFFFFF">取回密码的答案</td>
-        <td valign="top" bgcolor="#FFFFFF">
-            <input name="Answer" type="text" maxlength="20" size="15"
-                   id="Answer" class="input"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <input type="submit" name="RegisterBtn" value="注册" id="RegisterBtn" />
-            <span class="errorMsg" style="color:red"></span>
-        </td>
-    </tr>
-</table>
-</form>
+<div>
+    <form action="regist_success.jsp">
+        <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
+            <tr>
+                <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
+                </td>
+                <td width="200" valign="top" bgcolor="#FFFFFF">
+                    <input name="UserName" type="text" maxlength="20" size="15"
+                           id="Register_UserName_Box_Id" class="input" />
+                    <%--            <span id="Register_UserName_Box_Span" style="color: red"></span>--%>
+                    <%--            <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#FFFFFF">用户昵称 </td>
+                <td valign="top" bgcolor="#FFFFFF">
+                    <input name="NickName" type="text" maxlength="20" size="15"
+                           id="NickName" class="input"/>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#FFFFFF">登录密码</td>
+                <td valign="top" bgcolor="#FFFFFF">
+                    <input name="Passwd" type="password" maxlength="20" size="15"
+                           id="Passwd" class="input"/>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#FFFFFF">再次输入登录密码</td>
+                <td valign="top" bgcolor="#FFFFFF">
+                    <input name="Passwd2" type="password" maxlength="20" size="15"
+                           id="Passwd2" class="input"/>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#FFFFFF">常用邮件地址</td>
+                <td valign="top" bgcolor="#FFFFFF">
+                    <input name="Email" type="text" maxlength="50" size="15"
+                           id="Email" class="input"/>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#FFFFFF">取回密码的问题</td>
+                <td valign="top" bgcolor="#FFFFFF">
+                    <input name="Question" type="text" maxlength="20" size="15"
+                           id="Question" class="input"/>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#FFFFFF">取回密码的答案</td>
+                <td valign="top" bgcolor="#FFFFFF">
+                    <input name="Answer" type="text" maxlength="20" size="15"
+                           id="Answer" class="input"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="RegisterBtn" value="注册" id="RegisterBtn" />
+                    <span class="errorMsg" style="color:red"></span>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>
