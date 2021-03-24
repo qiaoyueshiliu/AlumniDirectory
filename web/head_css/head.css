@@ -3,10 +3,17 @@
     color: red;
     text-align: center;
 }
+
 .indexPage
 {
     border: 25px solid green;
     padding: 25px;
     margin-top: 51px;
     /*margin 90px;*/
+}
+
+.KongBaiDiv_GaoDu50{
+    border: 25px;
+    height: 51px;
+    margin: 50px;
 }

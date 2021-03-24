@@ -1,29 +1,13 @@
 @charset "utf-8";
 
-* {
-	word-wrap: break-word;
-}
-
-body {
-	color: #939499;
-	line-height: 22px;
-	background: #fcfcfc;
-	min-width: 960px;
-}
-
-body,select {
-	font: 13px/1.5 STHeiti,Microsoft YaHei,Tahoma,Helvetica,'SimSun',sans-serif;
-	color: #444;
-}
-
 textarea {
 	resize: none;
 }
 
-/*body,ul,ol,li,dl,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset{*/
-/*	margin: 0;*/
-/*	padding: 0;*/
-/*}*/
+body,ul,ol,li,dl,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset{
+	margin: 0;
+	padding: 0;
+}
 
 table {
 	empty-cells: show;
@@ -39,9 +23,9 @@ ul li{
 	list-style: none;
 }
 
-/*h1,h2,h3,h4,h5,h6 {*/
-/*	font-size: 1em;*/
-/*}*/
+h1,h2,h3,h4,h5,h6 {
+	font-size: 1em;
+}
 
 em,cite,i {
 	font-style: normal;
@@ -54,11 +38,6 @@ a img {
 label {
 	cursor: pointer;
 }
-
-/*body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button {*/
-/*	margin: 0;*/
-/*	padding: 0;*/
-/*}*/
 
 table {
 	border-collapse: collapse;
@@ -74,11 +53,6 @@ html,body,fieldset,img,iframe,abbr {
 	border: 0;
 }
 
-html {
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-
 i,em {
 	font-style: normal;
 }
@@ -87,10 +61,10 @@ ol,ul,li {
 	list-style: none;
 }
 
-/*h1,h2,h3,h4,h5,h6,small {*/
-/*	font-size: 100%;*/
-/*	font-weight: normal*/
-/*}*/
+h1,h2,h3,h4,h5,h6,small {
+	font-size: 100%;
+	font-weight: normal
+}
 
 textarea {
 	overflow: auto;
@@ -2908,10 +2882,10 @@ html,body{
 	background: #fff;
 	font-size: 15px;
 }
-/*.messageModule h1{*/
-/*	margin-top:50px;*/
-/*	font-size: 24px;*/
-/*}*/
+.messageModule h1{
+	margin-top:50px;
+	font-size: 24px;
+}
 
 
 /* 注册 */
