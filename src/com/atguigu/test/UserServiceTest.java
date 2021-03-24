@@ -5,6 +5,8 @@ import com.atguigu.service.UserService;
 import com.atguigu.service.impl.UserServiceImpl;
 import org.junit.Test;
 
+import java.sql.SQLOutput;
+
 import static org.junit.Assert.*;
 
 public class UserServiceTest {
@@ -29,8 +31,10 @@ public class UserServiceTest {
     @Test
     public void existsUsername() {
 //        验证用户名是否有用,如果等于true已经存在
-        if (userService.existsUsername("wag168")){
+        if (userService.existsUsername("wzg168")){
             System.out.println("用户名已存在！");
+        }else {
+            System.out.println("用户名可用！");
         }
     }
 }

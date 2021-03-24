@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -229,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.login">
+  <component name="RunManager" selected="JUnit.UserServiceTest.existsUsername">
     <configuration name="UserDaoTest.queryUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -257,6 +254,22 @@
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
       <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.existsUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserServiceTest" />
+      <option name="METHOD_NAME" value="existsUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -382,108 +395,21 @@
         </option>
       </method>
     </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <deployment>
-        <artifact name="AlumniDirectory:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/AlumniDirectory_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="2f8edc9b-8aa1-487d-a5aa-ead87d297987" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52971" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="AlumniDirectory:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
-      <item itemvalue="Tomcat Server.index.jsp" />
       <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
       <item itemvalue="JUnit.UserDaoTest.saveUser" />
       <item itemvalue="JUnit.UserServiceTest.registUser" />
       <item itemvalue="JUnit.UserServiceTest.login" />
+      <item itemvalue="JUnit.UserServiceTest.existsUsername" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.existsUsername" />
         <item itemvalue="JUnit.UserServiceTest.login" />
         <item itemvalue="JUnit.UserServiceTest.registUser" />
         <item itemvalue="JUnit.UserDaoTest.saveUser" />
         <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
-        <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -772,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616590569356</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService">
+      <created>1616593575484</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1616593575484</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -808,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6688000" />
+    <option name="totallyTimeSpent" value="7572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -886,7 +819,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-9 18:27:50 (07-Company) Commit+Push" />
     <MESSAGE value="2021-3-9 19:57:25 (08-Company) Commit+Push" />
     <MESSAGE value="2021-3-9 20:35:38 (0.09-Company) Commit+Push" />
     <MESSAGE value="2021-3-9 20:50:14 (0.10-Company) Commit+Push" />
@@ -911,7 +843,8 @@
     <MESSAGE value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
     <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
     <MESSAGE value="2021-3-24 20:55:46 Home Commit+Push&#10;数据库注册成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 20:55:46 Home Commit+Push&#10;数据库注册成功" />
+    <MESSAGE value="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
@@ -1020,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
