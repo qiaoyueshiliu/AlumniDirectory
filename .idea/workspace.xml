@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AlumniDirectory:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaa6e5eb-f944-4686-9f7b-78ffa78175e7" name="Default Changelist" comment="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index/index2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/header02.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="gitee/master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="gitee/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/index/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1pXn6tTcmZPInoNTWKlwSoNoaVv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Tencent Files/347091231/FileRecv/atom_wallpaper" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\index" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\Study" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\src" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Study-jsp\ShangGuiGu\JavaWeb零基础-JS\041-050" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.61">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.61" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AlumniDirectory_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AlumniDirectory:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/AlumniDirectory_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="781f48fe-d5b5-48a0-961d-65f81384db7a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52723" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AlumniDirectory:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="AlumniDirectory:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/AlumniDirectory_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2f8edc9b-8aa1-487d-a5aa-ead87d297987" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52971" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AlumniDirectory:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="2021-3-9 17:42:22 (06-Company) Commit+Push">
+      <created>1615284872535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615284872535</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021-3-9 17:42:22 (06-Company) Commit+Push">
+      <created>1615284900342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615284900342</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021-3-9 17:42:22 (06-Company) Commit+Push">
+      <created>1615285241074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615285241074</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2021-3-9 18:27:50 (07-Company) Commit+Push">
+      <created>1615285675479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615285675479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2021-3-9 18:27:50 (07-Company) Commit+Push">
+      <created>1615289655737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615289655737</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2021-3-9 18:27:50 (07-Company) Commit+Push">
+      <created>1615290241699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615290241699</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2021-3-9 19:57:25 (08-Company) Commit+Push">
+      <created>1615291051842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615291051842</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2021-3-9 19:57:25 (08-Company) Commit+Push">
+      <created>1615292689752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615292689752</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2021-3-9 20:35:38 (0.09-Company) Commit+Push">
+      <created>1615293375138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615293375138</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2021-3-9 20:50:14 (0.10-Company) Commit+Push">
+      <created>1615294231592</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615294231592</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2021-3-9 20:50:14 (0.10-Company) Commit+Push">
+      <created>1615294562235</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615294562235</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaa6e5eb-f944-4686-9f7b-78ffa78175e7" name="Default Changelist" comment="2021-3-9 20:50:14 (0.10-Company) Commit+Push" />
+      <created>1615338157727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615338157727</updated>
+      <workItem from="1615338178460" duration="22504000" />
+      <workItem from="1615448468638" duration="10288000" />
+      <workItem from="1615511126434" duration="8757000" />
+      <workItem from="1615769727955" duration="9065000" />
+      <workItem from="1616400176819" duration="390000" />
+      <workItem from="1616417409050" duration="400000" />
+      <workItem from="1616547542829" duration="17910000" />
+    </task>
+    <task id="LOCAL-00012" summary="2021-3-10 09:36:51 (0.11-Company) Commit+Push">
+      <created>1615340220131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615340220131</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2021-3-10 10:29:43 (0.12-Company) Commit+Push">
+      <created>1615343392238</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615343392238</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2021-3-10 14:47:41 (0.13-Company) Commit+Push">
+      <created>1615358869061</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615358869061</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2021-3-10 16:20:01 (0.14-Company) Commit+Push">
+      <created>1615364410769</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615364410769</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2021-3-10 16:51:20 (0.15-Company) Commit+Push">
+      <created>1615366289069</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615366289069</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2021-3-11 11:42:08 (0.17-Company) Commit+Push">
+      <created>1615434146043</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615434146043</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2021-3-11 14:22:13 (0.18-Company) Commit+Push">
+      <created>1615443743310</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615443743310</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2021-3-11 14:59:23 (0.19-Company) Commit+Push">
+      <created>1615445970512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615445970512</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2021-3-11 15:36:43 (0.20-Company) Commit+Push">
+      <created>1615448212018</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615448212018</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2021-3-11 15:36:43 (0.21-Company) Commit+Push">
+      <created>1615448949064</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615448949064</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2021-3-11 15:36:43 (0.21-Company) Commit+Push">
+      <created>1615450512334</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615450512334</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2021-3-11 16:27:51 (0.22-Company) Commit+Push">
+      <created>1615451276534</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615451276534</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2021-3-11 16:27:51 (0.22-Company) Commit+Push">
+      <created>1615451303866</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615451303866</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2021-3-11 16:27:51 (0.22-Company) Commit+Push">
+      <created>1615451429640</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1615451429640</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2021-3-11 18:06:33 (0.23-Company) Commit+Push">
+      <created>1615457199535</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1615457199535</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2021-3-11 18:06:33 (0.23-Company) Commit+Push">
+      <created>1615459488720</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1615459488720</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2021-3-12 09:05:53 (0.24-Company) Commit+Push">
+      <created>1615511163165</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1615511163165</updated>
+    </task>
+    <task id="LOCAL-00029" summary="2021-3-12 09:07:20 (0.25-Company) Commit+Push">
+      <created>1615511248945</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1615511248945</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2021-3-12 11:04:22 (0.26-Company) Commit+Push">
+      <created>1615518271809</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1615518271809</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2021-3-12 23:05:58 (0.27-Company) Commit+Push">
+      <created>1615561568959</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1615561568959</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push">
+      <created>1615798547763</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1615798547763</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push">
+      <created>1615801838743</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1615801838743</updated>
+    </task>
+    <task id="LOCAL-00034" summary="2021-3-24 11:18:11 (0.3.6-Company) Commit+Push&#10;解决首页框问题">
+      <created>1616555924066</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616555924066</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css">
+      <created>1616565607563</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616565607563</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2021-3-9 17:42:22 (06-Company) Commit+Push" />
+    <MESSAGE value="2021-3-9 18:27:50 (07-Company) Commit+Push" />
+    <MESSAGE value="2021-3-9 19:57:25 (08-Company) Commit+Push" />
+    <MESSAGE value="2021-3-9 20:35:38 (0.09-Company) Commit+Push" />
+    <MESSAGE value="2021-3-9 20:50:14 (0.10-Company) Commit+Push" />
+    <MESSAGE value="2021-3-10 09:36:51 (0.11-Company) Commit+Push" />
+    <MESSAGE value="2021-3-10 10:29:43 (0.12-Company) Commit+Push" />
+    <MESSAGE value="2021-3-10 14:47:41 (0.13-Company) Commit+Push" />
+    <MESSAGE value="2021-3-10 16:20:01 (0.14-Company) Commit+Push" />
+    <MESSAGE value="2021-3-10 16:51:20 (0.15-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 11:42:08 (0.17-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 14:22:13 (0.18-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 14:59:23 (0.19-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 15:36:43 (0.20-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 15:36:43 (0.21-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 16:27:51 (0.22-Company) Commit+Push" />
+    <MESSAGE value="2021-3-11 18:06:33 (0.23-Company) Commit+Push" />
+    <MESSAGE value="2021-3-12 09:05:53 (0.24-Company) Commit+Push" />
+    <MESSAGE value="2021-3-12 09:07:20 (0.25-Company) Commit+Push" />
+    <MESSAGE value="2021-3-12 11:04:22 (0.26-Company) Commit+Push" />
+    <MESSAGE value="2021-3-12 23:05:58 (0.27-Company) Commit+Push" />
+    <MESSAGE value="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push" />
+    <MESSAGE value="2021-3-24 11:18:11 (0.3.6-Company) Commit+Push&#10;解决首页框问题" />
+    <MESSAGE value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
+  </component>
+</project>

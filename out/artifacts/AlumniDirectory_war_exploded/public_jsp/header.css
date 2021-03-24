@@ -1,0 +1,122 @@
+.headerModule {
+    background-color: #fff;
+    box-shadow: 0 0px 3px 0 rgba(0,0,0,.02), 0 4px 8px 0 rgba(0,0,0,.02);
+
+    position: absolute;
+    height: 50px;
+    left: 0; top: 0; right: 0;
+}
+
+.headerModule .box {
+    *zoom: 1;
+    height: 50px;
+    line-height: 50px;
+    width: 1210px;
+    margin: 0 auto
+}
+
+.headerModule .box:before,.headerModule .box:after {
+    clear: both;
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+.headerModule .box .logo {
+    float: left;margin-top: 5px;*margin-top:2px;
+}
+
+
+.headerModule .box .nav {
+    float: left;
+    margin-left: 8px
+}
+
+.headerModule .box .nav ul li {
+    float: left
+}
+
+.headerModule .box .nav ul li a {
+    display: block;
+    margin-left: 25px;
+    color: #2d2d2d;
+    font-size: 16px
+}
+
+.headerModule .box .nav ul li a:hover {
+    color:#2196F3
+}
+.logged-out-wrapper {
+    color: #7d7d7d;
+    display: none;
+    float: left;
+    max-width: 70px;
+    position: relative;
+    cursor: pointer
+}
+
+
+.headerModule .box .menu {
+    float: right;
+    margin-right: 8px
+}
+.headerModule .box .menu ul li {
+    float: left
+}
+
+.headerModule .box .menu ul li a {
+    display: block;
+    margin-left: 18px;
+    color: #363636;
+    font-size: 14px
+}
+
+.headerModule .box .menu ul li a:hover {
+    color:#2196F3
+}
+
+.headerModule .box .menu ul li .author{position:relative;color:#999}
+.headerModule .box .menu ul li .author img{
+    width:32px;
+    height:32px;
+    position:absolute;
+    left:-18px;
+    top:9px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    /*behavior: url(common/default/pc/js/css3pie/PIE.htc);  !*通知IE浏览器调用脚本作用于当前类*!*/
+}
+
+/*2021-3-24 09:20:24 废弃---引入源Css文件*/
+/*.headerMoudle{*/
+/*    background-color: #ffffff;*/
+/*    box-shadow:*/
+/*        0 0px 3px 0 rgba(0,0,0,.02),0 4px 8px 0 rgba(0,0,0,.02);*/
+/*    position: absolute;*/
+/*    height: 50px;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*}*/
+
+/*.headerModule .box {*/
+/*    *zoom: 1;*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    width: 1210px;*/
+/*    margin: 0 auto*/
+/*}*/
+/*.headerModule .box .nav {*/
+/*    float: left;*/
+/*    margin-left: 8px*/
+/*}*/
+.clearfix {
+    zoom: 1;
+}
+
+/*.headerModule .box .menu {*/
+/*    float: right;*/
+/*    margin-right: 8px*/
+/*}*/
