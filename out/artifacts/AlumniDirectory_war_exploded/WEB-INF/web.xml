@@ -18,8 +18,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>RegistServlet</servlet-name>
-        <url-pattern>/registServlet</url-pattern>
-        <url-pattern>/</url-pattern>
+        <url-pattern>.do</url-pattern>
+<!--        <url-pattern>/</url-pattern>-->
 
         <!--        <url-pattern>/</url-pattern>-->
     </servlet-mapping>

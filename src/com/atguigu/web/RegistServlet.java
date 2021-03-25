@@ -50,7 +50,6 @@ public class RegistServlet extends HttpServlet{
             System.out.println("验证码[" + code + "]错误!");
             req.getRequestDispatcher("/Register/Registration_Page.jsp.").forward(req,resp);
         }
-
         super.doPost(req, resp);
     }
 }
