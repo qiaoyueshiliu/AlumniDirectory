@@ -13,10 +13,8 @@
     双引号都可以 但是别一单一双-->
     <title>登录</title>
     <script type="text/javascript">
-
     </script>
     <style>
-
         * {
             margin: 0;
             padding: 0;

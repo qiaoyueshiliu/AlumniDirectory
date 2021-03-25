@@ -6,8 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/header02.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -671,7 +679,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616638218168</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee">
+      <created>1616638653213</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1616638653213</updated>
+    </task>
+    <task id="LOCAL-00044" summary="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee">
+      <created>1616638683770</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1616638683770</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -779,7 +801,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-9 20:50:14 (0.10-Company) Commit+Push" />
     <MESSAGE value="2021-3-10 09:36:51 (0.11-Company) Commit+Push" />
     <MESSAGE value="2021-3-10 10:29:43 (0.12-Company) Commit+Push" />
     <MESSAGE value="2021-3-10 14:47:41 (0.13-Company) Commit+Push" />
@@ -804,7 +825,8 @@
     <MESSAGE value="2021-3-24 22:18:22 Home Commit+Push&#10;UserService+Test完成" />
     <MESSAGE value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
     <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
+    <MESSAGE value="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
