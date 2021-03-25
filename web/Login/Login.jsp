@@ -12,6 +12,9 @@
     <!--引号使用英文状态下的引号单
     双引号都可以 但是别一单一双-->
     <title>登录</title>
+    <script type="text/javascript">
+
+    </script>
     <style>
 
         * {
@@ -20,12 +23,12 @@
         }
 
         body {
-            background-color: rgba(255, 251, 0, 0.336);
+            /*background-color: rgba(255, 251, 0, 0.336);*/
         }
 
         form {
             position: relative;
-            margin: 300px auto;
+            margin: 100px auto;
             width: 400px;
             height: 250px;
             text-align: center;
@@ -133,7 +136,7 @@
         <input type="text" placeholder="请输入账号" name="name" /><br />
         <div class="content content1">
             <i></i>
-            <p>账号必须为4-16位数字或者英文字母</p>
+            <p>账号</p>
         </div>
     </div>
     <div>
@@ -141,13 +144,16 @@
         <input type="password" placeholder="请输入密码" name="pwd" />
         <div class="content content2">
             <i></i>
-            <p>密码必须为4-16位数字或者英文字母</p>
+            <p>密码</p>
         </div>
     </div>
-    <input type="submit" value="登录" class="sub" /><button>注册</button>
+    <input type="submit" value="登录" class="sub" />
+    <input type="button" value="注册" class="sub" onclick="window.open('../Register/Registration_Page.jsp')">
+<%--    <a><button href="../Register/Registration_Page.jsp">注册</button></a>--%>
+<%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
 </form>
 <div style="text-align:center;">
-    <p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+<%--    <p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>--%>
 </div>
 </body>
 </body>

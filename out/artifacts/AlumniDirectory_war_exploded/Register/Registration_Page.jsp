@@ -10,6 +10,8 @@
 <html>
 <head>
     <title>Title</title>
+<%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
+    <base href="http://localhost:8080/AlumniDirectory/">
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
     <script type="text/javascript">
         //页面加载完成之后
@@ -108,7 +110,11 @@
 <br>
 <a href="../index/index.jsp">返回首页</a>
 <div>
-    <form action="regist_success.jsp">
+<%--    配置在web.xml里面--%>
+<%--    web阶段使用 base+相对
+        框架之后，使用绝对路径
+--%>
+    <form action="registServlet">
         <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
             <tr>
                 <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
