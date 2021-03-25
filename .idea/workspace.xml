@@ -6,15 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/RegistServlet.java" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlumniDirectory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlumniDirectory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,31 +16,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/Register/Registration_Page.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-              <folding>
-                <element signature="n#p#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,9 +140,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu.test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEA\AlumniDirectory\src\com" />
       <recent name="D:\IDEA\AlumniDirectory\src" />
@@ -189,20 +154,24 @@
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\src" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Study-jsp\ShangGuiGu\JavaWeb零基础-JS\041-050" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.test" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.61">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDaoTest.queryUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -372,12 +341,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
       <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
       <item itemvalue="JUnit.UserDaoTest.saveUser" />
       <item itemvalue="JUnit.UserServiceTest.registUser" />
       <item itemvalue="JUnit.UserServiceTest.login" />
       <item itemvalue="JUnit.UserServiceTest.existsUsername" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.61" />
     </list>
     <recent_temporary>
       <list>
@@ -389,7 +358,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -695,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616597374149</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成">
+      <created>1616638218168</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1616638218168</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -780,14 +756,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -806,6 +775,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -829,12 +799,12 @@
     <MESSAGE value="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push" />
     <MESSAGE value="2021-3-24 11:18:11 (0.3.6-Company) Commit+Push&#10;解决首页框问题" />
     <MESSAGE value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
-    <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
     <MESSAGE value="2021-3-24 20:55:46 Home Commit+Push&#10;数据库注册成功" />
     <MESSAGE value="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService" />
     <MESSAGE value="2021-3-24 22:18:22 Home Commit+Push&#10;UserService+Test完成" />
     <MESSAGE value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
+    <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
