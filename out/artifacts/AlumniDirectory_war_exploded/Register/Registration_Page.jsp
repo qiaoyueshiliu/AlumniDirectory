@@ -120,7 +120,7 @@
 <%--    web阶段使用 base+相对
         框架之后，使用绝对路径
 --%>
-    <form action="/registServlet" method="post">
+    <form action="registServlet" method="post">
 <%--    <form action="../../src/com.atguigu/" method="post">--%>
 
     <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
@@ -163,9 +163,9 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" bgcolor="#FFFFFF">取回密码的问题</td>
+                <td valign="top" bgcolor="#FFFFFF">验证码:abcde</td>
                 <td valign="top" bgcolor="#FFFFFF">
-                    <input name="Question" type="text" maxlength="20" size="15"
+                    <input name="code" type="text" maxlength="20" size="15"
                            id="Question" class="input"/>
                 </td>
             </tr>

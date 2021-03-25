@@ -18,7 +18,7 @@
 <%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
 <%--    <base href="http://localhost:8080/AlumniDirectory">--%>
     <base href="http://localhost:8080/AlumniDirectory/">
-    <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="script/jquery-3.5.1.js"></script>
     <script type="text/javascript">
         //页面加载完成之后
         $(function () {
@@ -87,12 +87,12 @@
                 // alert("用户名合法！");
                 //innerHTML 可以修改 Register_UserName_Box_Span 框中的内容
                 Register_UserName_Box_Span.innerHTML
-                    = "<img src=\"../img/Tick.jpg\" width=\"16\" height=\"16\">";
+                    = "<img src=\"img/Tick.jpg\" width=\"16\" height=\"16\">";
             }else {
                 // alert('用户名不合法！');
                 //innerHTML 可以修改 Register_UserName_Box_Span 框中的内容
                 Register_UserName_Box_Span.innerHTML
-                    = "<img src=\"../img/Cross.jpeg\" width=\"16\" height=\"16\">";
+                    = "<img src=\"img/Cross.jpeg\" width=\"16\" height=\"16\">";
             }
         }
     </script>
@@ -114,13 +114,13 @@
 <%--    <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
 </p>
 <br>
-<a href="../index/index.jsp">返回首页</a>
+<a href="index/index.jsp">返回首页</a>
 <div>
 <%--    配置在web.xml里面--%>
 <%--    web阶段使用 base+相对
         框架之后，使用绝对路径
 --%>
-    <form action="/registServlet" method="post">
+    <form action="registServlet" method="post">
 <%--    <form action="../../src/com.atguigu/" method="post">--%>
 
     <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
@@ -163,9 +163,9 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" bgcolor="#FFFFFF">取回密码的问题</td>
+                <td valign="top" bgcolor="#FFFFFF">验证码:abcde</td>
                 <td valign="top" bgcolor="#FFFFFF">
-                    <input name="Question" type="text" maxlength="20" size="15"
+                    <input name="code" type="text" maxlength="20" size="15"
                            id="Question" class="input"/>
                 </td>
             </tr>

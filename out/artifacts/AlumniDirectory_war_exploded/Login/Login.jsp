@@ -26,6 +26,7 @@
 
         form {
             position: relative;
+            /*margin: 300px auto;*/
             margin: 100px auto;
             width: 400px;
             height: 250px;
