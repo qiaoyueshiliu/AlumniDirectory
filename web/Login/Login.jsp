@@ -21,11 +21,12 @@
         }
 
         body {
-            /*background-color: rgba(255, 251, 0, 0.336);*/
+            background-color: rgba(255, 251, 0, 0.336);
         }
 
         form {
             position: relative;
+            /*margin: 300px auto;*/
             margin: 100px auto;
             width: 400px;
             height: 250px;

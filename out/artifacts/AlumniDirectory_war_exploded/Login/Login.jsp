@@ -21,7 +21,7 @@
         }
 
         body {
-            /*background-color: rgba(255, 251, 0, 0.336);*/
+            background-color: rgba(255, 251, 0, 0.336);
         }
 
         form {
