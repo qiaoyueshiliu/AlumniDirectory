@@ -12,6 +12,8 @@
     <!--引号使用英文状态下的引号单
     双引号都可以 但是别一单一双-->
     <title>登录</title>
+    <%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
+    <%--    <base href="http://localhost:8080/AlumniDirectory">--%>
     <script type="text/javascript">
     </script>
     <style>
