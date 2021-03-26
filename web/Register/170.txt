@@ -1,3 +1,24 @@
 Debug调试代码，首先需要两个元素：断点 +Debug 启动服务器
 1. 断点,只需要在代码需要停的行的左边上 Eclipse 双击 IDEA 单机 , 就可以添加和取消
 2. Debug 启动 Tomcat 运行代码 ;
+    Debug 启动 Tomcat 调试;
+
+测试工具栏: Step Over F8 让代码往下运行一行;
+Step into 可以进入当前方法体内(自己写的代码,非框架源码);
+Force Step into : 强制进入当前方法体内
+Step Out : 跳出当前方法体外
+Run to Cursor : 跳转到光标所在行(相当于临时断点)
+
+Variables : 变量窗口,他可以查看当前方法范围内所有有效的变量;
+
+Frames : 方法调用栈窗口
+1.方法调用栈可以查看当前线程有哪些方法调用信息
+2.下面的调用上一行的方法
+
+左侧:
+
+Resume Program: 让程序执行到下一个断点
+
+Mute Breakpoints : 禁用所有断点
+
+登录操作

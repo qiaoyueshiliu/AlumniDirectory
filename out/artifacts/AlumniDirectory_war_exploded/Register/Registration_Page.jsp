@@ -121,7 +121,9 @@
         框架之后，使用绝对路径
 --%>
     <form action="http://localhost:8080/AlumniDirectory/registServlet" method="post">
-<%--    <form action="../../src/com.atguigu/" method="post">--%>
+<%--    <form action="regist_success.jsp" method="post">--%>
+
+    <%--    <form action="../../src/com.atguigu/" method="post">--%>
 
     <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
             <tr>
