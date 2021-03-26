@@ -12,6 +12,8 @@
     <!--引号使用英文状态下的引号单
     双引号都可以 但是别一单一双-->
     <title>登录</title>
+    <%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
+    <%--    <base href="http://localhost:8080/AlumniDirectory">--%>
     <script type="text/javascript">
     </script>
     <style>
@@ -129,10 +131,10 @@
 </head>
 <body>
 <%@include file="../public_jsp/header02.jsp"%>
-<form action="" method="post">
+<form action="http://localhost:8080/AlumniDirectory/loginServlet" method="post">
     <div>
         <b>账号：</b>
-        <input type="text" placeholder="请输入账号" name="name" /><br />
+        <input type="text" placeholder="请输入账号" name="username"/><br/>
         <div class="content content1">
             <i></i>
             <p>账号</p>
@@ -140,7 +142,7 @@
     </div>
     <div>
         <b>密码：</b>
-        <input type="password" placeholder="请输入密码" name="pwd" />
+        <input type="password" placeholder="请输入密码" name="password"/>
         <div class="content content2">
             <i></i>
             <p>密码</p>
