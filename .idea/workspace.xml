@@ -6,14 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_23__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigui4/exer/Test.java" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始">
+      <change afterPath="$PROJECT_DIR$/web/Login/171-用户登录.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Login/171.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlumniDirectory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlumniDirectory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Register/170.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/170.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +25,11 @@
         <option value="jsf" />
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -322,13 +318,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00003" summary="2021-3-9 17:42:22 (06-Company) Commit+Push">
-      <created>1615285241074</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1615285241074</updated>
-    </task>
     <task id="LOCAL-00004" summary="2021-3-9 18:27:50 (07-Company) Commit+Push">
       <created>1615285675479</created>
       <option name="number" value="00004" />
@@ -680,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616721932892</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始">
+      <created>1616734768086</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1616734768086</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -788,7 +784,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-11 14:59:23 (0.19-Company) Commit+Push" />
     <MESSAGE value="2021-3-11 15:36:43 (0.20-Company) Commit+Push" />
     <MESSAGE value="2021-3-11 15:36:43 (0.21-Company) Commit+Push" />
     <MESSAGE value="2021-3-11 16:27:51 (0.22-Company) Commit+Push" />
@@ -813,7 +808,8 @@
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;169-注册完成-上传到数据库成功" />
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;创建 book t_user表" />
     <MESSAGE value="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册" />
+    <MESSAGE value="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
