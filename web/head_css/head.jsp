@@ -1,12 +1,11 @@
 <%--
   Created by IntelliJ IDEA.
-  User: dengsidi
-  Date: 2021/3/28
-  Time: 19:59
+  User: Administrator
+  Date: 2020/2/5
+  Time: 10:24
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--动态获取base标签值--%>
 <%
     String basePath = request.getScheme()
             + "://"
@@ -16,4 +15,8 @@
             + request.getContextPath()
             + "/";
 %>
-<%=basePath%>
+
+<!--写base标签，永远固定相对路径跳转的结果-->
+<base href="<%=basePath%>">
+<link type="text/css" rel="stylesheet" href="head_css/style.css" >
+<script type="text/javascript" src="script/jquery-1.7.2.js"></script>

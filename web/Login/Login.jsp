@@ -17,10 +17,11 @@
     <script type="text/javascript">
     </script>
     <style>
-        /** {*/
-        /*    margin: 0;*/
-        /*    padding: 0;*/
-        /*}*/
+<%--        这个可以更改头部导航栏的位置--%>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
         body {
             background-color: rgba(255, 251, 0, 0.336);
@@ -38,11 +39,11 @@
             border-radius: 10px;
             background-color: rgba(247, 0, 255, 0.336);
         }
-
-        form:hover {
-            transform: translate(10px);
-            box-shadow: 10px 10px 10px 0 rgb(7, 49, 235);
-        }
+        /*鼠标移动到登录框，样式变化*/
+        /*form:hover {*/
+        /*    transform: translate(10px);*/
+        /*    box-shadow: 10px 10px 10px 0 rgb(7, 49, 235);*/
+        /*}*/
 
         input {
             margin-top: 25px;
@@ -133,6 +134,13 @@
 <body>
 <form action="http://localhost:8080/AlumniDirectory/loginServlet" method="post">
     <div>
+        <b>
+            <span class="errorMsg">
+                <%=request.getAttribute("msg")==null?"请输入用户名和密码":request.getAttribute("msg")%>
+            </span>
+        </b>
+    </div>
+    <div>
         <b>账号：</b>
         <input type="text" placeholder="请输入账号" name="username"/><br/>
         <div class="content content1">
@@ -152,6 +160,7 @@
     <input type="button" value="注册" class="sub" onclick="window.open('../Register/Registration_Page.jsp')">
 <%--    <a><button href="../Register/Registration_Page.jsp">注册</button></a>--%>
 <%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
+
 </form>
 <div style="text-align:center;">
 <%--    <p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>--%>

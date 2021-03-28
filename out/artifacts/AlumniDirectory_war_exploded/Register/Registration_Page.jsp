@@ -10,7 +10,7 @@
 <%--    String path = request.getContextPath();--%>
 <%--    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort();--%>
 <%--%>--%>
-<link rel="stylesheet" href="../public_jsp/header.css" type="text/css">
+<%--<link rel="stylesheet" href="../public_jsp/header.css" type="text/css">--%>
 <html>
 <head>
     <title>Title</title>
@@ -23,6 +23,7 @@
         //页面加载完成之后
         $(function () {
             //给注册绑定单击事件
+            // $("#RegisterBtn1").click(function () {
             $("#RegisterBtn").click(function () {
                 // 验证用户名：必须由字母下划线组成，并且长度为5到12位
                 // 1、获取用户名输入框内的内容
@@ -97,9 +98,9 @@
         }
     </script>
 </head>
+<%@include file="../public_jsp/header02.jsp"%>
 <body>
 <%--<%@include file="../public_jsp/header.jsp"%>--%>
-<%@include file="../public_jsp/header02.jsp"%>
 <h1>注册页面</h1>
 <h3>用户名为5-12位的数字、字母、下划线组成</h3>
 <p>
@@ -122,9 +123,7 @@
 --%>
     <form action="http://localhost:8080/AlumniDirectory/registServlet" method="post">
 <%--    <form action="regist_success.jsp" method="post">--%>
-
     <%--    <form action="../../src/com.atguigu/" method="post">--%>
-
     <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
             <tr>
                 <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
@@ -171,17 +170,20 @@
                            id="Question" class="input"/>
                 </td>
             </tr>
-            <tr>
-                <td valign="top" bgcolor="#FFFFFF">取回密码的答案</td>
-                <td valign="top" bgcolor="#FFFFFF">
-                    <input name="Answer" type="text" maxlength="20" size="15"
-                           id="Answer" class="input"/>
-                </td>
-            </tr>
+<%--            <tr>--%>
+<%--                <td valign="top" bgcolor="#FFFFFF">取回密码的答案</td>--%>
+<%--                <td valign="top" bgcolor="#FFFFFF">--%>
+<%--                    <input name="Answer" type="text" maxlength="20" size="15"--%>
+<%--                           id="Answer" class="input"/>--%>
+<%--                </td>--%>
+<%--            </tr>--%>
             <tr>
                 <td>
                     <input type="submit" name="RegisterBtn" value="注册" id="RegisterBtn" />
-                    <span class="errorMsg" style="color:red"></span>
+<%--                    <input type="submit" name="RegisterBtn" value="验证" id="RegisterBtn1" />--%>
+                    <span class="errorMsg" style="color:red">
+                        <%=request.getAttribute("msg")==null?"":request.getAttribute("msg")%>
+                    </span>
                 </td>
             </tr>
         </table>
