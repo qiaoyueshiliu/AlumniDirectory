@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/183-footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/183-jsp-静态包含.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/186-jsp-乘法口诀表.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/181-四个域对象.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/181-四个域对象.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/187-遍历输出10个学生信息到表格中.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/187-遍历输出10个学生信息到表格中.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,57 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/183-jsp-静态包含.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/187-遍历输出10个学生信息到表格中.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="380">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
-                <element signature="e#289#395#0#JSP" />
-                <element signature="e#394#467#0#JSP" />
-                <element signature="e#466#510#0#JSP" />
+                <element signature="e#470#479#0#JAVA" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/181-四个域对象.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/186-jsp-乘法口诀表.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/182-jsp-out-response输出的区别.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/181-四个域对象2.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/183-footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +73,8 @@
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,6 +130,8 @@
         <option value="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/183-jsp-静态包含.jsp" />
         <option value="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/181-四个域对象.jsp" />
         <option value="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/186-jsp-乘法口诀表.jsp" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/187-遍历输出10个学生信息到表格中.jsp" />
       </list>
     </option>
   </component>
@@ -181,6 +165,32 @@
             <path>
               <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
@@ -542,14 +552,7 @@
       <workItem from="1616815691810" duration="11951000" />
       <workItem from="1616837900985" duration="4886000" />
       <workItem from="1616904392127" duration="2965000" />
-      <workItem from="1616912253825" duration="3636000" />
-    </task>
-    <task id="LOCAL-00012" summary="2021-3-10 09:36:51 (0.11-Company) Commit+Push">
-      <created>1615340220131</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1615340220131</updated>
+      <workItem from="1616912253825" duration="5855000" />
     </task>
     <task id="LOCAL-00013" summary="2021-3-10 10:29:43 (0.12-Company) Commit+Push">
       <created>1615343392238</created>
@@ -887,7 +890,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616906201934</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="2021-3-28 15:38:15 Home&#10;186 乘法口诀表">
+      <created>1616917111610</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1616917111612</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -923,7 +933,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47239000" />
+    <option name="totallyTimeSpent" value="49458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,8 +946,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9085714" visible="true" weight="0.3197051" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9085714" visible="true" weight="0.3197051" />
       <window_info id="Structure" order="1" sideWeight="0.50591713" side_tool="true" weight="0.26407507" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -947,7 +958,7 @@
       <window_info id="Web" order="7" sideWeight="0.09142857" side_tool="true" visible="true" weight="0.3197051" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" visible="true" weight="0.25637394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49463806" visible="true" weight="0.25637394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3696884" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1009,7 +1020,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push" />
     <MESSAGE value="2021-3-24 11:18:11 (0.3.6-Company) Commit+Push&#10;解决首页框问题" />
     <MESSAGE value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
     <MESSAGE value="2021-3-24 20:55:46 Home Commit+Push&#10;数据库注册成功" />
@@ -1034,7 +1044,8 @@
     <MESSAGE value="2021-3-27 17:08:14 Home&#10;178 jsp 代码脚本&#10;学习了如何循环输出" />
     <MESSAGE value="2021-3-27 22:25:13 Home&#10;182 jsp 输出" />
     <MESSAGE value="2021-3-28 12:36:29 Home&#10;182 jsp 输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-28 12:36:29 Home&#10;182 jsp 输出" />
+    <MESSAGE value="2021-3-28 15:38:15 Home&#10;186 乘法口诀表" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-28 15:38:15 Home&#10;186 乘法口诀表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,8 +1340,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/186-jsp-乘法口诀表.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="304">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Study-jsp/ShangGuiGu/JavaWeb零基础-JS/151-200/187-遍历输出10个学生信息到表格中.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="e#470#479#0#JAVA" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
