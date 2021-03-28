@@ -10,7 +10,7 @@
 <%--    String path = request.getContextPath();--%>
 <%--    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort();--%>
 <%--%>--%>
-<link rel="stylesheet" href="../public_jsp/header.css" type="text/css">
+<%--<link rel="stylesheet" href="../public_jsp/header.css" type="text/css">--%>
 <html>
 <head>
     <title>Title</title>
@@ -97,9 +97,9 @@
         }
     </script>
 </head>
+<%@include file="../public_jsp/header02.jsp"%>
 <body>
 <%--<%@include file="../public_jsp/header.jsp"%>--%>
-<%@include file="../public_jsp/header02.jsp"%>
 <h1>注册页面</h1>
 <h3>用户名为5-12位的数字、字母、下划线组成</h3>
 <p>
@@ -122,9 +122,7 @@
 --%>
     <form action="http://localhost:8080/AlumniDirectory/registServlet" method="post">
 <%--    <form action="regist_success.jsp" method="post">--%>
-
     <%--    <form action="../../src/com.atguigu/" method="post">--%>
-
     <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
             <tr>
                 <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名

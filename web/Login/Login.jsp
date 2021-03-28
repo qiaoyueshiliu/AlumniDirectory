@@ -17,10 +17,10 @@
     <script type="text/javascript">
     </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+        /** {*/
+        /*    margin: 0;*/
+        /*    padding: 0;*/
+        /*}*/
 
         body {
             background-color: rgba(255, 251, 0, 0.336);

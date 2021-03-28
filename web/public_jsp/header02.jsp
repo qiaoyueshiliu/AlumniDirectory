@@ -6,9 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<html>
-<head>
-    <title>Title</title>
     <style>
         .DaoHangLan{
             list-style-type: none;
@@ -31,7 +28,6 @@
             background-color: #111;
         }
     </style>
-</head>
 <body>
 <ul class="DaoHangLan">
     <li><a class="active" href="../Register/Registration_Page.jsp">主页</a></li>
@@ -40,4 +36,3 @@
     <li><a href="#about">关于</a></li>
 </ul>
 </body>
-</html>
