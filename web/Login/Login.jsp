@@ -129,8 +129,8 @@
         }
     </style>
 </head>
-<body>
 <%@include file="../public_jsp/header02.jsp"%>
+<body>
 <form action="http://localhost:8080/AlumniDirectory/loginServlet" method="post">
     <div>
         <b>账号：</b>

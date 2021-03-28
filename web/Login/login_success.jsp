@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-登录成功
+<%--静态包含登录成功后的菜单--%>
+<%@include file="../Page/login_success_menu.jsp"%>
 </body>
 </html>
