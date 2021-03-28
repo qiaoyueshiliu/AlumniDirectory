@@ -87,10 +87,9 @@
         <td>第 <%=j+1%> 行</td>
     </tr>
 <%
-        System.out.println(j);
+//        System.out.println(j);
     }
 %>
-    
 </table>
 </body>
 </html>

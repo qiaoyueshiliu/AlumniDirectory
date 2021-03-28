@@ -16,6 +16,11 @@ out也是给用户做输出使用的--%>
 <%
     response.getWriter().write("response输出1<br>");
     response.getWriter().write("response输出2<br>");
+    out.write("out输出1<br>");
+    out.write("out输出2<br>");
+    response.getWriter().write("response输出3<br>");
+
 %>
+<%--页面中统一使用out.print来输出--%>
 </body>
 </html>
