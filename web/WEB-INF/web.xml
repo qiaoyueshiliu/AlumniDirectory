@@ -28,4 +28,13 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/loginServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+    <servlet-name>SerachStudentServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.SerachStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>SerachStudentServlet</servlet-name>
+    <url-pattern>/serachStudentServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
