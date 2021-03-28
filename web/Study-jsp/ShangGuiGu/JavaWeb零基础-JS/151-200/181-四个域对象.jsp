@@ -11,10 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-    pageContext(PageContextImpl类) 当前jsp页面范围内有效
-    request(HttpServletRequest类) 一次请求内有效
-    session(HttpSession类) 一个会话范围内有效（打开浏览器访问服务器，直到关闭浏览器）
-    application(ServletContext类) 整个web工程范围内都有效（只要web工程不停止，数据都在）
+<%--    pageContext(PageContextImpl类) 当前jsp页面范围内有效--%>
+<%--    request(HttpServletRequest类) 一次请求内有效--%>
+<%--    session(HttpSession类) 一个会话范围内有效（打开浏览器访问服务器，直到关闭浏览器）--%>
+<%--    application(ServletContext类) 整个web工程范围内都有效（只要web工程不停止，数据都在）--%>
     <br>
     <h1>页面</h1>
     <%
@@ -34,6 +34,7 @@
 四个域对象虽然都可以存取数据。在使用上它们是有优先顺序的。
 四个域在使用的时候，优先顺序分别是：它们从小到大范围的使用顺序
 pageContext ====>>> request ====>>> session  ====>>> application
-
+<%--请求转发--%>
+<jsp:forward page="./181-四个域对象2.jsp"></jsp:forward>
 </body>
 </html>
