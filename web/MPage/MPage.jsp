@@ -12,6 +12,8 @@
 <head>
     <title>Title</title>
 </head>
+<%@include file="../public_jsp/header02.jsp"%>
+<%--<%@include file="MPage_css.jsp"%>--%>
 <body>
 <div class="skeleton">
     <div class="main wrap" >
@@ -118,13 +120,15 @@
         <div class="topicModule">
             <div class="topic-box">
                 <div class="topicList">
+
+                    <% for (int i = 0 ; i<10 ; i++){ %>
                     <div class="topicItem">
 
-<%--                        <div class="avatarBox">--%>
-<%--                            <a class="avatarLink" href="user/control/home?userName=test">--%>
-<%--                                <img src="file/avatar/2018-01-06/100x100/2.jpg">--%>
-<%--                            </a>--%>
-<%--                        </div>--%>
+                        <%--                        <div class="avatarBox">--%>
+                        <%--                            <a class="avatarLink" href="user/control/home?userName=test">--%>
+                        <%--                                <img src="file/avatar/2018-01-06/100x100/2.jpg">--%>
+                        <%--                            </a>--%>
+                        <%--                        </div>--%>
 
                         <div class="content clearfix">
                             <ul class="info">
@@ -173,6 +177,9 @@
                             </div>
                         </div>
                     </div>
+                    <% } %>
+
+
                     <div class="topicPage">
 
                         <DIV class="pg">

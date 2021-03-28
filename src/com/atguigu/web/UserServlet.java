@@ -10,17 +10,48 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//不管怎么多复杂，servlet都是四步：
-//1.获取参数
-//2.调用Servlet1
-//3.将数据共享到域
-//4.路径跳转
-public class RegistServlet extends HttpServlet{
-
+public class UserServlet extends HttpServlet {
     private UserService userService = new UserServiceImpl();
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    /**
+     * 处理登录的功能
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    protected void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("处理登录的需求");
+        //  1、获取请求的参数
+        String username = req.getParameter("username");
+        String password = req.getParameter("password");
+        // 调用 userService.login()登录处理业务
+        User loginUser = userService.login(new User(null, username, password, null));
+        // 如果等于null,说明登录 失败!
+        if (loginUser == null) {
+            //            把错误信息和回显的表单项信息保存到Request域中
+            req.setAttribute("msg","用户名或密码错误！");
+            req.setAttribute("username",username);
+            //   跳回登录页面
+            System.out.println("用户名或密码错误");
+            req.getRequestDispatcher("/Login/Login.jsp").forward(req,resp);
+        } else {
+            // 登录 成功
+            //跳到成功页面login_success.html
+            System.out.println("登录成功");
+            req.getRequestDispatcher("/Login/login_success.jsp").forward(req,resp);
+        }
+    }
+
+    /**
+     * 处理注册的功能
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    protected void regist(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("处理注册的需求");
         //    1.获取请求的参数
         String username = req.getParameter("UserName");
         String Passwd = req.getParameter("Passwd");
@@ -59,6 +90,14 @@ public class RegistServlet extends HttpServlet{
             System.out.println("验证码[" + code + "]错误!");
             req.getRequestDispatcher("/Register/Registration_Page.jsp").forward(req,resp);
         }
-//        super.doPost(req, resp);
+    }
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String action = req.getParameter("action");
+        System.out.println(action);
+        if ("login".equals(action)){
+            login(req,resp);
+        }else if("regist".equals(action)){
+            regist(req,resp);
+        }
     }
 }

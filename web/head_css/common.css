@@ -143,7 +143,10 @@ html,body{
 .backgroundModule{
 	background: #fff; 
 }
-.wrap{width:1210px;}
+
+.wrap{
+	width:1210px;
+}
 
 
 /*分页*/
@@ -762,8 +765,8 @@ html,body{
     position: relative;
 	box-shadow: 0 0px 3px 0 rgba(0,0,0,.02), 0 4px 8px 0 rgba(0,0,0,.02);
 }
+
 .tabModule .tab-box{
-	
 	margin-right: 90px;
 }
 .tabModule .tab-box .tab{

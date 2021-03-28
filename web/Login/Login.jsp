@@ -13,7 +13,7 @@
     双引号都可以 但是别一单一双-->
     <title>登录</title>
     <%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
-    <%--    <base href="http://localhost:8080/AlumniDirectory">--%>
+<%--        <base href="http://localhost:8080/AlumniDirectory/">--%>
     <script type="text/javascript">
     </script>
     <style>
@@ -132,7 +132,8 @@
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
 <body>
-<form action="http://localhost:8080/AlumniDirectory/loginServlet" method="post">
+<form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
+    <input type="hidden" name="action" value="login">
     <div>
         <b>
             <span class="errorMsg">
@@ -157,7 +158,7 @@
         </div>
     </div>
     <input type="submit" value="登录" class="sub" />
-    <input type="button" value="注册" class="sub" onclick="window.open('../Register/Registration_Page.jsp')">
+    <input type="button" value="注册" class="sub" onclick="window.open('/Register/Registration_Page.jsp')">
 <%--    <a><button href="../Register/Registration_Page.jsp">注册</button></a>--%>
 <%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
 
