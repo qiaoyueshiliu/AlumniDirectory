@@ -12,7 +12,7 @@ import java.io.IOException;
 
 //不管怎么多复杂，servlet都是四步：
 //1.获取参数
-//2.调用Servlet
+//2.调用Servlet1
 //3.将数据共享到域
 //4.路径跳转
 public class RegistServlet extends HttpServlet{
