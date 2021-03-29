@@ -38,7 +38,7 @@
                     return false;
                 }
                 // 验证密码：必须由字母下划线组成，并且长度为5到12位
-                var PasswdText = $("#Passwd").val();
+                var PasswdText = $("#password").val();
                 // 2、创建正则表达式对象
                 var PasswdPatt = /^\w{5,12}$/;
                 // 3、使用test方法验证
@@ -130,7 +130,7 @@
                 <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
                 </td>
                 <td width="200" valign="top" bgcolor="#FFFFFF">
-                    <input name="UserName" type="text" maxlength="20" size="15"
+                    <input name="username" type="text" maxlength="20" size="15"
                            id="Register_UserName_Box_Id" class="input" />
                     <%--            <span id="Register_UserName_Box_Span" style="color: red"></span>--%>
                     <%--            <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
@@ -139,15 +139,15 @@
             <tr>
                 <td valign="top" bgcolor="#FFFFFF">用户昵称 </td>
                 <td valign="top" bgcolor="#FFFFFF">
-                    <input name="NickName" type="text" maxlength="20" size="15"
-                           id="NickName" class="input"/>
+                    <input name="nickname" type="text" maxlength="20" size="15"
+                           id="nickname" class="input"/>
                 </td>
             </tr>
             <tr>
                 <td valign="top" bgcolor="#FFFFFF">登录密码</td>
                 <td valign="top" bgcolor="#FFFFFF">
-                    <input name="Passwd" type="password" maxlength="20" size="15"
-                           id="Passwd" class="input"/>
+                    <input name="password" type="password" maxlength="20" size="15"
+                           id="password" class="input"/>
                 </td>
             </tr>
             <tr>

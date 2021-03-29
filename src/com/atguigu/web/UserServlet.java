@@ -60,9 +60,9 @@ public class UserServlet extends BaseServlet {
     protected void regist(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("处理注册的需求");
         //    1.获取请求的参数
-        String username = req.getParameter("UserName");
-        String Passwd = req.getParameter("Passwd");
-        String NickName = req.getParameter("NickName");
+        String username = req.getParameter("username");
+        String Passwd = req.getParameter("password");
+        String nickname = req.getParameter("nickname");
         String code = req.getParameter("code");
 
         try {
@@ -90,13 +90,13 @@ public class UserServlet extends BaseServlet {
                 //            把回显信息保存到request域中
                 req.setAttribute("msg","用户名已存在！");
                 req.setAttribute("username",username);
-                req.setAttribute("nickname",NickName);
+                req.setAttribute("nickname",nickname);
 //                跳回注册页面
                 req.getRequestDispatcher("/Register/Registration_Page.jsp").forward(req,resp);
             }else {
 //                可用
 //                调用Service保存到数据库
-                userService.registUser(new User(null,username,Passwd,NickName));
+                userService.registUser(new User(null,username,Passwd,nickname));
 //                跳轉注册成功页面
                 System.out.println("注册成功");
                 req.getRequestDispatcher("/Register/regist_success.jsp").forward(req,resp);
@@ -107,7 +107,7 @@ public class UserServlet extends BaseServlet {
 //            把回显信息保存到request域中
             req.setAttribute("msg","验证码错误！");
             req.setAttribute("username",username);
-            req.setAttribute("nickname",NickName);
+            req.setAttribute("nickname",nickname);
             System.out.println("验证码[" + code + "]错误!");
             req.getRequestDispatcher("/Register/Registration_Page.jsp").forward(req,resp);
         }
