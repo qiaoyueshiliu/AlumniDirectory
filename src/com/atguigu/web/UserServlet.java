@@ -71,6 +71,7 @@ public class UserServlet extends BaseServlet {
             /**
              * 把所有请求的参数都注入到user对象中
              */
+            System.out.println(req.getParameterMap());
             BeanUtils.populate(user,req.getParameterMap());
             System.out.println("注入之后：" + user);
         } catch (Exception e) {
