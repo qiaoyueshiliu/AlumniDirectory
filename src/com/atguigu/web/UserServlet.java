@@ -4,12 +4,14 @@ import com.atguigu.pojo.User;
 import com.atguigu.service.UserService;
 import com.atguigu.service.impl.UserServiceImpl;
 import com.atguigu.test.UserServletTest;
+import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 
@@ -62,6 +64,19 @@ public class UserServlet extends BaseServlet {
         String Passwd = req.getParameter("Passwd");
         String NickName = req.getParameter("NickName");
         String code = req.getParameter("code");
+
+        try {
+            User user = new User();
+            System.out.println("注入之前：" + user);
+            /**
+             * 把所有请求的参数都注入到user对象中
+             */
+            BeanUtils.populate(user,req.getParameterMap());
+            System.out.println("注入之后：" + user);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
 //        验证码
 //        String code = req.getParameter("code");
 //      2.检查 验证码是否正确 == 先写死，要求验证码为:adcde

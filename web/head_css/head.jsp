@@ -15,8 +15,9 @@
             + request.getContextPath()
             + "/";
 %>
-
+<% System.out.println(basePath);%>
 <!--写base标签，永远固定相对路径跳转的结果-->
 <base href="<%=basePath%>">
-<link type="text/css" rel="stylesheet" href="head_css/style.css" >
-<script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+<%--<a href="header.jsp">测试Base跳转路径</a>--%>
+<%--<link type="text/css" rel="stylesheet" href="head_css/style.css" >--%>
+<%--<script type="text/javascript" src="script/jquery-1.7.2.js"></script>--%>

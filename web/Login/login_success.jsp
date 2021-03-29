@@ -12,6 +12,7 @@
 </head>
 <body>
 <%--静态包含登录成功后的菜单--%>
+<%@include file="../public_jsp/header02.jsp"%>
 <%@include file="../Page/login_success_menu.jsp"%>
 </body>
 </html>

@@ -28,11 +28,13 @@
             background-color: #111;
         }
     </style>
+<%@ include file="/head_css/head.jsp"%>
+<%--<% out.write(basePath); %>--%>
 <body>
 <ul class="DaoHangLan">
-    <li><a class="active" href="../Register/Registration_Page.jsp">主页</a></li>
+    <li><a class="active" href="Register/Registration_Page.jsp">主页</a></li>
     <li><a href="#news">登录</a></li>
-    <li><a href="../Register/Registration_Page.jsp">注册</a></li>
+    <li><a href="Register/Registration_Page.jsp">注册</a></li>
     <li><a href="#about">关于</a></li>
 </ul>
 </body>
