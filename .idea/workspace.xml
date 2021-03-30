@@ -6,15 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-29 19:22:39 Bean 注入完成">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-30 10:16:26 WebUtils 完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BaseDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/test/JdbcUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/test/JdbcUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/test/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/test/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/utils/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/utils/JdbcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" afterDir="false" />
     </list>
@@ -515,13 +511,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00010" summary="2021-3-9 20:50:14 (0.10-Company) Commit+Push">
-      <created>1615294231592</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1615294231592</updated>
-    </task>
     <task id="LOCAL-00011" summary="2021-3-9 20:50:14 (0.10-Company) Commit+Push">
       <created>1615294562235</created>
       <option name="number" value="00011" />
@@ -546,7 +535,7 @@
       <workItem from="1616750668446" duration="1194000" />
       <workItem from="1617008191269" duration="74000" />
       <workItem from="1617010421850" duration="6341000" />
-      <workItem from="1617069406261" duration="1125000" />
+      <workItem from="1617069406261" duration="5751000" />
     </task>
     <task id="LOCAL-00012" summary="2021-3-10 09:36:51 (0.11-Company) Commit+Push">
       <created>1615340220131</created>
@@ -877,7 +866,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617033438808</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="2021-3-30 10:16:26 WebUtils 完成">
+      <created>1617070629331</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1617070629332</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -984,7 +980,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-12 09:07:20 (0.25-Company) Commit+Push" />
     <MESSAGE value="2021-3-12 11:04:22 (0.26-Company) Commit+Push" />
     <MESSAGE value="2021-3-12 23:05:58 (0.27-Company) Commit+Push" />
     <MESSAGE value="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push" />
@@ -1009,7 +1004,8 @@
     <MESSAGE value="2021-3-29 14:25:02 Company 定义 Base 路径" />
     <MESSAGE value="2021-3-29 19:22:39 修改数据库和表明一致" />
     <MESSAGE value="2021-3-29 23:56:36 加分类注释，来区分项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-29 23:56:36 加分类注释，来区分项目" />
+    <MESSAGE value="2021-3-30 10:16:26 WebUtils 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-30 10:16:26 WebUtils 完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1020,19 +1016,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java</url>
           <line>73</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="9" />
+          <line>81</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.sql.SQLException" package="java.sql" />

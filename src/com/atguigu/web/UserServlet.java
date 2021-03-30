@@ -78,7 +78,9 @@ public class UserServlet extends BaseServlet {
             System.out.println(entry.getKey() + " = " + Arrays.asList(entry.getValue()));
         }
 
-        WebUtils.copyParamToBean(req,user);
+//        WebUtils.copyParamToBean(req,user);
+        WebUtils.copyParamToBean(req.getParameterMap(),user);
+
 //            System.out.println("注入之前：" + user);
 //            /**
 //             * 把所有请求的参数都注入到user对象中

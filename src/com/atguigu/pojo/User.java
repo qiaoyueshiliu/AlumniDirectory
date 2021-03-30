@@ -85,7 +85,9 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
-
+//    public void setUsername(String username1) {
+//        this.username = username;
+//    }
     public String getPassword() {
         return password;
     }
@@ -98,8 +100,8 @@ public class User {
         return nickname;
     }
 
-    public void getNickname(String nickname) {
-        this.email = nickname;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     @Override
