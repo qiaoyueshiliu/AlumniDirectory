@@ -71,15 +71,17 @@ public class UserServlet extends BaseServlet {
         String code = req.getParameter("code");
 
 //        try {
-        User user = new User();
+//        User user = new User(); 229
+//        User user = (User) WebUtils.copyParamToBean(req.getParameterMap(),new User());//229-02
+        User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());//229-03
 
-        Map<String,String[]> parameterMap = req.getParameterMap();
-        for (Map.Entry<String,String[]>entry : parameterMap.entrySet()){
-            System.out.println(entry.getKey() + " = " + Arrays.asList(entry.getValue()));
-        }
+//        Map<String,String[]> parameterMap = req.getParameterMap();
+//        for (Map.Entry<String,String[]>entry : parameterMap.entrySet()){
+//            System.out.println(entry.getKey() + " = " + Arrays.asList(entry.getValue()));
+//        }
 
 //        WebUtils.copyParamToBean(req,user);
-        WebUtils.copyParamToBean(req.getParameterMap(),user);
+//        WebUtils.copyParamToBean(req.getParameterMap(),user); 229
 
 //            System.out.println("注入之前：" + user);
 //            /**

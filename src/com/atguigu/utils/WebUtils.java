@@ -9,13 +9,21 @@ import java.util.Map;
 
 public class WebUtils {
     /**
-     *
+     *把 Map 中的值注入到对应的 JavaBean 属性中
 //     * @param req
      * @param value
      * @param bean
+     * HttpServletRequest 不能在 Dao 层和 Service 层使用
+     * Map 在三个层次均能使用
+     * Dao 层
+     * Service 层
+     * Web 层 HttpServletRequest 会使 Web 层 api 耦合度高
+     * 这样写，代码的试用性更好一些，耦合度更低，扩展性更强，使用更加灵活
      */
 //    public static void copyParamToBean(HttpServletRequest req,Object bean){
-    public static void copyParamToBean(Map value, Object bean){
+//    public static void copyParamToBean(Map value, Object bean){ 229
+//    public static Object copyParamToBean(Map value, Object bean){ //229-02
+    public static <T> T copyParamToBean(Map value, T bean){ //229-03
             try {
 //            User user = new User();
                 System.out.println("注入之前：" + bean);
@@ -29,6 +37,7 @@ public class WebUtils {
         } catch (Exception e) {
             e.printStackTrace();
         }
+            return bean;
     }
 
 }

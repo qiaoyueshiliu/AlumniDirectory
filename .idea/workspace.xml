@@ -6,11 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-30 10:16:26 WebUtils 完成">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-30 10:16:26 更改User为set，修改错误">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" afterDir="false" />
     </list>
@@ -511,13 +508,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00011" summary="2021-3-9 20:50:14 (0.10-Company) Commit+Push">
-      <created>1615294562235</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1615294562235</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-25 13:40:48 Company&#10;Commit+Push&#10;更新说明:1.0.1:补充web" />
       <created>1615338157727</created>
@@ -535,7 +525,7 @@
       <workItem from="1616750668446" duration="1194000" />
       <workItem from="1617008191269" duration="74000" />
       <workItem from="1617010421850" duration="6341000" />
-      <workItem from="1617069406261" duration="5751000" />
+      <workItem from="1617069406261" duration="8751000" />
     </task>
     <task id="LOCAL-00012" summary="2021-3-10 09:36:51 (0.11-Company) Commit+Push">
       <created>1615340220131</created>
@@ -873,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617070629332</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="2021-3-30 10:16:26 更改User为set，修改错误">
+      <created>1617087161327</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1617087161327</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -980,7 +977,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-12 11:04:22 (0.26-Company) Commit+Push" />
     <MESSAGE value="2021-3-12 23:05:58 (0.27-Company) Commit+Push" />
     <MESSAGE value="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push" />
     <MESSAGE value="2021-3-24 11:18:11 (0.3.6-Company) Commit+Push&#10;解决首页框问题" />
@@ -1005,7 +1001,8 @@
     <MESSAGE value="2021-3-29 19:22:39 修改数据库和表明一致" />
     <MESSAGE value="2021-3-29 23:56:36 加分类注释，来区分项目" />
     <MESSAGE value="2021-3-30 10:16:26 WebUtils 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-3-30 10:16:26 WebUtils 完成" />
+    <MESSAGE value="2021-3-30 10:16:26 更改User为set，修改错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-3-30 10:16:26 更改User为set，修改错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1017,13 +1014,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="13" />
+          <line>74</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.sql.SQLException" package="java.sql" />
