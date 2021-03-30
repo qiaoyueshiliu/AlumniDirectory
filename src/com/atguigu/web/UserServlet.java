@@ -6,6 +6,7 @@ import com.atguigu.pojo.User;
 import com.atguigu.service.UserService;
 import com.atguigu.service.impl.UserServiceImpl;
 import com.atguigu.test.UserServletTest;
+import com.atguigu.utils.WebUtils;
 import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletException;
@@ -15,6 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Map;
 
 
 //public class UserServlet extends HttpServlet {
@@ -63,22 +66,29 @@ public class UserServlet extends BaseServlet {
         System.out.println("处理注册的需求");
         //    1.获取请求的参数
         String username = req.getParameter("username");
-        String Passwd = req.getParameter("password");
+        String password = req.getParameter("password");
         String nickname = req.getParameter("nickname");
         String code = req.getParameter("code");
 
-        try {
-            User user = new User();
-            System.out.println("注入之前：" + user);
-            /**
-             * 把所有请求的参数都注入到user对象中
-             */
-            System.out.println(req.getParameterMap());
-            BeanUtils.populate(user,req.getParameterMap());
-            System.out.println("注入之后：" + user);
-        } catch (Exception e) {
-            e.printStackTrace();
+//        try {
+        User user = new User();
+
+        Map<String,String[]> parameterMap = req.getParameterMap();
+        for (Map.Entry<String,String[]>entry : parameterMap.entrySet()){
+            System.out.println(entry.getKey() + " = " + Arrays.asList(entry.getValue()));
         }
+
+        WebUtils.copyParamToBean(req,user);
+//            System.out.println("注入之前：" + user);
+//            /**
+//             * 把所有请求的参数都注入到user对象中
+//             */
+//            System.out.println(req.getParameterMap());
+//            BeanUtils.populate(user,req.getParameterMap());
+//            System.out.println("注入之后：" + user);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
 //        验证码
 //        String code = req.getParameter("code");
@@ -98,7 +108,7 @@ public class UserServlet extends BaseServlet {
             }else {
 //                可用
 //                调用Service保存到数据库
-                userService.registUser(new User(null,username,Passwd,nickname));
+                userService.registUser(new User(null,username,password,nickname));
 //                跳轉注册成功页面
                 System.out.println("注册成功");
                 req.getRequestDispatcher("/Register/regist_success.jsp").forward(req,resp);
