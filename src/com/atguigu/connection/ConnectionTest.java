@@ -1,3 +1,4 @@
+//JDBC
 package com.atguigu.connection;
 
 import org.junit.Test;
@@ -9,6 +10,7 @@ import java.util.Properties;
 
 //JDBC学习 07-获取数据库连接方式一
 public class ConnectionTest {
+//    方式一
     @Test
     public void testConnection1() throws SQLException {
 //        声明的是一个driver MySQL的驱动叫什么

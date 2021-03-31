@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-3-30 19:42:24 229 BeanUtils 类使用完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +348,7 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.book">
+  <component name="RunManager" selected="JUnit.ConnectionTest.testConnection1">
     <configuration name="Fanshe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fanshe.Fanshe" />
       <module name="AlumniDirectory" />
@@ -396,6 +397,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.testConnection1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.connection" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
+      <option name="METHOD_NAME" value="testConnection1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,9 +509,11 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.UserServletTest" />
       <item itemvalue="Tomcat Server.book" />
+      <item itemvalue="JUnit.ConnectionTest.testConnection1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionTest.testConnection1" />
         <item itemvalue="Application.UserServletTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Fanshe" />
@@ -523,14 +542,7 @@
       <workItem from="1616750668446" duration="1194000" />
       <workItem from="1617008191269" duration="74000" />
       <workItem from="1617010421850" duration="6341000" />
-      <workItem from="1617069406261" duration="9553000" />
-    </task>
-    <task id="LOCAL-00013" summary="2021-3-10 10:29:43 (0.12-Company) Commit+Push">
-      <created>1615343392238</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1615343392238</updated>
+      <workItem from="1617069406261" duration="12021000" />
     </task>
     <task id="LOCAL-00014" summary="2021-3-10 14:47:41 (0.13-Company) Commit+Push">
       <created>1615358869061</created>
@@ -868,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617104583897</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="2021-3-30 19:42:24 229 BeanUtils 类使用完成">
+      <created>1617115520225</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1617115520227</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TestHistory">
