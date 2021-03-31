@@ -38,5 +38,8 @@ public class ConnectionTest {
         Connection conn = driver.connect(url,info);
 //        看下是不是真的拿到了，打印一下
         System.out.println(conn);
+
+
     }
+//    方式二/对方式一的迭代，并不是有好几种方式可以连接数据库
 }
