@@ -16,6 +16,7 @@ public class ConnectionTest {
 //        声明的是一个driver MySQL的驱动叫什么
 //        对 Driver 进行 ctrl + H 唤起列表
 //        Driver driver = null;
+//        获取Driver实现类对象
         Driver driver = new com.mysql.jdbc.Driver();
 //        String url = null;
 //        url:http://loaclhost:8080/gmall/keyboard.jpg
@@ -43,5 +44,24 @@ public class ConnectionTest {
     }
 //    方式二/对方式一的迭代，并不是有好几种方式可以连接数据库：
 //    1、尽量不要出现第三方的配置一类
+//    2、不出现第三方的api,使程序具有更好的可移植性
+    @Test
+    public void testConnection2() throws Exception{ // throws ClassNotFoundException 抛出异常,以防止找不到
+//        1、获取Driver实现类对象:使用反射来实现
+        Class clazz = Class.forName("com.mysql.jdbc.Driver"); // Class.forName( ) 静态方法的目的是为了动态加载类
+//        Class.forName("").newInstance()返回的是object
+        Driver driver = (Driver) clazz.newInstance(); //newInstance 要能保证调取成功，需要有构造器，而且权限足够
 
+//        2、提供要连接的数据库
+        String url = "jdbc:mysql://localhost:3306/book?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+//?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+//        3、提供连接需要的用户名和密码
+        Properties info = new Properties();
+        info.setProperty("user","root");
+        info.setProperty("password","123");
+
+//        4、获取连接
+        Connection conn = driver.connect(url, info);
+        System.out.println(conn);
+    }
 }
