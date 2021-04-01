@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.sql.Connection;
 import java.sql.Driver;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
@@ -62,6 +63,26 @@ public class ConnectionTest {
 
 //        4、获取连接
         Connection conn = driver.connect(url, info);
+        System.out.println(conn);
+    }
+
+//    方式三：使用 DriverManager 来替换 Driver
+    @Test
+    public void testConnetcion() throws Exception{
+//        1、获取 Driver 实现对象
+        Class clazz = Class.forName("com.mysql.jdbc.Driver");
+        Driver driver = (Driver) clazz.newInstance();
+
+//        2、提供另外三个链接的基本信息
+        String url = "jdbc:mysql://localhost:3306/book?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+        String user = "root";
+        String password = "123";
+
+//        注册驱动
+        DriverManager.registerDriver(driver);
+
+//        获取链接
+        Connection conn = DriverManager.getConnection(url, user, password);
         System.out.println(conn);
     }
 }
