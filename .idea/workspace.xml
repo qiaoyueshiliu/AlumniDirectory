@@ -6,10 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-1 11:09:29 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-1 16:18:13 JDBC-10-数据库连接方式四">
+      <change afterPath="$PROJECT_DIR$/src/JDBC-11.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/CaoNiaoXml.tld" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/RuNoob-XML/05-XML语法.tld" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +197,7 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.testConnetcion4">
+  <component name="RunManager" selected="JUnit.ConnectionTest.getConnection5">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -226,7 +226,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.testConnection1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConnectionTest.getConnection5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
@@ -236,7 +236,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.connection" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="testConnection1" />
+      <option name="METHOD_NAME" value="getConnection5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,20 +378,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConnectionTest.testConnection1" />
       <item itemvalue="JUnit.ConnectionTest" />
       <item itemvalue="JUnit.ConnectionTest.testConnection2" />
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
+      <item itemvalue="JUnit.ConnectionTest.getConnection5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionTest.getConnection5" />
         <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
         <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
         <item itemvalue="JUnit.ConnectionTest.testConnection2" />
         <item itemvalue="JUnit.ConnectionTest" />
-        <item itemvalue="JUnit.ConnectionTest.testConnection1" />
       </list>
     </recent_temporary>
   </component>
@@ -419,13 +419,6 @@
       <workItem from="1617010421850" duration="6341000" />
       <workItem from="1617069406261" duration="12021000" />
       <workItem from="1617204126983" duration="2147000" />
-    </task>
-    <task id="LOCAL-00015" summary="2021-3-10 16:20:01 (0.14-Company) Commit+Push">
-      <created>1615364410769</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1615364410769</updated>
     </task>
     <task id="LOCAL-00016" summary="2021-3-10 16:51:20 (0.15-Company) Commit+Push">
       <created>1615366289069</created>
@@ -763,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617246574691</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="2021-4-1 16:18:13 JDBC-10-数据库连接方式四">
+      <created>1617265101954</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1617265101954</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -871,7 +871,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-24 13:59:20 (0.3.7-Company) Commit+Push&#10;解决首页导航栏问题&#10;实现导航栏，导航栏包含css" />
     <MESSAGE value="2021-3-24 20:55:46 Home Commit+Push&#10;数据库注册成功" />
     <MESSAGE value="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService" />
     <MESSAGE value="2021-3-24 22:18:22 Home Commit+Push&#10;UserService+Test完成" />
@@ -896,7 +895,8 @@
     <MESSAGE value="2021-3-30 19:42:24 229 BeanUtils 类使用完成" />
     <MESSAGE value="2021-3-31 17:29:48 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01" />
     <MESSAGE value="2021-4-1 11:09:29 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-1 11:09:29 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01" />
+    <MESSAGE value="2021-4-1 16:18:13 JDBC-10-数据库连接方式四" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-1 16:18:13 JDBC-10-数据库连接方式四" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -3,6 +3,8 @@ package com.atguigu.connection;
 
 import org.junit.Test;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
@@ -88,7 +90,7 @@ public class ConnectionTest {
 
 //    方式四：可以只是加载驱动，不用显示注册驱动
     @Test
-    public void testConnetcion4() throws Exception{
+    public void testConnetcion4() throws Exception {
 //        1、提供另外三个链接的基本信息
         String url = "jdbc:mysql://localhost:3306/book?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
         String user = "root";
@@ -117,4 +119,34 @@ public class ConnectionTest {
         System.out.println(conn);
 
     }
+//    方式五(final版)：将数据库连接需要的4个基本信息声明在配置文件中,通过读取配置文件的方式，获取连接
+
+    /**
+     * 此种方式的好处？
+     * 暴露的东西少
+     * 1、实现了数据和代码的分离。实现了解耦。
+     * 2、如果需要修改配置文件信息，可以避免重新打包。
+     * @throws Exception
+     */
+    @Test
+public void getConnection5() throws Exception {
+//        1、读取四个配置文件中的基本信息
+        InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream("JDBC-11.properties");
+
+        Properties pros = new Properties();
+        pros.load(is);
+
+        String user = pros.getProperty("user");
+        String password = pros.getProperty("password");
+        String url = pros.getProperty("url");
+        String driverClass = pros.getProperty("driverClass");
+
+//        2、加载驱动
+        Class.forName(driverClass);
+
+//        3、获取链接
+        Connection conn = DriverManager.getConnection(url, user, password);
+        System.out.println(conn);
+    }
+
 }
