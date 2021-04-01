@@ -68,7 +68,7 @@ public class ConnectionTest {
 
 //    方式三：使用 DriverManager 来替换 Driver
     @Test
-    public void testConnetcion() throws Exception{
+    public void testConnetcion3() throws Exception{
 //        1、获取 Driver 实现对象
         Class clazz = Class.forName("com.mysql.jdbc.Driver");
         Driver driver = (Driver) clazz.newInstance();
@@ -84,5 +84,37 @@ public class ConnectionTest {
 //        获取链接
         Connection conn = DriverManager.getConnection(url, user, password);
         System.out.println(conn);
+    }
+
+//    方式四：可以只是加载驱动，不用显示注册驱动
+    @Test
+    public void testConnetcion4() throws Exception{
+//        1、提供另外三个链接的基本信息
+        String url = "jdbc:mysql://localhost:3306/book?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+        String user = "root";
+        String password = "123";
+
+//        2、加载 Driver
+        Class.forName("com.mysql.jdbc.Driver");
+//        相较于方式三可以省略如下的操作：
+//        Driver driver = (Driver) clazz.newInstance();
+//        注册驱动
+//        DriverManager.registerDriver(driver);
+//        为什么可以省略上述操作呢？
+        /**
+         * 在 MySQL 的 Driver 实现类中，声明了如下的操作
+         *        static{
+         *             try {
+         *                 java.sql.DriverManager.registerDriver(new Driver());
+         *             }catch (SQLException E){
+         *                 throw new RuntimeException("Can't register dirver!");
+         *             }
+         *         }
+         */
+
+//        3、获取链接
+        Connection conn = DriverManager.getConnection(url, user, password);
+        System.out.println(conn);
+
     }
 }
