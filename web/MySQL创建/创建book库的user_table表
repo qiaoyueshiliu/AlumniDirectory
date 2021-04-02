@@ -1,0 +1,13 @@
+use book;
+create table user_table(
+`id` int primary key AUTO_INCREMENT,
+`user` varchar(20) not null unique,
+`password` varchar(32) not null,
+`balance` varchar(200)
+);
+insert into user_table(`user`,`password`,`balance`) values ('AA','123456','1000');
+insert into user_table(`user`,`password`,`balance`) values ('BB','654321','1000');
+insert into user_table(`user`,`password`,`balance`) values ('CC','abcd','2000');
+insert into user_table(`user`,`password`,`balance`) values ('DD','abcder','3000');
+
+select * from t_user;

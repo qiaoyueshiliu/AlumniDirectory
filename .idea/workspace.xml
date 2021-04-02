@@ -6,10 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-1 16:18:13 JDBC-10-数据库连接方式四">
-      <change afterPath="$PROJECT_DIR$/src/JDBC-11.properties" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-1 16:44:14 JDBC-11-数据库连接方式五">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/statement/crud/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MySQL创建/创建book库的user_table表" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +172,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/atguigu/statement/crud" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -179,6 +181,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\src\com\atguigu\statement\crud" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\lib" />
       <recent name="D:\IDEA\AlumniDirectory\src\com" />
       <recent name="D:\IDEA\AlumniDirectory\src" />
@@ -380,10 +383,10 @@
     <list>
       <item itemvalue="JUnit.ConnectionTest" />
       <item itemvalue="JUnit.ConnectionTest.testConnection2" />
-      <item itemvalue="Tomcat Server.book" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
       <item itemvalue="JUnit.ConnectionTest.getConnection5" />
+      <item itemvalue="Tomcat Server.book" />
     </list>
     <recent_temporary>
       <list>
@@ -395,7 +398,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -419,13 +422,8 @@
       <workItem from="1617010421850" duration="6341000" />
       <workItem from="1617069406261" duration="12021000" />
       <workItem from="1617204126983" duration="2147000" />
-    </task>
-    <task id="LOCAL-00016" summary="2021-3-10 16:51:20 (0.15-Company) Commit+Push">
-      <created>1615366289069</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1615366289069</updated>
+      <workItem from="1617267661622" duration="1133000" />
+      <workItem from="1617326511576" duration="1046000" />
     </task>
     <task id="LOCAL-00017" summary="2021-3-11 11:42:08 (0.17-Company) Commit+Push">
       <created>1615434146043</created>
@@ -763,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617265101954</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="2021-4-1 16:44:14 JDBC-11-数据库连接方式五">
+      <created>1617266660445</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1617266660445</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -841,7 +846,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -871,7 +876,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-24 20:55:46 Home Commit+Push&#10;数据库注册成功" />
     <MESSAGE value="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService" />
     <MESSAGE value="2021-3-24 22:18:22 Home Commit+Push&#10;UserService+Test完成" />
     <MESSAGE value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
@@ -896,7 +900,8 @@
     <MESSAGE value="2021-3-31 17:29:48 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01" />
     <MESSAGE value="2021-4-1 11:09:29 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01" />
     <MESSAGE value="2021-4-1 16:18:13 JDBC-10-数据库连接方式四" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-1 16:18:13 JDBC-10-数据库连接方式四" />
+    <MESSAGE value="2021-4-1 16:44:14 JDBC-11-数据库连接方式五" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-1 16:44:14 JDBC-11-数据库连接方式五" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
