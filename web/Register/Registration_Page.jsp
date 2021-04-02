@@ -164,13 +164,15 @@
                            id="Email" class="input"/>
                 </td>
             </tr>
-            <tr>
-                <td valign="top" bgcolor="#FFFFFF">验证码:abcde</td>
-                <td valign="top" bgcolor="#FFFFFF">
-                    <input name="code" type="text" maxlength="20" size="15"
-                           id="Question" class="input"/>
-                </td>
-            </tr>
+<%--            <tr type="hidden">--%>
+<%--                <td valign="top" bgcolor="#FFFFFF">验证码:abcde</td>--%>
+<%--                <td valign="top" bgcolor="#FFFFFF">--%>
+                    <input name="code" type="hidden" maxlength="20" size="15"
+                           id="Question" class="input"
+                           value="abcde"
+                    />
+<%--                </td>--%>
+<%--            </tr>--%>
 <%--            <tr>--%>
 <%--                <td valign="top" bgcolor="#FFFFFF">取回密码的答案</td>--%>
 <%--                <td valign="top" bgcolor="#FFFFFF">--%>
@@ -183,7 +185,9 @@
                     <input type="submit" name="RegisterBtn" value="注册" id="RegisterBtn" />
 <%--                    <input type="submit" name="RegisterBtn" value="验证" id="RegisterBtn1" />--%>
                     <span class="errorMsg" style="color:red">
-                        <%=request.getAttribute("msg")==null?"":request.getAttribute("msg")%>
+<%--                        JavaWeb-230 --%>
+<%--                        <%=request.getAttribute("msg")==null?"":request.getAttribute("msg")%>--%>
+                        ${requestScope.msg}
                     </span>
                 </td>
             </tr>

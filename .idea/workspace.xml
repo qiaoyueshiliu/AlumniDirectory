@@ -6,9 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,14 +420,7 @@
       <workItem from="1617204126983" duration="2147000" />
       <workItem from="1617267661622" duration="1133000" />
       <workItem from="1617326511576" duration="2121000" />
-      <workItem from="1617328672590" duration="1634000" />
-    </task>
-    <task id="LOCAL-00018" summary="2021-3-11 14:22:13 (0.18-Company) Commit+Push">
-      <created>1615443743310</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1615443743310</updated>
+      <workItem from="1617328672590" duration="3033000" />
     </task>
     <task id="LOCAL-00019" summary="2021-3-11 14:59:23 (0.19-Company) Commit+Push">
       <created>1615445970512</created>
@@ -764,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617327688390</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;">
+      <created>1617331317161</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1617331317162</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -872,7 +873,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-24 22:18:22 Home Commit+Push&#10;UserService+Test完成" />
     <MESSAGE value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
     <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
     <MESSAGE value="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee" />
@@ -897,7 +897,8 @@
     <MESSAGE value="2021-4-1 16:18:13 JDBC-10-数据库连接方式四" />
     <MESSAGE value="2021-4-1 16:44:14 JDBC-11-数据库连接方式五" />
     <MESSAGE value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;" />
+    <MESSAGE value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
