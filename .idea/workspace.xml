@@ -6,12 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-1 16:44:14 JDBC-11-数据库连接方式五">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/statement/crud/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/MySQL创建/创建book库的user_table表" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,30 +197,13 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.getConnection5">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.book">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.connection" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,22 +220,6 @@
       <option name="PACKAGE_NAME" value="com.atguigu.connection" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
       <option name="METHOD_NAME" value="getConnection5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionTest.testConnection2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.connection" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="testConnection2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,6 +252,37 @@
       <option name="PACKAGE_NAME" value="com.atguigu.connection" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
       <option name="METHOD_NAME" value="testConnetcion4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.statement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.statement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.statement.crud.StatementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatementTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.statement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.statement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.statement.crud.StatementTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -381,20 +376,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConnectionTest" />
-      <item itemvalue="JUnit.ConnectionTest.testConnection2" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
       <item itemvalue="JUnit.ConnectionTest.getConnection5" />
+      <item itemvalue="JUnit.StatementTest.testLogin" />
+      <item itemvalue="JUnit.StatementTest" />
       <item itemvalue="Tomcat Server.book" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatementTest.testLogin" />
+        <item itemvalue="JUnit.StatementTest" />
         <item itemvalue="JUnit.ConnectionTest.getConnection5" />
         <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
         <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
-        <item itemvalue="JUnit.ConnectionTest.testConnection2" />
-        <item itemvalue="JUnit.ConnectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -423,14 +418,8 @@
       <workItem from="1617069406261" duration="12021000" />
       <workItem from="1617204126983" duration="2147000" />
       <workItem from="1617267661622" duration="1133000" />
-      <workItem from="1617326511576" duration="1046000" />
-    </task>
-    <task id="LOCAL-00017" summary="2021-3-11 11:42:08 (0.17-Company) Commit+Push">
-      <created>1615434146043</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1615434146043</updated>
+      <workItem from="1617326511576" duration="2121000" />
+      <workItem from="1617328672590" duration="1634000" />
     </task>
     <task id="LOCAL-00018" summary="2021-3-11 14:22:13 (0.18-Company) Commit+Push">
       <created>1615443743310</created>
@@ -768,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617266660445</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;">
+      <created>1617327688389</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1617327688390</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -876,7 +872,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-24 21:45:49 Home Commit+Push&#10;中场编写UserService" />
     <MESSAGE value="2021-3-24 22:18:22 Home Commit+Push&#10;UserService+Test完成" />
     <MESSAGE value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
     <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
@@ -901,7 +896,8 @@
     <MESSAGE value="2021-4-1 11:09:29 JDBC-09-数据库连接方式三;&#10;2021-3-31 17:29:52 Noob-XML语法-01" />
     <MESSAGE value="2021-4-1 16:18:13 JDBC-10-数据库连接方式四" />
     <MESSAGE value="2021-4-1 16:44:14 JDBC-11-数据库连接方式五" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-1 16:44:14 JDBC-11-数据库连接方式五" />
+    <MESSAGE value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

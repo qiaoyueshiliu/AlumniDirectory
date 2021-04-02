@@ -16,9 +16,23 @@ import org.junit.Test;
 public class StatementTest {
 
 	// 使用Statement的弊端：需要拼写sql语句，并且存在SQL注入的问题
+//	如何避免出现sql注入：只要用PreparedStatement取代Statement
 	@Test
 	public void testLogin() {
+		Scanner scanner = new Scanner(System.in);
 
+		System.out.print("请输入用户名：");
+		String user = scanner.next();
+		System.out.print("请输入密码：");
+		String password =scanner.next();
+
+		String sql ="select user,password from user_table where user = '"+ user +"' and password = '"+ password +"'";
+		User returnUser = get(sql,User.class);
+		if (returnUser != null){
+			System.out.println("登录成功");
+		}else {
+			System.out.println("用户名或密码错误");
+		}
 
 //		Scanner scan = new Scanner(System.in);
 //
@@ -48,7 +62,7 @@ public class StatementTest {
 		ResultSet rs = null;
 		try {
 			// 1.加载配置文件
-			InputStream is = StatementTest.class.getClassLoader().getResourceAsStream("jdbc.properties");
+			InputStream is = StatementTest.class.getClassLoader().getResourceAsStream("JDBC-11.properties");
 			Properties pros = new Properties();
 			pros.load(is);
 
