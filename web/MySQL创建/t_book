@@ -1,0 +1,10 @@
+use book;
+create table t_book(
+    `id` int primary key auto_increment,
+    `biaoti` varchar(1000),
+    `chuangjianren` varchar(1000)
+);
+insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin4的帖子','admin4');
+insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin1的帖子','admin1');
+insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin2的帖子','admin2');
+insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin3的帖子','admin3');
