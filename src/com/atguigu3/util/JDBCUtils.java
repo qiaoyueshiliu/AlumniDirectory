@@ -13,7 +13,7 @@ import java.util.Properties;
 /**
  * 操作数据库的工具栏
  */
-public class JDBCutils {
+public class JDBCUtils {
     /**
      * 获取数据库连接
      * @return
@@ -30,7 +30,6 @@ public class JDBCutils {
         String password = pros.getProperty("password");
         String url = pros.getProperty("url");
         String driverClass = pros.getProperty("driverClass");
-
 //        2、加载驱动
         Class.forName(driverClass);
 
@@ -44,7 +43,7 @@ public class JDBCutils {
      * @param conn
      * @param ps
      */
-    public void closeResource(Connection conn, PreparedStatement ps){
+    public static void closeResource(Connection conn, PreparedStatement ps){
         try {
             if (ps != null)
                 ps.close();

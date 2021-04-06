@@ -6,9 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Book.java" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu3/util/JDBCutils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu3/util/JDBCUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +198,7 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.book">
+  <component name="RunManager" selected="JUnit.PrepareStatementUpdateTest.testUpdate">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -225,22 +226,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.testConnetcion4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.connection" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="testConnetcion4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrepareStatementUpdateTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -252,6 +237,22 @@
       <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
       <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatementUpdateTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu3.preparedstatement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,20 +377,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
       <item itemvalue="JUnit.ConnectionTest.getConnection5" />
       <item itemvalue="JUnit.StatementTest.testLogin" />
       <item itemvalue="JUnit.StatementTest" />
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="JUnit.PrepareStatementUpdateTest.testInsert" />
+      <item itemvalue="JUnit.PrepareStatementUpdateTest.testUpdate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrepareStatementUpdateTest.testUpdate" />
         <item itemvalue="JUnit.PrepareStatementUpdateTest.testInsert" />
         <item itemvalue="JUnit.StatementTest.testLogin" />
         <item itemvalue="JUnit.StatementTest" />
         <item itemvalue="JUnit.ConnectionTest.getConnection5" />
-        <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
       </list>
     </recent_temporary>
   </component>
@@ -427,14 +428,7 @@
       <workItem from="1617672567227" duration="100000" />
       <workItem from="1617672695793" duration="5000" />
       <workItem from="1617672727846" duration="53000" />
-      <workItem from="1617672803167" duration="8111000" />
-    </task>
-    <task id="LOCAL-00024" summary="2021-3-11 16:27:51 (0.22-Company) Commit+Push">
-      <created>1615451303866</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1615451303866</updated>
+      <workItem from="1617672803167" duration="11858000" />
     </task>
     <task id="LOCAL-00025" summary="2021-3-11 16:27:51 (0.22-Company) Commit+Push">
       <created>1615451429640</created>
@@ -772,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617679873761</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类">
+      <created>1617688754999</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1617688754999</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,7 +881,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-25 13:40:48 Company&#10;Commit+Push&#10;更新说明:1.0.1:补充web" />
     <MESSAGE value="2021-3-25 18:13:55 Company&#10;Commit+Push&#10;更新说明:1.0.2:反射学习01" />
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;学习169改Base阶段" />
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;169-注册完成-上传到数据库成功" />
@@ -905,7 +905,8 @@
     <MESSAGE value="2021-4-6 09:10:26 JavaWeb-230;" />
     <MESSAGE value="2021-4-6 11:02:56 JDBC-13;" />
     <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;" />
+    <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

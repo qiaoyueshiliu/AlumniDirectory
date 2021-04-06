@@ -1,15 +1,12 @@
 package com.atguigu3.preparedstatement.crud;
 
-import com.atguigu1.connection.ConnectionTest;
+import com.atguigu3.util.JDBCUtils;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
-import java.util.logging.SimpleFormatter;
 
 /**
  * 使用PrepareStatement来替换Statement，实现对数据表的增删改操作
@@ -18,6 +15,33 @@ import java.util.logging.SimpleFormatter;
  *
  */
 public class PrepareStatementUpdateTest {
+//    修改customers表的一条记录
+    @Test
+    public void testUpdate(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try {
+//        1、获取数据库连接
+            conn = JDBCUtils.getConnection();
+            System.out.println("已成功连接数据库...");
+//        2、预编译 sql 语句，返回 PrepareStatement 的实例
+            String sql ="update customers set name = ? where  id = ?";
+            ps = conn.prepareStatement(sql);
+//        3、填充占位符
+            ps.setObject(1,"莫扎特");
+            ps.setObject(2,1);
+//        4、执行
+            ps.execute();
+            System.out.println("进行数据更改...");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+//        5、资源的关闭
+            JDBCUtils.closeResource(conn,ps);
+            System.out.println("关闭数据库连接...");
+        }
+    }
+
 //向customers表中添加一条数据
     @Test
     public void testInsert() {
