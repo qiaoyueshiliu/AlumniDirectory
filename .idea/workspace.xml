@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/Registration_Page.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-2 13:57:16 JavaWeb-230;">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Register/Registration_Page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,17 +198,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.book">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConnectionTest.getConnection5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -420,14 +408,7 @@
       <workItem from="1617204126983" duration="2147000" />
       <workItem from="1617267661622" duration="1133000" />
       <workItem from="1617326511576" duration="2121000" />
-      <workItem from="1617328672590" duration="3033000" />
-    </task>
-    <task id="LOCAL-00019" summary="2021-3-11 14:59:23 (0.19-Company) Commit+Push">
-      <created>1615445970512</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1615445970512</updated>
+      <workItem from="1617328672590" duration="3778000" />
     </task>
     <task id="LOCAL-00020" summary="2021-3-11 15:36:43 (0.20-Company) Commit+Push">
       <created>1615448212018</created>
@@ -765,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617331317162</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="2021-4-2 13:57:16 JavaWeb-230;">
+      <created>1617343052233</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1617343052233</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -873,7 +861,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-24 22:49:23 Home Commit+Push&#10;登录页面完成" />
     <MESSAGE value="2021-3-24 15:30:21 (0.3.8-Company) Commit+Push&#10;注册页完成" />
     <MESSAGE value="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;添加Javax;javaee" />
     <MESSAGE value="2021-3-25 10:17:00 Company&#10;Commit+Push&#10;数据库安装完成，jsp页面去除web，已经可显示" />
@@ -898,7 +885,8 @@
     <MESSAGE value="2021-4-1 16:44:14 JDBC-11-数据库连接方式五" />
     <MESSAGE value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库-01;&#10;创建表;" />
     <MESSAGE value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-2 09:40:33 JDBC-12-Statement操作数据库;" />
+    <MESSAGE value="2021-4-2 13:57:16 JavaWeb-230;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-2 13:57:16 JavaWeb-230;" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

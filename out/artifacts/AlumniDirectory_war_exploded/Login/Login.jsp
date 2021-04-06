@@ -139,13 +139,18 @@
     <div>
         <b>
             <span class="errorMsg">
-                <%=request.getAttribute("msg")==null?"请输入用户名和密码":request.getAttribute("msg")%>
+<%--                2021-4-2 13:45:43 JavaWeb-230   --%>
+<%--                <%=request.getAttribute("msg")==null?"请输入用户名和密码":request.getAttribute("msg")%>      --%>
+                ${ empty requestScope.msg ? "请输入用户名和密码" : requestScope.msg }
             </span>
         </b>
     </div>
     <div>
         <b>账号：</b>
-        <input type="text" placeholder="请输入账号" name="username"/><br/>
+        <input type="text" placeholder="请输入账号" name="username"
+<%--        2021-4-2 13:47:01 JavaWeb-230   --%>
+                value="${requestScope.username}"
+        /><br/>
         <div class="content content1">
             <i></i>
             <p>账号</p>
