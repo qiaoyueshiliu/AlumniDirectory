@@ -7,9 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-6 09:10:26 JavaWeb-230;">
-      <change afterPath="$PROJECT_DIR$/IDEA-激活使用/src/激活.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MySQL创建/创建book库customers表" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/connection/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu1/connection/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/statement/crud/StatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu2/statement/crud/StatementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/statement/crud/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu2/statement/crud/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +201,18 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.book">
+  <component name="RunManager" selected="JUnit.PrepareStatementUpdateTest.testInsert">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectionTest.getConnection5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -215,22 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionTest.testConnetcion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.connection" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="testConnetcion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConnectionTest.testConnetcion4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -242,6 +240,22 @@
       <option name="PACKAGE_NAME" value="com.atguigu.connection" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.connection.ConnectionTest" />
       <option name="METHOD_NAME" value="testConnetcion4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatementUpdateTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu3.preparedstatement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -366,20 +380,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
       <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
       <item itemvalue="JUnit.ConnectionTest.getConnection5" />
       <item itemvalue="JUnit.StatementTest.testLogin" />
       <item itemvalue="JUnit.StatementTest" />
       <item itemvalue="Tomcat Server.book" />
+      <item itemvalue="JUnit.PrepareStatementUpdateTest.testInsert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrepareStatementUpdateTest.testInsert" />
         <item itemvalue="JUnit.StatementTest.testLogin" />
         <item itemvalue="JUnit.StatementTest" />
         <item itemvalue="JUnit.ConnectionTest.getConnection5" />
         <item itemvalue="JUnit.ConnectionTest.testConnetcion4" />
-        <item itemvalue="JUnit.ConnectionTest.testConnetcion" />
       </list>
     </recent_temporary>
   </component>
@@ -414,13 +428,10 @@
       <workItem from="1617672307469" duration="76000" />
       <workItem from="1617672429250" duration="48000" />
       <workItem from="1617672546896" duration="5000" />
-    </task>
-    <task id="LOCAL-00021" summary="2021-3-11 15:36:43 (0.21-Company) Commit+Push">
-      <created>1615448949064</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1615448949064</updated>
+      <workItem from="1617672567227" duration="100000" />
+      <workItem from="1617672695793" duration="5000" />
+      <workItem from="1617672727846" duration="53000" />
+      <workItem from="1617672803167" duration="5276000" />
     </task>
     <task id="LOCAL-00022" summary="2021-3-11 15:36:43 (0.21-Company) Commit+Push">
       <created>1615450512334</created>
@@ -758,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617671432683</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="2021-4-6 09:10:26 JavaWeb-230;">
+      <created>1617672616880</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1617672616881</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TestHistory">

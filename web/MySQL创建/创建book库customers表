@@ -1,0 +1,9 @@
+use book;
+create table customers(
+`id` int primary key AUTO_INCREMENT,
+`name` varchar(20) not null unique,
+`email` varchar(32) not null,
+`birth` date(200)
+);
+insert into t_user(`username`,`password`,`nickname`) values ('admin','admin','管理员');
+select * from t_user;
