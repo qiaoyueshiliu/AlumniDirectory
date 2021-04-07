@@ -21,6 +21,9 @@ public class BookDaoTest {
 
     @Test
     public void deleteBookById() {
+        System.out.println("deleteBookById 测试开始");
+        bookDao.deleteBookById(7);
+        System.out.println("deleteBookById 测试结束");
     }
 
     @Test

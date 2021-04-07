@@ -7,11 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/MySQL创建/t_book" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,19 +200,21 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookDaoTest.queryBooks">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookServiceTest.deleteBookById">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookDaoTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.deleteBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
@@ -222,13 +224,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="deleteBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
       <option name="METHOD_NAME" value="addBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookDaoTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.deleteBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
@@ -237,14 +255,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
+      <option name="METHOD_NAME" value="deleteBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
       <option name="METHOD_NAME" value="queryBookById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookDaoTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
@@ -253,40 +287,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
       <option name="METHOD_NAME" value="queryBooks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookDaoTest.updateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
-      <option name="METHOD_NAME" value="updateBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrepareStatementUpdateTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu3.preparedstatement.crud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -381,19 +383,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.book" />
-      <item itemvalue="JUnit.PrepareStatementUpdateTest.testUpdate" />
-      <item itemvalue="JUnit.BookDaoTest.addBook" />
-      <item itemvalue="JUnit.BookDaoTest.updateBook" />
-      <item itemvalue="JUnit.BookDaoTest.queryBookById" />
-      <item itemvalue="JUnit.BookDaoTest.queryBooks" />
+      <item itemvalue="JUnit.BookServiceTest.addBook" />
+      <item itemvalue="JUnit.BookDaoTest.deleteBookById" />
+      <item itemvalue="JUnit.BookServiceTest.queryBookById" />
+      <item itemvalue="JUnit.BookServiceTest.queryBooks" />
+      <item itemvalue="JUnit.BookServiceTest.deleteBookById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookDaoTest.queryBooks" />
-        <item itemvalue="JUnit.BookDaoTest.queryBookById" />
-        <item itemvalue="JUnit.BookDaoTest.updateBook" />
-        <item itemvalue="JUnit.BookDaoTest.addBook" />
-        <item itemvalue="JUnit.PrepareStatementUpdateTest.testUpdate" />
+        <item itemvalue="JUnit.BookServiceTest.deleteBookById" />
+        <item itemvalue="JUnit.BookServiceTest.addBook" />
+        <item itemvalue="JUnit.BookServiceTest.queryBooks" />
+        <item itemvalue="JUnit.BookServiceTest.queryBookById" />
+        <item itemvalue="JUnit.BookDaoTest.deleteBookById" />
       </list>
     </recent_temporary>
   </component>
@@ -432,6 +434,7 @@
       <workItem from="1617672695793" duration="5000" />
       <workItem from="1617672727846" duration="53000" />
       <workItem from="1617672803167" duration="18976000" />
+      <workItem from="1617762349620" duration="4468000" />
     </task>
     <task id="LOCAL-00026" summary="2021-3-11 18:06:33 (0.23-Company) Commit+Push">
       <created>1615457199535</created>
