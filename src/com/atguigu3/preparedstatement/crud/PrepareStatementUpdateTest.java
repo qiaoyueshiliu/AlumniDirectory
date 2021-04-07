@@ -21,8 +21,8 @@ public class PrepareStatementUpdateTest {
 //        String sql = "delete from customers where id = ?";
 //        update(sql,10);
 
-        String sql = "updata"
-
+        String sql = "update t_user set username = ? where id = ?";
+        update(sql,"DD","2");
     }
 
 //    通用的增删改操作
