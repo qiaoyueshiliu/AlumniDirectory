@@ -20,7 +20,6 @@ public class PrepareStatementUpdateTest {
     public void testCommonUpdate(){
 //        String sql = "delete from customers where id = ?";
 //        update(sql,10);
-
         String sql = "update t_user set username = ? where id = ?";
         update(sql,"DD","2");
     }

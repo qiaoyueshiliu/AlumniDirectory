@@ -6,7 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 13:48:38 JDBC-16-通用的增删改操作">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/t_userForQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" afterDir="false" />
     </list>
@@ -27,8 +28,8 @@
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -198,17 +199,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PrepareStatementUpdateTest.testCommonUpdate">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BookServiceTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -430,14 +420,8 @@
       <workItem from="1617672727846" duration="53000" />
       <workItem from="1617672803167" duration="18976000" />
       <workItem from="1617762349620" duration="7396000" />
-      <workItem from="1617778235576" duration="592000" />
-    </task>
-    <task id="LOCAL-00028" summary="2021-3-12 09:05:53 (0.24-Company) Commit+Push">
-      <created>1615511163165</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1615511163165</updated>
+      <workItem from="1617778235576" duration="894000" />
+      <workItem from="1617781022959" duration="3454000" />
     </task>
     <task id="LOCAL-00029" summary="2021-3-12 09:07:20 (0.25-Company) Commit+Push">
       <created>1615511248945</created>
@@ -775,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617777409991</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="2021-4-7 13:48:38 JDBC-16-通用的增删改操作">
+      <created>1617778898576</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1617778898578</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -883,7 +874,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;169-注册完成-上传到数据库成功" />
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;创建 book t_user表" />
     <MESSAGE value="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册" />
     <MESSAGE value="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始" />
@@ -908,7 +898,8 @@
     <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类" />
     <MESSAGE value="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改" />
     <MESSAGE value="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现" />
+    <MESSAGE value="2021-4-7 13:48:38 JDBC-16-通用的增删改操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 13:48:38 JDBC-16-通用的增删改操作" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -930,7 +921,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java</url>
-          <line>84</line>
+          <line>83</line>
           <properties class="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" method="testInsert">
             <option name="EMULATED" value="true" />
           </properties>
