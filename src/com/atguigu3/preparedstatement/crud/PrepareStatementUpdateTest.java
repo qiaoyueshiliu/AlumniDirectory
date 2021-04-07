@@ -15,6 +15,44 @@ import java.util.Properties;
  *
  */
 public class PrepareStatementUpdateTest {
+
+    @Test
+    public void testCommonUpdate(){
+//        String sql = "delete from customers where id = ?";
+//        update(sql,10);
+
+        String sql = "updata"
+
+    }
+
+//    通用的增删改操作
+    public void update(String sql,Object ...args) {
+//        sql中占位符的个数与可变参数的长度相同
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try {
+//        1、获取数据库连接
+            conn = JDBCUtils.getConnection();
+//        2、预编译 sql 语句，返回 PrepareStatement 的实例
+            ps = conn.prepareStatement(sql);
+//        3、填充占位符
+            for (int i = 0 ; i < args.length ; i++){
+    //            小小参数声明错误！！
+                ps.setObject(i+1,args[i]);
+            }
+//        4、执行
+            ps.execute();
+            System.out.println("进行数据更改...");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+//        5、资源的关闭
+            JDBCUtils.closeResource(conn,ps);
+            System.out.println("关闭数据库连接...");
+        }
+
+    }
+
 //    修改customers表的一条记录
     @Test
     public void testUpdate(){
@@ -65,12 +103,12 @@ public class PrepareStatementUpdateTest {
             String sql = "insert into customers(name ,email,birth)values(?,?,?) ";//?:占位符
             ps = conn.prepareStatement(sql);
 //        5、填充占位符
-            ps.setString(1,"哪吒");
+            ps.setString(1,"哪吒1");
             ps.setString(2,"nezha@gmail.com");
 //        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //        System.out.println(df.format(new java.util.Date()));
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            java.util.Date date = sdf.parse("1000-01-01");
+            java.util.Date date = sdf.parse("1000-01-02");
             ps.setDate(3,new Date(date.getTime()));
 //        6、执行sql操作
             ps.execute();

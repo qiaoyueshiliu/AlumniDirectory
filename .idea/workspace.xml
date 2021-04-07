@@ -6,12 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookServiceTest.java" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +197,7 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTest.deleteBookById">
+  <component name="RunManager" selected="JUnit.PrepareStatementUpdateTest.testCommonUpdate">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -210,22 +207,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookDaoTest.deleteBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
-      <option name="METHOD_NAME" value="deleteBookById" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,33 +243,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrepareStatementUpdateTest.testCommonUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.atguigu3.preparedstatement.crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
-      <option name="METHOD_NAME" value="queryBookById" />
+      <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
+      <option name="METHOD_NAME" value="testCommonUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrepareStatementUpdateTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="PATTERN" value="com.atguigu3.preparedstatement.crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
-      <option name="METHOD_NAME" value="queryBooks" />
+      <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatementUpdateTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu3.preparedstatement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu3.preparedstatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -384,18 +381,18 @@
     <list>
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="JUnit.BookServiceTest.addBook" />
-      <item itemvalue="JUnit.BookDaoTest.deleteBookById" />
-      <item itemvalue="JUnit.BookServiceTest.queryBookById" />
-      <item itemvalue="JUnit.BookServiceTest.queryBooks" />
       <item itemvalue="JUnit.BookServiceTest.deleteBookById" />
+      <item itemvalue="JUnit.PrepareStatementUpdateTest.testCommonUpdate" />
+      <item itemvalue="JUnit.PrepareStatementUpdateTest.testUpdate" />
+      <item itemvalue="JUnit.PrepareStatementUpdateTest.testInsert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrepareStatementUpdateTest.testCommonUpdate" />
+        <item itemvalue="JUnit.PrepareStatementUpdateTest.testInsert" />
+        <item itemvalue="JUnit.PrepareStatementUpdateTest.testUpdate" />
         <item itemvalue="JUnit.BookServiceTest.deleteBookById" />
         <item itemvalue="JUnit.BookServiceTest.addBook" />
-        <item itemvalue="JUnit.BookServiceTest.queryBooks" />
-        <item itemvalue="JUnit.BookServiceTest.queryBookById" />
-        <item itemvalue="JUnit.BookDaoTest.deleteBookById" />
       </list>
     </recent_temporary>
   </component>
@@ -434,14 +431,7 @@
       <workItem from="1617672695793" duration="5000" />
       <workItem from="1617672727846" duration="53000" />
       <workItem from="1617672803167" duration="18976000" />
-      <workItem from="1617762349620" duration="4468000" />
-    </task>
-    <task id="LOCAL-00026" summary="2021-3-11 18:06:33 (0.23-Company) Commit+Push">
-      <created>1615457199535</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1615457199535</updated>
+      <workItem from="1617762349620" duration="7087000" />
     </task>
     <task id="LOCAL-00027" summary="2021-3-11 18:06:33 (0.23-Company) Commit+Push">
       <created>1615459488720</created>
@@ -779,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617695345321</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现">
+      <created>1617774556225</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1617774556226</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -887,7 +884,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;学习169改Base阶段" />
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;169-注册完成-上传到数据库成功" />
     <MESSAGE value="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;创建 book t_user表" />
     <MESSAGE value="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册" />
@@ -912,7 +908,8 @@
     <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;" />
     <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类" />
     <MESSAGE value="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改" />
+    <MESSAGE value="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -928,10 +925,23 @@
           <line>75</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/PrepareStatementUpdateTest.java</url>
+          <line>82</line>
+          <properties class="com.atguigu3.preparedstatement.crud.PrepareStatementUpdateTest" method="testInsert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
