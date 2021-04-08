@@ -1,13 +1,11 @@
 package com.atguigu3.util;
 
 import com.atguigu1.connection.ConnectionTest;
+import com.mysql.cj.xdevapi.Result;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 /**
@@ -47,14 +45,41 @@ public class JDBCUtils {
         try {
             if (ps != null)
                 ps.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
         try {
             if (conn != null)
                 conn.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 关闭资源的操作
+     * @param conn
+     * @param ps
+     * @param rs
+     */
+    public static void closeResource(Connection conn, PreparedStatement ps, ResultSet rs){
+        try {
+            if (ps != null)
+                ps.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            if (conn != null)
+                conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            if (rs != null)
+                rs.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }
