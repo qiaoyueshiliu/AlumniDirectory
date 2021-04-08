@@ -6,11 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 17:33:03 JDBC-17-针对Customer表">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Register/HouTaiGuanLi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 17:33:03 JDBC-17-针对Customer表,admin页面完成">
+      <change afterPath="$PROJECT_DIR$/web/Register/ZhangHaoGuanLi.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Register/HouTaiGuanLi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Register/HouTaiGuanLi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,14 +435,7 @@
       <workItem from="1617778235576" duration="894000" />
       <workItem from="1617781022959" duration="3454000" />
       <workItem from="1617787972409" duration="54000" />
-      <workItem from="1617844908630" duration="11489000" />
-    </task>
-    <task id="LOCAL-00031" summary="2021-3-12 23:05:58 (0.27-Company) Commit+Push">
-      <created>1615561568959</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1615561568959</updated>
+      <workItem from="1617844908630" duration="12862000" />
     </task>
     <task id="LOCAL-00032" summary="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push">
       <created>1615798547763</created>
@@ -780,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617871432669</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="2021-4-7 17:33:03 JDBC-17-针对Customer表,admin页面完成">
+      <created>1617876161455</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1617876161455</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -888,7 +888,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始" />
     <MESSAGE value="2021-3-26 12:59:00 Company&#10;Login 页面 简介写完" />
     <MESSAGE value="2021-3-29 14:25:02 Company 代码优化-抽取BaseServlet" />
     <MESSAGE value="2021-3-29 14:25:02 Company 定义 Base 路径" />
@@ -913,7 +912,8 @@
     <MESSAGE value="2021-4-7 13:48:38 JDBC-16-通用的增删改操作" />
     <MESSAGE value="2021-4-7 17:33:03 JDBC-16-通用的增删改操作" />
     <MESSAGE value="2021-4-7 17:33:03 JDBC-17-针对Customer表" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 17:33:03 JDBC-17-针对Customer表" />
+    <MESSAGE value="2021-4-7 17:33:03 JDBC-17-针对Customer表,admin页面完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 17:33:03 JDBC-17-针对Customer表,admin页面完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
