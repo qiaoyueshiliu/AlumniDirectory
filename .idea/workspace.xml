@@ -6,12 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 17:33:03 JDBC-17-查询">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu3/bean/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/CustomerForQuery.java" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-7 17:33:03 JDBC-17-针对Customer表">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Register/HouTaiGuanLi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu3/preparedstatement/crud/t_userForQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu3/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu3/util/JDBCUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +27,10 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -200,7 +199,7 @@
       <recent name="com.atguigu.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerForQuery.testQuery1">
+  <component name="RunManager" selected="Tomcat Server.book">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -436,14 +435,7 @@
       <workItem from="1617778235576" duration="894000" />
       <workItem from="1617781022959" duration="3454000" />
       <workItem from="1617787972409" duration="54000" />
-      <workItem from="1617844908630" duration="9352000" />
-    </task>
-    <task id="LOCAL-00030" summary="2021-3-12 11:04:22 (0.26-Company) Commit+Push">
-      <created>1615518271809</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1615518271809</updated>
+      <workItem from="1617844908630" duration="11489000" />
     </task>
     <task id="LOCAL-00031" summary="2021-3-12 23:05:58 (0.27-Company) Commit+Push">
       <created>1615561568959</created>
@@ -781,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617787987949</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="2021-4-7 17:33:03 JDBC-17-针对Customer表">
+      <created>1617871432669</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1617871432669</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -889,7 +888,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册" />
     <MESSAGE value="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始" />
     <MESSAGE value="2021-3-26 12:59:00 Company&#10;Login 页面 简介写完" />
     <MESSAGE value="2021-3-29 14:25:02 Company 代码优化-抽取BaseServlet" />
@@ -914,7 +912,8 @@
     <MESSAGE value="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现" />
     <MESSAGE value="2021-4-7 13:48:38 JDBC-16-通用的增删改操作" />
     <MESSAGE value="2021-4-7 17:33:03 JDBC-16-通用的增删改操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 17:33:03 JDBC-16-通用的增删改操作" />
+    <MESSAGE value="2021-4-7 17:33:03 JDBC-17-针对Customer表" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-7 17:33:03 JDBC-17-针对Customer表" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
