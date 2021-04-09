@@ -82,69 +82,6 @@
             </div>
             <div id="tabNavigation_more" class="more"></div>
         </div>
-<%--        <script type="text/javascript">--%>
-<%--            $(document).ready(function () {--%>
-<%--                //隐藏高度超过100px的内容--%>
-<%--                $('#tabNavigation').readmore({--%>
-<%--                    speed: 100,//速度--%>
-<%--                    collapsedHeight: 42,//默认高度--%>
-<%--                    moreLink: '<div class="readMore">更多 <i class="cms-angle-down"></i></div>',--%>
-<%--                    bindLink: '#tabNavigation_more',--%>
-<%--                    rootElement: '.tabModule',--%>
-<%--                    afterToggle: function(trigger, element, expanded) {--%>
-
-<%--                    }--%>
-<%--                });--%>
-
-
-<%--            });--%>
-<%--        </script>--%>
-
-
-
-<%--        <style>--%>
-<%--            /** 半透明提示层 **/--%>
-<%--            .hideTag-class .layui-layer-content{--%>
-<%--                background-color: rgba(0,0,0,0.6);--%>
-<%--            }--%>
-<%--            .hideTag-class .layui-layer-content .layui-layer-TipsG {--%>
-<%--                position: absolute;--%>
-<%--                width: 0;--%>
-<%--                height: 0;--%>
-<%--                border-width: 5px;--%>
-<%--                *overflow: hidden;--%>
-
-<%--                border-style: dashed;--%>
-<%--                border-color:rgba(0,0,0,0.6) transparent transparent transparent;--%>
-<%--                margin-bottom: -2px;--%>
-<%--                margin-bottom: 3px\0;--%>
-<%--                *margin-bottom: 3px;--%>
-<%--            }--%>
-
-<%--            .hideTag-class .layui-layer-content .layui-layer-TipsT {--%>
-<%--                left: 7px;--%>
-<%--                border-right-style: solid;--%>
-<%--                border-right-color: rgba(0,0,0,0.6);--%>
-<%--            }--%>
-<%--        </style>--%>
-<%--        <script type="text/javascript">--%>
-<%--            var tab_tip_index = 0;--%>
-<%--            $(".tab,.tab_current").on('mouseenter', this,function() {--%>
-<%--                var data = $(this).attr("data");--%>
-<%--                if(data != undefined && data != ''){--%>
-<%--                    tab_tip_index = layer.tips(data, $(this), {--%>
-<%--                        tips: 1,//[1, "rgba(0, 0, 0,0.5)"],--%>
-<%--                        time: 5000,--%>
-<%--                        skin: 'hideTag-class'--%>
-<%--                    });--%>
-<%--                }--%>
-<%--            }).on('mouseleave', this, function(){--%>
-<%--                layer.close(tab_tip_index);--%>
-<%--            });--%>
-<%--        </script>--%>
-
-
-
         <div class="topicModule">
             <div class="topic-box">
                 <div class="topicList">
@@ -261,7 +198,6 @@
             }
         </style>
 
-
         <script type="text/javascript">
             var tip_index = 0;
             $(".hideTagType").on('mouseenter', this,function() {
@@ -289,20 +225,6 @@
             });
         </script>
 
-
-
-
-        <div class="addAnswerModule" >
-            <div class="addAnswer-wrap">
-                <div class="respond">
-                    <p >请
-                        <a href="login">登录</a>
-                        后发表话题。没有帐号？
-                        <a href="register">注册</a> 一个。
-                    </p>
-                </div>
-            </div>
-        </div>
         <div style="height: 10px;"></div>
     </div>
 </div>
