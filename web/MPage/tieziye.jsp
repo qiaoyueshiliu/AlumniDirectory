@@ -65,111 +65,101 @@
             padding: 20px;
             margin-top: 20px;
         }
-
-
-
-
     </style>
 </head>
 <body>
 
 <%@include file="../public_jsp/header02.jsp"%>
-
 <div class="row">
     <div class="column side">
     </div>
 
     <div class="column middle">
-        <div class="topicModule">
-            <div class="topic-box">
-                <div class="topicList">
-                    <c:forEach items="${requestScope.books}" var="book">
-                        <div class="topicItem">
-                                <%--                        <div class="avatarBox">--%>
-                                <%--                            <a class="avatarLink" href="user/control/home?userName=test">--%>
-                                <%--                                <img src="file/avatar/2018-01-06/100x100/2.jpg">--%>
-                                <%--                            </a>--%>
-                                <%--                        </div>--%>
-                            <div class="content clearfix">
-                                <ul class="info">
-                                    <li>
-                                        <span class="tag">综合</span>
-                                        <a class="userName" href="user/control/home?userName=test">
-                                                ${book.chuangjianren}
+        <div class="card">
+            <div class="topicModule">
+                <div class="topic-box">
+                    <div class="topicList">
+                        <c:forEach items="${requestScope.books}" var="book">
+                            <div class="topicItem">
+                                <div class="content clearfix">
+                                    <ul class="info">
+                                        <li>
+                                            <span class="tag">综合</span>
+                                            <a class="userName" href="user/control/home?userName=test">
+                                                    ${book.chuangjianren}
+                                            </a>
+                                            <span class="userRoleName">VIP</span>
+                                            <span class="postTime">发表时间：2020-07-24 01:47:46</span>
+                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>
+                                        </li>
+                                    </ul>
+                                    <h2 class="title clearfix">
+                                        <a href="thread?topicId=46" target="_blank">
+                                                ${book.biaoti}
                                         </a>
-                                        <span class="userRoleName">VIP</span>
-                                        <span class="postTime">发表时间：2020-07-24 01:47:46</span>
-                                        <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>
-                                    </li>
-                                </ul>
-                                <h2 class="title clearfix">
-                                    <a href="thread?topicId=46" target="_blank">
-                                            ${book.biaoti}
-                                    </a>
-                                    <span class="redEnvelope" alt="红包" title="红包" ><i class="cms-redEnvelope-1" ></i></span>
-                                </h2>
-                                <div class="clearfix"></div>
-
-                                <div class="detail">
-                                    <h2 class="summary">
-                                        恭喜发财，试试发红包[表情][表情]..
+                                        <span class="redEnvelope" alt="红包" title="红包" ><i class="cms-redEnvelope-1" ></i></span>
                                     </h2>
-                                    <script>
-                                        $(function () {
-                                            new commentMove(".topic_thumbnail_46",".topic_original_46","46").init();
-                                        })
-                                    </script>
+                                    <div class="clearfix"></div>
+
+                                    <div class="detail">
+                                        <h2 class="summary">
+                                            恭喜发财，试试发红包[表情][表情]..
+                                        </h2>
+                                        <script>
+                                            $(function () {
+                                                new commentMove(".topic_thumbnail_46",".topic_original_46","46").init();
+                                            })
+                                        </script>
+                                    </div>
+                                </div>
+
+                                <div class="statistic clearfix">
+
+                                    <div class="viewTotal">
+                                        <i class="cms-view icon"></i>
+                                        1879
+                                    </div>
+
+                                    <div class="commentTotal">
+                                        <i class="cms-commentCount icon"></i>
+
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="statistic clearfix">
-
-                                <div class="viewTotal">
-                                    <i class="cms-view icon"></i>
-                                    1879
-                                </div>
-
-                                <div class="commentTotal">
-                                    <i class="cms-commentCount icon"></i>
-
+                        </c:forEach>
+                        <div class="topicItem">
+                            <div class="fatiekuang">
+                                <div class="fatie">
                                 </div>
                             </div>
                         </div>
-                    </c:forEach>
-                    <div class="topicItem">
-                        <div class="fatiekuang">
-                            <div class="fatie">
+                        <div class="topicPage">
+                            <div class="fatiekuangyi">
+                                <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
+
                             </div>
+
+                            <DIV class="pg">
+                                <span class="count">共21条</span>
+
+
+                                <STRONG>1</STRONG>
+
+                                <A href="javascript:topage('2')" title="第2页">2</A>
+
+                                <A href="javascript:topage('3')" title="第3页">3</A>
+
+
+                                <LABEL>
+                                    <INPUT onkeydown="if(event.keyCode==13) {topage(this.value);}" class="pg_input" title="输入页码，按回车跳转" value="1" size="2">
+                                    <SPAN title="共3页"> / 3页</SPAN>
+                                </LABEL>
+                                <A class=nxt href="?page=2">下一页</A>
+                            </DIV>
                         </div>
-                    </div>
-                    <div class="topicPage">
-                        <div class="fatiekuangyi">
-                            <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
-
-                        </div>
-
-                        <DIV class="pg">
-                            <span class="count">共21条</span>
-
-
-                            <STRONG>1</STRONG>
-
-                            <A href="javascript:topage('2')" title="第2页">2</A>
-
-                            <A href="javascript:topage('3')" title="第3页">3</A>
-
-
-                            <LABEL>
-                                <INPUT onkeydown="if(event.keyCode==13) {topage(this.value);}" class="pg_input" title="输入页码，按回车跳转" value="1" size="2">
-                                <SPAN title="共3页"> / 3页</SPAN>
-                            </LABEL>
-                            <A class=nxt href="?page=2">下一页</A>
-                        </DIV>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Sep 2, 2017</h5>
             <div class="fakeimg" style="height:200px;">Image</div>

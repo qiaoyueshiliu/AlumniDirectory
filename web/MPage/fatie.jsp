@@ -16,7 +16,7 @@
 
 <body>
     <h1>发帖页面</h1>
-    <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
+    <form action="http://localhost:8080/AlumniDirectory/" method="post">
         <input type="hidden" name="action" value="">
         <%--    <form action="regist_success.jsp" method="post">--%>
         <%--    <form action="../../src/com.atguigu/" method="post">--%>

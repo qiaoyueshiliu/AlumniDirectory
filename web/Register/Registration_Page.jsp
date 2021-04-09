@@ -97,102 +97,137 @@
             }
         }
     </script>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        /* 创建并排的三个非等列 */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        /* 左和右列 */
+        .column.side {
+            width: 13%;
+        }
+
+        /* 中间列 */
+        .column.middle {
+            width: 74%;
+        }
+
+        /* 清除列之后的浮动 */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* 响应式布局 - 创建堆叠而非并排的三列 */
+        @media screen and (max-width: 600px) {
+            .column.side, .column.middle {
+                width: 100%;
+            }
+        }
+
+        /* 设置页脚的样式 */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
 <body>
-<%--<%@include file="../public_jsp/header.jsp"%>--%>
-<h1>注册页面</h1>
-<h3>用户名为5-12位的数字、字母、下划线组成</h3>
-<p>
-<%--    Register_UserName_Box_Id 注册页面用户名框的id     --%>
-<%--    用户名：<input type="text" id="Register_UserName_Box_Id">--%>
-<%--    勾号的地址 用于上面的转译--%>
-<%--    <img src="../img/Cross.jpeg" width="16" height="16">--%>
-<%--    Register_UserName_Box_Span 展示出判断用户名是否合法所用的勾号和叉号的格子 --%>
-<%--    Register_UserName_Box_Span--%>
-<%--    <span id="Register_UserName_Box_Span" style="color: red"></span>--%>
-<%--    检验用户名是否合法--%>
-<%--    <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
-</p>
-<br>
-<a href="../index/index.jsp">返回首页</a>
-<div>
-<%--    配置在web.xml里面--%>
-<%--    web阶段使用 base+相对
-        框架之后，使用绝对路径
---%>
-    <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
-        <input type="hidden" name="action" value="regist">
-    <%--    <form action="regist_success.jsp" method="post">--%>
-    <%--    <form action="../../src/com.atguigu/" method="post">--%>
-    <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
-            <tr>
-                <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
-                </td>
-                <td width="200" valign="top" bgcolor="#FFFFFF">
-                    <input name="username" type="text" maxlength="20" size="15"
-                           id="Register_UserName_Box_Id" class="input" />
-                    <%--            <span id="Register_UserName_Box_Span" style="color: red"></span>--%>
-                    <%--            <button onclick="Check_UserName_Legal()">校验用户名是否合法</button>--%>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" bgcolor="#FFFFFF">用户昵称 </td>
-                <td valign="top" bgcolor="#FFFFFF">
-                    <input name="nickname" type="text" maxlength="20" size="15"
-                           id="nickname" class="input"/>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" bgcolor="#FFFFFF">登录密码</td>
-                <td valign="top" bgcolor="#FFFFFF">
-                    <input name="password" type="password" maxlength="20" size="15"
-                           id="password" class="input"/>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" bgcolor="#FFFFFF">再次输入登录密码</td>
-                <td valign="top" bgcolor="#FFFFFF">
-                    <input name="Passwd2" type="password" maxlength="20" size="15"
-                           id="Passwd2" class="input"/>
-                </td>
-            </tr>
-            <tr>
-                <td valign="top" bgcolor="#FFFFFF">常用邮件地址</td>
-                <td valign="top" bgcolor="#FFFFFF">
-                    <input name="Email" type="text" maxlength="50" size="15"
-                           id="Email" class="input"/>
-                </td>
-            </tr>
-<%--            <tr type="hidden">--%>
-<%--                <td valign="top" bgcolor="#FFFFFF">验证码:abcde</td>--%>
-<%--                <td valign="top" bgcolor="#FFFFFF">--%>
-                    <input name="code" type="hidden" maxlength="20" size="15"
-                           id="Question" class="input"
-                           value="abcde"
-                    />
-<%--                </td>--%>
-<%--            </tr>--%>
-<%--            <tr>--%>
-<%--                <td valign="top" bgcolor="#FFFFFF">取回密码的答案</td>--%>
-<%--                <td valign="top" bgcolor="#FFFFFF">--%>
-<%--                    <input name="Answer" type="text" maxlength="20" size="15"--%>
-<%--                           id="Answer" class="input"/>--%>
-<%--                </td>--%>
-<%--            </tr>--%>
-            <tr>
-                <td>
-                    <input type="submit" name="RegisterBtn" value="注册" id="RegisterBtn" />
-<%--                    <input type="submit" name="RegisterBtn" value="验证" id="RegisterBtn1" />--%>
-                    <span class="errorMsg" style="color:red">
-<%--                        JavaWeb-230 --%>
-<%--                        <%=request.getAttribute("msg")==null?"":request.getAttribute("msg")%>--%>
-                        ${requestScope.msg}
-                    </span>
-                </td>
-            </tr>
-        </table>
-    </form>
+<div class="row">
+    <div class="column side">
+    </div>
+
+    <div class="column middle">
+        <div class="card">
+            <div>
+                <h1>欢迎注册</h1>
+                <h3>用户名为5-12位的数字、字母、下划线组成</h3>
+            </div>
+            <div>
+                <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
+                    <input type="hidden" name="action" value="regist">
+                    <table id="rapidregTable" width="500" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
+                        <tr>
+                            <td width="100" valign="top" bgcolor="#FFFFFF">登录用户名
+                            </td>
+                            <td width="200" valign="top" bgcolor="#FFFFFF">
+                                <input name="username" type="text" maxlength="20" size="15"
+                                       id="Register_UserName_Box_Id" class="input" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF">用户昵称 </td>
+                            <td valign="top" bgcolor="#FFFFFF">
+                                <input name="nickname" type="text" maxlength="20" size="15"
+                                       id="nickname" class="input"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF">登录密码</td>
+                            <td valign="top" bgcolor="#FFFFFF">
+                                <input name="password" type="password" maxlength="20" size="15"
+                                       id="password" class="input"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF">再次输入登录密码</td>
+                            <td valign="top" bgcolor="#FFFFFF">
+                                <input name="Passwd2" type="password" maxlength="20" size="15"
+                                       id="Passwd2" class="input"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF">常用邮件地址</td>
+                            <td valign="top" bgcolor="#FFFFFF">
+                                <input name="Email" type="text" maxlength="50" size="15"
+                                       id="Email" class="input"/>
+                            </td>
+                        </tr>
+                        <input name="code" type="hidden" maxlength="20" size="15"
+                               id="Question" class="input"
+                               value="abcde"
+                        />
+                        <tr>
+                            <td>
+                                <input type="submit" name="RegisterBtn" value="注册" id="RegisterBtn" />
+                                <span class="errorMsg" style="color:red">
+                                    ${requestScope.msg}
+                                </span>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="column side">
+    </div>
 </div>
+
 </body>
 </html>
