@@ -4,7 +4,11 @@
     <data-source name="alumnidata@localhost" uuid="b318e80b-2644-4e59-8f7b-c62feeeb6af8">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>forget</secret-storage>
-      <introspection-schemas>*:@</introspection-schemas>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>

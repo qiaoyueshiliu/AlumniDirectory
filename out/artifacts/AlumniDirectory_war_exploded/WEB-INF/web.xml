@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--    2021-3-25 13:39:00：这部分内容是web-app第一个便签<web-app>内的内容，-->
 <!--    去除该部分是为了在尚硅谷book项目中，不添加base，同时添加<servlet>和<servlet-mapping>内容标签就能够显示jsp页面-->
-<web-app>
+<web-app >
+<!--        xmlns="http://java.sun.com/xml/ns/j2ee"-->
+<!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--        version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee-->
+<!--        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">-->
 <!--        xmlns="http://xmlns.jcp.org/xml/ns/javaee"-->
 <!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
 <!--       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"-->
@@ -57,6 +61,15 @@
     <servlet-mapping>
         <servlet-name>BookServlet</servlet-name>
         <url-pattern>/manager/bookServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookServlet_qiantai</servlet-name>
+        <servlet-class>com.atguigu.web.BookServlet_qiantai</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookServlet_qiantai</servlet-name>
+        <url-pattern>/manager/bookServlet_qiantai</url-pattern>
     </servlet-mapping>
 <!--      <display-name>test</display-name>-->
 <!--      <welcome-file-list>-->

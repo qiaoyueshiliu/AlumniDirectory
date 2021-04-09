@@ -6,7 +6,8 @@
   To change this template use File | Settings | File Templates.
   <%--
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false"%>
 <link rel="stylesheet" href="../head_css/common.css" type="text/css">
 <html>
 <head>
@@ -120,49 +121,44 @@
         <div class="topicModule">
             <div class="topic-box">
                 <div class="topicList">
-
-                    <% for (int i = 0 ; i<10 ; i++){ %>
-                    <div class="topicItem">
-
+                    <c:forEach items="${requestScope.books}" var="book">
+                        <div class="topicItem">
                         <%--                        <div class="avatarBox">--%>
                         <%--                            <a class="avatarLink" href="user/control/home?userName=test">--%>
                         <%--                                <img src="file/avatar/2018-01-06/100x100/2.jpg">--%>
                         <%--                            </a>--%>
                         <%--                        </div>--%>
-
-                        <div class="content clearfix">
-                            <ul class="info">
-                                <li>
-                                    <span class="tag">综合</span>
-                                    <a class="userName" href="user/control/home?userName=test">
-                                        测试会员
+                            <div class="content clearfix">
+                                <ul class="info">
+                                    <li>
+                                        <span class="tag">综合</span>
+                                        <a class="userName" href="user/control/home?userName=test">
+                                                ${book.chuangjianren}1
+                                        </a>
+                                        <span class="userRoleName">VIP</span>
+                                        <span class="postTime">发表时间：2020-07-24 01:47:46</span>
+                                        <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>
+                                    </li>
+                                </ul>
+                                <h2 class="title clearfix">
+                                    <a href="thread?topicId=46" target="_blank">
+                                            ${book.biaoti}1
                                     </a>
-                                    <span class="userRoleName">VIP</span>
-                                    <span class="postTime">发表时间：2020-07-24 01:47:46</span>
-                                    <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>
-                                </li>
-                            </ul>
-                            <h2 class="title clearfix">
-                                <a href="thread?topicId=46" target="_blank">
-                                    测试发红包
-                                </a>
-
-                                <span class="redEnvelope" alt="红包" title="红包" ><i class="cms-redEnvelope-1" ></i></span>
-
-                            </h2>
-                            <div class="clearfix"></div>
-
-                            <div class="detail">
-                                <h2 class="summary">
-                                    恭喜发财，试试发红包[表情][表情]..
+                                    <span class="redEnvelope" alt="红包" title="红包" ><i class="cms-redEnvelope-1" ></i></span>
                                 </h2>
-                                <script>
-                                    $(function () {
-                                        new commentMove(".topic_thumbnail_46",".topic_original_46","46").init();
-                                    })
-                                </script>
+                                <div class="clearfix"></div>
+
+                                <div class="detail">
+                                    <h2 class="summary">
+                                        恭喜发财，试试发红包[表情][表情]..
+                                    </h2>
+                                    <script>
+                                        $(function () {
+                                            new commentMove(".topic_thumbnail_46",".topic_original_46","46").init();
+                                        })
+                                    </script>
+                                </div>
                             </div>
-                        </div>
 
                         <div class="statistic clearfix">
 
@@ -177,8 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <% } %>
-
+                    </c:forEach>
 
                     <div class="topicPage">
 
