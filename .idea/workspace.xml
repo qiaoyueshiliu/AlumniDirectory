@@ -6,22 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/DoctorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/DoctorDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/DoctorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/DoctorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/test/DoctorServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-9 15:23:05 web表单238 完成">
+      <change afterPath="$PROJECT_DIR$/web/MPage/fatie.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/header02.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +28,10 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -262,7 +252,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar!/" />
+    <property name="last_opened_file_path" value="D:/202101/测试/沙箱/应用软件/bbs-5.0" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -531,13 +521,6 @@
       <workItem from="1617787972409" duration="54000" />
       <workItem from="1617844908630" duration="12862000" />
       <workItem from="1617895129429" duration="3914000" />
-    </task>
-    <task id="LOCAL-00033" summary="2021-3-15 16:55:41 (0.3.5-Company) Commit+Push">
-      <created>1615801838743</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1615801838743</updated>
     </task>
     <task id="LOCAL-00034" summary="2021-3-24 11:18:11 (0.3.6-Company) Commit+Push&#10;解决首页框问题">
       <created>1616555924066</created>
@@ -875,7 +858,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617899083905</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="2021-4-9 15:23:05 web表单238 完成">
+      <created>1617953003869</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1617953003869</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -983,7 +973,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-3-29 14:25:02 Company 代码优化-抽取BaseServlet" />
     <MESSAGE value="2021-3-29 14:25:02 Company 定义 Base 路径" />
     <MESSAGE value="2021-3-29 19:22:39 修改数据库和表明一致" />
     <MESSAGE value="2021-3-29 23:56:36 加分类注释，来区分项目" />
@@ -1008,7 +997,8 @@
     <MESSAGE value="2021-4-7 17:33:03 JDBC-17-针对Customer表" />
     <MESSAGE value="2021-4-7 17:33:03 JDBC-17-针对Customer表,admin页面完成" />
     <MESSAGE value="2021-4-9 00:23:36 web表单237" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-9 00:23:36 web表单237" />
+    <MESSAGE value="2021-4-9 15:23:05 web表单238 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-9 15:23:05 web表单238 完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -12,6 +12,33 @@
 <html>
 <head>
     <title>Title</title>
+    <style type="text/css">
+        .fatiekuangyi{
+            float: left;
+            line-height: 36px;
+            background-color: #f5f5f7;
+        }
+
+        .fatiekuangyi .fatieanniu{
+            background-color: #f5f5f7;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-left: 4px;
+        }
+
+        .fatiekuang{
+            float: right;
+        }
+        .fatie{
+            text-align: right;
+            background-color: #f5f5f7;
+            border-radius: 3px;
+            padding-bottom: 0px;
+            padding-left: 12px;
+            padding-right: 10px;
+            padding-top: 0px;
+        }
+    </style>
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
 <%--<%@include file="MPage_css.jsp"%>--%>
@@ -133,7 +160,7 @@
                                     <li>
                                         <span class="tag">综合</span>
                                         <a class="userName" href="user/control/home?userName=test">
-                                                ${book.chuangjianren}1
+                                                ${book.chuangjianren}
                                         </a>
                                         <span class="userRoleName">VIP</span>
                                         <span class="postTime">发表时间：2020-07-24 01:47:46</span>
@@ -142,7 +169,7 @@
                                 </ul>
                                 <h2 class="title clearfix">
                                     <a href="thread?topicId=46" target="_blank">
-                                            ${book.biaoti}1
+                                            ${book.biaoti}
                                     </a>
                                     <span class="redEnvelope" alt="红包" title="红包" ><i class="cms-redEnvelope-1" ></i></span>
                                 </h2>
@@ -169,13 +196,22 @@
 
                             <div class="commentTotal">
                                 <i class="cms-commentCount icon"></i>
-                                1
+
                             </div>
                         </div>
                     </div>
                     </c:forEach>
-
+                    <div class="topicItem">
+                        <div class="fatiekuang">
+                            <div class="fatie">
+                            </div>
+                        </div>
+                    </div>
                     <div class="topicPage">
+                        <div class="fatiekuangyi">
+                            <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
+
+                        </div>
 
                         <DIV class="pg">
                             <span class="count">共21条</span>
