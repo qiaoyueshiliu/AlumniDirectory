@@ -22,11 +22,17 @@ public class BookServlet extends BaseServlet{
 //        2、调用 BookService.addBook() 保存图书
         bookService.addBook(book);
 //        3、跳到图书列表页面
-//        req.getRequestDispatcher("/client/bookServlet_qiantai?action=list").forward(req,resp);
         resp.sendRedirect(req.getContextPath()+"/client/bookServlet_qiantai?action=list");
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        1、获取请求的 tieziid 的参数,图书编程
+        int tieziid = WebUtils.parseInt(req.getParameter("tieziid"),0);
+//        2、调用 BookService.deleteBookByTieziid 删除图书
+        bookService.deleteBookByTieziid(tieziid);
+
+//        3、重新定向回图书管理页面
+        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=list");
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
