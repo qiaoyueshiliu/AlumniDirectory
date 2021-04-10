@@ -15,6 +15,6 @@
 <h1>欢迎来到管理员页面</h1>
 <%-- action 表示调用服务器中哪一个方法 BookServlet 中的 list --%>
 <%--<a href="manager/bookServlet?action=list"><h3>主页</h3></a>--%>
-<a href="manager/bookServlet?action=list">主页</a>
+<a href="manager/bookServlet?action=list">帖子管理</a>
 </body>
 </html>

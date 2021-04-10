@@ -69,6 +69,17 @@ public class User {
     private String password;
     private String email;
     private String nickname;
+    private String xuexiao;
+
+    public User(Integer id, String username, String password, String email, String nickname, String xuexiao) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.nickname = nickname;
+        this.xuexiao = xuexiao;
+    }
+
 
     public Integer getId() {
         return id;
@@ -104,23 +115,34 @@ public class User {
         this.nickname = nickname;
     }
 
+    public User() {
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
                 ", nickname='" + nickname + '\'' +
+                ", xuexiao='" + xuexiao + '\'' +
                 '}';
     }
 
-    public User() {
+    public String getEmail() {
+        return email;
     }
 
-    public User(Integer id, String username, String password, String nickname) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.nickname = nickname;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getXuexiao() {
+        return xuexiao;
+    }
+
+    public void setXuexiao(String xuexiao) {
+        this.xuexiao = xuexiao;
     }
 }

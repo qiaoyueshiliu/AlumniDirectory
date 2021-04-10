@@ -35,7 +35,7 @@ UserDao userDao = new UserDaoImpl();
     }
     @Test
     public void saveUser(){
-        System.out.println(userDao.saveUser(new User(null,"wzg168","123456","wzg168")));
+//        System.out.println(userDao.saveUser(new User(null,"wzg168","123456","wzg168")));
     }
 
 }

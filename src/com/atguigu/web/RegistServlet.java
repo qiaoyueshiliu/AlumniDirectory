@@ -46,7 +46,7 @@ public class RegistServlet extends HttpServlet{
             }else {
 //                可用
 //                调用Service保存到数据库
-                userService.registUser(new User(null,username,Passwd,NickName));
+                userService.registUser(new User(null,username,Passwd,null,NickName,null));
 //                跳轉注册成功页面
                 System.out.println("注册成功");
                 req.getRequestDispatcher("/Register/regist_success.jsp").forward(req,resp);

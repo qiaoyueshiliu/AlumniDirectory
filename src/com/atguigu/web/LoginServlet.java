@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         // 调用 userService.login()登录处理业务
-        User loginUser = userService.login(new User(null, username, password, null));
+        User loginUser = userService.login(new User(null, username, password, null,null,null));
         // 如果等于null,说明登录 失败!
         if (loginUser == null) {
             //            把错误信息和回显的表单项信息保存到Request域中

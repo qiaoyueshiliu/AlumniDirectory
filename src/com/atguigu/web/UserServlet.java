@@ -40,7 +40,7 @@ public class UserServlet extends BaseServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         // 调用 userService.login()登录处理业务
-        User loginUser = userService.login(new User(null, username, password, null));
+        User loginUser = userService.login(new User(null, username, password, null,null,null));
         // 如果等于null,说明登录 失败!
         if (loginUser == null) {
             //            把错误信息和回显的表单项信息保存到Request域中
@@ -114,7 +114,7 @@ public class UserServlet extends BaseServlet {
             }else {
 //                可用
 //                调用Service保存到数据库
-                userService.registUser(new User(null,username,password,nickname));
+                userService.registUser(new User(null,username,password,null,nickname,null));
 //                跳轉注册成功页面
                 System.out.println("注册成功");
                 req.getRequestDispatcher("/Register/regist_success.jsp").forward(req,resp);

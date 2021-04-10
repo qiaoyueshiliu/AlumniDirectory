@@ -32,10 +32,11 @@
 <%--<% out.write(basePath); %>--%>
 <body>
 <ul class="DaoHangLan">
-    <li><a class="active" href="Register/Registration_Page.jsp">主页</a></li>
-    <li><a href="#news">登录</a></li>
-    <li><a href="Register/Registration_Page.jsp">注册</a></li>
-    <li><a href="Register/HouTaiGuanLi.jsp">后台管理</a></li>
+    <li><a href="client/bookServlet_qiantai?action=list">主页</a></li>
+<%--    <li><a href="#news">登录</a></li>--%>
+<%--    <li><a href="Register/Registration_Page.jsp">注册</a></li>--%>
+    <li><a href="manager/bookServlet?action=list">帖子管理</a></li>
+    <li><a href="manager/yonghuguanliServlet?action=list">用户管理</a></li>
     <li><a href="#about">关于</a></li>
 </ul>
 </body>
