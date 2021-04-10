@@ -11,7 +11,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
         System.out.println("开始进行添加 addBook");
         String sql = "insert into t_book(`tieziid`,`biaoti`,`nickname`,`bankuai`,`neirong`) values (?,?,?,?,?);";
         System.out.println("addBook 添加操作完成");
-        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai());
+        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai(),book.getNeirong());
     }
 
     @Override
