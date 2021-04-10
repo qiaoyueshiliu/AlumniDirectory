@@ -15,7 +15,7 @@ public class BookDaoTest {
     @Test
     public void addBook() {
         System.out.println("addBook 测试开始");
-        bookDao.addBook(new Book(null,"admin5的测试","admin5"));
+//        bookDao.addBook(new Book(null,"admin5的测试","admin5",null,null));
         System.out.println("addBook 测试结束");
     }
 
@@ -29,7 +29,7 @@ public class BookDaoTest {
     @Test
     public void updateBook() {
         System.out.println("updateBook 测试开始");
-        bookDao.updateBook(new Book(3,"admin6的测试","admin6"));
+//        bookDao.updateBook(new Book(3,"admin6的测试","admin6",null,null));
         System.out.println("updateBook 测试结束");
     }
 

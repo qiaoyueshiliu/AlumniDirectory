@@ -69,7 +69,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>BookServlet_qiantai</servlet-name>
-        <url-pattern>/manager/bookServlet_qiantai</url-pattern>
+        <url-pattern>/client/bookServlet_qiantai</url-pattern>
     </servlet-mapping>
 <!--      <display-name>test</display-name>-->
 <!--      <welcome-file-list>-->

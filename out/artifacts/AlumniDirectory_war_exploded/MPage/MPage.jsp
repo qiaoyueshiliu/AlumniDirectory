@@ -112,12 +112,12 @@
                                 <div class="content clearfix">
                                     <ul class="info">
                                         <li>
-                                            <span class="tag">综合</span>
+                                            <span class="tag">${book.bankuai}</span>
                                             <a class="userName" href="user/control/home?userName=test">
-                                                    ${book.chuangjianren}
+                                                    ${book.nickname}
                                             </a>
-                                            <span class="userRoleName">VIP</span>
-                                            <span class="postTime">发表时间：2020-07-24 01:47:46</span>
+                                            <span class="userRoleName">用户</span>
+                                            <span class="postTime">发表时间：${book.createtime}</span>
                                             <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>
                                         </li>
                                     </ul>
@@ -131,7 +131,7 @@
 
                                     <div class="detail">
                                         <h2 class="summary">
-                                            恭喜发财，试试发红包[表情][表情]..
+                                            ${book.neirong}
                                         </h2>
                                         <script>
                                             $(function () {
@@ -143,15 +143,14 @@
 
                                 <div class="statistic clearfix">
 
-                                    <div class="viewTotal">
-                                        <i class="cms-view icon"></i>
-                                        1879
-                                    </div>
+<%--                                    <div class="viewTotal">--%>
+<%--                                        <i class="cms-view icon"></i>--%>
+<%--                                        1879--%>
+<%--                                    </div>--%>
 
-                                    <div class="commentTotal">
-                                        <i class="cms-commentCount icon"></i>
-
-                                    </div>
+<%--                                    <div class="commentTotal">--%>
+<%--                                        <i class="cms-commentCount icon"></i>--%>
+<%--                                    </div>--%>
                                 </div>
                             </div>
                         </c:forEach>

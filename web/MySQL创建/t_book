@@ -1,10 +1,14 @@
 use book;
-create table t_book(
-    `id` int primary key auto_increment,
+create table t_book1(
+    `tieziid` int primary key auto_increment,
     `biaoti` varchar(1000),
-    `chuangjianren` varchar(1000)
+    `nickname` varchar(1000),
+    `createtime` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP comment '创建时间',
+    `bankuai` varchar(255),
 );
-insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin4的帖子','admin4');
-insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin1的帖子','admin1');
-insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin2的帖子','admin2');
-insert into t_book(`id`,`biaoti`,`chuangjianren`) values (null,'admin3的帖子','admin3');
+insert into t_book1(`tieziid`,`biaoti`,`nickname`) values (null,'admin4的帖子','admin4');
+insert into t_book1(`tieziid`,`biaoti`,`nickname`) values (null,'admin1的帖子','admin1');
+insert into t_book1(`tieziid`,`biaoti`,`nickname`) values (null,'admin2的帖子','admin2');
+insert into t_book1(`tieziid`,`biaoti`,`nickname`) values (null,'admin3的帖子','admin3');
+
+select * from t_book1;

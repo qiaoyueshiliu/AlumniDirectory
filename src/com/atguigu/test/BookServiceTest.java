@@ -14,7 +14,7 @@ public class BookServiceTest {
     @Test
     public void addBook() {
         System.out.println("addBook 开始测试");
-        bookService.addBook(new Book(null,"biaoti-2021-4-7 11:09:28","admin2021-4-7 11:09:50"));
+//        bookService.addBook(new Book(null,"biaoti-2021-4-7 11:09:28","admin2021-4-7 11:09:50",null,null));
         System.out.println("addBook 结束测试");
     }
 
@@ -28,7 +28,7 @@ public class BookServiceTest {
     @Test
     public void updateBook() {
         System.out.println("updateBook 开始测试");
-        bookService.updateBook(new Book(4,"biaoti2021-4-7 11:16:39","admin2021-4-7 11:16:49"));
+//        bookService.updateBook(new Book(4,"biaoti2021-4-7 11:16:39","admin2021-4-7 11:16:49",null,null));
         System.out.println("updateBook 结束测试");
     }
 

@@ -9,9 +9,9 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public int addBook(Book book) {
         System.out.println("开始进行添加 addBook");
-        String sql = "insert into t_book(`tieziid`,`biaoti`,`nickname`) values (?,?,?);";
+        String sql = "insert into t_book(`tieziid`,`biaoti`,`nickname`,`bankuai`,`neirong`) values (?,?,?,?,?);";
         System.out.println("addBook 添加操作完成");
-        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname());
+        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai());
     }
 
     @Override
@@ -33,7 +33,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public Book queryBookByTieziid(Integer tieziid) {
         System.out.println("开始查询 queryBookById ForOne");
-        String sql = "select `tieziid`,`biaoti`,`nickname`from t_book where tieziid = ?";
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book where tieziid = ?";
         System.out.println("queryBookById ForOne 查询结束");
         return queryForOne(Book.class,sql,tieziid);
     }
@@ -41,8 +41,9 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public List<Book> queryBooks() {
         System.out.println("开始查询 queryBooks ForList");
-        String sql = "select `tieziid`,`biaoti`,`nickname`from t_book";
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book";
         System.out.println("queryBooks ForList 查询结束");
         return queryForList(Book.class,sql);
     }
+
 }
