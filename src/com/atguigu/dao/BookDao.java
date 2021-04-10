@@ -8,11 +8,11 @@ public interface BookDao {
 
     public int addBook(Book book);
 
-    public int deleteBookById(Integer id);
+    public int deleteBookByTieziid(Integer tieziid);
 
     public int updateBook(Book book);
 
-    public Book queryBookById(Integer id);
+    public Book queryBookByTieziid(Integer tieziid);
 
     public List<Book> queryBooks();
 

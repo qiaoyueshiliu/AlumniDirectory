@@ -17,8 +17,8 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public void deleteBookById(Integer id) {
-        bookDao.deleteBookById(id);
+    public void deleteBookByTieziid(Integer tieziid) {
+        bookDao.deleteBookByTieziid(tieziid);
     }
 
     @Override
@@ -27,8 +27,8 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public Book queryBookById(Integer id) {
-        return bookDao.queryBookById(id);
+    public Book queryBookByTieziid(Integer tieziid) {
+        return bookDao.queryBookByTieziid(tieziid);
     }
 
     @Override

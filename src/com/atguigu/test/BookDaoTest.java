@@ -22,7 +22,7 @@ public class BookDaoTest {
     @Test
     public void deleteBookById() {
         System.out.println("deleteBookById 测试开始");
-        bookDao.deleteBookById(7);
+        bookDao.deleteBookByTieziid(7);
         System.out.println("deleteBookById 测试结束");
     }
 
@@ -36,7 +36,7 @@ public class BookDaoTest {
     @Test
     public void queryBookById() {
         System.out.println("queryBookById 测试开始");
-        System.out.println(bookDao.queryBookById(3));
+        System.out.println(bookDao.queryBookByTieziid(3));
         System.out.println("queryBookById 测试结束");
     }
 
@@ -44,7 +44,7 @@ public class BookDaoTest {
     public void queryBooks() {
         System.out.println("queryBooks 测试开始");
         for (Book queryBook : bookDao.queryBooks()) {
-            System.out.print("第"+queryBook.getId()+"条:");
+            System.out.print("第"+queryBook.getTieziid()+"条:");
             System.out.println(queryBook);
         }
         System.out.println("queryBooks 测试结束");

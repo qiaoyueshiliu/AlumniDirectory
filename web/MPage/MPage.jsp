@@ -114,7 +114,7 @@
                                         <li>
                                             <span class="tag">综合</span>
                                             <a class="userName" href="user/control/home?userName=test">
-                                                    ${book.chuangjianren}
+                                                    ${book.nickname}
                                             </a>
                                             <span class="userRoleName">VIP</span>
                                             <span class="postTime">发表时间：2020-07-24 01:47:46</span>

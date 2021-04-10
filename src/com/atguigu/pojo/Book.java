@@ -1,25 +1,25 @@
 package com.atguigu.pojo;
 
 public class Book {
-    private Integer id;
+    private Integer tieziid;
     private String biaoti;
-    private String chuangjianren;
+    private String nickname;
 
     public Book(){
     }
 
-    public Book(Integer id, String biaoti, String chuangjianren) {
-        this.id = id;
+    public Book(Integer tieziid, String biaoti, String nickname) {
+        this.tieziid = tieziid;
         this.biaoti = biaoti;
-        this.chuangjianren = chuangjianren;
+        this.nickname = nickname;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getTieziid() {
+        return tieziid;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setTieziid(Integer tieziid) {
+        this.tieziid = tieziid;
     }
 
     public String getBiaoti() {
@@ -30,20 +30,20 @@ public class Book {
         this.biaoti = biaoti;
     }
 
-    public String getChuangjianren() {
-        return chuangjianren;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setChuangjianren(String chuangjianren) {
-        this.chuangjianren = chuangjianren;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     @Override
     public String toString() {
         return "Book{" +
-                "id=" + id +
+                "tieziid=" + tieziid +
                 ", biaoti='" + biaoti + '\'' +
-                ", chuangjianren='" + chuangjianren + '\'' +
+                ", nickname='" + nickname + '\'' +
                 '}';
     }
 

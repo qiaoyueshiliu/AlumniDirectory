@@ -8,11 +8,11 @@ public interface BookService {
 
     public void addBook(Book book);
 
-    public void deleteBookById(Integer id);
+    public void deleteBookByTieziid(Integer tieziid);
 
     public void updateBook(Book book);
 
-    public Book queryBookById(Integer id);
+    public Book queryBookByTieziid(Integer tieziid);
 
     public List<Book> queryBooks();
 

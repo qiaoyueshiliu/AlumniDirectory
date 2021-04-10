@@ -21,7 +21,7 @@ public class BookServiceTest {
     @Test
     public void deleteBookById() {
         System.out.println("deleteBookById 开始测试");
-        bookService.deleteBookById(2);
+        bookService.deleteBookByTieziid(2);
         System.out.println("deleteBookById 结束测试");
     }
 
@@ -35,7 +35,7 @@ public class BookServiceTest {
     @Test
     public void queryBookById() {
         System.out.println("queryBookById 开始测试");
-        System.out.println(bookService.queryBookById(3));
+        System.out.println(bookService.queryBookByTieziid(3));
         System.out.println("queryBookById 结束测试");
     }
 
