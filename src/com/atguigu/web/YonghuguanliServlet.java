@@ -38,9 +38,12 @@ public class YonghuguanliServlet extends BaseServlet {
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        1、获取请求的参数 == 封装成为 Book 对象
+        User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());
 //        2、调用 BookService.updateBook(book); 修改图书
+            yonghuguanliService.updateUser(user);
 //        3、重定向会图书列表管理页面
 //              地址：/工程名/manager/bookServlet?action=list
+        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=list");
     }
 
     protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

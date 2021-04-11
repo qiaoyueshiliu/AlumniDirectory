@@ -153,7 +153,7 @@
                         </div>
                         <div class="topicPage">
                             <div class="fatiekuangyi">
-                                <a class="fatieanniu" href="MPage/fatie.jsp?method=add">发帖</a>
+                                <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
 
                             </div>
 

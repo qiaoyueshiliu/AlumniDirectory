@@ -374,10 +374,11 @@
 
     <div class="column middle">
         <div class="card">
-            <h1>编辑用户</h1>
+            <h1>编辑用户: 不能与已有用户名相同，否则失败</h1>
             <div id="main">
                 <form action="manager/yonghuguanliServlet" method="post">
-                    <input type="hidden" name="action" value="${param.method}">
+                    <input type="hidden" name="action" value="update">
+                    <input type="hidden" name="id" value="${requestScope.user.id}">
                     <table>
                         <tr>
                             <td>用户编号</td>

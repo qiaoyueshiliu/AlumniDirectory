@@ -390,7 +390,7 @@
                             <td>${user.username}</td>
                             <td>${user.password}</td>
                             <td>${user.nickname}</td>
-                            <td><a href="manager/yonghuguanliServlet?action=getUser&id=${user.id}&method=update">修改</a></td>
+                            <td><a href="manager/yonghuguanliServlet?action=getUser&id=${user.id}">修改</a></td>
                             <td><a class="deleteClass" href="manager/yonghuguanliServlet?action=delete&id=${user.id}">删除</a></td>
                         </tr>
                     </c:forEach>
