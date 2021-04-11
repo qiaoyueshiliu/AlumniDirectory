@@ -388,7 +388,6 @@
                             <td>No.${book.tieziid}</td>
                             <td>${book.biaoti}</td>
                             <td>${book.nickname}</td>
-                            <td><a href="book_edit.jsp">修改</a></td>
                             <td><a class="deleteClass" href="manager/bookServlet?action=delete&tieziid=${book.tieziid}">删除</a></td>
                         </tr>
                     </c:forEach>

@@ -14,7 +14,6 @@ public class YonghuguanliServiceImpl implements YonghuguanliService {
     @Override
     public void addUser(User user) {
         yonghuguanliDao.addUser(user);
-
     }
 
     @Override

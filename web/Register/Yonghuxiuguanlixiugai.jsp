@@ -9,8 +9,63 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>用户管理-修改用户</title>
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        /* 创建并排的三个非等列 */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        /* 左和右列 */
+        .column.side {
+            width: 13%;
+        }
+
+        /* 中间列 */
+        .column.middle {
+            width: 74%;
+        }
+
+        /* 清除列之后的浮动 */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* 响应式布局 - 创建堆叠而非并排的三列 */
+        @media screen and (max-width: 600px) {
+            .column.side, .column.middle {
+                width: 100%;
+            }
+        }
+
+        /* 设置页脚的样式 */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
 
     <style type="text/css">
         body {
@@ -19,11 +74,11 @@
 
         * {
             margin: 0;
-            font-family:"Microsoft Yahei";
+            font-family: "Microsoft Yahei";
             color: #666;
         }
 
-        div{
+        div {
             margin: auto;
             margin-bottom: 10px;
             margin-top: 10px;
@@ -48,24 +103,24 @@
             text-align: center;
         }
 
-        #book{
+        #book {
             width: 100%;
             height: 90%;
             margin: auto;
 
         }
 
-        .b_list{
-            height:300px;
-            width:250px;
+        .b_list {
+            height: 300px;
+            width: 250px;
             margin: 20px;
             float: left;
-            margin-top:0px;
-            margin-bottom:0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
             border: 1px #e3e3e3 solid;
         }
 
-        #page_nav{
+        #page_nav {
             width: 100%;
             height: 10px;
             margin: auto;
@@ -78,14 +133,14 @@
             text-align: center;
         }
 
-        .img_div{
+        .img_div {
             height: 150px;
             text-align: center;
         }
 
         .book_img {
-            height:150px;
-            width:150px;
+            height: 150px;
+            width: 150px;
         }
 
         .book_info {
@@ -93,18 +148,18 @@
             text-align: center;
         }
 
-        .book_info div{
+        .book_info div {
             height: 10px;
             width: 300px;
             text-align: left;
         }
 
-        .wel_word{
+        .wel_word {
             font-size: 60px;
             float: left;
         }
 
-        .logo_img{
+        .logo_img {
             float: left;
         }
 
@@ -113,16 +168,16 @@
             font-size: 20px;
         }
 
-        #header div{
+        #header div {
             float: right;
             margin-top: 55px;
         }
 
-        .book_cond{
+        .book_cond {
             margin-left: 500px;
         }
 
-        .book_cond input{
+        .book_cond input {
             width: 50px;
             text-align: center;
         }
@@ -130,21 +185,21 @@
 
         /*登录页面CSS样式  */
 
-        #login_header{
+        #login_header {
             height: 82px;
             width: 1200px;
         }
 
-        .login_banner{
-            height:475px;
+        .login_banner {
+            height: 475px;
             background-color: #39987c;
         }
 
-        .login_form{
-            height:310px;
-            width:406px;
+        .login_form {
+            height: 310px;
+            width: 406px;
             float: right;
-            margin-right:50px;
+            margin-right: 50px;
             margin-top: 50px;
             background-color: #fff;
         }
@@ -154,7 +209,7 @@
             width: 1200px;
         }
 
-        .login_box{
+        .login_box {
             margin: 20px;
             height: 260px;
             width: 366px;
@@ -163,7 +218,8 @@
         h1 {
             font-size: 20px;
         }
-        .msg_cont{
+
+        .msg_cont {
             background: none repeat scroll 0 0 #fff6d2;
             border: 1px solid #ffe57d;
             color: #666;
@@ -199,7 +255,7 @@
             border: 1px #e3e3e3 solid;
         }
 
-        #sub_btn{
+        #sub_btn {
             background-color: #39987c;
             border: none;
             color: #fff;
@@ -241,21 +297,22 @@
         .tit {
             height: 30px;
         }
+
         /*购物车*/
-        #main table{
+        #main table {
             margin: auto;
             margin-top: 80px;
             border-collapse: collapse;
         }
 
-        #main table td{
+        #main table td {
             width: 120px;
-            text-align:center;
+            text-align: center;
             border-bottom: 1px #e3e3e3 solid;
             padding: 10px;
         }
 
-        .cart_info{
+        .cart_info {
             width: 700px;
             text-align: right;
         }
@@ -264,13 +321,13 @@
             margin-left: 20px;
         }
 
-        .cart_span span{
+        .cart_span span {
             color: red;
             font-size: 20px;
             margin: 10px;
         }
 
-        .cart_span a , td a{
+        .cart_span a, td a {
             font-size: 20px;
             color: blue;
         }
@@ -279,7 +336,7 @@
             margin: 10px;
         }
 
-        #header div .um_span{
+        #header div .um_span {
             color: red;
             font-size: 25px;
             margin: 10px;
@@ -309,63 +366,7 @@
         })
     </script>
 </head>
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        font-family: Arial;
-        padding: 10px;
-        background: #f1f1f1;
-    }
-
-    /* 创建并排的三个非等列 */
-    .column {
-        float: left;
-        padding: 10px;
-    }
-
-    /* 左和右列 */
-    .column.side {
-        width: 13%;
-    }
-
-    /* 中间列 */
-    .column.middle {
-        width: 74%;
-    }
-
-    /* 清除列之后的浮动 */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    /* 响应式布局 - 创建堆叠而非并排的三列 */
-    @media screen and (max-width: 600px) {
-        .column.side, .column.middle {
-            width: 100%;
-        }
-    }
-
-    /* 设置页脚的样式 */
-    .footer {
-        background-color: #f1f1f1;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .card {
-        background-color: white;
-        padding: 20px;
-        margin-top: 20px;
-    }
-</style>
-
-<%@ include file="../public_jsp/admin_header.jsp"%>
+<%@ include file="../public_jsp/admin_header.jsp" %>
 <body>
 <div class="row">
     <div class="column side">
@@ -373,7 +374,7 @@
 
     <div class="column middle">
         <div class="card">
-            <h1>用户管理</h1>
+            <h1>编辑用户</h1>
             <div id="main">
                 <table>
                     <tr>
@@ -382,16 +383,13 @@
                         <td>用户昵称</td>
                         <td colspan="2">操作</td>
                     </tr>
-                    <%--        books 要和 BookServlet req.setAttribute 中保持一致--%>
-                    <c:forEach items="${requestScope.users}" var="user">
-                        <tr>
-                            <td>No.${user.id}</td>
-                            <td>${user.username}</td>
-                            <td>${user.nickname}</td>
-                            <td><a href="book_edit.jsp">修改</a></td>
-                            <td><a class="deleteClass" href="manager/yonghuguanliServlet?action=delete&id=${user.id}">删除</a></td>
-                        </tr>
-                    </c:forEach>
+                    <tr>
+                        <td><input></td>
+                        <td><input></td>
+                        <td><input></td>
+                        <td><input type="submit"></td>
+
+                    </tr>
                 </table>
             </div>
         </div>
