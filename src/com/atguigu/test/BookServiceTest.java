@@ -47,4 +47,10 @@ public class BookServiceTest {
         }
         System.out.println("queryBooks 结束测试");
     }
+
+    @Test
+    public void page(){
+        System.out.println(bookService.page(1,4));
+    }
+
 }

@@ -6,6 +6,8 @@ import com.atguigu.dao.impl.BookDaoImpl;
 import com.atguigu.pojo.Book;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class BookDaoTest {
@@ -49,4 +51,19 @@ public class BookDaoTest {
         }
         System.out.println("queryBooks 测试结束");
     }
+
+    @Test
+    public void queryForPageTotalCount() {
+        System.out.println("打印帖子总数：");
+        System.out.println( bookDao.queryForPageTotalCount()) ;
+    }
+
+    @Test
+    public void queryForPageItems() {
+        for (Book book : bookDao.queryForPageItems(4, 4)) {
+            System.out.println(book);
+            
+        }
+    }
+
 }

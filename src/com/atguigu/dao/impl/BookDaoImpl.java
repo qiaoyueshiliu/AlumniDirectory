@@ -3,6 +3,7 @@ package com.atguigu.dao.impl;
 import com.atguigu.dao.BookDao;
 import com.atguigu.pojo.Book;
 
+import java.lang.reflect.Field;
 import java.util.List;
 
 public class BookDaoImpl extends BaseDao implements BookDao {
@@ -45,5 +46,19 @@ public class BookDaoImpl extends BaseDao implements BookDao {
         System.out.println("queryBooks ForList 查询结束");
         return queryForList(Book.class,sql);
     }
+
+    @Override
+    public Integer queryForPageTotalCount() {
+        String sql = "select count(*) as num from t_book";
+        Number count = (Number)queryForSingleValue(sql);
+        return count.intValue();
+    }
+
+    @Override
+    public List<Book> queryForPageItems(int begin, int pageSize) {
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong` from t_book limit ?,?";
+        return queryForList(Book.class,sql,begin,pageSize);
+    }
+
 
 }

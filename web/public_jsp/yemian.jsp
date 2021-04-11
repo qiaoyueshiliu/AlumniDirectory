@@ -10,3 +10,5 @@
     <div class="column side">
     </div>
 </div>
+
+<link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">

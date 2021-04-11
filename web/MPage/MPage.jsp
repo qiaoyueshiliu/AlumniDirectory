@@ -107,7 +107,7 @@
             <div class="topicModule">
                 <div class="topic-box">
                     <div class="topicList">
-                        <c:forEach items="${requestScope.books}" var="book">
+                        <c:forEach items="${requestScope.page.items}" var="book">
                             <div class="topicItem">
                                 <div class="content clearfix">
                                     <ul class="info">
@@ -151,26 +151,19 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="topicPage">
                             <div class="fatiekuangyi">
                                 <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
                             </div>
-
                             <DIV class="pg">
-                                <span class="count">共21条</span>
-
-
+                                <span class="count">共 ${requestScope.page.pageTotalCount} 条</span>
                                 <STRONG>1</STRONG>
-
                                 <A href="javascript:topage('2')" title="第2页">2</A>
-
                                 <A href="javascript:topage('3')" title="第3页">3</A>
-
-
                                 <LABEL>
-                                    <INPUT onkeydown="if(event.keyCode==13) {topage(this.value);}" class="pg_input" title="输入页码，按回车跳转" value="1" size="2">
-                                    <SPAN title="共3页"> / 3页</SPAN>
+                                    ${requestScope.page.pageNo}
+                                    <SPAN> / </SPAN>
+                                    ${requestScope.page.pageTotal}
                                 </LABEL>
                                 <A class=nxt href="?page=2">下一页</A>
                             </DIV>

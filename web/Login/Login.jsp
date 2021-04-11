@@ -7,6 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
+
 <head>
     <!--可视化标签-->
     <!--引号使用英文状态下的引号单
@@ -77,7 +79,7 @@
         }
 
         body {
-            background-color: rgba(255, 251, 0, 0.336);
+            /*background-color: rgba(255, 251, 0, 0.336);*/
         }
 
         form {
@@ -183,47 +185,61 @@
         }
     </style>
 </head>
+
 <%--<%@include file="../public_jsp/header02.jsp"%>--%>
 <%--<%@ include file="/head_css/head.jsp"%>--%>
 <%@ include file="/public_jsp/header02.jsp"%>
 <body>
-<form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
-    <input type="hidden" name="action" value="login">
+<div class="row">
+    <div class="column side">
+    </div>
 
-    <div>
-        <b>
+    <div class="column middle">
+        <div class="card">
+            <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
+                <input type="hidden" name="action" value="login">
+
+                <div>
+                    <b>
             <span class="errorMsg">
 <%--                2021-4-2 13:45:43 JavaWeb-230   --%>
 <%--                <%=request.getAttribute("msg")==null?"请输入用户名和密码":request.getAttribute("msg")%>      --%>
                 ${ empty requestScope.msg ? "请输入用户名和密码" : requestScope.msg }
             </span>
-        </b>
-    </div>
-    <div>
-        <b>账号：</b>
-        <input type="text" placeholder="请输入账号" name="username"
-<%--        2021-4-2 13:47:01 JavaWeb-230   --%>
-                value="${requestScope.username}"
-        /><br/>
-        <div class="content content1">
-            <i></i>
-            <p>账号</p>
-        </div>
-    </div>
-    <div>
-        <b>密码：</b>
-        <input type="password" placeholder="请输入密码" name="password"/>
-        <div class="content content2">
-            <i></i>
-            <p>密码</p>
-        </div>
-    </div>
-    <input type="submit" value="登录" class="sub" />
-    <input type="button" value="注册" class="sub" onclick="window.open('Register/Registration_Page.jsp')">
-<%--    <a><button href="../Register/Registration_Page.jsp">注册</button></a>--%>
-<%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
+                    </b>
+                </div>
+                <div>
+                    <b>账号：</b>
+                    <input type="text" placeholder="请输入账号" name="username"
+                    <%--        2021-4-2 13:47:01 JavaWeb-230   --%>
+                           value="${requestScope.username}"
+                    /><br/>
+                    <div class="content content1">
+                        <i></i>
+                        <p>账号</p>
+                    </div>
+                </div>
+                <div>
+                    <b>密码：</b>
+                    <input type="password" placeholder="请输入密码" name="password"/>
+                    <div class="content content2">
+                        <i></i>
+                        <p>密码</p>
+                    </div>
+                </div>
+                <input type="submit" value="登录" class="sub" />
+                <input type="button" value="注册" class="sub" onclick="window.open('Register/Registration_Page.jsp')">
+                <%--    <a><button href="../Register/Registration_Page.jsp">注册</button></a>--%>
+                <%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
 
-</form>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="column side">
+    </div>
+</div>
 <div style="text-align:center;">
 <%--    <p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>--%>
 </div>
