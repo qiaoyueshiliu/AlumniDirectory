@@ -155,18 +155,27 @@
                             <div class="fatiekuangyi">
                                 <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
                             </div>
-                            <DIV class="pg">
+                            <div class="pg">
                                 <span class="count">共 ${requestScope.page.pageTotalCount} 条</span>
-                                <STRONG>1</STRONG>
-                                <A href="javascript:topage('2')" title="第2页">2</A>
-                                <A href="javascript:topage('3')" title="第3页">3</A>
-                                <LABEL>
+                                <a class="nxt" href="client/bookServlet_qiantai?action=page&pageNo=1">首页</a>
+                                <c:if test="${requestScope.page.pageNo > 1}">
+                                    <a class="nxt" href="client/bookServlet_qiantai?action=page&pageNo=${requestScope.page.pageNo-1}">上一页</a>
+                                    <a href="client/bookServlet_qiantai?action=page&pageNo=${requestScope.page.pageNo-1}">${requestScope.page.pageNo-1}</a>
+                                </c:if>
+                                <strong>${requestScope.page.pageNo}</strong>
+                                <c:if test="${requestScope.page.pageNo < requestScope.page.pageTotal}">
+                                <a href="client/bookServlet_qiantai?action=page&pageNo=${requestScope.page.pageNo+1}">${requestScope.page.pageNo+1}</a>
+                                </c:if>
+                                <label>
                                     ${requestScope.page.pageNo}
-                                    <SPAN> / </SPAN>
+                                    <span> / </span>
                                     ${requestScope.page.pageTotal}
-                                </LABEL>
-                                <A class=nxt href="?page=2">下一页</A>
-                            </DIV>
+                                </label>
+                                <c:if test="${requestScope.page.pageNo < requestScope.page.pageTotal}">
+                                    <a class="nxt" href="client/bookServlet_qiantai?action=page&pageNo=${requestScope.page.pageNo+1}">下一页</a>
+                                </c:if>
+                                <a class="nxt" href="client/bookServlet_qiantai?action=page&pageNo=${requestScope.page.pageTotal}">末页</a>
+                            </div>
                         </div>
                     </div>
                 </div>
