@@ -77,7 +77,7 @@
             <h1>发帖页面</h1>
             <div class="card">
                 <form action="manager/bookServlet" method="get">
-                    <input type="hidden" name="action" value="add">
+                    <input type="hidden" name="action" value="${param.method}">
                     <table id="rapidregTable" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
                         <tr>
                             <td width="20%" valign="top" bgcolor="#FFFFFF">标题

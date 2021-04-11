@@ -142,15 +142,6 @@
                                 </div>
 
                                 <div class="statistic clearfix">
-
-<%--                                    <div class="viewTotal">--%>
-<%--                                        <i class="cms-view icon"></i>--%>
-<%--                                        1879--%>
-<%--                                    </div>--%>
-
-<%--                                    <div class="commentTotal">--%>
-<%--                                        <i class="cms-commentCount icon"></i>--%>
-<%--                                    </div>--%>
                                 </div>
                             </div>
                         </c:forEach>
@@ -162,7 +153,7 @@
                         </div>
                         <div class="topicPage">
                             <div class="fatiekuangyi">
-                                <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
+                                <a class="fatieanniu" href="MPage/fatie.jsp?method=add">发帖</a>
 
                             </div>
 

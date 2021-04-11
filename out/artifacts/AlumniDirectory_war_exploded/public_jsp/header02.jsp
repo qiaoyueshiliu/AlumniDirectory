@@ -35,6 +35,6 @@
     <li><a href="client/bookServlet_qiantai?action=list">主页</a></li>
     <li><a href="Login/Login.jsp">登录</a></li>
     <li><a href="Register/Registration_Page.jsp">注册</a></li>
-    <li><a href="#about">关于</a></li>
+    <li><a href="Register/HouTaiGuanLi.jsp">后台</a></li>
 </ul>
 </body>

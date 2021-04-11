@@ -187,7 +187,6 @@
 <%--<%@ include file="/head_css/head.jsp"%>--%>
 <%@ include file="/public_jsp/header02.jsp"%>
 <body>
-<h3><a href="Register/HouTaiGuanLi.jsp">后台</a></h3>
 <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
     <input type="hidden" name="action" value="login">
 

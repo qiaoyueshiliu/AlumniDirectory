@@ -376,22 +376,25 @@
         <div class="card">
             <h1>编辑用户</h1>
             <div id="main">
-                <table>
-                    <tr>
-                        <td>用户编号</td>
-                        <td>用户名</td>
-                        <td>用户密码</td>
-                        <td>用户昵称</td>
-                        <td colspan="2">操作</td>
-                    </tr>
-                    <tr>
-                        <td>${user.id}</td>
-                        <td><input name="username" type="text" value="${user.username}"></td>
-                        <td><input name="password" type="text" value="${user.password}"></td>
-                        <td><input name="nickname" type="text" value="${user.nickname}"></td>
-                        <td><input type="submit"></td>
-                    </tr>
-                </table>
+                <form action="manager/yonghuguanliServlet" method="post">
+                    <input type="hidden" name="action" value="${param.method}">
+                    <table>
+                        <tr>
+                            <td>用户编号</td>
+                            <td>用户名</td>
+                            <td>用户密码</td>
+                            <td>用户昵称</td>
+                            <td colspan="2">操作</td>
+                        </tr>
+                        <tr>
+                            <td>${user.id}</td>
+                            <td><input name="username" type="text" value="${user.username}"></td>
+                            <td><input name="password" type="text" value="${user.password}"></td>
+                            <td><input name="nickname" type="text" value="${user.nickname}"></td>
+                            <td><input type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
             </div>
         </div>
     </div>
