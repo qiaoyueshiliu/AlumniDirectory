@@ -8,6 +8,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<link rel="stylesheet" href="../public_jsp/fenye.css" type="text/css">
 <head>
     <title>用户管理-修改用户</title>
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
@@ -66,7 +67,6 @@
             margin-top: 20px;
         }
     </style>
-
     <style type="text/css">
         body {
             overflow: hidden;

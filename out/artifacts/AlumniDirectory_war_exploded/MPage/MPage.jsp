@@ -151,10 +151,10 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="topicPage">
                             <div class="fatiekuangyi">
                                 <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
-
                             </div>
 
                             <DIV class="pg">
