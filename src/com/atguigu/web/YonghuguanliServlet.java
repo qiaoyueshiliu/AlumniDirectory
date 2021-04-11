@@ -39,6 +39,16 @@ public class YonghuguanliServlet extends BaseServlet {
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     }
 
+    protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        1、获取请求的参数 图书编号
+        int id = WebUtils.parseInt(req.getParameter("id"),0);
+//        2、调用 bookService.queryBookById 查询图书
+        User user = yonghuguanliService.queryUserById(id);
+//        3、保存到图书的 Request 域中
+        req.setAttribute("user",user);
+//        4、请求转发到 pages/manager/book_edit.jsp 页面
+        req.getRequestDispatcher("/Register/Yonghuxiuguanlixiugai.jsp").forward(req,resp);
+    }
 
     protected void list(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        1、通过 BookService 查询全部图书

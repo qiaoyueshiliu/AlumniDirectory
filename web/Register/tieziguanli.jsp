@@ -379,6 +379,7 @@
                     <tr>
                         <td>用户编号</td>
                         <td>用户名</td>
+                        <td>用户密码</td>
                         <td>用户昵称</td>
                         <td colspan="2">操作</td>
                     </tr>
@@ -387,8 +388,9 @@
                         <tr>
                             <td>No.${user.id}</td>
                             <td>${user.username}</td>
+                            <td>${user.password}</td>
                             <td>${user.nickname}</td>
-                            <td><a href="book_edit.jsp">修改</a></td>
+                            <td><a href="manager/yonghuguanliServlet?action=getUser&id=${user.id}">修改</a></td>
                             <td><a class="deleteClass" href="manager/yonghuguanliServlet?action=delete&id=${user.id}">删除</a></td>
                         </tr>
                     </c:forEach>

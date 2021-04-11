@@ -380,15 +380,16 @@
                     <tr>
                         <td>用户编号</td>
                         <td>用户名</td>
+                        <td>用户密码</td>
                         <td>用户昵称</td>
                         <td colspan="2">操作</td>
                     </tr>
                     <tr>
-                        <td><input></td>
-                        <td><input></td>
-                        <td><input></td>
+                        <td>${user.id}</td>
+                        <td><input name="username" type="text" value="${user.username}"></td>
+                        <td><input name="password" type="text" value="${user.password}"></td>
+                        <td><input name="nickname" type="text" value="${user.nickname}"></td>
                         <td><input type="submit"></td>
-
                     </tr>
                 </table>
             </div>
