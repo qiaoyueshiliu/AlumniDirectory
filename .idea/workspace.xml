@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BaseDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/src/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/src/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +95,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="60">
               <caret line="172" column="40" lean-forward="true" selection-start-line="172" selection-start-column="40" selection-end-line="172" selection-end-column="40" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
@@ -882,10 +874,10 @@
     <list>
       <item itemvalue="JUnit.YonghuguanliServletTest.delete" />
       <item itemvalue="JUnit.YonghuguanliServiceTest.updateUser" />
-      <item itemvalue="Tomcat Server.book" />
       <item itemvalue="JUnit.BookDaoTest.queryForPageTotalCount" />
       <item itemvalue="JUnit.BookDaoTest.queryForPageItems" />
       <item itemvalue="JUnit.BookServiceTest.page" />
+      <item itemvalue="Tomcat Server.book" />
     </list>
     <recent_temporary>
       <list>
@@ -941,14 +933,7 @@
       <workItem from="1618049167248" duration="17384000" />
       <workItem from="1618101458326" duration="10346000" />
       <workItem from="1618127002255" duration="4749000" />
-      <workItem from="1618145864565" duration="9541000" />
-    </task>
-    <task id="LOCAL-00048" summary="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;学习169改Base阶段">
-      <created>1616685513959</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1616685513959</updated>
+      <workItem from="1618145864565" duration="9595000" />
     </task>
     <task id="LOCAL-00049" summary="2021-3-25 23:18:03 Company&#10;Commit+Push&#10;169-注册完成-上传到数据库成功">
       <created>1616686864829</created>
@@ -1286,7 +1271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618156729427</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="2021-4-12 00:38:30 分页 切换完成">
+      <created>1618159128273</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1618159128273</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1322,23 +1314,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75634000" />
+    <option name="totallyTimeSpent" value="75688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9207921" visible="true" weight="0.02010724" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7241379" visible="true" weight="0.02010724" />
       <window_info id="Structure" order="1" sideWeight="0.50591713" side_tool="true" weight="0.26407507" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.07920792" side_tool="true" visible="true" weight="0.02010724" />
+      <window_info id="Web" order="7" sideWeight="0.27586207" side_tool="true" visible="true" weight="0.02010724" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6119303" visible="true" weight="0.14164306" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6119303" weight="0.68130314" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.91018766" weight="0.29461756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1350,7 +1341,7 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.36402267" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4919571" weight="0.28470254" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.4919571" visible="true" weight="0.75354105" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1408,7 +1399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-6 11:02:56 JDBC-13;" />
     <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;" />
     <MESSAGE value="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类" />
     <MESSAGE value="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改" />
@@ -1433,7 +1423,8 @@
     <MESSAGE value="2021-4-11 17:30:44 了解了分页原理-01" />
     <MESSAGE value="2021-4-11 22:26:20 分页 Page pojo 完成" />
     <MESSAGE value="2021-4-11 22:26:20 分页 初步完成，显示，总共多少页，多少条，当前在第几页" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-11 22:26:20 分页 初步完成，显示，总共多少页，多少条，当前在第几页" />
+    <MESSAGE value="2021-4-12 00:38:30 分页 切换完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-12 00:38:30 分页 切换完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1847,7 +1838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="60">
           <caret line="172" column="40" lean-forward="true" selection-start-line="172" selection-start-column="40" selection-end-line="172" selection-end-column="40" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
