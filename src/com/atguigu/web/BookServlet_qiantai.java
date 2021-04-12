@@ -26,10 +26,17 @@ public class BookServlet_qiantai extends BaseServlet{
         req.setAttribute("page",page);
 //        4、请求转发到/pages/manager/book_manager.jsp页面中
         req.getRequestDispatcher("/MPage/MPage.jsp").forward(req,resp);
-
     }
 
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),0);
+        pageNo+=1;
+//        1、获取请求的参数 == 封装成为 Book 对象
+        Book book = WebUtils.copyParamToBean(req.getParameterMap(),new Book());
+//        2、调用 BookService.addBook() 保存图书
+        bookService.addBook(book);
+//        3、跳到图书列表页面
+        resp.sendRedirect(req.getContextPath()+"/client/bookServlet_qiantai?action=page&pageNo="+pageNo);
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
