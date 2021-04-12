@@ -33,7 +33,7 @@ public class BookServlet extends BaseServlet{
 //        3、保存 Page 对象到 Request 域中
         req.setAttribute("page",page);
 //        4、请求转发到/pages/manager/book_manager.jsp页面中
-        req.getRequestDispatcher("/MPage/MPage.jsp").forward(req,resp);
+        req.getRequestDispatcher("/Register/ZhangHaoGuanLi.jsp").forward(req,resp);
 
     }
 
@@ -43,7 +43,7 @@ public class BookServlet extends BaseServlet{
 //        2、调用 BookService.addBook() 保存图书
         bookService.addBook(book);
 //        3、跳到图书列表页面
-        resp.sendRedirect(req.getContextPath()+"/client/bookServlet_qiantai?action=list");
+        resp.sendRedirect(req.getContextPath()+"/client/bookServlet_qiantai?action=page");
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

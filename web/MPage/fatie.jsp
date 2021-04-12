@@ -9,61 +9,7 @@
 <html>
 <head>
     <title>发帖</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial;
-            padding: 10px;
-            background: #f1f1f1;
-        }
-
-        /* 创建并排的三个非等列 */
-        .column {
-            float: left;
-            padding: 10px;
-        }
-
-        /* 左和右列 */
-        .column.side {
-            width: 13%;
-        }
-
-        /* 中间列 */
-        .column.middle {
-            width: 74%;
-        }
-
-        /* 清除列之后的浮动 */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /* 响应式布局 - 创建堆叠而非并排的三列 */
-        @media screen and (max-width: 600px) {
-            .column.side, .column.middle {
-                width: 100%;
-            }
-        }
-
-        /* 设置页脚的样式 */
-        .footer {
-            background-color: #f1f1f1;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .card {
-            background-color: white;
-            padding: 20px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
 <link rel="stylesheet" href="../head_css/common.css" type="text/css">

@@ -15,7 +15,7 @@
     双引号都可以 但是别一单一双-->
     <title>登录</title>
     <%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
-            <base href="http://localhost:8080/AlumniDirectory/">
+    <base href="http://localhost:8080/AlumniDirectory/">
     <style type="text/css">
         * {
             box-sizing: border-box;
@@ -72,7 +72,7 @@
         }
     </style>
     <style>
-<%--        这个可以更改头部导航栏的位置--%>
+        <%--        这个可以更改头部导航栏的位置--%>
         * {
             margin: 0;
             padding: 0;
@@ -94,6 +94,7 @@
             border-radius: 10px;
             background-color: rgba(247, 0, 255, 0.336);
         }
+
         /*鼠标移动到登录框，样式变化*/
         /*form:hover {*/
         /*    transform: translate(10px);*/
@@ -159,7 +160,7 @@
             border-right-color: #a56cca;
         }
 
-        input:focus~div {
+        input:focus ~ div {
             right: -200px;
             opacity: 1;
         }
@@ -185,10 +186,7 @@
         }
     </style>
 </head>
-
-<%--<%@include file="../public_jsp/header02.jsp"%>--%>
-<%--<%@ include file="/head_css/head.jsp"%>--%>
-<%@ include file="/public_jsp/header02.jsp"%>
+<%@ include file="/public_jsp/header02.jsp" %>
 <body>
 <div class="row">
     <div class="column side">
@@ -198,7 +196,6 @@
         <div class="card">
             <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
                 <input type="hidden" name="action" value="login">
-
                 <div>
                     <b>
             <span class="errorMsg">
@@ -227,7 +224,7 @@
                         <p>密码</p>
                     </div>
                 </div>
-                <input type="submit" value="登录" class="sub" />
+                <input type="submit" value="登录" class="sub"/>
                 <input type="button" value="注册" class="sub" onclick="window.open('Register/Registration_Page.jsp')">
                 <%--    <a><button href="../Register/Registration_Page.jsp">注册</button></a>--%>
                 <%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
@@ -241,7 +238,7 @@
     </div>
 </div>
 <div style="text-align:center;">
-<%--    <p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>--%>
+    <%--    <p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>--%>
 </div>
 </body>
 </body>

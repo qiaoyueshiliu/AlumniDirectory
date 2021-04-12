@@ -1175,13 +1175,11 @@ html,body{
 	margin-left: 3px;position:relative;top: 1px;color: #e6e6e6;
 }
 .topicModule .topicPage {
-	padding-top:20px;background: #fff;height: 54px;
+	padding-top:10px;
+	background: #fff;
+	height: 54px;
 	overflow: hidden;
 }
-
-
-
-
 
 /* 提交话题 */
 .topic-formModule {
