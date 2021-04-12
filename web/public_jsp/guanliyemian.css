@@ -27,6 +27,13 @@ div{
     overflow: auto;
 }
 
+#mainguanli {
+    /*height: 460px;*/
+    width: 100%;
+    border: 1px black solid;
+    overflow: auto;
+}
+
 #bottom {
     height: 30px;
     width: 1200px;
@@ -233,7 +240,20 @@ h1 {
     border-collapse: collapse;
 }
 
+#mainguanli table{
+    margin: auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
 #main table td{
+    width: 120px;
+    text-align:center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+
+#mainguanli table td{
     width: 120px;
     text-align:center;
     border-bottom: 1px #e3e3e3 solid;

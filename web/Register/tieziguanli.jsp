@@ -91,7 +91,7 @@
 </style>
 
 <%@ include file="../public_jsp/admin_header.jsp"%>
-<body>
+<body style="overflow-y:scroll;">
 <div class="row">
     <div class="column side">
     </div>
@@ -99,7 +99,7 @@
     <div class="column middle">
         <div class="card">
             <h1>用户管理</h1>
-            <div id="main">
+            <div id="mainguanli">
                 <table>
                     <tr>
                         <td>用户编号</td>
