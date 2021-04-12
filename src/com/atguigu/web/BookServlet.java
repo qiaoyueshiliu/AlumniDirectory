@@ -53,7 +53,7 @@ public class BookServlet extends BaseServlet{
         bookService.deleteBookByTieziid(tieziid);
 
 //        3、重新定向回图书管理页面
-        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=page");
+        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
