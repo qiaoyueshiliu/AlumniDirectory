@@ -36,4 +36,17 @@ public class YonghuguanliDaoImpl extends BaseDao implements YonghuguanliDao {
         String sql = "select `id`,`username`,`password`,`nickname`,`xuexiao`from t_user";
         return queryForList(User.class,sql);
     }
+
+    @Override
+    public Integer queryForPageTotalCount() {
+        String sql = "select count(*) as num from t_user";
+        Number count = (Number)queryForSingleValue(sql);
+        return count.intValue();
+    }
+
+    @Override
+    public List<User> queryForPageItems(int begin, int pageSize) {
+        String sql = "select `id`,`username`,`password`,`nickname`,`xuexiao` from t_user order by id desc limit ?,? ";
+        return queryForList(User.class,sql,begin,pageSize);
+    }
 }

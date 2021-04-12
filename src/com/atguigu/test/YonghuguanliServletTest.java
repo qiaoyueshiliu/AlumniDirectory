@@ -28,4 +28,9 @@ public class YonghuguanliServletTest {
     @Test
     public void list() {
     }
+
+    @Test
+    public void page() {
+        System.out.println(yonghuguanliService.page(1,4));
+    }
 }

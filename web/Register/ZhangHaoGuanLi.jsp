@@ -10,6 +10,9 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" href="../public_jsp/fenye.css" type="text/css">
+    <link rel="stylesheet" href="../public_jsp/guanliyemian.css" type="text/css">
+    <link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
     <script type="text/javascript">
         $(function () {
@@ -27,9 +30,6 @@
         })
     </script>
 </head>
-<link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
-<link rel="stylesheet" href="../public_jsp/guanliyemian.css" type="text/css">
-<link rel="stylesheet" href="../public_jsp/fenye.css" type="text/css">
 <%@ include file="../public_jsp/admin_header.jsp"%>
 <body style="overflow-y:scroll;">
 <div class="row">
@@ -132,7 +132,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="column side">

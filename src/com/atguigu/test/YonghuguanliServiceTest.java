@@ -31,4 +31,10 @@ public class YonghuguanliServiceTest {
     @Test
     public void queryUsers() {
     }
+
+
+    @Test
+    public void page() {
+        System.out.println(yonghuguanliService.page(1,4));
+    }
 }

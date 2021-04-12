@@ -1,6 +1,8 @@
 package com.atguigu.web;
 
 import com.atguigu.dao.impl.YonghuguanliDaoImpl;
+import com.atguigu.pojo.Book;
+import com.atguigu.pojo.Page;
 import com.atguigu.pojo.User;
 import com.atguigu.service.YonghuguanliService;
 import com.atguigu.service.impl.YonghuguanliServiceImpl;
@@ -16,13 +18,25 @@ public class YonghuguanliServlet extends BaseServlet {
 
     private YonghuguanliService yonghuguanliService = new YonghuguanliServiceImpl();
 
+    protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        1、获取请求的参数 pageNo 和 pageSize
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),1);
+        int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
+//        2、调用 BookService.page(pageNo,pageSize):page对象
+        Page<User> page = yonghuguanliService.page(pageNo,pageSize);
+//        3、保存 Page 对象到 Request 域中
+        req.setAttribute("page",page);
+//        4、请求转发到/pages/manager/book_manager.jsp页面中
+        req.getRequestDispatcher("/Register/tieziguanli.jsp").forward(req,resp);
+    }
+
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        1、获取请求的参数 == 封装成为 Book 对象
         User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());
 //        2、调用 BookService.addBook() 保存图书
         yonghuguanliService.addUser(user);
 //        3、跳到图书列表页面
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page");
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -33,7 +47,7 @@ public class YonghuguanliServlet extends BaseServlet {
         yonghuguanliService.deleteUserById(id);
         System.out.println("删除结束...");
 //        3、重新定向回图书管理页面
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -43,7 +57,7 @@ public class YonghuguanliServlet extends BaseServlet {
             yonghuguanliService.updateUser(user);
 //        3、重定向会图书列表管理页面
 //              地址：/工程名/manager/bookServlet?action=list
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
     protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
