@@ -11,38 +11,11 @@
 <link rel="stylesheet" href="../head_css/common.css" type="text/css">
 <link rel="stylesheet" href="../public_jsp/fenye.css" type="text/css">
 <link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
-
+<link rel="stylesheet" href="../public_jsp/zhuyefatieanniu.css" type="text/css">
 <html>
 <head>
     <title>Title</title>
-    <style type="text/css">
-        .fatiekuangyi {
-            float: left;
-            line-height: 36px;
-            background-color: #f5f5f7;
-        }
-
-        .fatiekuangyi .fatieanniu {
-            background-color: #f5f5f7;
-            padding-left: 12px;
-            padding-right: 12px;
-            margin-left: 4px;
-        }
-
-        .fatiekuang {
-            float: right;
-        }
-
-        .fatie {
-            text-align: right;
-            background-color: #f5f5f7;
-            border-radius: 3px;
-            padding-bottom: 0px;
-            padding-left: 12px;
-            padding-right: 10px;
-            padding-top: 0px;
-        }
-    </style>
+    <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
 </head>
 <%@include file="../public_jsp/header02.jsp" %>
 <%--<%@include file="MPage_css.jsp"%>--%>
@@ -106,8 +79,18 @@
                             </div>
                             <div class="pg">
                                 <span class="count">共 ${requestScope.page.pageTotalCount} 条</span>
-                                <span class="count">到 <input value="" name="pn" id="pn_input"> 页 <input
-                                        class="tiaozhuandao" type="button" value="确定" style="border: 0;"></span>
+                                <span class="count">到 <input value="${param.pageNo}" name="pn" id="pn_input"> 页 <input id="searchPageBtn" class="tiaozhuandao" type="button" value="确定" ></span>
+                                <script type="text/javascript">
+                                    $(function (){
+                                    //    跳到指定页码
+                                        $("#searchPageBtn").click(function (){
+                                            var pageNo = $("#pn_input").val();
+                                        //    javaScript 提供了一个 location 地址栏对象
+                                        //    属性 href ,可以获取浏览器中的地址
+                                            location.href = "http://localhost:8080/AlumniDirectory/client/bookServlet_qiantai?action=page&pageNo=" + pageNo;
+                                        });
+                                    });
+                                </script>
                                 <a class="nxt" href="client/bookServlet_qiantai?action=page&pageNo=1">首页</a>
                                 <c:if test="${requestScope.page.pageNo > 1}">
                                     <a class="nxt"

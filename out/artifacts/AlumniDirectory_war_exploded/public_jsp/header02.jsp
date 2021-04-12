@@ -32,7 +32,7 @@
 <%--<% out.write(basePath); %>--%>
 <body>
 <ul class="DaoHangLan">
-    <li><a href="client/bookServlet_qiantai?action=page">主页</a></li>
+    <li><a href="client/bookServlet_qiantai?action=page&pageNo=1">主页</a></li>
     <li><a href="Login/Login.jsp">登录</a></li>
     <li><a href="Register/Registration_Page.jsp">注册</a></li>
     <li><a href="Register/HouTaiGuanLi.jsp">后台</a></li>
