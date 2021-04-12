@@ -6,13 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-12 10:19:29 分页跳转前端完成">
-      <change afterPath="$PROJECT_DIR$/web/public_jsp/zhuyefatieanniu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-12 14:05:50 跳转到指定页码完成">
+      <change afterPath="$PROJECT_DIR$/web/MPage/MPagebeifen2021-4-12144606.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MPage/Mpageyouhuaqian.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/head_css/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/head_css/head.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +31,10 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -831,14 +833,7 @@
       <workItem from="1618101458326" duration="10346000" />
       <workItem from="1618127002255" duration="4749000" />
       <workItem from="1618145864565" duration="9595000" />
-      <workItem from="1618196251776" duration="3895000" />
-    </task>
-    <task id="LOCAL-00051" summary="2021-3-26 09:24:42 Company&#10;该版本在公司电脑可以使用数据库注册">
-      <created>1616721932891</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1616721932892</updated>
+      <workItem from="1618196251776" duration="10319000" />
     </task>
     <task id="LOCAL-00052" summary="2021-3-26 12:59:00 Company&#10;Debug学校结束，登录开始">
       <created>1616734768086</created>
@@ -1176,7 +1171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618196377499</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="2021-4-12 14:05:50 跳转到指定页码完成">
+      <created>1618207565025</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1618207565025</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1283,7 +1285,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-6 15:47:57 JDBC-15 PrepareStatement实现表数据的修改" />
     <MESSAGE value="2021-4-7 13:48:38 JavaWeb-236-Service功能的实现" />
     <MESSAGE value="2021-4-7 13:48:38 JDBC-16-通用的增删改操作" />
     <MESSAGE value="2021-4-7 17:33:03 JDBC-16-通用的增删改操作" />
@@ -1308,7 +1309,8 @@
     <MESSAGE value="2021-4-12 00:38:30 分页 切换完成" />
     <MESSAGE value="2021-4-12 10:19:29 分页完成" />
     <MESSAGE value="2021-4-12 10:19:29 分页跳转前端完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-12 10:19:29 分页跳转前端完成" />
+    <MESSAGE value="2021-4-12 14:05:50 跳转到指定页码完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-12 14:05:50 跳转到指定页码完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

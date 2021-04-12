@@ -14,8 +14,9 @@
             + request.getServerPort()
             + request.getContextPath()
             + "/";
+    pageContext.setAttribute("basePath",basePath);
 %>
-<% System.out.println(basePath);%>
+<%--<% System.out.println(basePath);%>--%>
 <!--写base标签，永远固定相对路径跳转的结果-->
 <base href="<%=basePath%>">
 <%--<a href="header.jsp">测试Base跳转路径</a>--%>
