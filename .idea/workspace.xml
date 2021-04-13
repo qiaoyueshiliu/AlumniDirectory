@@ -6,11 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/ClientBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Client/index.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-12 17:28:31 删除帖子弹窗提示">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/IMG/src=http _img14.3lian.com_201609_09_8946a5e0e012aca5dcccc07f7726f286.jpg&amp;refer=http _img14.3lian.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/IMG/wallhaven-4gr3z3_200x1080.img" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/head_css/wallhaven-4gr3z3_200x1080.img" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/head_css/wallhaven-n6dqgx_1920x400.img" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/head_css/wallhaven-n6dqgx_1920x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public_jsp/QQ20210413151946.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tupian/e86529043f96a0ea06323891700d0027.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tupian/wallhaven-4gr3z3_200x1080.img" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tupian/wallhaven-4gr3z3_200x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tupian/wallhaven-4gr3z3_200x1080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tupian/wallhaven-4gr3z3_200x1080right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tupian/wallhaven-4gr3z3_200x1080right.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib_feiqi/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/head_css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/head_css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/head_css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/head_css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/header02.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,60 +37,17 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/MySQL创建/t_book.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/ClientBookServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="17" selection-start-line="17" selection-end-line="37" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="CSS File" />
         <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -315,49 +289,50 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/Client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/public_jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu.test" />
-      <recent name="com.atguigu.web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\public_jsp" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF\IMG" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\head_css" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\tupian" />
       <recent name="D:\IDEA\AlumniDirectory\web\Client" />
-      <recent name="D:\IDEA\AlumniDirectory\web\WEB-INF\lib" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\src\com\atguigu\statement\crud" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\lib" />
-      <recent name="D:\IDEA\AlumniDirectory\src\com" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\tupian" />
       <recent name="D:\IDEA\AlumniDirectory\web\WEB-INF\lib_feiqi" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF\RuNoob-XML" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF\lib" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Study-jsp\ShangGuiGu\JavaWeb零基础-JS\151-200" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Study-jsp\ShangGuiGu\JavaWeb零基础-JS\document" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.test" />
+      <recent name="com.atguigu.web" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Tomcat Server.book">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookServiceTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -527,11 +502,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BookServiceTest.page" />
-      <item itemvalue="Tomcat Server.book" />
       <item itemvalue="JUnit.YonghuguanliDaoTest.queryForPageTotalCount" />
       <item itemvalue="JUnit.YonghuguanliDaoTest.queryForPageItems" />
       <item itemvalue="JUnit.YonghuguanliServiceTest.page" />
       <item itemvalue="JUnit.YonghuguanliServletTest.page" />
+      <item itemvalue="Tomcat Server.book" />
     </list>
     <recent_temporary>
       <list>
@@ -543,7 +518,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -589,6 +564,7 @@
       <workItem from="1618127002255" duration="4749000" />
       <workItem from="1618145864565" duration="9595000" />
       <workItem from="1618196251776" duration="17864000" />
+      <workItem from="1618289969908" duration="9333000" />
     </task>
     <task id="LOCAL-00056" summary="2021-3-29 14:25:02 Company 定义 Base 路径">
       <created>1617004443267</created>
@@ -1017,22 +993,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1051,6 +1012,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -1088,24 +1050,25 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/RegistServlet.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java</url>
           <line>77</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/YonghuguanliServlet.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="27" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

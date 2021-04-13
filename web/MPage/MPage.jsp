@@ -21,9 +21,13 @@
 <body>
 <div class="row">
     <div class="column side">
+        <div>
+            <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
+        </div>
     </div>
 
     <div class="column middle">
+        <img src="head_css/wallhaven-n6dqgx_1920x400.img" style="width: 100%">
         <div class="card">
             <div class="topicModule">
                 <div class="topic-box">
@@ -39,7 +43,7 @@
                                             </a>
                                             <span class="userRoleName">用户</span>
                                             <span class="postTime">发表时间：${book.createtime}</span>
-                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>
+<%--                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>--%>
                                         </li>
                                     </ul>
                                     <h2 class="title clearfix">
@@ -85,6 +89,7 @@
     </div>
 
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
     </div>
 </div>
 </body>
