@@ -9,6 +9,7 @@
 <!--        xmlns="http://xmlns.jcp.org/xml/ns/javaee"-->
 <!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
 <!--       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"-->
+
 <!--    下面是注册页面的提交-->
 <!--    <servlet>-->
 <!--        <servlet-name>RegistServlet</servlet-name>-->
@@ -17,8 +18,6 @@
 <!--    <servlet-mapping>-->
 <!--        <servlet-name>RegistServlet</servlet-name>-->
 <!--        <url-pattern>/registServlet</url-pattern>-->
-<!--&lt;!&ndash;        <url-pattern>/</url-pattern>&ndash;&gt;-->
-<!--&lt;!&ndash;                <url-pattern>/</url-pattern>&ndash;&gt;-->
 <!--    </servlet-mapping>-->
 
 <!--    <servlet>-->
@@ -79,5 +78,14 @@
     <servlet-mapping>
         <servlet-name>YonghuguanliServlet</servlet-name>
         <url-pattern>/manager/yonghuguanliServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClientBookServlet</servlet-name>
+        <servlet-class>com.atguigu.web.ClientBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientBookServlet</servlet-name>
+        <url-pattern>/Client/bookServlet_qiantai</url-pattern>
     </servlet-mapping>
 </web-app>

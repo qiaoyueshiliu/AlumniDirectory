@@ -17,6 +17,7 @@ public class BookServlet_qiantai extends BaseServlet{
     private BookService bookService = new BookServiceImpl();
 
     protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
 //        1、获取请求的参数 pageNo 和 pageSize
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),1);
         int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
@@ -29,6 +30,8 @@ public class BookServlet_qiantai extends BaseServlet{
     }
 
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("BookServlet_qiantai 的 add 开始运行");
+        System.out.println("获取 pageNo ");
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),0);
         pageNo+=1;
 //        1、获取请求的参数 == 封装成为 Book 对象
