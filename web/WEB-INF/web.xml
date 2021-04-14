@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--    2021-3-25 13:39:00：这部分内容是web-app第一个便签<web-app>内的内容，-->
 <!--    去除该部分是为了在尚硅谷book项目中，不添加base，同时添加<servlet>和<servlet-mapping>内容标签就能够显示jsp页面-->
-<web-app >
+<web-app>
 <!--        xmlns="http://java.sun.com/xml/ns/j2ee"-->
 <!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
 <!--        version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee-->
@@ -10,24 +10,6 @@
 <!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
 <!--       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"-->
 
-<!--    下面是注册页面的提交-->
-<!--    <servlet>-->
-<!--        <servlet-name>RegistServlet</servlet-name>-->
-<!--        <servlet-class>com.atguigu.web.RegistServlet</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>RegistServlet</servlet-name>-->
-<!--        <url-pattern>/registServlet</url-pattern>-->
-<!--    </servlet-mapping>-->
-
-<!--    <servlet>-->
-<!--        <servlet-name>LoginServlet</servlet-name>-->
-<!--        <servlet-class>com.atguigu.web.LoginServlet</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>LoginServlet</servlet-name>-->
-<!--        <url-pattern>/loginServlet</url-pattern>-->
-<!--    </servlet-mapping>-->
 
     <servlet>
     <servlet-name>SerachStudentServlet</servlet-name>

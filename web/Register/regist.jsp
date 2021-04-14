@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -141,7 +140,8 @@
 									<br />
 									<br />
 									<label>用户昵称：</label>
-									<input class="itxt" type="text" name="code" style="width: 150px;" id="code" />
+									<input class="itxt" type="text" name="nickname" style="width: 150px;"
+										   id="nickaname" />
 									<img alt="" src="static/img/code.bmp" style="float: right; margin-right: 40px">
 									<br />
 									<br />
@@ -153,15 +153,9 @@
 									<input type="submit" value="注册" id="sub_btn" />
 								</form>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
-
-		<%--静态包含页脚内容--%>
-<%--		<%@include file="/pages/common/footer.jsp"%>--%>
-
-
 	</body>
 </html>

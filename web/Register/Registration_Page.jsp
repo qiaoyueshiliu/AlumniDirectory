@@ -6,18 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<%--%>
-<%--    String path = request.getContextPath();--%>
-<%--    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort();--%>
-<%--%>--%>
-<%--<link rel="stylesheet" href="../public_jsp/header.css" type="text/css">--%>
 <html>
 <head>
     <title>Title</title>
-<%--    <base href="<%=basePath%>">--%>
-<%--    一般情况下base的标签值写到工程路径,  写base标签永远固定相对路径的跳转结果--%>
-<%--    <base href="http://localhost:8080/AlumniDirectory">--%>
-<%--    <base href="http://localhost:8080/AlumniDirectory/">--%>
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
     <script type="text/javascript">
         //页面加载完成之后
@@ -62,8 +53,6 @@
                 // 1、获取邮箱里的内容 Email
                 var emailText = $("#Email").val();
                 // 2、创建正则表达式
-                // var emailPatt = /^[a-z/\d]+(\.[a-z\d]+)*@[\da-z](-[\da-z])?)+(\.{1,2}[a-z]+)+$/;
-                // var emailPatt = /'[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+'/;
                 var emailPatt = /^\w+@[a-zA-Z0-9]{2,10}(?:\.[a-z]{2,4}){1,3}$/;
                 // 3、用test方法验证是否合法
                 if (!emailPatt.test(emailText)){
@@ -139,24 +128,17 @@
             }
         }
 
-        /* 设置页脚的样式 */
-        .footer {
-            background-color: #f1f1f1;
-            padding: 10px;
-            text-align: center;
-        }
-
         .card {
             background-color: white;
             padding: 20px;
             margin-top: 20px;
         }
     </style>
-
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
 <body>
 <div class="row">
+
     <div class="column side">
     </div>
 
@@ -228,6 +210,5 @@
     <div class="column side">
     </div>
 </div>
-
 </body>
 </html>

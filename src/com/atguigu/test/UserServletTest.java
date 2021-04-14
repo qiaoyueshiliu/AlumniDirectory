@@ -4,6 +4,7 @@
 package com.atguigu.test;
 
 import com.atguigu.service.UserService;
+import org.junit.Test;
 
 import java.lang.reflect.Method;
 
@@ -12,6 +13,7 @@ public class UserServletTest {
     public void login(){
         System.out.println("这是 login() 方法调用了");
     }
+
     public void regist(){
         System.out.println("这是 regist() 方法调用了");
     }
@@ -21,6 +23,7 @@ public class UserServletTest {
     public void updateUserPassword(){
         System.out.println("这是 updateUserPassword() 方法调用了");
     }
+
     public static void main(String[] args){
         String action = "login";
         try {
@@ -32,5 +35,13 @@ public class UserServletTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void login1() {
+    }
+
+    @Test
+    public void regist1() {
     }
 }

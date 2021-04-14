@@ -72,30 +72,6 @@ public class UserServlet extends BaseServlet {
         String nickname = req.getParameter("nickname");
         String code = req.getParameter("code");
 
-//        try {
-//        User user = new User(); 229
-//        User user = (User) WebUtils.copyParamToBean(req.getParameterMap(),new User());//229-02
-        User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());//229-03
-
-//        Map<String,String[]> parameterMap = req.getParameterMap();
-//        for (Map.Entry<String,String[]>entry : parameterMap.entrySet()){
-//            System.out.println(entry.getKey() + " = " + Arrays.asList(entry.getValue()));
-//        }
-
-//        WebUtils.copyParamToBean(req,user);
-//        WebUtils.copyParamToBean(req.getParameterMap(),user); 229
-
-//            System.out.println("注入之前：" + user);
-//            /**
-//             * 把所有请求的参数都注入到user对象中
-//             */
-//            System.out.println(req.getParameterMap());
-//            BeanUtils.populate(user,req.getParameterMap());
-//            System.out.println("注入之后：" + user);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
 //        验证码
 //        String code = req.getParameter("code");
 //      2.检查 验证码是否正确 == 先写死，要求验证码为:adcde
@@ -130,28 +106,4 @@ public class UserServlet extends BaseServlet {
             req.getRequestDispatcher("/Register/Registration_Page.jsp").forward(req,resp);
         }
     }
-//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        String action = req.getParameter("action");
-
-//        System.out.println(action);
-//        if ("login".equals(action)){
-//            login(req,resp);
-//        }else if("regist".equals(action)){
-//            regist(req,resp);
-//        }
-//        String action = "login";
-
-//        try {
-
-            //通过action业务鉴别字符串，获取相应的业务方法反射对象
-//            Method method = UserServletTest.class.getDeclaredMethod(action);
-
-//            Method method = this.getClass().getDeclaredMethod(action,HttpServletRequest.class,HttpServletResponse.class);
-//            System.out.println(method);
-//            //调用目标业务方法
-//            method.invoke(this,req,resp);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
 }
