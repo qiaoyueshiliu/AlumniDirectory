@@ -8,4 +8,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <% System.out.println("index.jsp 请求转发，跳转到前台的 client/bookServlet_qiantai程序...");%>
 <% System.out.println("action=page...");%>
-<jsp:forward page="/Client/bookServlet_qiantai?action=page"></jsp:forward>
+<jsp:forward page="/client/bookServlet_index?action=page"></jsp:forward>
