@@ -8,10 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +58,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+            <state relative-caret-position="452">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+              <folding>
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +150,6 @@
         <option value="$PROJECT_DIR$/web/public_jsp/fenye.css" />
         <option value="$PROJECT_DIR$/web/public_jsp/guanliyemian.css" />
         <option value="$PROJECT_DIR$/web/src/user.jsp" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" />
         <option value="$PROJECT_DIR$/web/public_jsp/header02.jsp" />
         <option value="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" />
@@ -176,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" />
         <option value="$PROJECT_DIR$/web/MPage/MPage.jsp" />
       </list>
     </option>
@@ -621,14 +638,7 @@
       <workItem from="1618145864565" duration="9595000" />
       <workItem from="1618196251776" duration="17864000" />
       <workItem from="1618289969908" duration="12937000" />
-      <workItem from="1618401361581" duration="791000" />
-    </task>
-    <task id="LOCAL-00058" summary="2021-3-29 23:56:36 加分类注释，来区分项目">
-      <created>1617033438807</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1617033438808</updated>
+      <workItem from="1618401361581" duration="2179000" />
     </task>
     <task id="LOCAL-00059" summary="2021-3-30 10:16:26 WebUtils 完成">
       <created>1617070629331</created>
@@ -966,7 +976,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618383540921</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="2021-4-14 20:10:25 2.0.1 首页自动请求完成">
+      <created>1618402255988</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1618402255988</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1002,7 +1019,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88951000" />
+    <option name="totallyTimeSpent" value="90339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,7 +1032,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71976966" visible="true" weight="0.18297587" />
       <window_info id="Structure" order="1" sideWeight="0.50591713" side_tool="true" weight="0.26407507" />
@@ -1097,7 +1113,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-9 15:23:05 web表单238 完成" />
     <MESSAGE value="2021-4-9 15:23:05 发帖页面完成" />
     <MESSAGE value="2021-4-9 15:23:05 进行整合，开始研究论坛的数据库表的设计与实现" />
     <MESSAGE value="2021-4-10 19:19:21 修改表名成功" />
@@ -1122,7 +1137,8 @@
     <MESSAGE value="2021-4-12 23:04:15 用户管理分页完成" />
     <MESSAGE value="2021-4-12 17:28:31 网站页面的美化" />
     <MESSAGE value="2021-4-14 14:58:08 2.0.0 结束注册页数据库乱码问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-14 14:58:08 2.0.0 结束注册页数据库乱码问题" />
+    <MESSAGE value="2021-4-14 20:10:25 2.0.1 首页自动请求完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-14 20:10:25 2.0.1 首页自动请求完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1352,13 +1368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1539,10 +1548,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/pojo/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+        <state relative-caret-position="452">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

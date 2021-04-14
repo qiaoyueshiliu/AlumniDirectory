@@ -50,7 +50,6 @@
                                         <a href="thread?topicId=46" target="_blank">
                                                 ${book.biaoti}
                                         </a>
-                                        <span class="redEnvelope" alt="红包" title="红包"><i class="cms-redEnvelope-1"></i></span>
                                     </h2>
                                     <div class="clearfix"></div>
 

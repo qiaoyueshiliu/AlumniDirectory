@@ -68,6 +68,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ClientBookServlet</servlet-name>
-        <url-pattern>/Client/bookServlet_qiantai</url-pattern>
+        <url-pattern>/client/bookServlet_index</url-pattern>
     </servlet-mapping>
 </web-app>

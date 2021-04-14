@@ -20,6 +20,19 @@ public class Page<T> {
 //    当前页数据
     private List<T> items;
 
+    public String getUrl() {
+        System.out.println("pojo.Page:url的get方法");
+        return url;
+    }
+
+    public void setUrl(String url) {
+        System.out.println("pojo.Page:url的set方法");
+        this.url = url;
+    }
+
+    //分页条的请求地址
+    private String url;
+
     public Integer getPageNo() {
         return pageNo;
     }
@@ -70,12 +83,14 @@ public class Page<T> {
 
     @Override
     public String toString() {
+        System.out.println("pojo.Page:toString方法");
         return "Page{" +
                 "pageNo=" + pageNo +
                 ", pageTotal=" + pageTotal +
                 ", pageSize=" + pageSize +
                 ", pageTotalCount=" + pageTotalCount +
                 ", items=" + items +
+                ", url='" + url + '\'' +
                 '}';
     }
 }
