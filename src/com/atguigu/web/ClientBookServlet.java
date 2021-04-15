@@ -30,6 +30,9 @@ public class ClientBookServlet extends BaseServlet{
         int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
 //        2、调用 BookService.page(pageNo,pageSize):page对象
         Page<Book> page = bookService.page(pageNo,pageSize);
+//        以后只需要修改setUrl中的参数即可获取更改分页page_nav中的url
+        System.out.println("经过了前台的ClientBookServlet程序.java:page.setUrl方法:");
+        page.setUrl("client/bookServlet?action=page");
 //        3、保存 Page 对象到 Request 域中
         req.setAttribute("page",page);
 //        4、请求转发到/pages/manager/book_manager.jsp页面中

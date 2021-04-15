@@ -23,6 +23,10 @@ public class BookServlet_qiantai extends BaseServlet{
         int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
 //        2、调用 BookService.page(pageNo,pageSize):page对象
         Page<Book> page = bookService.page(pageNo,pageSize);
+        //        设置 client/bookServlet_qiantai?action=page 替换为 ${requestScope.page.url 的请求地址
+        System.out.println("BookServlet_qiantai.page 设置 client/bookServlet_qiantai?action=page 替换为 ${requestScope.page.url 的请求地址");
+        System.out.println("setUrl client/bookServlet_qiantai?action=page");
+        page.setUrl("client/bookServlet_qiantai?action=page");
 //        3、保存 Page 对象到 Request 域中
         req.setAttribute("page",page);
 //        4、请求转发到/pages/manager/book_manager.jsp页面中

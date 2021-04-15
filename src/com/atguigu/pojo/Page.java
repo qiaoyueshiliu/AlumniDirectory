@@ -74,12 +74,15 @@ public class Page<T> {
     }
 
     public List<T> getItems() {
+        System.out.println("Page.java:getItems方法");
         return items;
     }
 
     public void setItems(List<T> items) {
+        System.out.println("Page.java:setItems方法");
         this.items = items;
     }
+
 
     @Override
     public String toString() {

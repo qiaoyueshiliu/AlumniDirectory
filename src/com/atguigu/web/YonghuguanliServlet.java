@@ -19,11 +19,15 @@ public class YonghuguanliServlet extends BaseServlet {
     private YonghuguanliService yonghuguanliService = new YonghuguanliServiceImpl();
 
     protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("YonghuguanliServlet.java:page方法");
 //        1、获取请求的参数 pageNo 和 pageSize
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),1);
         int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
 //        2、调用 BookService.page(pageNo,pageSize):page对象
         Page<User> page = yonghuguanliService.page(pageNo,pageSize);
+
+        System.out.println("yonghuguanliServlet.java:page.setUrl方法:");
+        page.setUrl("manager/yonghuguanliServlet?action=page");
 //        3、保存 Page 对象到 Request 域中
         req.setAttribute("page",page);
 //        4、请求转发到/pages/manager/book_manager.jsp页面中

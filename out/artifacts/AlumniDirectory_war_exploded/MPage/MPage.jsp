@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="head_css/common.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
+<link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
 <%--<%@include file="MPage_css.jsp"%>--%>
 <body>
 <div class="row">
@@ -32,6 +33,7 @@
             <div class="topicModule">
                 <div class="topic-box">
                     <div class="topicList">
+<%--                        item:Page.java--%>
                         <c:forEach items="${requestScope.page.items}" var="book">
                             <div class="topicItem">
                                 <div class="content clearfix">
@@ -79,7 +81,8 @@
                             <div class="fatiekuangyi">
                                 <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
                             </div>
-                            <%@include file="../public_jsp/pg.jsp" %>
+<%--                            静态包含分页条--%>
+                            <%@include file="/public_jsp/page_nav.jsp"%>
                         </div>
                     </div>
                 </div>
