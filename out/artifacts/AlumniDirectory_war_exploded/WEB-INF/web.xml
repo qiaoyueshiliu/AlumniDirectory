@@ -70,4 +70,16 @@
         <servlet-name>ClientBookServlet</servlet-name>
         <url-pattern>/client/bookServlet_index</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>com.atguigu.servlet.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/sessionServlet</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>

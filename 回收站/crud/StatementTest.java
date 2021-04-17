@@ -62,7 +62,7 @@ public class StatementTest {
 		ResultSet rs = null;
 		try {
 			// 1.加载配置文件
-			InputStream is = StatementTest.class.getClassLoader().getResourceAsStream("JDBC-11.properties");
+			InputStream is = StatementTest.class.getClassLoader().getResourceAsStream("回收站/JDBC-11.properties");
 			Properties pros = new Properties();
 			pros.load(is);
 

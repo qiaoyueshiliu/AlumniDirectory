@@ -86,7 +86,7 @@ public class PrepareStatementUpdateTest {
         PreparedStatement ps = null;
         try {
 //        1、读取四个配置文件中的基本信息
-            InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("JDBC-11.properties");
+            InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("回收站/JDBC-11.properties");
             Properties pros = new Properties();
             pros.load(is);
             String user = pros.getProperty("user");
