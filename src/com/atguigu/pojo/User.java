@@ -70,6 +70,28 @@ public class User {
     private String email;
     private String nickname;
     private String xuexiao;
+    private String quanxian;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", xuexiao='" + xuexiao + '\'' +
+                ", quanxian='" + quanxian + '\'' +
+                '}';
+    }
+
+    public String getQuanxian() {
+        return quanxian;
+    }
+
+    public void setQuanxian(String quanxian) {
+        this.quanxian = quanxian;
+    }
 
     public User(Integer id, String username, String password, String email, String nickname, String xuexiao) {
         this.id = id;
@@ -116,18 +138,6 @@ public class User {
     }
 
     public User() {
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", email='" + email + '\'' +
-                ", nickname='" + nickname + '\'' +
-                ", xuexiao='" + xuexiao + '\'' +
-                '}';
     }
 
     public String getEmail() {

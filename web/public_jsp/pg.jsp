@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
-<style type="text/css">.pg {
+<style type="text/css">
+    .pg {
     float: right;
     line-height: 36px;
     font-size: 14px;

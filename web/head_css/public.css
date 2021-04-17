@@ -1,0 +1,400 @@
+
+/* 话题模块 */
+.topicModule{
+    margin-top: 10px;
+
+}
+.topicModule .topic-box{
+    background:#fff;padding:0px 15px 0px 15px;
+    box-shadow: 0 0px 3px 0 rgba(0,0,0,.02), 0 4px 8px 0 rgba(0,0,0,.02);
+
+}
+.topicModule .topic-box .topicList {
+    margin-bottom: 10px;
+}
+.topicModule .topic-box .topicList .topicItem {
+    margin: 0;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 15px 0 10px 0;
+    position: relative;
+}
+.topicModule .topic-box .topicList .topicItem .avatarBox {
+    position: relative;
+    margin-left: 0px;
+    padding: 0;
+    float: left;
+}
+.topicModule .topic-box .topicList .topicItem .avatarBox .avatarLink {
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 4px;
+}
+.topicModule .topic-box .topicList .topicItem .avatarBox .avatarLink  img {
+    float: none;
+    display: block;
+    width: 62px;
+    height: 62px;
+    float: left;
+    margin-right: 10px;
+    border-radius:62px;
+    position:relative;
+}
+.topicModule .topic-box .topicList .topicItem .content {
+    /**
+    overflow: auto;
+    overflow-x: hidden;**/
+    margin-left:88px;
+    margin-right:100px;
+}
+.topicModule .topic-box .topicList .topicItem .content .info {
+    margin-top:2px;
+    margin-bottom: 8px;
+    color: #c4c4c4;
+    font-size: 14px;
+    padding-left: 0;
+    list-style: none;
+}
+.topicModule .topic-box .topicList .topicItem .content .info>li{
+    display: inline-block;
+}
+.topicModule .topic-box .topicList .topicItem .content .info .tag{
+    display: inline-block;
+    min-width: 10px;
+    padding: 4px 7px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+
+}
+.topicModule .topic-box .topicList .topicItem .content .info .module{
+    display: inline-block;
+    min-width: 10px;
+    padding: 4px 7px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+
+}
+.topicModule .topic-box .topicList .topicItem .content .info .userName{
+    color: #999;
+}
+.topicModule .topic-box .topicList .topicItem .content .info .userRoleName{
+    white-space:nowrap;
+    color:#e2b46e;
+    background-color:#f8e7c4;
+    border-radius:4px;
+    padding:0 5px;
+    font-size: 12px;
+}
+.topicModule .topic-box .topicList .topicItem .content .info .staff{
+    white-space:nowrap;
+    color:#15d327;
+    background-color:#cafcc7;
+    border-radius:4px;
+    padding:0 5px;
+    font-size: 12px;
+}
+.topicModule .topic-box .topicList .topicItem .content .info .postTime{
+    margin-left: 10px;
+}
+.topicModule .topic-box .topicList .topicItem .content .info .lastReplyTime{
+    margin-left: 10px;
+}
+.topicModule .topic-box .topicList .topicItem .content .title {
+    margin: 0 5px 0 0;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+.topicModule .topic-box .topicList .topicItem .content .title a{
+    color: #393939;
+}
+.topicModule .topic-box .topicList .topicItem .content .title a:hover {
+    text-decoration: none;
+    color: #2196F3;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .topicRoleName{
+    white-space:nowrap;
+    color:#fff;
+    background-color:#ffcc00;
+    border-radius:4px;
+    padding:0 5px;
+    font-size: 13px;
+    position:relative;
+    top:-1px;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .redEnvelope{
+    font-size: 22px;
+    position:relative;
+    top:2px;
+    color: #ff483a;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hideTagType{
+    font-size:0;/*父级元素设置font-size:0; 解决 display：inline-block两个元素之间的默认空格 */
+    position: relative;
+    top: -1px;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hideTagType .circle{
+    border-radius:12px;display: inline-block;margin-right:5px;
+    width: 24px;height: 24px;
+    position:relative;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hideTagType .circle i{
+    font-size: 14px;line-height: 24px; margin-left: 6px;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .title .hideTagType .point:before{
+    content: ' ';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    top: 13px;
+    left: 10px;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .title .hide_10 .circle{
+    background: #ebebeb;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_10 .point:before{
+    background-color: #ebebeb;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_10 .circle i{
+    color: #b2b2b2;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .title .hide_20 .circle{
+    background: #bbf9d5;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_20 .point:before{
+    background-color: #bbf9d5;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_20 .circle i{
+    color: #21de70;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .title .hide_30 .circle{
+    background: #bfebfb;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_30 .point:before{
+    background-color: #bfebfb;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_30 .circle i{
+    color: #27c3fc;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .title .hide_40 .circle{
+    background: #e2cffe;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_40 .point:before{
+    background-color: #e2cffe;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_40 .circle i{
+    color: #af82f2;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .title .hide_50 .circle{
+    background: #fedbb2;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_50 .point:before{
+    background-color: #fedbb2;
+}
+.topicModule .topic-box .topicList .topicItem .content .title .hide_50 .circle i{
+    color: #fe9d2d;
+}
+
+.topicModule .highlight B{
+    color: #fc0012;
+    font-weight:normal;
+}
+.topicModule .topic-box .topicList .topicItem .content .detail{
+    position: relative;
+}
+.topicModule .topic-box .topicList .topicItem .content .detail .tm-m-photos{
+    margin-top: 8px;
+}
+.topicModule .topic-box .topicList .topicItem .content .detail .videoInfo{
+    margin: 8px 5px 0 0;
+
+
+}
+/* 隐藏标签 IE8以下浏览器不支持自定义标签，需要在页头<head>标签内执行document.createElement('player') */
+.topicModule .topic-box .topicList .topicItem .content .detail .videoInfo player{
+    width: 320px;
+    height: 180px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: #000;
+    position: relative;
+    text-align: center;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .detail .videoInfo player .cover{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.topicModule .topic-box .topicList .topicItem .content .detail .videoInfo player .circle{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height:180px;
+    border-radius:30px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+}
+.topicModule .topic-box .topicList .topicItem .content .detail .videoInfo player .iconBox{
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+
+}
+.topicModule .topic-box .topicList .topicItem .content .detail .videoInfo player .iconBox .playIcon{
+    font-size: 30px;
+    position: absolute;
+    line-height:22px;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+}
+
+
+.topicModule .topic-box .topicList .topicItem .content .detail .summary{
+    margin: 0px 50px 0 0;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight:normal;
+    text-decoration:none;
+    color: #aaa;
+}
+.topicModule .topic-box .topicList .topicItem .statistic {
+    position:absolute;
+    top:17px;
+    right:0px;
+    font-size: 14px;
+    color: #c4c4c4;
+
+}
+.topicModule .topic-box .topicList .topicItem .statistic .viewTotal{
+    float: left;margin-right: 4px;min-width: 60px;
+}
+.topicModule .topic-box .topicList .topicItem .statistic .viewTotal .icon{
+    margin-left: 3px;position:relative;top: 1px;color: #e6e6e6;
+}
+.topicModule .topic-box .topicList .topicItem .statistic .commentTotal{
+    float: right;margin-right: 10px;min-width: 50px;
+}
+.topicModule .topic-box .topicList .topicItem .statistic .commentTotal .icon{
+    margin-left: 3px;position:relative;top: 1px;color: #e6e6e6;
+}
+.topicModule .topicPage {
+    padding-top:10px;
+    background: #fff;
+    height: 54px;
+    overflow: hidden;
+}
+
+/*分页*/
+.pg {
+    float: right;line-height: 36px;font-size: 14px;
+}
+.pg A {
+    border-radius: 3px; padding-bottom: 0px; background-color: #f5f5f7; padding-left: 12px; padding-right: 12px;padding-top: 0px; display: inline; background-repeat: no-repeat; float: left; height: 34px; color: #666; margin-left: 4px; overflow: hidden; text-decoration: none;
+
+}
+.pg A.prev {
+    border-radius: 3px; padding-bottom: 0px; padding-left: 10px; padding-right: 10px; padding-top: 0px
+}
+.pg A.nxt {
+    border-radius: 3px;
+    padding-bottom: 0px; padding-left: 10px; padding-right: 10px; padding-top: 0px
+}
+.pg A:hover {
+    color: #1c1c1c;background-color: #e5e5e7;
+}
+.pg LABEL {border-radius: 3px;
+    padding-top: 0px;padding-bottom: 0px; background-color: #f5f5f7; padding-left: 12px; padding-right: 12px; display: inline; background-repeat: no-repeat; float: left; height: 34px; color: #666; margin-left: 4px; overflow: hidden; text-decoration: none;
+
+}
+.pg LABEL .pg_input {
+    width:25px;margin-bottom: 3px;*margin-bottom: 0px;border: #f5f5f7 1px solid;
+    position: relative;top: -1px;color: #666;
+    height: 14px;
+    padding: 4px 3px;
+    font-size: 14px;
+}
+.pg STRONG {
+    border-radius: 3px; padding-bottom: 0px; padding-left: 12px; padding-right: 12px; display: inline; background-repeat: no-repeat; float: left; height: 34px; color: #666; margin-left: 4px; overflow: hidden;
+    background-color: #e5e5e7;text-decoration: none; padding-top: 0px;
+}
+.pg span.count {
+    border-radius: 3px; padding-bottom: 0px; background-color: #f5f5f7; padding-left: 12px; padding-right: 12px; display: inline; background-repeat: no-repeat; float: left; height: 34px; color: #666; margin-left: 4px; overflow: hidden;
+    text-decoration: none; padding-top: 0px;
+}
+
+/*杂项*/
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+a,button {
+    cursor: pointer;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: #939499;
+}
+
+h1,h2,h3,h4,h5,h6,small {
+    font-size: 100%;
+    font-weight: normal
+}
+
+html,body,fieldset,img,iframe,abbr {
+    border: 0;
+}
+
+body,ul,ol,li,dl,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset{
+    margin: 0;
+    padding: 0;
+}

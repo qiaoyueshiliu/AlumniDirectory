@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div>
-    <span>欢迎<span class="um_span">用户名</span>登录论坛</span>
+    <span>欢迎<span class="um_span">${sessionScope.user.username}</span>登录论坛</span>
     <a href="http://localhost:8080/AlumniDirectory/Login/Login.jsp">注销</a>
-    <a href="Login/Login.jsp">返回</a>
+    <a href="client/bookServlet_qiantai?action=page&pageNo=1">返回</a>
 </div>

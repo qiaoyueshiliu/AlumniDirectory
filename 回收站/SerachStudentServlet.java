@@ -19,7 +19,6 @@ public class SerachStudentServlet extends HttpServlet {
         // 获取请求的参数
         // 发sql语句查询学生的信息
         // 使用for循环生成查询到的数据做模拟
-        List<Student> studentList = new ArrayList<Student>();
         for (int i=0;i<10;i++){
             int t=i+1;
             studentList.add(new Student(t,"name"+t,18+t,"phone"+t));

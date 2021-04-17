@@ -14,7 +14,8 @@
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
 </head>
 <%@include file="../public_jsp/header02.jsp" %>
-<link rel="stylesheet" href="head_css/common.css" type="text/css">
+<%--<link rel="stylesheet" href="head_css/common.css" type="text/css">--%>
+<link rel="stylesheet" href="head_css/public.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
@@ -28,7 +29,7 @@
     </div>
 
     <div class="column middle">
-        <img src="head_css/wallhaven-n6dqgx_1920x400.img" style="width: 100%">
+        <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
             <div class="topicModule">
                 <div class="topic-box">

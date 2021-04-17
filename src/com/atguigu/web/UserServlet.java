@@ -52,10 +52,10 @@ public class UserServlet extends BaseServlet {
         } else {
             // 登录 成功
             //跳到成功页面login_success.html
+            req.getSession().setAttribute("user",loginUser);
             System.out.println("登录成功");
             req.getRequestDispatcher("/Login/login_success.jsp").forward(req,resp);
         }
-
     }
 
     /**

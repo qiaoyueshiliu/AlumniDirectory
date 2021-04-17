@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
-<link rel="stylesheet" href="../head_css/common.css" type="text/css">
 <body>
     <div class="row">
         <div class="column side">
@@ -42,11 +41,19 @@
                             </td>
                         </tr>
                         <tr>
+                            <td valign="top" bgcolor="#FFFFFF">发帖人ID </td>
+                            <td valign="top" bgcolor="#FFFFFF">
+                                <input name="nickname"
+                                       type="hidden" maxlength="20" size="15"
+                                       id="nickname" class="input" value="${sessionScope.user.id}"/>${sessionScope.user.id}
+                            </td>
+                        </tr>
+                        <tr>
                             <td valign="top" bgcolor="#FFFFFF">发帖人 </td>
                             <td valign="top" bgcolor="#FFFFFF">
                                 <input name="nickname"
-                                       type="text" maxlength="20" size="15"
-                                       id="nickname" class="input"/>
+                                       type="hidden" maxlength="20" size="15"
+                                       id="nickname" class="input" value="${sessionScope.user.nickname}"/>${sessionScope.user.nickname}
                             </td>
                         </tr>
                         <tr>

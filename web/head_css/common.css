@@ -6867,23 +6867,3 @@ html,body{
 	min-width: 0;
 	*height: 2px;
 }
-
-
-
-/* 页脚 border-top: 1px solid #e1e1e1; */
-.footer { min-width: 990px; 
-	background: #f8f8f9;
-	height: 90px;
-	margin-top: -90px }
-
-.footer .message { width: 990px; margin: 0 auto; height: 18px; font-size: 0; line-height: 0; text-align: center; }
-.footer .message a, .message em {  font-size: 12px; line-height: 18px; display: inline-block; color: #999;margin-top: 10px; }
-.footer .message em { margin: 0 14px; color: #ceced5; position: relative; top: -1px; }
-.footer .message a:hover {color:#2196F3; text-decoration:none;}
-
-.footer .copyright { width: 990px; margin: 0 auto;  color: #999; text-align: center; margin-top: 18px; }
-.footer .copyright em { font-family: Tahoma; margin-left: 3px; }
-.footer .copyright .link{ font-family: Tahoma; margin-left: 2px; color: #999; font-weight: bold;}
-.footer .copyright a { font-family: Tahoma; margin-left: 16px; color: #999;}
-.footer .copyright a:hover { text-decoration: underline; }
-.footer .copyright span { margin-left: 17px; }

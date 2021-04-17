@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.atguigu.dao.CommDAO" %><%--
   Created by IntelliJ IDEA.
   User: DELL
   Date: 2021/3/24
@@ -14,12 +14,14 @@
     <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
 </head>
 <%@include file="../public_jsp/header02.jsp" %>
-<link rel="stylesheet" href="head_css/common.css" type="text/css">
+<link rel="stylesheet" href="head_css/public.css" type="text/css">
+
 <link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
 <%--<%@include file="MPage_css.jsp"%>--%>
 <body>
+
 <div class="row">
     <div class="column side">
         <div>

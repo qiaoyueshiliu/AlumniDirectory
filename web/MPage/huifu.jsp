@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
 </head>
 <%@include file="../public_jsp/header02.jsp"%>
-<link rel="stylesheet" href="../head_css/common.css" type="text/css">
 <body>
 <div class="row">
     <div class="column side">
