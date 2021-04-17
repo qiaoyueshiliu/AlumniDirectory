@@ -63,9 +63,6 @@
                             <%@include file="/public_jsp/page_nav.jsp"%>
                         </td>
                     </tr>
-
-
-
             </div>
         </div>
     </div>

@@ -11,3 +11,9 @@ insert into user_table(`user`,`password`,`balance`) values ('CC','abcd','2000');
 insert into user_table(`user`,`password`,`balance`) values ('DD','abcder','3000');
 
 select * from t_user;
+
+同时删除表A表B外键：
+
+方法1：delete 表a from 表a A join 表b B on A.name=B.name
+方法2：delete from 表a where name in(select name from 表b)
+这样就可以删除表a中有表b中的Name相同的记录,而不影响表b中的内容

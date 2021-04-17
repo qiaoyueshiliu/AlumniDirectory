@@ -7,6 +7,7 @@ public class Book {
     private String createtime;
     private String bankuai;
     private String neirong;
+    private String biaoji;
 
     @Override
     public String toString() {
@@ -17,7 +18,16 @@ public class Book {
                 ", createtime='" + createtime + '\'' +
                 ", bankuai='" + bankuai + '\'' +
                 ", neirong='" + neirong + '\'' +
+                ", biaoji='" + biaoji + '\'' +
                 '}';
+    }
+
+    public String getBiaoji() {
+        return biaoji;
+    }
+
+    public void setBiaoji(String biaoji) {
+        this.biaoji = biaoji;
     }
 
     public String getNeirong() {

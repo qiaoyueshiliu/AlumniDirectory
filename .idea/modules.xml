@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AlumniDirectory.iml" filepath="$PROJECT_DIR$/AlumniDirectory.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA-激活使用/IDEA-激活使用.iml" filepath="$PROJECT_DIR$/IDEA-激活使用/IDEA-激活使用.iml" />
+      <module fileurl="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/jspmxyhwznsA1A2.iml" filepath="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/jspmxyhwznsA1A2.iml" />
     </modules>
   </component>
 </project>

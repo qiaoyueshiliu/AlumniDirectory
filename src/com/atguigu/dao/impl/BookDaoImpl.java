@@ -34,7 +34,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public Book queryBookByTieziid(Integer tieziid) {
         System.out.println("开始查询 queryBookById ForOne");
-        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book where tieziid = ?";
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book where biaoji=1 where tieziid = ?";
         System.out.println("queryBookById ForOne 查询结束");
         return queryForOne(Book.class,sql,tieziid);
     }
@@ -42,7 +42,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public List<Book> queryBooks() {
         System.out.println("开始查询 queryBooks ForList");
-        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book order by tieziid desc";
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book where biaoji=1 order by tieziid desc ";
         System.out.println("queryBooks ForList 查询结束");
         return queryForList(Book.class,sql);
     }
@@ -56,9 +56,8 @@ public class BookDaoImpl extends BaseDao implements BookDao {
 
     @Override
     public List<Book> queryForPageItems(int begin, int pageSize) {
-        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong` from t_book order by tieziid desc limit ?,? ";
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong` from t_book where biaoji=1 order by tieziid desc limit ?,? ";
         return queryForList(Book.class,sql,begin,pageSize);
     }
-
 
 }

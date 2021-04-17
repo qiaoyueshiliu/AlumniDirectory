@@ -1,17 +1,12 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="AlumniDirectory:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded</output-path>
-    <root id="root">
+  <artifact type="war" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="AlumniDirectory" />
           <element id="module-output" name="jspmxyhwznsA1A2" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="book_l" />
-          <element id="library" level="project" name="book_lib" />
-          <element id="library" level="project" name="mysql-connector-java-8.0.23 (2)" />
-          <element id="library" level="project" name="mysql-connector-java-8.0.23" />
           <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="jspmxyhwznsA1A2" />
           <element id="library" level="module" name="commons-io-1.3.2.jar" module-name="jspmxyhwznsA1A2" />
           <element id="library" level="module" name="jsf-api.jar" module-name="jspmxyhwznsA1A2" />
@@ -27,10 +22,10 @@
           <element id="library" level="module" name="sqljdbc.jar" module-name="jspmxyhwznsA1A2" />
           <element id="library" level="module" name="sqljdbc4.jar" module-name="jspmxyhwznsA1A2" />
           <element id="library" level="module" name="zxing-1.6-core.jar" module-name="jspmxyhwznsA1A2" />
-          <element id="library" level="project" name="Java EE 6-Java EE 6 (2)" />
+          <element id="library" level="project" name="book_lib" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.23" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="AlumniDirectory/web/Web" />
       <element id="javaee-facet-resources" facet="jspmxyhwznsA1A2/web/Web" />
     </root>
   </artifact>
