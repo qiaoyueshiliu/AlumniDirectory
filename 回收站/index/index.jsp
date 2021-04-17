@@ -22,8 +22,8 @@
 <div class="KongBaiDiv_GaoDu50">空白div</div>
 <div class="indexPage">
   <h1 class="head_wrapper">校友录</h1>
-  <a href="../Login/Login.jsp">登录</a>
-  <a href="../Register/Registration_Page.jsp">注册</a>
+  <a href="../../web/Login/Login.jsp">登录</a>
+  <a href="../../web/Register/Registration_Page.jsp">注册</a>
 </div>
 </body>
 </html>

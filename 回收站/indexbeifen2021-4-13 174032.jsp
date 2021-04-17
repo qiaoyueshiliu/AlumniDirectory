@@ -25,10 +25,10 @@
 <body>
 <div class="row">
     <div class="column side">
-        <img src="../web/head_css/wallhaven-4gr3z3_200x1080.img" style="width: 100%">
+        <img src="wallhaven-4gr3z3_200x1080.img" style="width: 100%">
     </div>
     <div class="column middle">
-        <img src="../web/head_css/wallhaven-n6dqgx_1920x400.img" style="width: 100%">
+        <img src="wallhaven-n6dqgx_1920x400.img" style="width: 100%">
         <div class="card">
             <div class="topicModule" style="width: 100%;">
                 <div class="topic-box" style="width: 100%;">

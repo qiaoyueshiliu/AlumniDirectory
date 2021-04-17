@@ -30,11 +30,11 @@
             if(patt.test(usernameText)){
                 // alert("用户名合法！");
                 // usernameSpanObj.innerHTML = "用户名合法！"
-                usernameSpanObj.innerHTML = "<img src=\"../../../../../web/img/Tick.jpg\" width=\"16\" height=\"16\">";
+                usernameSpanObj.innerHTML = "<img src=\"../../../../../web/img1/Tick.jpg\" width=\"16\" height=\"16\">";
             }else {
                 // alert('用户名不合法！');
                 // usernameSpanObj.innerHTML = "用户名不合法！" ;
-                usernameSpanObj.innerHTML = "<img src=\"../../../../../web/img/Cross.jpeg\" width=\"16\" height=\"16\">";
+                usernameSpanObj.innerHTML = "<img src=\"../../../../../web/img1/Cross.jpeg\" width=\"16\" height=\"16\">";
             }
         }
     </script>

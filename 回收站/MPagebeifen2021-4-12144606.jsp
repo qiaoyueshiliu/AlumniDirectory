@@ -8,16 +8,16 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
-<link rel="stylesheet" href="../head_css/common.css" type="text/css">
-<link rel="stylesheet" href="../public_jsp/fenye.css" type="text/css">
-<link rel="stylesheet" href="../public_jsp/yemianbuju.css" type="text/css">
-<link rel="stylesheet" href="../public_jsp/zhuyefatieanniu.css" type="text/css">
+<link rel="stylesheet" href="../web/head_css/common.css" type="text/css">
+<link rel="stylesheet" href="../web/public_jsp/fenye.css" type="text/css">
+<link rel="stylesheet" href="../web/public_jsp/yemianbuju.css" type="text/css">
+<link rel="stylesheet" href="../web/public_jsp/zhuyefatieanniu.css" type="text/css">
 <html>
 <head>
     <title>Title</title>
-    <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="../web/script/jquery-3.5.1.js"></script>
 </head>
-<%@include file="../public_jsp/header02.jsp" %>
+<%@include file="../web/public_jsp/header02.jsp" %>
 <%--<%@include file="MPage_css.jsp"%>--%>
 <body>
 <div class="row">

@@ -6,8 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%--base路径--%>
 <%@ include file="/head_css/head.jsp"%>
-
+<%--导航栏css--%>
+<link rel="stylesheet" href="public_jsp/daoHangLan.css" type="text/css">
 <body>
 <ul class="DaoHangLan">
     <li><a href="client/bookServlet_qiantai?action=page&pageNo=1">网站主页</a></li>
