@@ -6,8 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<link rel="stylesheet" href="head_css/common.css" type="text/css">
-<link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
+<link rel="stylesheet" href="../web/head_css/common.css" type="text/css">
+<link rel="stylesheet" href="../web/public_jsp/yemianbuju.css" type="text/css">
 <html>
 <head>
     <title>Title</title>
@@ -25,10 +25,10 @@
 <body>
 <div class="row">
     <div class="column side">
-        <img src="head_css/wallhaven-4gr3z3_200x1080.img" style="width: 100%">
+        <img src="../web/head_css/wallhaven-4gr3z3_200x1080.img" style="width: 100%">
     </div>
     <div class="column middle">
-        <img src="head_css/wallhaven-n6dqgx_1920x400.img" style="width: 100%">
+        <img src="../web/head_css/wallhaven-n6dqgx_1920x400.img" style="width: 100%">
         <div class="card">
             <div class="topicModule" style="width: 100%;">
                 <div class="topic-box" style="width: 100%;">
@@ -46,7 +46,7 @@
         </div>
     </div>
     <div class="column side">
-        <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
+        <img src="../web/tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
     </div>
 </div>
 </body>

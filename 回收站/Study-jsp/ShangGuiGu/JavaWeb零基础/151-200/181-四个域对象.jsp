@@ -35,6 +35,6 @@
 四个域在使用的时候，优先顺序分别是：它们从小到大范围的使用顺序
 pageContext ====>>> request ====>>> session  ====>>> application
 <%--请求转发--%>
-<jsp:forward page="./181-四个域对象2.jsp"></jsp:forward>
+<jsp:forward page="181-四个域对象2.jsp"></jsp:forward>
 </body>
 </html>

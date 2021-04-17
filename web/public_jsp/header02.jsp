@@ -6,30 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
-<style>
-        .DaoHangLan{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        .DaoHangLan li {
-            float: left;
-        }
-        .DaoHangLan li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        .DaoHangLan li a:hover {
-            background-color: #111;
-        }
-    </style>
+<%--base路径--%>
 <%@ include file="/head_css/head.jsp"%>
-<%--<% out.write(basePath); %>--%>
+<%--主页导航栏css--%>
+<link rel="stylesheet" href="public_jsp/daoHangLan.css" type="text/css">
 <body>
 <ul class="DaoHangLan">
     <li><img src="public_jsp/QQ20210413151946.png" style="height: 49px"></li>

@@ -5,7 +5,7 @@
 		<title>会员注册页面</title>
 		<%-- 静态包含 base标签、css样式、jQuery文件 --%>
 <%--		<%@ include file="../head_css/style.css"%>--%>
-		<link rel="stylesheet" href="../head_css/style.css" type="text/css">
+		<link rel="stylesheet" href="../web/head_css/style.css" type="text/css">
 		<script type="text/javascript">
 			// 页面加载完成之后
 			$(function () {
@@ -91,7 +91,7 @@
 		}
 
 	</style>
-		<%@include file="../public_jsp/header02.jsp"%>
+		<%@include file="../web/public_jsp/header02.jsp"%>
 
 	</head>
 	<body>

@@ -5,7 +5,7 @@
 <%--<link rel="stylesheet" href="../head_css/common.css" type="text/css">--%>
 <html>
 <%--<link rel="stylesheet" href="header.css" type="text/css">--%>
-<link rel="stylesheet" href="../head_css/common.css" type="text/css">
+<link rel="stylesheet" href="../web/head_css/common.css" type="text/css">
 <head>
 <meta charset="UFT-8">
 <title>Insert title here</title>
