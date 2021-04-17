@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%--base路径--%>
 <%@ include file="/head_css/head.jsp"%>
-<%--主页导航栏css--%>
+<%--导航栏css--%>
 <link rel="stylesheet" href="public_jsp/daoHangLan.css" type="text/css">
 <body>
 <ul class="DaoHangLan">

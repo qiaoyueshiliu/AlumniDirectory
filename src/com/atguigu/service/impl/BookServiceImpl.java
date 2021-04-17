@@ -70,4 +70,37 @@ public class BookServiceImpl implements BookService {
         return page;
 
     }
+
+    @Override
+    public Page<Book> pageByBankuai(int pageNo, int pageSize, String lunTanSoSuo) {
+        Page<Book> page = new Page<Book>();
+
+//        设置每页显示数量
+        page.setPageSize(pageSize);
+
+//        求总记录数
+        Integer pageTotalCount = bookDao.queryForPageTotalCountByBankuai(lunTanSoSuo);
+//        设置总记录数
+        page.setPageTotalCount(pageTotalCount);
+
+//        求总页码
+        Integer pageTotal = pageTotalCount / pageSize;
+        if (pageTotalCount % pageSize > 0){
+            pageTotal+=1;
+        }
+//        设置总页码
+        page.setPageTotal(pageTotal);
+
+//        设置当前页面
+        page.setPageNo(pageNo);
+
+//        求当前页数据的开始索引
+        int begin = (page.getPageNo() - 1) * pageSize;
+//        求当前页数据
+        List<Book> items = bookDao.queryForPageItemsByBankuai(begin,pageSize,lunTanSoSuo);
+//        设置当前页数据
+        page.setItems(items);
+
+        return page;
+    }
 }

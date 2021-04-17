@@ -40,6 +40,7 @@ public class YonghuguanliServlet extends BaseServlet {
 //        2、调用 BookService.addBook() 保存图书
         yonghuguanliService.addUser(user);
 //        3、跳到图书列表页面
+        // etcontextpath获取 /工程路径
         resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page");
     }
 
@@ -51,6 +52,7 @@ public class YonghuguanliServlet extends BaseServlet {
         yonghuguanliService.deleteUserById(id);
         System.out.println("删除结束...");
 //        3、重新定向回图书管理页面
+        // etcontextpath获取 /工程路径
         resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
@@ -61,6 +63,7 @@ public class YonghuguanliServlet extends BaseServlet {
             yonghuguanliService.updateUser(user);
 //        3、重定向会图书列表管理页面
 //              地址：/工程名/manager/bookServlet?action=list
+        // getcontextpath获取 /工程路径
         resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 

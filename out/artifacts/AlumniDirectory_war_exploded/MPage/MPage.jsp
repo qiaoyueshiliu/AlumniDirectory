@@ -30,6 +30,11 @@
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
+            <form action="client/bookServlet_qiantai" method="get">
+                <input type="hidden" name="action" value="pageByBankuai">
+                搜索帖子:<input id="lunTanSoSuo" type="text" name="lunTanSoSuo" value="${param.lunTanSoSuo}">
+                <input type="submit" value="搜索" />
+            </form>
             <div class="topicModule">
                 <div class="topic-box">
                     <div class="topicList">

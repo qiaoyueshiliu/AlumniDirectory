@@ -60,4 +60,18 @@ public class BookDaoImpl extends BaseDao implements BookDao {
         return queryForList(Book.class,sql,begin,pageSize);
     }
 
+    @Override
+    public Integer queryForPageTotalCountByBankuai(String lunTanSoSuo) {
+        String luntansosuo= "\""+lunTanSoSuo+"\"";
+        String sql = "select count(*) as num from t_book where bankuai="+luntansosuo;
+        Number count = (Number)queryForSingleValue(sql);
+        return count.intValue();
+    }
+
+    @Override
+    public List<Book> queryForPageItemsByBankuai(int begin, int pageSize, String lunTanSoSuo) {
+        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong` from t_book where biaoji=1 and bankuai=? order by tieziid desc limit ?,? ";
+        return queryForList(Book.class,sql,lunTanSoSuo,begin,pageSize);
+    }
+
 }

@@ -19,13 +19,6 @@ public abstract class BaseServlet extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html; charset=UTF-8");
         String action = req.getParameter("action");
-//        System.out.println(action);
-//        if ("login".equals(action)){
-//            login(req,resp);
-//        }else if("regist".equals(action)){
-//            regist(req,resp);
-//        }
-//        String action = "login";
         try {
             //通过action业务鉴别字符串，获取相应的业务方法反射对象
 //            Method method = UserServletTest.class.getDeclaredMethod(action);

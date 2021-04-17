@@ -53,4 +53,8 @@ public class BookServiceTest {
         System.out.println(bookService.page(1,4));
     }
 
+    @Test
+    public void pageByBankuai(){
+        System.out.println(bookService.pageByBankuai(1,4,"剑桥大学"));
+    }
 }

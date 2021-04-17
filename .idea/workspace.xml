@@ -7,10 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/LunTan/Session/Session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/LunTan/Session/Session.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/LunTan/Session/SessionServlet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/LunTan/Session/SessionServlet.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/LunTan/论坛模块" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/LunTan/论坛模块" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/MPagebeifen2021-4-12144606.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/MPagebeifen2021-4-12144606.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/test/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/test/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/YonghuguanliServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/YonghuguanliServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/171-用户登录.html" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/171-用户登录.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/171.txt" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/171.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Login/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MySQL创建/t_book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/MySQL创建/t_book.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MySQL创建/t_user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/MySQL创建/t_user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MySQL创建/创建book库customers表" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/MySQL创建/创建book库customers表" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MySQL创建/创建book库t_user表" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/MySQL创建/创建book库t_user表" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MySQL创建/创建book库的user_table表" beforeDir="false" afterPath="$PROJECT_DIR$/回收站/MySQL创建/创建book库的user_table表" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,35 +86,57 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public_jsp/header02.jsp">
+        <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="214">
+              <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/public_jsp/admin_header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="123">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="58" column="153" lean-forward="true" selection-start-line="58" selection-start-column="153" selection-end-line="58" selection-end-column="153" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index/index2.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/ClientBookServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -123,6 +167,16 @@
       <find>requestScope.page.url</find>
       <find>manager/bookServlet?action=page</find>
       <find>manager/yonghuguanliServlet?action=page</find>
+      <find>context</find>
+      <find>getcontextpath</find>
+      <find>getServletContext</find>
+      <find>setAtt</find>
+      <find>mysql</find>
+      <find>&lt;table width=</find>
+      <find>table</find>
+      <find>getMo</find>
+      <find>getMe</find>
+      <find>scid</find>
     </findStrings>
     <replaceStrings>
       <replace>tieziid</replace>
@@ -150,21 +204,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/web/index/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/回收站/index/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/atguigu/test/YonghuguanliServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/test/YonghuguanliServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/test/YonghuguanliDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/test/YonghuguanliDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/dao/impl/YonghuguanliDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/test/YonghuguanliServletTest.java" />
-        <option value="$PROJECT_DIR$/web/Register/Yonghuxiuguanlixiugai.jsp" />
-        <option value="$PROJECT_DIR$/web/MPage/fatie.jsp" />
-        <option value="$PROJECT_DIR$/web/Register/regist.jsp" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/web/RegistServlet.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/test/UserServletTest.java" />
@@ -172,19 +216,14 @@
         <option value="$PROJECT_DIR$/web/Register/Registration_Page.jsp" />
         <option value="$PROJECT_DIR$/src/com/atguigu/utils/WebUtils.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" />
         <option value="$PROJECT_DIR$/web/public_jsp/pg.jsp" />
         <option value="$PROJECT_DIR$/web/public_jsp/pg.css" />
         <option value="$PROJECT_DIR$/src/com/atguigu/pojo/Page.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/web/YonghuguanliServlet.java" />
         <option value="$PROJECT_DIR$/web/public_jsp/page_nav.jsp" />
-        <option value="$PROJECT_DIR$/web/MPage/MPage.jsp" />
         <option value="$PROJECT_DIR$/web/Register/tieziguanli.jsp" />
         <option value="$PROJECT_DIR$/src/com/atguigu/web/ClientBookServlet.java" />
         <option value="$PROJECT_DIR$/web/Register/ZhangHaoGuanLi.jsp" />
         <option value="$PROJECT_DIR$/src/com/atguigu/pojo/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/MPage/huifu.jsp" />
         <option value="$PROJECT_DIR$/web/MySQL创建/创建book库的user_table表" />
         <option value="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" />
@@ -193,9 +232,7 @@
         <option value="D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/dao/CommDAO.java" />
         <option value="$PROJECT_DIR$/web/LunTan/Session.jsp" />
         <option value="$PROJECT_DIR$/web/LunTan/Session/SessionServlet.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/LunTan/Session/Session.jsp" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/servlet/SessionServlet.java" />
         <option value="D:/BaiduNetdiskDownload/资料/资料/13-cookie和session/代码/13_cookie_session/src/com/atguigu/servlet/SessionServlet.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java" />
@@ -203,9 +240,26 @@
         <option value="$PROJECT_DIR$/回收站/regist.jsp" />
         <option value="$PROJECT_DIR$/回收站/header.jsp" />
         <option value="$PROJECT_DIR$/web/public_jsp/daoHangLan.css" />
-        <option value="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" />
-        <option value="$PROJECT_DIR$/web/public_jsp/header02.jsp" />
         <option value="$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java" />
+        <option value="$PROJECT_DIR$/回收站/index/index2.jsp" />
+        <option value="$PROJECT_DIR$/web/public_jsp/header02.jsp" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/web/YonghuguanliServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/web/Login/Login.jsp" />
+        <option value="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/WEB-INF/web.xml" />
+        <option value="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/dao/CommDAO.java" />
+        <option value="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bbs.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/test/BookServiceTest.java" />
+        <option value="$PROJECT_DIR$/web/MPage/MPage.jsp" />
+        <option value="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" />
       </list>
     </option>
   </component>
@@ -230,8 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,18 +307,19 @@
               <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
@@ -274,10 +327,18 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="MPage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="public_jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -296,27 +357,17 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/资料/资料/13-cookie和session/代码/13_cookie_session" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/资料/资料/07-Servlet-2/代码/07_servlet" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.atguigu.test" />
       <recent name="com.atguigu.web" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEA\AlumniDirectory\回收站" />
-      <recent name="D:\IDEA\AlumniDirectory\web\LunTan\Session" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\tupian" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\源码\JSP校友同学网站\JSP校友同学网站\源码\jspmxyhwznsA1A2\WebContent\WEB-INF\lib" />
@@ -324,6 +375,16 @@
       <recent name="D:\源码\JSP校友同学网站\JSP校友同学网站\源码\jspmxyhwznsA1A2\web" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\public_jsp" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF\IMG" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\AlumniDirectory\回收站" />
+      <recent name="D:\IDEA\AlumniDirectory\web\LunTan\Session" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\WEB-INF" />
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\tupian" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -346,7 +407,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.yanshi">
-    <configuration name="UserDaoTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
         <pattern>
@@ -355,8 +416,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
-      <option name="METHOD_NAME" value="saveUser" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTest.queryForPageItemsByBankuai" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryForPageItemsByBankuai" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryForPageTotalCountByBankuai" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.pageByBankuai" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlumniDirectory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceTest" />
+      <option name="METHOD_NAME" value="pageByBankuai" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -373,54 +482,6 @@
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserServiceTest" />
       <option name="METHOD_NAME" value="registUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YonghuguanliDaoTest.queryForPageItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.YonghuguanliDaoTest" />
-      <option name="METHOD_NAME" value="queryForPageItems" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YonghuguanliServiceTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.YonghuguanliServiceTest" />
-      <option name="METHOD_NAME" value="page" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YonghuguanliServletTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlumniDirectory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.YonghuguanliServletTest" />
-      <option name="METHOD_NAME" value="page" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -517,7 +578,7 @@
     </configuration>
     <configuration name="yanshi" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AlumniDirectory" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="AlumniDirectory:war exploded">
           <settings>
@@ -589,21 +650,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.YonghuguanliDaoTest.queryForPageItems" />
-      <item itemvalue="JUnit.YonghuguanliServiceTest.page" />
-      <item itemvalue="JUnit.YonghuguanliServletTest.page" />
-      <item itemvalue="JUnit.UserDaoTest.saveUser" />
       <item itemvalue="JUnit.UserServiceTest.registUser" />
+      <item itemvalue="JUnit.BookDaoTest.queryBooks" />
       <item itemvalue="Tomcat Server.yanshi" />
       <item itemvalue="Tomcat Server.book" />
+      <item itemvalue="JUnit.BookDaoTest.queryForPageTotalCountByBankuai" />
+      <item itemvalue="JUnit.BookDaoTest.queryForPageItemsByBankuai" />
+      <item itemvalue="JUnit.BookServiceTest.pageByBankuai" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookServiceTest.pageByBankuai" />
+        <item itemvalue="JUnit.BookDaoTest.queryForPageItemsByBankuai" />
+        <item itemvalue="JUnit.BookDaoTest.queryForPageTotalCountByBankuai" />
+        <item itemvalue="JUnit.BookDaoTest.queryBooks" />
         <item itemvalue="JUnit.UserServiceTest.registUser" />
-        <item itemvalue="JUnit.UserDaoTest.saveUser" />
-        <item itemvalue="JUnit.YonghuguanliServletTest.page" />
-        <item itemvalue="JUnit.YonghuguanliServiceTest.page" />
-        <item itemvalue="JUnit.YonghuguanliDaoTest.queryForPageItems" />
       </list>
     </recent_temporary>
   </component>
@@ -660,14 +721,10 @@
       <workItem from="1618530958541" duration="3558000" />
       <workItem from="1618536307260" duration="4239000" />
       <workItem from="1618585547609" duration="860000" />
-      <workItem from="1618624156295" duration="9553000" />
-    </task>
-    <task id="LOCAL-00064" summary="2021-4-1 16:18:13 JDBC-10-数据库连接方式四">
-      <created>1617265101954</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1617265101954</updated>
+      <workItem from="1618624156295" duration="9846000" />
+      <workItem from="1618640141084" duration="10328000" />
+      <workItem from="1618651614387" duration="115000" />
+      <workItem from="1618651753392" duration="7448000" />
     </task>
     <task id="LOCAL-00065" summary="2021-4-1 16:44:14 JDBC-11-数据库连接方式五">
       <created>1617266660445</created>
@@ -1005,43 +1062,50 @@
       <option name="project" value="LOCAL" />
       <updated>1618635069371</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="2021-4-17 12:55:45 2.0.6 优化，提取导航栏css">
+      <created>1618635386696</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1618635386696</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YonghuguanliDaoTest_queryForPageItems - 2021.04.12 at 22h 10m 37s.xml">
-      <configuration name="YonghuguanliDaoTest.queryForPageItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YonghuguanliDaoTest_queryForPageItems - 2021.04.12 at 22h 17m 45s.xml">
-      <configuration name="YonghuguanliDaoTest.queryForPageItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YonghuguanliDaoTest_queryForPageItems - 2021.04.12 at 22h 18m 23s.xml">
-      <configuration name="YonghuguanliDaoTest.queryForPageItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YonghuguanliServiceTest_page - 2021.04.12 at 22h 19m 09s.xml">
-      <configuration name="YonghuguanliServiceTest.page" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YonghuguanliServletTest_page - 2021.04.12 at 22h 22m 19s.xml">
-      <configuration name="YonghuguanliServletTest.page" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YonghuguanliServletTest_page - 2021.04.12 at 22h 22m 42s.xml">
-      <configuration name="YonghuguanliServletTest.page" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_saveUser - 2021.04.14 at 14h 41m 41s.xml">
-      <configuration name="UserDaoTest.saveUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_saveUser - 2021.04.14 at 14h 42m 09s.xml">
-      <configuration name="UserDaoTest.saveUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_saveUser - 2021.04.14 at 14h 42m 28s.xml">
-      <configuration name="UserDaoTest.saveUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceTest_registUser - 2021.04.14 at 14h 45m 31s.xml">
       <configuration name="UserServiceTest.registUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookDaoTest_queryBooks - 2021.04.17 at 18h 23m 33s.xml">
+      <configuration name="BookDaoTest.queryBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageTotalCountByBankuai - 2021.04.17 at 19h 04m 15s.xml">
+      <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageTotalCountByBankuai - 2021.04.17 at 19h 10m 47s.xml">
+      <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageTotalCountByBankuai - 2021.04.17 at 19h 11m 52s.xml">
+      <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageTotalCountByBankuai - 2021.04.17 at 19h 13m 29s.xml">
+      <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageTotalCountByBankuai - 2021.04.17 at 19h 14m 11s.xml">
+      <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageTotalCountByBankuai - 2021.04.17 at 19h 18m 01s.xml">
+      <configuration name="BookDaoTest.queryForPageTotalCountByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookDaoTest_queryForPageItemsByBankuai - 2021.04.17 at 19h 27m 07s.xml">
+      <configuration name="BookDaoTest.queryForPageItemsByBankuai" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookServiceTest_pageByBankuai - 2021.04.17 at 19h 28m 40s.xml">
+      <configuration name="BookServiceTest.pageByBankuai" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118919000" />
+    <option name="totallyTimeSpent" value="137103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1056,17 +1120,17 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.714497" visible="true" weight="0.19638069" />
-      <window_info id="Structure" order="1" sideWeight="0.50591713" side_tool="true" weight="0.26407507" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5803758" visible="true" weight="0.20442359" />
+      <window_info id="Structure" order="1" sideWeight="0.4196242" side_tool="true" weight="0.20442359" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.28550297" side_tool="true" weight="0.17493297" />
+      <window_info id="Favorites" order="6" sideWeight="0.41784704" side_tool="true" weight="0.20442359" />
+      <window_info id="Web" order="7" sideWeight="0.41784704" side_tool="true" weight="0.20442359" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61126006" weight="0.35410765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61126006" visible="true" weight="0.44475922" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.91018766" weight="0.29461756" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1137,7 +1201,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-10 19:19:21 帖子管理员删除完成" />
     <MESSAGE value="2021-4-10 19:19:21 用户管理初步完成" />
     <MESSAGE value="2021-4-10 19:19:21 用户管理删除和显示完成" />
     <MESSAGE value="2021-4-10 19:19:21 用户管理修改页面，回显用户数据" />
@@ -1162,7 +1225,8 @@
     <MESSAGE value="2021-4-17 10:32:21 2.0.4更新：Session学习" />
     <MESSAGE value="2021-4-17 12:29:59 2.0.5 回收站" />
     <MESSAGE value="2021-4-17 12:29:59 2.0.5 servlet 学习至 servletConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-17 12:29:59 2.0.5 servlet 学习至 servletConfig" />
+    <MESSAGE value="2021-4-17 12:55:45 2.0.6 优化，提取导航栏css" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-17 12:55:45 2.0.6 优化，提取导航栏css" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1176,7 +1240,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atguigu/web/YonghuguanliServlet.java</url>
-          <line>58</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -1197,38 +1261,99 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/util/StrUtil.java">
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        <state relative-caret-position="260">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#td#0;n#tr#0;n#table#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#td#0;n#tr#1;n#table#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/MPage/huifuyemian.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/util/SetChar.java">
+    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/07-Servlet-2/代码/07_servlet/src/com/atguigu/servlet/ParameterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/util/QRCodeUtil.java">
+    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/07-Servlet-2/代码/07_servlet/src/com/atguigu/servlet/RequestAPIServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/dao/CommDAO.java">
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bankuai_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8854">
-          <caret line="493" column="17" selection-start-line="493" selection-start-column="17" selection-end-line="493" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="15" column="233" lean-forward="true" selection-start-line="15" selection-start-column="233" selection-end-line="15" selection-end-column="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/qttop.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bankuai_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#6#12#0" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#6#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bbs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="n#HEAD#0;n#HTML#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/util/PageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="281" column="31" lean-forward="true" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/dao/CommDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="305" column="12" lean-forward="true" selection-start-line="305" selection-start-column="12" selection-end-line="305" selection-end-column="12" />
           <folding>
             <element signature="e#852#853#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
@@ -1236,310 +1361,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/web/bankuai_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/web/bbs.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/src/dao/CommDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b318e80b-2644-4e59-8f7b-c62feeeb6af8/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bankuai_list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="n#servlet#5;n#web-app#0;n#!!top" />
-            <element signature="n#servlet-mapping#5;n#web-app#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/ServletException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/head_css/head.jsp">
+    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bbslist.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/LunTan/Session/SessionServlet.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/LunTan/Session/Session.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/servlet/SessionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/13-cookie和session/代码/13_cookie_session/web/session.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/13-cookie和session/代码/13_cookie_session/src/com/atguigu/servlet/SessionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bankuai_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="e#455#803#0#JSP" />
-            <element signature="n#script#0;n#html#0;n#!!top" />
-            <element signature="e#946#1143#0#JSP" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#td#1;n#tr#4;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#6#12#0" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#6#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/14-项目第六、七阶段/代码/book/src/com/atguigu/web/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1209">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="357">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="86">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/DoctorDao.java">
+    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/07-Servlet-2/代码/07_servlet/src/com/atguigu/servlet/Servlet2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/ClientBookServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/UserServletbeifen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#6027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java">
+    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/07-Servlet-2/代码/07_servlet/src/com/atguigu/servlet/Servlet1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/src/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-3.5.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Register/Registration_Page.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Register/regist_success.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/regist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回收站/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/header.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/pg.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/pg.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/page_nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Page/login_success_menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/admin_header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/fenye.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/daoHangLan.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/header02.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="190">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/index.html">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="85" lean-forward="true" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/head_css/head.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/index2.jsp">
+    <entry file="file://$PROJECT_DIR$/web/head_css/head.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回收站/171.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回收站/171-用户登录.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/MPage/fatie.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/MPage/huifuyemian.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/MPage/huifu.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/MPage/tieziye.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="189" column="17" lean-forward="true" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login/login_success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Page/head.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register/HouTaiGuanLi.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register/regist_success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register/Registration_Page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register/Registrationbeifen.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register/tieziguanli.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Register/Yonghuxiuguanlixiugai.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921" />
+      </provider>
+    </entry>
+    <entry file="file://D:/BaiduNetdiskDownload/资料/资料/14-项目第六、七阶段/代码/book/web/pages/client/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" selection-start-line="52" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回收站/MPagebeifen2021-4-12144606.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="83" column="47" lean-forward="true" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+          <folding>
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#1826#1832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/BookDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/test/BookServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+          <folding>
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/MPage/MPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public_jsp/admin_header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="58" column="153" lean-forward="true" selection-start-line="58" selection-start-column="153" selection-end-line="58" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dao/impl/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/ClientBookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
         </state>
       </provider>
     </entry>

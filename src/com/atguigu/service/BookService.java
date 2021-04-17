@@ -19,4 +19,5 @@ public interface BookService {
 
     Page<Book> page(int pageNo, int pageSize);
 
+    Page<Book> pageByBankuai(int pageNo, int pageSize, String lunTanSoSuo);
 }

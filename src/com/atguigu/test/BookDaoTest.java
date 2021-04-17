@@ -65,4 +65,16 @@ public class BookDaoTest {
         }
     }
 
+    @Test
+    public void queryForPageTotalCountByBankuai() {
+        System.out.println("打印帖子总数：");
+        System.out.println( bookDao.queryForPageTotalCountByBankuai("剑桥大学")) ;
+    }
+
+    @Test
+    public void queryForPageItemsByBankuai() {
+        for (Book book : bookDao.queryForPageItemsByBankuai(4, 4,"剑桥大学")) {
+            System.out.println(book);
+        }
+    }
 }

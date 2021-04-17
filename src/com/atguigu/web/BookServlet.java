@@ -46,6 +46,7 @@ public class BookServlet extends BaseServlet{
 //        2、调用 BookService.addBook() 保存图书
         bookService.addBook(book);
 //        3、跳到图书列表页面
+//        getcontextpath获取 /工程路径
         resp.sendRedirect(req.getContextPath()+"/client/bookServlet_qiantai?action=page");
     }
 
@@ -56,6 +57,8 @@ public class BookServlet extends BaseServlet{
         bookService.deleteBookByTieziid(tieziid);
 
 //        3、重新定向回图书管理页面
+        // etcontextpath获取 /工程路径
+
         resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
