@@ -70,7 +70,7 @@ public class User {
     private String email;
     private String nickname;
     private String xuexiao;
-    private String quanxian;
+    private Integer quanxian;
 
     @Override
     public String toString() {
@@ -85,11 +85,11 @@ public class User {
                 '}';
     }
 
-    public String getQuanxian() {
+    public Integer getQuanxian() {
         return quanxian;
     }
 
-    public void setQuanxian(String quanxian) {
+    public void setQuanxian(Integer quanxian) {
         this.quanxian = quanxian;
     }
 

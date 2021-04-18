@@ -1,11 +1,4 @@
-<%@ page import="com.atguigu.dao.CommDAO" %><%--
-  Created by IntelliJ IDEA.
-  User: DELL
-  Date: 2021/3/24
-  Time: 11:21
-  To change this template use File | Settings | File Templates.
-  <%--
---%>
+<%@ page import="com.atguigu.pojo.Book" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <html>
@@ -19,10 +12,11 @@
 <link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
-<%--<%@include file="MPage_css.jsp"%>--%>
 <body>
 
 <div class="row">
+    <% Book book = new Book();%>
+    ${book}
     <div class="column side">
         <div>
             <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
