@@ -19,8 +19,14 @@
 
     <div class="column middle">
         <div class="card">
-            <h1>欢迎使用!</h1>
-            <h3><a href="client/bookServlet_qiantai?action=list">主页</a></h3>
+            <h1>
+                欢迎使用!
+            </h1>
+            <h3>
+                <a href="client/bookServlet_qiantai?action=list">
+                    主页
+                </a>
+            </h3>
         </div>
     </div>
 

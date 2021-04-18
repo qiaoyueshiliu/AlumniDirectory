@@ -10,9 +10,11 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public int addBook(Book book) {
         System.out.println("开始进行添加 addBook");
-        String sql = "insert into t_book(`tieziid`,`biaoti`,`nickname`,`bankuai`,`neirong`) values (?,?,?,?,?);";
+        String sql = "insert into " +
+                        "t_book(`tieziid`,`biaoti`,`nickname`,`bankuai`,`neirong`,id) " +
+                        "values (?,?,?,?,?,?);";
         System.out.println("addBook 添加操作完成");
-        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai(),book.getNeirong());
+        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai(),book.getNeirong(),book.getId());
     }
 
     @Override
@@ -56,7 +58,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
 
     @Override
     public List<Book> queryForPageItems(int begin, int pageSize) {
-        String sql = "select `tieziid`,`createtime`,`bankuai`,`neirong`,`xuexiao`,`biaoti`,t_user.nickname,t_book.id\n" +
+        String sql = "select `tieziid`,`createtime`,`bankuai`,`neirong`,`xuexiao`,`biaoti`,t_user.nickname,t_book.id,t_book.id\n" +
                 "from t_book,t_user\n" +
                 "where t_book.id = t_user.id\n" +
                 "order by t_book.tieziid desc \n" +

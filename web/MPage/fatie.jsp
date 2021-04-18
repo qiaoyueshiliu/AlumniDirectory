@@ -43,9 +43,9 @@
                         <tr>
                             <td valign="top" bgcolor="#FFFFFF">发帖人ID </td>
                             <td valign="top" bgcolor="#FFFFFF">
-                                <input name="nickname"
+                                <input name="id"
                                        type="hidden" maxlength="20" size="15"
-                                       id="nickname" class="input" value="${sessionScope.user.id}"/>${sessionScope.user.id}
+                                       id="id" class="input" value="${sessionScope.user.id}"/>${sessionScope.user.id}
                             </td>
                         </tr>
                         <tr>
@@ -68,6 +68,7 @@
                         </tr>
                         <tr>
                             <td>
+                                <a></a>
                                 <input type="submit" name="RegisterBtn" value="发帖" id="RegisterBtn" />
                             </td>
                         </tr>
