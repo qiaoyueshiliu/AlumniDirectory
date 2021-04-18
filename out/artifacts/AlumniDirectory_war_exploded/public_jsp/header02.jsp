@@ -19,6 +19,8 @@
         <li><a>${sessionScope.user.nickname}</a></li>
         <li><a href="">注销</a></li>
     </c:if>
+    <c:if test="${sessionScope.user.quanxian eq 1}">
     <li><a href="Register/HouTaiGuanLi.jsp">后台</a></li>
+    </c:if>
 </ul>
 </body>

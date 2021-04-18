@@ -1,8 +1,0 @@
-void Word-Macro()
-{
-    //作者：巧月十六 日期：2021-3-12 09:26:34
-    Application.gotoProduct(GlobalConstants.WORDPROCESSOR);
-    WpSelection.insertAfter("Word输入文字检测");
-    WpSelection.moveRight(5,KeyEvent.VK_UNDEFINED);
-    WpSelection.insertAfter("Word输入数字检测");
-}

@@ -1,9 +1,0 @@
-use book;
-create table t_user(
-`id` int primary key AUTO_INCREMENT,
-`username` varchar(20) not null unique,
-`password` varchar(32) not null,
-`nickname` varchar(200)
-);
-insert into t_user(`username`,`password`,`nickname`) values ('admin','admin','管理员');
-select * from t_user;

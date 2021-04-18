@@ -28,7 +28,7 @@
         <div class="card">
             <form action="client/bookServlet_qiantai" method="get">
                 <input type="hidden" name="action" value="pageByBankuai">
-                搜索帖子:<input id="lunTanSoSuo" type="text" name="lunTanSoSuo" value="${param.lunTanSoSuo}">
+                按学校搜索:<input id="lunTanSoSuo" type="text" name="lunTanSoSuo" value="${param.lunTanSoSuo}">
                 <input type="submit" value="搜索" />
             </form>
             <div class="topicModule">
@@ -44,7 +44,7 @@
                                             <a class="userName" href="user/control/home?userName=test">
                                                     ${book.nickname}
                                             </a>
-                                            <span class="userRoleName">用户</span>
+                                            <span class="userRoleName">用户${book.xuexiao}</span>
                                             <span class="postTime">发表时间：${book.createtime}</span>
 <%--                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>--%>
                                         </li>

@@ -8,6 +8,16 @@ public class Book {
     private String bankuai;
     private String neirong;
     private String biaoji;
+    private Integer id;
+    private String xuexiao;
+
+    public String getXuexiao() {
+        return xuexiao;
+    }
+
+    public void setXuexiao(String xuexiao) {
+        this.xuexiao = xuexiao;
+    }
 
     @Override
     public String toString() {
@@ -19,7 +29,17 @@ public class Book {
                 ", bankuai='" + bankuai + '\'' +
                 ", neirong='" + neirong + '\'' +
                 ", biaoji='" + biaoji + '\'' +
+                ", id=" + id +
+                ", xuexiao='" + xuexiao + '\'' +
                 '}';
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getBiaoji() {
