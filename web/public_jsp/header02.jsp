@@ -16,6 +16,7 @@
     </c:if>
     <%--如果已经登录，则显示登录成功后的用户信息--%>
     <c:if test="${not empty sessionScope.user}">
+        <li><a><%=session.getAttribute("user.nickname")%></a></li>
         <li><a>${sessionScope.user.nickname}</a></li>
         <li><a href="">注销</a></li>
     </c:if>

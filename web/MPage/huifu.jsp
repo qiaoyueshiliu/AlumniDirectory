@@ -1,3 +1,4 @@
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
 <%--
   Created by IntelliJ IDEA.
   User: DELL
@@ -23,6 +24,26 @@
             <form action="manager/bookServlet" method="get">
                 <input type="hidden" name="action" value="add">
                 <table id="rapidregTable" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
+                    <sql:setDataSource
+                            var="snapshot"
+                            driver="com.mysql.jdbc.Driver"
+                            url="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8"
+                            user="root"
+                            password="123"
+                    />
+                    <sql:update dataSource="${snapshot}" var="result">
+                        insert into
+                        huifu (tieziid,huifuneirong)
+                        value ('${requestScope}','')
+                    </sql:update>
+                    <tr>
+                        <td valign="top" bgcolor="#FFFFFF">回复人 </td>
+                        <td valign="top" bgcolor="#FFFFFF">
+                            <input name="id"
+                                   type="text" maxlength="20" size="15"
+                                   id="id" class="input"/>
+                        </td>
+                    </tr>
                     <tr>
                         <td valign="top" bgcolor="#FFFFFF">回复人 </td>
                         <td valign="top" bgcolor="#FFFFFF">

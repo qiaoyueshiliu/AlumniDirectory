@@ -7,6 +7,7 @@
   <%--
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <html>
 <head>
@@ -30,32 +31,46 @@
 
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
-        <div class="card">
-            <div class="topicModule">
-                <div class="topic-box">
-                    <div class="topicList">
-                        <%--                        item:Page.java--%>
-<%--                        <c:forEach items="${requestScope.page.items}" var="book">--%>
+        <sql:setDataSource
+                var="snapshot"
+                driver="com.mysql.jdbc.Driver"
+                url="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8"
+                user="root"
+                password="123"
+        />
+        <sql:query dataSource="${snapshot}" var="result">
+            select
+            `tieziid`,`createtime`,`bankuai`,`neirong` ,`xuexiao`,t_user.nickname,`biaoti`
+            from t_book,t_user
+            where t_book.id = t_user.id and t_book.tieziid=${param.tieziid}
+            order by t_book.tieziid desc;
+        </sql:query>
+        <c:forEach var="row" items="${result.rows}">
+            <div class="card">
+                <div class="topicModule">
+                    <div>帖子</div>
+                    <div class="topic-box">
+                        <div class="topicList">
                             <div class="topicItem">
                                 <div class="content clearfix">
                                     <ul class="info">
                                         <li>
-                                            <span class="tag">${book.bankuai}bankuai</span>
-                                            <span class="userName">${book.nickname}nickname</span>
+                                            <span class="tag">${row.bankuai}</span>
+                                            <span class="userName">>${row.nickname}</span>
                                             <span class="userRoleName">用户</span>
-                                            <span class="postTime">时间：${book.createtime}</span>
+                                            <span class="postTime">时间：${row.createtime}</span>
                                         </li>
                                     </ul>
                                     <h2 class="title clearfix">
                                         <span href="thread?topicId=46" target="_blank">
-                                                ${book.biaoti}biaoti
+                                                ${row.biaoti}
                                         </span>
                                     </h2>
                                     <div class="clearfix"></div>
 
                                     <div class="detail">
                                         <h2 class="summary">
-                                                ${book.neirong}neirong
+                                                ${row.neirong}
                                         </h2>
                                     </div>
                                 </div>
@@ -63,7 +78,56 @@
                                 <div class="statistic clearfix">
                                 </div>
                             </div>
-<%--                        </c:forEach>--%>
+                            <div class="topicItem">
+                                <div class="fatiekuang">
+                                    <div class="fatie">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </c:forEach>
+        <sql:query dataSource="${snapshot}" var="result">
+            select `tieziid`,`createtime`,`bankuai`,`neirong` ,`xuexiao`,t_user.nickname,`biaoti`
+            from t_book,t_user
+            where t_book.id = t_user.id and t_book.tieziid=${param.tieziid}
+            order by t_book.tieziid desc;
+        </sql:query>
+        <div class="card">
+            <div class="topicModule">
+                <div>回复</div>
+                <div class="topic-box">
+                    <div class="topicList">
+                        <div class="topicItem">
+                            <div class="content clearfix">
+                                <ul class="info">
+                                    <li>
+                                        <span class="tag">${book.bankuai}bankuai</span>
+                                        <span class="userName">${book.nickname}nickname</span>
+                                        <span class="userRoleName">用户</span>
+                                        <span class="postTime">时间：${book.createtime}</span>
+                                    </li>
+                                </ul>
+                                <h2 class="title clearfix">
+                                        <span href="thread?topicId=46" target="_blank">
+                                                ${book.biaoti}biaoti
+                                        </span>
+                                </h2>
+                                <div class="clearfix"></div>
+
+                                <div class="detail">
+                                    <h2 class="summary">
+                                        ${book.neirong}neirong
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <div class="statistic clearfix">
+                            </div>
+                        </div>
+                        <%--                        </c:forEach>--%>
                         <div class="topicItem">
                             <div class="fatiekuang">
                                 <div class="fatie">
@@ -72,10 +136,10 @@
                         </div>
                         <div class="topicPage">
                             <div class="fatiekuangyi">
-                                <a class="fatieanniu" href="MPage/huifu.jsp">回复</a>
+                                <a class="fatieanniu" href="MPage/huifu.jsp?tieziid=${param.tieziid}">回复</a>
                             </div>
                             <%--                            静态包含分页条--%>
-                            <%@include file="/public_jsp/page_nav.jsp"%>
+                            <%@include file="/public_jsp/page_nav.jsp" %>
                         </div>
                     </div>
                 </div>

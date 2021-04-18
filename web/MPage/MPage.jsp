@@ -50,7 +50,7 @@
                                         </li>
                                     </ul>
                                     <h2 class="title clearfix">
-                                        <a href="thread?topicId=46" target="_blank">
+                                        <a href="MPage/huifuyemian.jsp?tieziid=${book.tieziid}" target="_blank">
                                                 ${book.biaoti}
                                         </a>
                                     </h2>

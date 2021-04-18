@@ -19,6 +19,8 @@ public class Page<T> {
     private Integer pageTotalCount;
 //    当前页数据
     private List<T> items;
+    //分页条的请求地址
+    private String url;
 
     public String getUrl() {
         System.out.println("pojo.Page:url的get方法");
@@ -30,8 +32,6 @@ public class Page<T> {
         this.url = url;
     }
 
-    //分页条的请求地址
-    private String url;
 
     public Integer getPageNo() {
         return pageNo;
@@ -42,7 +42,7 @@ public class Page<T> {
         if (pageNo < 1){
             pageNo = 1;
         }
-        if (pageNo > pageTotal){
+        if (pageNo > pageTotal) {
             pageNo = pageTotal;
         }
         this.pageNo = pageNo;
