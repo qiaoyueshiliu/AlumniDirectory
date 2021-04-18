@@ -5,7 +5,8 @@
 
 }
 .topicModule .topic-box{
-    background:#fff;padding:0px 15px 0px 15px;
+    background:#fff;
+    padding:0px 15px 0px 15px;
     box-shadow: 0 0px 3px 0 rgba(0,0,0,.02), 0 4px 8px 0 rgba(0,0,0,.02);
 
 }
@@ -41,9 +42,6 @@
     position:relative;
 }
 .topicModule .topic-box .topicList .topicItem .content {
-    /**
-    overflow: auto;
-    overflow-x: hidden;**/
     margin-left:88px;
     margin-right:100px;
 }
@@ -146,12 +144,17 @@
     top: -1px;
 }
 .topicModule .topic-box .topicList .topicItem .content .title .hideTagType .circle{
-    border-radius:12px;display: inline-block;margin-right:5px;
-    width: 24px;height: 24px;
+    border-radius:12px;
+    display: inline-block;
+    margin-right:5px;
+    width: 24px;
+    height: 24px;
     position:relative;
 }
 .topicModule .topic-box .topicList .topicItem .content .title .hideTagType .circle i{
-    font-size: 14px;line-height: 24px; margin-left: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 6px;
 }
 
 .topicModule .topic-box .topicList .topicItem .content .title .hideTagType .point:before{
@@ -308,27 +311,38 @@
 
 }
 .topicModule .topic-box .topicList .topicItem .statistic .viewTotal{
-    float: left;margin-right: 4px;min-width: 60px;
+    float: left;
+    margin-right: 4px;
+    min-width: 60px;
 }
 .topicModule .topic-box .topicList .topicItem .statistic .viewTotal .icon{
-    margin-left: 3px;position:relative;top: 1px;color: #e6e6e6;
+    margin-left: 3px;
+    position:relative;
+    top: 1px;
+    color: #e6e6e6;
 }
 .topicModule .topic-box .topicList .topicItem .statistic .commentTotal{
-    float: right;margin-right: 10px;min-width: 50px;
+    float: right;
+    margin-right: 10px;
+    min-width: 50px;
 }
 .topicModule .topic-box .topicList .topicItem .statistic .commentTotal .icon{
-    margin-left: 3px;position:relative;top: 1px;color: #e6e6e6;
+    margin-left: 3px;
+    position:relative;
+    top: 1px;
+    color: #e6e6e6;
 }
 .topicModule .topicPage {
     padding-top:10px;
     background: #fff;
-    height: 54px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
 /*分页*/
 .pg {
-    float: right;line-height: 36px;font-size: 14px;
+    float: right;
+    line-height: 36px;font-size: 14px;
 }
 .pg A {
     border-radius: 3px; padding-bottom: 0px; background-color: #f5f5f7; padding-left: 12px; padding-right: 12px;padding-top: 0px; display: inline; background-repeat: no-repeat; float: left; height: 34px; color: #666; margin-left: 4px; overflow: hidden; text-decoration: none;

@@ -12,14 +12,23 @@
 <html>
 <head>
     <title>Title</title>
-    <script type="text/javascript" src="../script/jquery-3.5.1.js"></script>
+    <script type="text/javascript"
+            src="../script/jquery-3.5.1.js"></script>
 </head>
 <%@include file="../public_jsp/header02.jsp" %>
 <%--<link rel="stylesheet" href="head_css/common.css" type="text/css">--%>
-<link rel="stylesheet" href="head_css/public.css" type="text/css">
-<link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
-<link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
-<link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
+<link rel="stylesheet"
+      href="head_css/public.css"
+      type="text/css">
+<link rel="stylesheet"
+      href="public_jsp/yemianbuju.css"
+      type="text/css">
+<link rel="stylesheet"
+      href="public_jsp/zhuyefatieanniu.css"
+      type="text/css">
+<link rel="stylesheet"
+      href="public_jsp/pg.css"
+      type="text/css">
 <%--<%@include file="MPage_css.jsp"%>--%>
 <body>
 <div class="row">
@@ -49,12 +58,20 @@
         <c:forEach var="row" items="${result.rows}">
             <div class="card">
                 <div class="fatiekuangyi">
-                    <a class="fatieanniu"
-                       href="MPage/huifu.jsp?tieziid=${param.tieziid}"
-                       target="_blank">回复</a>
+                    <%--判断登录状态，登录显示回复--%>
+                    <c:if test="${not empty sessionScope.user}">
+                        <a class="fatieanniu"
+                           href="MPage/huifu.jsp?tieziid=${param.tieziid}"
+                           target="_blank">回复</a>
+                    </c:if>
+                        <%--判断登录状态，为登录显示请登录后回复--%>
+                    <c:if test="${empty sessionScope.user}">
+                        <a class="fatieanniu"
+                           href="Login/Login.jsp">请登录后回复</a>
+                    </c:if>
                 </div>
                 <div class="topicModule">
-                    <div>帖子</div>
+                    <div></div>
                     <div class="topic-box">
                         <div class="topicList">
                             <div class="topicItem">
@@ -68,7 +85,8 @@
                                         </li>
                                     </ul>
                                     <h2 class="title clearfix">
-                                        <span href="thread?topicId=46" target="_blank">
+                                        <span href="thread?topicId=46"
+                                              target="_blank">
                                                 ${row.biaoti}
                                         </span>
                                     </h2>
@@ -142,7 +160,6 @@
                             </div>
                         </div>
                         <div class="topicPage">
-                            <%--                            静态包含分页条--%>
 <%--                            <%@include file="/public_jsp/page_nav.jsp" %>--%>
                         </div>
                     </div>

@@ -58,6 +58,13 @@ public class UserServlet extends BaseServlet {
         }
     }
 
+    protected void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //1、销毁session
+        req.getSession().invalidate();
+        //2、重定向到主页
+        resp.sendRedirect(req.getContextPath());
+    }
+
     /**
      * 处理注册的功能
      * @param req

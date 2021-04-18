@@ -8,12 +8,10 @@
 </head>
 <%@include file="../public_jsp/header02.jsp" %>
 <link rel="stylesheet" href="head_css/public.css" type="text/css">
-
 <link rel="stylesheet" href="public_jsp/yemianbuju.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
 <body>
-
 <div class="row">
     <% Book book = new Book();%>
     ${book}
@@ -79,10 +77,19 @@
                             </div>
                         </div>
                         <div class="topicPage">
+                            <%--判断是否为登录状态,登录显示发帖--%>
+                            <c:if test="${not empty sessionScope.user}">
                             <div class="fatiekuangyi">
                                 <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
                             </div>
-<%--                            静态包含分页条--%>
+                            </c:if>
+                                <%--判断是否为登录状态，未登录提示登录--%>
+                                <c:if test="${empty sessionScope.user}">
+                                    <div class="fatiekuangyi">
+                                        <a class="fatieanniu" href="Login/Login.jsp">请登录后发帖</a>
+                                    </div>
+                                </c:if>
+                            <%--静态包含分页条--%>
                             <%@include file="/public_jsp/page_nav.jsp"%>
                         </div>
                     </div>
