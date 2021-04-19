@@ -52,7 +52,7 @@
                             <div class="topicPage">
                                 <c:if test="${not empty sessionScope.user}">
                                     <div class="fatiekuangyi">
-                                        <a class="fatieanniu" href="Links/linkAdd.jsp">反馈</a>
+                                        <a class="fatieanniu" href="Fankui/fankuiAdd.jsp">反馈</a>
                                     </div>
                                 </c:if>
                                 <c:if test="${empty sessionScope.user}">
