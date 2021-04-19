@@ -59,20 +59,25 @@
             order by t_book.tieziid desc;
         </sql:query>
         <c:forEach var="row" items="${result.rows}">
-            <div class="card">
-                <div class="fatiekuangyi">
-                    <%--判断登录状态，登录显示回复--%>
-                    <c:if test="${not empty sessionScope.user}">
+            <div class="card" style="height: 70px;">
+                <c:if test="${not empty sessionScope.user}">
+                    <div class="fatiekuangyi">
+                            <%--判断登录状态，登录显示回复--%>
                         <a class="fatieanniu"
                            href="MPage/huifu.jsp?tieziid=${param.tieziid}"
                            target="_blank">回复</a>
-                    </c:if>
-                        <%--判断登录状态，为登录显示请登录后回复--%>
-                    <c:if test="${empty sessionScope.user}">
+                            <%--判断登录状态，为登录显示请登录后回复--%>
+                    </div>
+                </c:if>
+                <c:if test="${empty sessionScope.user}">
+                    <div class="fatiekuangyi">
                         <a class="fatieanniu"
                            href="Login/Login.jsp">请登录后回复</a>
-                    </c:if>
-                </div>
+                    </div>
+                </c:if>
+            </div>
+            <div class="card">
+
                 <div class="topicModule">
                     <div></div>
                     <div class="topic-box">
@@ -131,28 +136,28 @@
                 <div class="topic-box">
                     <div class="topicList">
                         <c:forEach var="row" items="${huifusql.rows}">
-                        <div class="topicItem">
-                            <div class="content clearfix">
-                                <ul class="info">
-                                    <li>
-                                        <span class="tag">${row.bankuai}</span>
-                                        <span class="userName">${row.nickname}</span>
-                                        <span class="userRoleName">用户</span>
-                                        <span class="postTime">时间：${row.huifushijian}</span>
-                                    </li>
-                                </ul>
-                                <div class="clearfix"></div>
+                            <div class="topicItem">
+                                <div class="content clearfix">
+                                    <ul class="info">
+                                        <li>
+                                            <span class="tag">${row.bankuai}</span>
+                                            <span class="userName">${row.nickname}</span>
+                                            <span class="userRoleName">用户</span>
+                                            <span class="postTime">时间：${row.huifushijian}</span>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
 
-                                <div class="detail">
-                                    <h2 class="summary">
-                                        ${row.huifuneirong}
-                                    </h2>
+                                    <div class="detail">
+                                        <h2 class="summary">
+                                                ${row.huifuneirong}
+                                        </h2>
+                                    </div>
+                                </div>
+
+                                <div class="statistic clearfix">
                                 </div>
                             </div>
-
-                            <div class="statistic clearfix">
-                            </div>
-                        </div>
                         </c:forEach>
 
                         <div class="topicItem">
@@ -162,7 +167,7 @@
                             </div>
                         </div>
                         <div class="topicPage">
-<%--                            <%@include file="/public_jsp/page_nav.jsp" %>--%>
+                            <%--                            <%@include file="/public_jsp/page_nav.jsp" %>--%>
                         </div>
                     </div>
                 </div>

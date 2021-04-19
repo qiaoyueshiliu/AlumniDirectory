@@ -27,39 +27,46 @@
 
     <%--中间--%>
     <div class="column middle">
+        <%--数据库连接--%>
+        <sql:setDataSource
+                var="snapshot"
+                driver="com.mysql.jdbc.Driver"
+                url="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8"
+                user="root"
+                password="123"
+        />
+        <%--查询反馈内容--%>
+        <sql:query
+                dataSource="${snapshot}"
+                var="queryFankui">
+            select *
+            from fankui,t_user
+            where fankui.id = t_user.id
+            order by fankui.fankuiId desc;
+        </sql:query>
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
+            <div class="card" style="height: 80px">
+                <c:if test="${not empty sessionScope.user}">
+                    <div class="fatiekuangyi">
+                        <a class="fatieanniu" href="Fankui/fankuiAdd.jsp">反馈</a>
+                    </div>
+                </c:if>
+                <c:if test="${empty sessionScope.user}">
+                    <div class="fatiekuangyi">
+                        <a class="fatieanniu" href="Login/Login.jsp">请登录后发帖</a>
+                    </div>
+                </c:if>
+            </div>
         <div class="card">
+            <div class="topicModule">
+
+            </div>
             <div class="topicModule">
                 <div class="topic-box">
                     <div class="topicList">
-                        <%--数据库连接--%>
-                        <sql:setDataSource
-                                var="snapshot"
-                                driver="com.mysql.jdbc.Driver"
-                                url="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8"
-                                user="root"
-                                password="123"
-                        />
-                        <%--查询反馈内容--%>
-                        <sql:query
-                                dataSource="${snapshot}"
-                                var="queryFankui">
-                            select *
-                            from fankui,t_user
-                            where fankui.id = t_user.id
-                            order by fankui.fankuiId desc;
-                        </sql:query>
+
                             <div class="topicPage">
-                                <c:if test="${not empty sessionScope.user}">
-                                    <div class="fatiekuangyi">
-                                        <a class="fatieanniu" href="Fankui/fankuiAdd.jsp">反馈</a>
-                                    </div>
-                                </c:if>
-                                <c:if test="${empty sessionScope.user}">
-                                    <div class="fatiekuangyi">
-                                        <a class="fatieanniu" href="Login/Login.jsp">请登录后发帖</a>
-                                    </div>
-                                </c:if>
+
                             </div>
                         <%--循环反馈开始--%>
 
