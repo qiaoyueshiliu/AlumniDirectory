@@ -48,7 +48,7 @@
         <div class="card" style="height: 80px">
             <c:if test="${not empty sessionScope.user}">
                 <div class="fatiekuangyi">
-                    <a class="fatieanniu" href="Fankui/fankuiAdd.jsp">发布寻人启事</a>
+                    <a class="fatieanniu" href="Xunren/xunrenAdd.jsp">发布寻人启事</a>
                 </div>
             </c:if>
             <c:if test="${empty sessionScope.user}">

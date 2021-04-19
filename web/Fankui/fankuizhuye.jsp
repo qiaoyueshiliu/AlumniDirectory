@@ -70,7 +70,7 @@
                             </div>
                         <%--循环反馈开始--%>
 
-                        <c:forEach var="Fankui" items="${queryFankui.rows}">
+                        <c:forEach var="Fankui" items="${queryFankui.rows}" end="${param.fankuiend}">
                             <div class="topicItem">
                                 <div class="content clearfix">
                                     <ul class="info">
@@ -113,9 +113,14 @@
                             </div>
                         </c:forEach>
                         <%--循环反馈结束--%>
-                        <div class="topicItem">
+                        <div class="topicItem" style="height: 60px">
                             <div class="fatiekuang">
                                 <div class="fatie">
+                                    <c:if test="${param.fankuiend < 2}">
+                                        <%--下面数字表示加载多少行--%>
+                                    <c:set var="fankuiend" value="${param.fankuiend+1}" scope="page"/>
+                                    <a href="Fankui/fankuizhuye.jsp?fankuiend=${pageScope.fankuiend}">点击继续加载</a>
+                                    </c:if>
                                 </div>
                             </div>
                         </div>

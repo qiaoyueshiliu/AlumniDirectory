@@ -10,7 +10,7 @@
     <li><img src="public_jsp/QQ20210413151946.png" style="height: 49px"></li>
     <li><a href="client/bookServlet_qiantai?action=page&pageNo=1">主页</a></li>
     <li><a href="Links/Linkzhuye.jsp">学校信息网</a></li>
-    <li><a href="Fankui/fankuizhuye.jsp">用户反馈</a></li>
+    <li><a href="Fankui/fankuizhuye.jsp?fankuiend=0">用户反馈</a></li>
     <li><a href="Xunren/xunrenZhuye.jsp">寻人启事</a></li>
 
 
