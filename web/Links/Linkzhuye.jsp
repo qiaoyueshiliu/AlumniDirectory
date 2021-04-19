@@ -1,3 +1,4 @@
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
 <%--
   Created by IntelliJ IDEA.
   User: dengsidi
@@ -18,31 +19,64 @@
 <body>
 <div class="row">
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
+
     </div>
 
     <div class="column middle">
+        <img src="head_css/wallhaven-n6dqgx_1920x400.png"
+             style="width: 100%">
         <div class="card">
-            <div id="zoom" style="text-align:left;padding-bottom: 40px;min-height:300px;">
+            <div id="zoom"
+                 style="text-align:left;
+                 padding-bottom: 40px;
+                 min-height:300px;">
                 <meta name="ContentStart">
                 <div>
                     <table border="1" width="200" align="center">
                         <tbody>
                         <tr class="firstRow">
+                            <h1 style="font-size: 48px;
+                            text-align: center">
+                                部分江苏省学校官网
+                            </h1>
+                            <a href="Links/linkAdd.jsp"
+                               target="_blank">添加友情链接</a>
+                            <sql:setDataSource
+                                    var="snapshot"
+                                    driver="com.mysql.jdbc.Driver"
+                                    url="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8"
+                                    user="root"
+                                    password="123"
+                            />
+                            <sql:query dataSource="${snapshot}" var="school">
+                                select
+                                `schoolname`,`schoolguanwang`
+                                from
+                                school;
+                            </sql:query>
                             <td>
                                 <table style="WIDTH: 487.5pt" border="0" width="692">
-                                    <div></div>
+                                    <c:forEach var="row" items="${school.rows}">
+                                    <div class="fatiekuangyi">
+                                        <a class="fatieanniu"
+                                           href="${row.schoolguanwang}"
+                                           target="_blank">
+                                                ${row.schoolname}</a>
+                                        </c:forEach>
                                 </table>
                             </td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
-                <meta name="ContentEnd"><!--ZJEG_RSS.content.end--><!--<$[信息内容]>end--></div>
-
+                <meta name="ContentEnd">
+            </div>
         </div>
     </div>
 
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
     </div>
 </div>
 </body>
