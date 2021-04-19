@@ -83,8 +83,9 @@
 
         form {
             position: relative;
-            /*margin: 300px auto;*/
-            margin: 100px auto;
+            margin: 300px auto;
+            margin-top: 10px;
+            margin-bottom: 100px;
             width: 400px;
             height: 250px;
             text-align: center;
@@ -189,10 +190,15 @@
 <body>
 <div class="row">
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
+
     </div>
 
     <div class="column middle">
+        <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
+
         <div class="card">
+            <div style="text-align: center">
             <form action="http://localhost:8080/AlumniDirectory/userServlet" method="post">
                 <input type="hidden" name="action" value="login">
                 <div>
@@ -229,11 +235,13 @@
                 <%--    <button οnclick="javascript:window.location.href='../Register/Registration_Page.jsp'">注册</button>--%>
 
             </form>
-
+            </div>
         </div>
     </div>
 
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
+
     </div>
 </div>
 <div style="text-align:center;">
