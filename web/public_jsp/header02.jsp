@@ -11,6 +11,8 @@
     <li><a href="client/bookServlet_qiantai?action=page&pageNo=1">主页</a></li>
     <li><a href="Links/Linkzhuye.jsp">学校信息网</a></li>
     <li><a href="Fankui/fankuizhuye.jsp">用户反馈</a></li>
+    <li><a href="Xunren/xunrenZhuye.jsp">寻人启事</a></li>
+
 
 <%--如果用户还没有登录，显示登录和注册的菜单--%>
     <c:if test="${empty sessionScope.user}">
