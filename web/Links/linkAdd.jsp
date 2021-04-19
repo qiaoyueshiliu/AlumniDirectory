@@ -24,11 +24,13 @@
 
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
-        <h1>回复页面</h1>
         <div class="card">
             <form action="Links/linkTiaozhuan.jsp" method="get">
                 <input type="hidden" name="action" value="add">
                 <table id="rapidregTable" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
+                    <tr>
+                        <td valign="top" bgcolor="#FFFFFF" colspan="2">添加友情链接</td>
+                    </tr>
                     <tr>
                         <td valign="top" bgcolor="#FFFFFF">学校名称</td>
                         <td valign="top" bgcolor="#FFFFFF">
@@ -46,7 +48,7 @@
                         <td valign="top" bgcolor="#FFFFFF">
                             <input name="schoolguanwang"
                                    type="text"
-                                   maxlength="20"
+                                   maxlength="255"
                                    size="15"
                                    id="schoolguanwang"
                                    class="input"
@@ -55,7 +57,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit" name="RegisterBtn" value="回复" id="RegisterBtn"/>
+                            <input type="submit" name="RegisterBtn" value="添加学校官网" id="RegisterBtn"/>
                         </td>
                     </tr>
                 </table>
