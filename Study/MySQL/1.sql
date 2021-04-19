@@ -1,0 +1,1 @@
+insert into t_user(`id`,`uername`,`password`,`nickname` values(?,?,?,?))
