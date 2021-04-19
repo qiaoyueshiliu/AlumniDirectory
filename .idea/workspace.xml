@@ -6,11 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-19 10:53:53 2.1.3 添加学校官网">
-      <change afterPath="$PROJECT_DIR$/web/Fankui/fankuizhuye.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-19 12:46:34 2.1.4 学校官网完成">
+      <change afterPath="$PROJECT_DIR$/Study/study.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Links/linkAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/linkAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Links/linkTiaozhuan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/linkTiaozhuan.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Fankui/fankuizhuye.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Fankui/fankuizhuye.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Links/Linkzhuye.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/Linkzhuye.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/header02.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +71,10 @@
         <option value="JavaScript File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -705,13 +708,6 @@
       <workItem from="1618708680923" duration="11449000" />
       <workItem from="1618729871570" duration="25661000" />
     </task>
-    <task id="LOCAL-00072" summary="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;">
-      <created>1617679873761</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1617679873761</updated>
-    </task>
     <task id="LOCAL-00073" summary="2021-4-6 11:30:38 JDBC-14 封装数据库连接和关闭操作;&#10;2021-4-6 13:58:33 JavaWeb-234 编写图书模块JavaBean类">
       <created>1617688754999</created>
       <option name="number" value="00073" />
@@ -1048,7 +1044,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618800856901</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="2021-4-19 12:46:34 2.1.4 学校官网完成">
+      <created>1618807608212</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807608213</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1166,7 +1169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-11 22:26:20 分页 初步完成，显示，总共多少页，多少条，当前在第几页" />
     <MESSAGE value="2021-4-12 00:38:30 分页 切换完成" />
     <MESSAGE value="2021-4-12 10:19:29 分页完成" />
     <MESSAGE value="2021-4-12 10:19:29 分页跳转前端完成" />
@@ -1191,7 +1193,8 @@
     <MESSAGE value="2021-4-18 19:23:46 2.1.1 点击标题可以显示帖子" />
     <MESSAGE value="2021-4-18 21:21:12 2.1.2 回复帖子完成" />
     <MESSAGE value="2021-4-19 10:53:53 2.1.3 添加学校官网" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-19 10:53:53 2.1.3 添加学校官网" />
+    <MESSAGE value="2021-4-19 12:46:34 2.1.4 学校官网完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-19 12:46:34 2.1.4 学校官网完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

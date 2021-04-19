@@ -40,8 +40,12 @@
                             text-align: center">
                                 部分江苏省学校官网
                             </h1>
-                            <a href="Links/linkAdd.jsp"
-                               target="_blank">添加友情链接</a>
+                            <c:if test="${sessionScope.user.quanxian eq 1}">
+                                <a href="Links/linkAdd.jsp"
+                                   target="_blank">
+                                    添加友情链接
+                                </a>
+                            </c:if>
                             <sql:setDataSource
                                     var="snapshot"
                                     driver="com.mysql.jdbc.Driver"
@@ -49,7 +53,9 @@
                                     user="root"
                                     password="123"
                             />
-                            <sql:query dataSource="${snapshot}" var="school">
+                            <sql:query
+                                    dataSource="${snapshot}"
+                                       var="school">
                                 select
                                 `schoolname`,`schoolguanwang`
                                 from

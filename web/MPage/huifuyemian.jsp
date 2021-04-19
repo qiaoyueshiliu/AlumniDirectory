@@ -115,7 +115,6 @@
                 </div>
             </div>
         </c:forEach>
-
         <sql:query dataSource="${snapshot}" var="huifusql">
             select
             huifushijian,t_user.nickname,huifuneirong,huifu.id,huifuid,bankuai,t_book.tieziid
