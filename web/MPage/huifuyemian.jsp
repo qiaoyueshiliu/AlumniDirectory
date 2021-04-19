@@ -49,9 +49,10 @@
                 user="root"
                 password="123"
         />
-        <sql:query dataSource="${snapshot}" var="result">
-            select
-            `tieziid`,`createtime`,`bankuai`,`neirong` ,`xuexiao`,t_user.nickname,`biaoti`
+        <sql:query
+                dataSource="${snapshot}"
+                var="result">
+            select `tieziid`,`createtime`,`bankuai`,`neirong` ,`xuexiao`,t_user.nickname,`biaoti`
             from t_book,t_user
             where t_book.id = t_user.id
             and t_book.tieziid=${param.tieziid}

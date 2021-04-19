@@ -1,0 +1,1 @@
+INSERT INTO huifu (tieziid,huifuneirong) VALUES ('33','http://m.runoob.com');

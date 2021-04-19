@@ -21,29 +21,29 @@
 <div class="topicModule">
     <div class="topic-box">
         <div class="topicList">
-            <c:forEach items="${requestScope.page.items}" var="book">
-                <div class="topicItem">
+            <%--循环内容--%>
+            <div class="topicItem">
                     <div class="content clearfix">
                         <ul class="info">
                             <li>
-                                <span class="tag">${book.bankuai}</span>
+                                <span class="tag">板块</span>
                                 <a class="userName" href="user/control/home?userName=test">
-                                        ${book.nickname}
+                                        昵称
                                 </a>
-                                <span class="userRoleName">用户${book.xuexiao}</span>
-                                <span class="postTime">发表时间：${book.createtime}</span>
+                                <span class="userRoleName">用户</span>
+                                <span class="postTime">发表时间：</span>
                             </li>
                         </ul>
                         <h2 class="title clearfix">
                             <a href="MPage/huifuyemian.jsp?tieziid=${book.tieziid}" target="_blank">
-                                    ${book.biaoti}
+                                    标题
                             </a>
                         </h2>
                         <div class="clearfix"></div>
 
                         <div class="detail">
                             <h2 class="summary">
-                                    ${book.neirong}
+                                    内容
                             </h2>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                     <div class="statistic clearfix">
                     </div>
                 </div>
-            </c:forEach>
+            <%--循环结束--%>
             <div class="topicItem">
                 <div class="fatiekuang">
                     <div class="fatie">
