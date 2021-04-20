@@ -72,7 +72,7 @@ public class BanjiSerlvet extends BaseServlet {
 //              地址：/工程名/manager/bookServlet?action=list
         // getcontextpath获取 /工程路径
 //        resp.sendRedirect(req.getContextPath()+"/manager/banjiSerlvet?action=page&pageNo="+req.getParameter("pageNo"));
-        req.getRequestDispatcher("/manager/banjiSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("xuexiao")+"&banji="+req.getParameter("banji")).forward(req,resp);
+        req.getRequestDispatcher("/manager/banjiSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("school")+"&banji="+req.getParameter("class")).forward(req,resp);
     }
 
     protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

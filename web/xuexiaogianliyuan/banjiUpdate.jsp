@@ -46,6 +46,9 @@
             <h1>编辑用户: 不能与已有用户名相同，否则失败</h1>
             <div id="main" style="width: 100%;">
                 <form action="manager/banjiSerlvet" method="post" style="width: 100%;">
+                    <input type="hidden" name="school" value="${sessionScope.user.xuexiao}">
+                    <input type="hidden" name="class" value="${sessionScope.user.banji}">
+
                     <input type="hidden" name="pageNo" value="${param.pageNo}">
                     <input type="hidden" name="action" value="update">
                     <input type="hidden" name="id" value="${requestScope.user.id}">
