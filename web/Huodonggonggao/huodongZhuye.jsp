@@ -40,15 +40,15 @@
                 dataSource="${snapshot}"
                 var="queryFankui">
             select *
-            from fankui,t_user
-            where fankui.id = t_user.id
-            order by fankui.fankuiId desc;
+            from huodong,t_user
+            where huodong.id = t_user.id
+            order by huodong.huodongId desc;
         </sql:query>
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card" style="height: 80px">
             <c:if test="${not empty sessionScope.user}">
                 <div class="fatiekuangyi">
-                    <a class="fatieanniu" href="Fankui/fankuiAdd.jsp">反馈</a>
+                    <a class="fatieanniu" href="Huodonggonggao/huodongAdd.jsp">发布活动公告</a>
                 </div>
             </c:if>
             <c:if test="${empty sessionScope.user}">
@@ -75,7 +75,7 @@
                                 <div class="content clearfix">
                                     <ul class="info">
                                         <li>
-                                            <span class="tag">用户反馈</span>
+                                            <span class="tag">活动公告</span>
                                             <a class="userName" href="user/control/home?userName=test">
                                                     ${Fankui.nickname}
                                             </a>
@@ -83,7 +83,7 @@
                                                 <%--格式化时间以去除日期和时间中间的T--%>
                                             <script>
                                                 function fun() {
-                                                    return "${Fankui.fankuiCreatetime}".replace("T", " ");
+                                                    return "${Fankui.huodongCreatetime}".replace("T", " ");
                                                 }
                                             </script>
                                             <span class="postTime">发表时间：</span>
@@ -96,14 +96,14 @@
                                     </ul>
                                     <h2 class="title clearfix">
                                         <a href="" target="_blank">
-                                                ${Fankui.fankuiBiaoti}
+                                                ${Fankui.huodongBiaoti}
                                         </a>
                                     </h2>
                                     <div class="clearfix"></div>
 
                                     <div class="detail">
                                         <h2 class="summary">
-                                                ${Fankui.fankuiNeirong}
+                                                ${Fankui.huodongNeirong}
                                         </h2>
                                     </div>
                                 </div>

@@ -13,10 +13,7 @@
     <li><a href="Fankui/fankuizhuye.jsp?fankuiend=4">用户反馈</a></li>
     <li><a href="Xunren/xunrenZhuye.jsp">寻人启事</a></li>
     <li><a href="Huodonggonggao/huodongZhuye.jsp?fankuiend=4">活动公告</a></li>
-
-
-
-<%--如果用户还没有登录，显示登录和注册的菜单--%>
+    <%--如果用户还没有登录，显示登录和注册的菜单--%>
     <c:if test="${empty sessionScope.user}">
         <li><a href="Login/Login.jsp">登录</a></li>
         <li><a href="Register/Registration_Page.jsp">注册</a></li>
@@ -26,6 +23,7 @@
         <li><a>${sessionScope.user.nickname}</a></li>
         <li><a href="userServlet?action=logout">注销</a></li>
     </c:if>
+    <%--判断用户权限提供相应的接口--%>
     <c:if test="${sessionScope.user.quanxian eq 1}">
     <li><a href="Register/HouTaiGuanLi.jsp">后台</a></li>
     </c:if>
