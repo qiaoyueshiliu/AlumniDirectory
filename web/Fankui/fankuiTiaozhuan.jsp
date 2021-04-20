@@ -23,38 +23,9 @@
     <div class="column side">
         <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
     </div>
-
-    <div class="column middle">
-        <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
-        <div class="card">
-            <h1 style="font-size: 48px">
-        <span>反馈
-            <span class="um_span">
-            </span>成功
-        </span>
-            </h1>
-            <span style="font-size:18px;">3s后自动跳转</span>
-            <%--连接数据库--%>
-            <sql:setDataSource
-                    var="snapshot"
-                    driver="com.mysql.jdbc.Driver"
-                    url="jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf-8"
-                    user="root"
-                    password="123"
-            />
-            <sql:update
-                    dataSource="${snapshot}"
-                    var="result">
-                insert into
-                fankui (id,fankuiBiaoti,fankuiNeirong)
-                value (
-                '${param.id}',
-                '${param.fankuiBiaoti}',
-                '${param.fankuiNeirong}'
-                )
-            </sql:update>
-        </div>
-    </div>
+    
+    <%@include file="/Fankui/fankuiTiaozhutishi.jsp"%>
+    
     <div class="column side">
         <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
     </div>
