@@ -72,4 +72,13 @@
         <url-pattern>/client/bookServlet_index</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>XunxiaoguanliSerlvet</servlet-name>
+        <servlet-class>com.atguigu.web.XunxiaoguanliSerlvet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XunxiaoguanliSerlvet</servlet-name>
+        <url-pattern>/manager/xunxiaoguanliSerlvet</url-pattern>
+    </servlet-mapping>
+
 </web-app>

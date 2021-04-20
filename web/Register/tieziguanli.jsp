@@ -60,7 +60,11 @@
                         <tr>
                             <td>No.${user.id}</td>
                             <td>${user.username}</td>
-                            <td>${user.password}</td>
+                            <c:if test="${sessionScope.user.quanxian eq 1}">
+                                <td>${user.password}</td>
+                            </c:if>
+
+
                             <td>${user.nickname}</td>
                             <td>
                                 <c:if test="${not empty user.xuexiao}">
@@ -79,12 +83,15 @@
                                 </c:if>
                             </td>
                             <td>
-                                <c:if test="${not empty user.quanxian}">
-                                    ${user.quanxian}
+                                <c:if test="${sessionScope.user.quanxian eq 1}">
+                                    <c:if test="${not empty user.quanxian}">
+                                        ${user.quanxian}
+                                    </c:if>
+                                    <c:if test="${empty user.quanxian}">
+                                        无任何权限
+                                    </c:if>
                                 </c:if>
-                                <c:if test="${empty user.quanxian}">
-                                    无任何权限
-                                </c:if>
+
                             </td>
                             <td><a href="manager/yonghuguanliServlet?action=getUser&id=${user.id}&pageNo=${requestScope.page.pageNo}">修改</a>
                             <a class="deleteClass" href="manager/yonghuguanliServlet?action=delete&id=${user.id}&pageNo=${requestScope.page.pageNo}">删除</a></td>
