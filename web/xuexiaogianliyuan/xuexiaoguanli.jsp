@@ -85,7 +85,7 @@
                                     无任何权限
                                 </c:if>
                             </td>
-                            <td><a href="manager/xunxiaoguanliSerlvet?action=getUser&id=${user.id}&pageNo=${requestScope.page.pageNo}">修改</a>
+                            <td><a href="manager/xunxiaoguanliSerlvet?action=getUser&id=${user.id}&pageNo=${requestScope.page.pageNo}&xuexiao=${sessionScope.user.xuexiao}">修改</a>
                                 <c:if test="${sessionScope.user.quanxian eq 1}">
                                 <a class="deleteClass" href="manager/xunxiaoguanliSerlvet?action=delete&id=${user.id}&pageNo=${requestScope.page.pageNo}">删除</a></td>
                                 </c:if>

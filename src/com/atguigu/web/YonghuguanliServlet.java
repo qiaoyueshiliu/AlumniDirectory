@@ -74,7 +74,10 @@ public class YonghuguanliServlet extends BaseServlet {
         User user = yonghuguanliService.queryUserById(id);
 //        3、保存到图书的 Request 域中
         req.setAttribute("user",user);
+
 //        4、请求转发到 pages/manager/book_edit.jsp 页面
+        int quanxian = WebUtils.parseInt(req.getParameter("guanliyuanquanxian"),0);
+        System.out.println("管理员权限！："+quanxian);
         req.getRequestDispatcher("/Register/Yonghuxiuguanlixiugai.jsp").forward(req,resp);
     }
 

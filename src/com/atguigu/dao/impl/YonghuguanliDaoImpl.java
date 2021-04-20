@@ -22,7 +22,7 @@ public class YonghuguanliDaoImpl extends BaseDao implements YonghuguanliDao {
     @Override
     public int updateUser(User user) {
         String sql = "update t_user set `username`=?,`password`=?,`nickname`=?,`xuexiao`=?,banji=?,quanxian=? where id=?";
-        return update(sql,user.getUsername(),user.getPassword(),user.getNickname(),user.getXuexiao(),user.getId(),user.getBanji(),user.getQuanxian());
+        return update(sql,user.getUsername(),user.getPassword(),user.getNickname(),user.getXuexiao(),user.getBanji(),user.getQuanxian(),user.getId());
     }
 
     @Override

@@ -44,7 +44,7 @@ public class XunxiaoguanliSerlvet extends BaseServlet {
         xunxiaogianliService.addUser(user);
 //        3、跳到图书列表页面
         // etcontextpath获取 /工程路径
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page");
+        resp.sendRedirect(req.getContextPath()+"/manager/xunxiaoguanliSerlvet?action=page");
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -56,18 +56,26 @@ public class XunxiaoguanliSerlvet extends BaseServlet {
         System.out.println("删除结束...");
 //        3、重新定向回图书管理页面
         // etcontextpath获取 /工程路径
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
+        resp.sendRedirect(req.getContextPath()+"/manager/xunxiaoguanliSerlvet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // 一定要在获取请求参数之前调用才有效
+        req.setCharacterEncoding("UTF-8");
+        // 解决响应中文乱码问题
+        resp.setContentType("text/html; charset=UTF-8");
+        resp.setCharacterEncoding("UTF-8");
 //        1、获取请求的参数 == 封装成为 Book 对象
         User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());
 //        2、调用 BookService.updateBook(book); 修改图书
         xunxiaogianliService.updateUser(user);
+
 //        3、重定向会图书列表管理页面
 //              地址：/工程名/manager/bookServlet?action=list
         // getcontextpath获取 /工程路径
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
+        System.out.println(req.getParameter("xuexiao"));
+//        resp.sendRedirect(req.getContextPath()+"/manager/xunxiaoguanliSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("xuexiao"));
+        req.getRequestDispatcher("/manager/xunxiaoguanliSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("xuexiao")).forward(req,resp);
     }
 
     protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -78,7 +86,7 @@ public class XunxiaoguanliSerlvet extends BaseServlet {
 //        3、保存到图书的 Request 域中
         req.setAttribute("user",user);
 //        4、请求转发到 pages/manager/book_edit.jsp 页面
-        req.getRequestDispatcher("/Register/Yonghuxiuguanlixiugai.jsp").forward(req,resp);
+        req.getRequestDispatcher("/xuexiaogianliyuan/xuexiaoUpdate.jsp").forward(req,resp);
     }
 
     protected void list(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -21,7 +21,7 @@ public class YonghuguanliServiceTest {
 
     @Test
     public void updateUser() {
-        yonghuguanliService.updateUser(new User(6,"1234567","1234567",null,"1234567",null));
+        yonghuguanliService.updateUser(new User(42,"1234567","1234567",null,"1234567",null,null,null));
     }
 
     @Test

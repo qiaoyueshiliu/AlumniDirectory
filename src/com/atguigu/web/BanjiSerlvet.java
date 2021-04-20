@@ -66,7 +66,7 @@ public class BanjiSerlvet extends BaseServlet {
 //        3、重定向会图书列表管理页面
 //              地址：/工程名/manager/bookServlet?action=list
         // getcontextpath获取 /工程路径
-        resp.sendRedirect(req.getContextPath()+"/manager/yonghuguanliServlet?action=page&pageNo="+req.getParameter("pageNo"));
+        resp.sendRedirect(req.getContextPath()+"/manager/banjiSerlvet?action=page&pageNo="+req.getParameter("pageNo"));
     }
 
     protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

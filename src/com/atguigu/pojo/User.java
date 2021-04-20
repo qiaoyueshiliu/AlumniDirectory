@@ -73,17 +73,6 @@ public class User {
     private Integer quanxian;
     private String banji;
 
-    public User(Integer id, String username, String password, String email, String nickname, String xuexiao, Integer quanxian, String banji) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.email = email;
-        this.nickname = nickname;
-        this.xuexiao = xuexiao;
-        this.quanxian = quanxian;
-        this.banji = banji;
-    }
-
     @Override
     public String toString() {
         return "User{" +
@@ -114,15 +103,16 @@ public class User {
         this.quanxian = quanxian;
     }
 
-    public User(Integer id, String username, String password, String email, String nickname, String xuexiao) {
+    public User(Integer id, String username, String password, String email, String nickname, String xuexiao, Integer quanxian, String banji) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.email = email;
         this.nickname = nickname;
         this.xuexiao = xuexiao;
+        this.quanxian = quanxian;
+        this.banji = banji;
     }
-
 
     public Integer getId() {
         return id;

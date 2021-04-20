@@ -2,6 +2,7 @@ package com.atguigu.test;
 
 import com.atguigu.dao.UserDao;
 import com.atguigu.dao.YonghuguanliDao;
+import com.atguigu.dao.impl.UserDaoImpl;
 import com.atguigu.dao.impl.YonghuguanliDaoImpl;
 import com.atguigu.pojo.Book;
 import com.atguigu.pojo.User;
@@ -10,6 +11,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class YonghuguanliDaoTest {
+
+    UserDao userDao = new UserDaoImpl();
 
     private YonghuguanliDao yonghuguanliDao = new YonghuguanliDaoImpl();
 
@@ -23,6 +26,7 @@ public class YonghuguanliDaoTest {
 
     @Test
     public void updateUser() {
+        yonghuguanliDao.updateUser(new User(42,"fangwei11","123456","2345","2345","2345",2345,"2345"));
     }
 
     @Test

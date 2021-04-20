@@ -45,7 +45,7 @@
         <div class="card">
             <h1>编辑用户: 不能与已有用户名相同，否则失败</h1>
             <div id="main" style="width: 100%;">
-                <form action="manager/yonghuguanliServlet" method="post" style="width: 100%;">
+                <form action="manager/banjiSerlvet" method="post" style="width: 100%;">
                     <input type="hidden" name="pageNo" value="${param.pageNo}">
                     <input type="hidden" name="action" value="update">
                     <input type="hidden" name="id" value="${requestScope.user.id}">
@@ -53,9 +53,9 @@
                         <tr>
                             <td>用户编号</td>
                             <td>用户名</td>
-                                <c:if test="${sessionScope.user.quanxian eq 1}">
-                            <td>用户密码</td>
-                                </c:if>
+                            <c:if test="${sessionScope.user.quanxian eq 1}">
+                                <td>用户密码</td>
+                            </c:if>
                             <td>用户昵称</td>
                             <td>用户学校</td>
                             <td>用户班级</td>
