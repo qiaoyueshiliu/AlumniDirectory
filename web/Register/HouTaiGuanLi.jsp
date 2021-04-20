@@ -15,9 +15,13 @@
 <body>
 <div class="row">
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
+
     </div>
 
     <div class="column middle">
+        <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
+
         <div class="card">
             <h1>欢迎来到管理员页面</h1>
             <h3><a href="manager/bookServlet?action=list">帖子管理</a></h3>
@@ -26,6 +30,8 @@
     </div>
 
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
+
     </div>
 </div>
 

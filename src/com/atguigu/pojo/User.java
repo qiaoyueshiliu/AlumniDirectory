@@ -71,6 +71,18 @@ public class User {
     private String nickname;
     private String xuexiao;
     private Integer quanxian;
+    private String banji;
+
+    public User(Integer id, String username, String password, String email, String nickname, String xuexiao, Integer quanxian, String banji) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.nickname = nickname;
+        this.xuexiao = xuexiao;
+        this.quanxian = quanxian;
+        this.banji = banji;
+    }
 
     @Override
     public String toString() {
@@ -81,8 +93,17 @@ public class User {
                 ", email='" + email + '\'' +
                 ", nickname='" + nickname + '\'' +
                 ", xuexiao='" + xuexiao + '\'' +
-                ", quanxian='" + quanxian + '\'' +
+                ", quanxian=" + quanxian +
+                ", banji='" + banji + '\'' +
                 '}';
+    }
+
+    public String getBanji() {
+        return banji;
+    }
+
+    public void setBanji(String banji) {
+        this.banji = banji;
     }
 
     public Integer getQuanxian() {
@@ -118,7 +139,8 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
-//    public void setUsername(String username1) {
+
+    //    public void setUsername(String username1) {
 //        this.username = username;
 //    }
     public String getPassword() {

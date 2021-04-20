@@ -44,24 +44,30 @@
     <div class="column middle">
         <div class="card">
             <h1>编辑用户: 不能与已有用户名相同，否则失败</h1>
-            <div id="main">
-                <form action="manager/yonghuguanliServlet" method="post">
+            <div id="main" style="width: 100%;">
+                <form action="manager/yonghuguanliServlet" method="post" style="width: 100%;">
                     <input type="hidden" name="pageNo" value="${param.pageNo}">
                     <input type="hidden" name="action" value="update">
                     <input type="hidden" name="id" value="${requestScope.user.id}">
-                    <table>
+                    <table style="width: 100%;">
                         <tr>
                             <td>用户编号</td>
                             <td>用户名</td>
                             <td>用户密码</td>
                             <td>用户昵称</td>
-                            <td colspan="2">操作</td>
+                            <td>用户学校</td>
+                            <td>用户班级</td>
+                            <td>用户权限</td>
+                            <td colspan="1">操作</td>
                         </tr>
                         <tr>
                             <td>${user.id}</td>
-                            <td><input name="username" type="text" value="${user.username}"></td>
+                            <td><input style="width: 80px" name="username" type="hidden" value="${user.username}">${user.username}</td>
                             <td><input name="password" type="text" value="${user.password}"></td>
                             <td><input name="nickname" type="text" value="${user.nickname}"></td>
+                            <td><input name="xuexiao" type="text" value="${user.xuexiao}"></td>
+                            <td><input name="banji" type="text" value="${user.banji}"></td>
+                            <td><input name="quanxian" type="text" value="${user.quanxian}"></td>
                             <td><input type="submit"></td>
                         </tr>
                     </table>

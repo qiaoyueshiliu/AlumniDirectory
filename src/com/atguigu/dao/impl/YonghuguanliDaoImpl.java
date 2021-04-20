@@ -21,13 +21,13 @@ public class YonghuguanliDaoImpl extends BaseDao implements YonghuguanliDao {
 
     @Override
     public int updateUser(User user) {
-        String sql = "update t_user set `username`=?,`password`=?,`nickname`=?,`xuexiao`=? where id=?";
-        return update(sql,user.getUsername(),user.getPassword(),user.getNickname(),user.getXuexiao(),user.getId());
+        String sql = "update t_user set `username`=?,`password`=?,`nickname`=?,`xuexiao`=?,banji=?,quanxian=? where id=?";
+        return update(sql,user.getUsername(),user.getPassword(),user.getNickname(),user.getXuexiao(),user.getId(),user.getBanji(),user.getQuanxian());
     }
 
     @Override
     public User queryUserById(Integer id) {
-        String sql ="select `id`,`username`,`password`,`nickname`,`xuexiao`from t_user where id=?";
+        String sql ="select * from t_user where id=?";
         return queryForOne(User.class,sql,id);
     }
 
@@ -46,7 +46,7 @@ public class YonghuguanliDaoImpl extends BaseDao implements YonghuguanliDao {
 
     @Override
     public List<User> queryForPageItems(int begin, int pageSize) {
-        String sql = "select `id`,`username`,`password`,`nickname`,`xuexiao` from t_user order by id desc limit ?,? ";
+        String sql = "select `id`,`username`,`password`,`nickname`,`xuexiao`,`quanxian`,`banji` from t_user order by id desc limit ?,? ";
         return queryForList(User.class,sql,begin,pageSize);
     }
 }

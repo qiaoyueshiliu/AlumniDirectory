@@ -34,9 +34,13 @@
 <body style="overflow-y:scroll;">
 <div class="row">
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
+
     </div>
 
     <div class="column middle">
+        <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
+
         <div class="card">
             <h1>用户管理</h1>
             <div id="mainguanli">
@@ -46,6 +50,9 @@
                         <td>用户名</td>
                         <td>用户密码</td>
                         <td>用户昵称</td>
+                        <td>用户学校</td>
+                        <td>用户班级</td>
+                        <td>用户权限</td>
                         <td colspan="2">操作</td>
                     </tr>
                     <%--        books 要和 BookServlet req.setAttribute 中保持一致--%>
@@ -55,8 +62,32 @@
                             <td>${user.username}</td>
                             <td>${user.password}</td>
                             <td>${user.nickname}</td>
-                            <td><a href="manager/yonghuguanliServlet?action=getUser&id=${user.id}&pageNo=${requestScope.page.pageNo}">修改</a></td>
-                            <td><a class="deleteClass" href="manager/yonghuguanliServlet?action=delete&id=${user.id}&pageNo=${requestScope.page.pageNo}">删除</a></td>
+                            <td>
+                                <c:if test="${not empty user.xuexiao}">
+                                    ${user.xuexiao}
+                                </c:if>
+                                <c:if test="${empty user.xuexiao}">
+                                    无所属学校
+                                </c:if>
+                            </td>
+                            <td>
+                                <c:if test="${not empty user.banji}">
+                                    ${user.banji}
+                                </c:if>
+                                <c:if test="${empty user.banji}">
+                                    无所属班级
+                                </c:if>
+                            </td>
+                            <td>
+                                <c:if test="${not empty user.quanxian}">
+                                    ${user.quanxian}
+                                </c:if>
+                                <c:if test="${empty user.quanxian}">
+                                    无任何权限
+                                </c:if>
+                            </td>
+                            <td><a href="manager/yonghuguanliServlet?action=getUser&id=${user.id}&pageNo=${requestScope.page.pageNo}">修改</a>
+                            <a class="deleteClass" href="manager/yonghuguanliServlet?action=delete&id=${user.id}&pageNo=${requestScope.page.pageNo}">删除</a></td>
                         </tr>
                     </c:forEach>
                     <tr>
@@ -70,6 +101,8 @@
     </div>
 
     <div class="column side">
+        <img src="tupian/wallhaven-4gr3z3_200x1080right.png" style="width: 100%">
+
     </div>
 </div>
 </body>
