@@ -6,10 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-20 13:27:09 2.3.5 修改">
+      <change afterPath="$PROJECT_DIR$/web/Gerenziliao/gerenziliaoUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Gerenziliao/gerenziliaotiaozhuan.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/public_jsp/header02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="D:/源码/简约论坛/javaee_2.0/javaee_2.0/bbs/WebRoot/WEB-INF/classes/" />
@@ -66,66 +68,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongZhuye.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliaotiaozhuan.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3202">
-              <caret line="123" column="38" lean-forward="true" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+            <state relative-caret-position="415">
+              <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliaoUpdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="38" column="113" lean-forward="true" selection-start-line="38" selection-start-column="113" selection-end-line="38" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/public_jsp/header02.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Xunren/xunrenZhuye.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3429">
-              <caret line="123" column="38" lean-forward="true" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongAdd.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="55" column="39" selection-end-line="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongTiaozhuan.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -203,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/bankuai_add.jsp" />
-        <option value="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <option value="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/qttop.jsp" />
         <option value="$PROJECT_DIR$/web/head_css/common.css" />
         <option value="$PROJECT_DIR$/web/MPage/MPagebeifen.jsp" />
@@ -252,8 +221,10 @@
         <option value="$PROJECT_DIR$/web/Huodonggonggao/huodongZhuye.jsp" />
         <option value="$PROJECT_DIR$/web/Yonghugeren.jsp" />
         <option value="$PROJECT_DIR$/web/Gerenziliao/gerenziliao.xhtml" />
-        <option value="$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp" />
         <option value="$PROJECT_DIR$/web/public_jsp/header02.jsp" />
+        <option value="$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp" />
+        <option value="$PROJECT_DIR$/web/Gerenziliao/gerenziliaoUpdate.jsp" />
+        <option value="$PROJECT_DIR$/web/Gerenziliao/gerenziliaotiaozhuan.jsp" />
       </list>
     </option>
   </component>
@@ -303,6 +274,12 @@
               <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="Gerenziliao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlumniDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="Huodonggonggao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlumniDirectory" type="b2602c69:ProjectViewProjectNode" />
@@ -723,14 +700,7 @@
       <workItem from="1618708680923" duration="11449000" />
       <workItem from="1618729871570" duration="25661000" />
       <workItem from="1618819923539" duration="3220000" />
-      <workItem from="1618885496837" duration="4173000" />
-    </task>
-    <task id="LOCAL-00093" summary="2021-4-10 19:19:21 用户管理页面完成">
-      <created>1618111390989</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1618111390989</updated>
+      <workItem from="1618885496837" duration="6369000" />
     </task>
     <task id="LOCAL-00094" summary="2021-4-11 17:30:44 了解了分页原理-01">
       <created>1618133471388</created>
@@ -1068,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618893439481</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="2021-4-20 12:43:41 2.3.4 个人资料完成">
+      <created>1618893828161</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1618893828161</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1104,7 +1081,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202494000" />
+    <option name="totallyTimeSpent" value="204690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1200,7 +1177,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-18 12:37:36 2.1.0 学习jstl标签库，帖子页面会根据发帖人id显示nickname" />
     <MESSAGE value="2021-4-18 19:23:46 2.1.1 点击标题可以显示帖子" />
     <MESSAGE value="2021-4-18 21:21:12 2.1.2 回复帖子完成" />
     <MESSAGE value="2021-4-19 10:53:53 2.1.3 添加学校官网" />
@@ -1225,7 +1201,8 @@
     <MESSAGE value="2021-4-20 12:26:08 2.3.1 活动发布页完成" />
     <MESSAGE value="2021-4-20 12:26:08 2.3.2 寻人启事继续加载" />
     <MESSAGE value="2021-4-20 12:37:12 2.3.3 寻人启事添加完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-20 12:37:12 2.3.3 寻人启事添加完成" />
+    <MESSAGE value="2021-4-20 12:43:41 2.3.4 个人资料完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-20 12:43:41 2.3.4 个人资料完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1260,20 +1237,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public_jsp/zhuyefatieanniu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/public_jsp/page_nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1575,13 +1538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongTiaozhuan.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Yonghugeren.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1602,26 +1558,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongAdd.jsp">
+    <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="55" column="39" selection-end-line="86" />
+        <state relative-caret-position="351">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliao.jsp">
+    <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongAdd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="1242">
+          <caret line="47" column="113" lean-forward="true" selection-start-line="47" selection-start-column="113" selection-end-line="47" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Huodonggonggao/huodongTiaozhuan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliaoUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="38" column="113" lean-forward="true" selection-start-line="38" selection-start-column="113" selection-end-line="38" selection-end-column="113" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/public_jsp/header02.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Gerenziliao/gerenziliaotiaozhuan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -25,7 +25,7 @@
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
-            <form action="Gerenziliao/gerenziliaoUpdate.jsp" method="get">
+            <form action="Gerenziliao/gerenziliaotiaozhuan.jsp" method="get">
                 <input type="hidden" name="action" value="add">
                 <table id="rapidregTable" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
                     <tr>
@@ -43,8 +43,8 @@
                         <td valign="top" bgcolor="#FFFFFF">昵称 </td>
                         <td valign="top" bgcolor="#FFFFFF">
                             <input name="nickname"
-                                   type="hidden" maxlength="20" size="15"
-                                   id="nickname" class="input" value="${sessionScope.user.nickname}"/>${sessionScope.user.nickname}
+                                   type="text" maxlength="20" size="15"
+                                   id="nickname" class="input" value="${sessionScope.user.nickname}"/>
                         </td>
                     </tr>
                     <tr>
@@ -61,9 +61,9 @@
                         <td valign="top" bgcolor="#FFFFFF">密码 </td>
                         <td valign="top" bgcolor="#FFFFFF">
                             <input name="password"
-                                   type="hidden" maxlength="20" size="15"
+                                   type="text" maxlength="20" size="15"
                                    id="password" class="input" value="${sessionScope.user.password}"/>
-                            <div>${sessionScope.user.password}
+                            <div>
                             </div>
                         </td>
                     </tr>
