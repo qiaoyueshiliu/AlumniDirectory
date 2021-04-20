@@ -11,7 +11,7 @@
  Target Server Version : 80022
  File Encoding         : 65001
 
- Date: 19/04/2021 23:21:44
+ Date: 21/04/2021 00:06:00
 */
 
 SET NAMES utf8mb4;
@@ -26,13 +26,13 @@ CREATE TABLE `huifu`  (
   `tieziid` int(0) NOT NULL,
   `huifuneirong` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   `id` int(0) NULL DEFAULT NULL,
-  `huifushijian` timestamp(0) NULL DEFAULT NULL,
+  `huifushijian` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`huifuid`) USING BTREE,
   INDEX `huifu_ibfk_1`(`tieziid`) USING BTREE,
   INDEX `id`(`id`) USING BTREE,
   CONSTRAINT `huifu_ibfk_1` FOREIGN KEY (`tieziid`) REFERENCES `t_book` (`tieziid`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `huifu_ibfk_2` FOREIGN KEY (`id`) REFERENCES `t_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of huifu
@@ -46,6 +46,7 @@ INSERT INTO `huifu` VALUES (6, 32, '比如\r\n<input type=\"image\" src=\"images
 INSERT INTO `huifu` VALUES (7, 32, '感谢,不过我的问题还没有解决\r\n比如我做的搜索代码', NULL, NULL);
 INSERT INTO `huifu` VALUES (8, 32, '1231245', 1, NULL);
 INSERT INTO `huifu` VALUES (9, 27, '1231245', 1, NULL);
-INSERT INTO `huifu` VALUES (10, 27, 'asd&>?123\r\n\r\n', 1, NULL);
+INSERT INTO `huifu` VALUES (10, 27, 'asd&>?123\r\n\r\n', 1, '2021-04-19 23:23:07');
+INSERT INTO `huifu` VALUES (11, 41, '123456', 1, '2021-04-19 23:23:37');
 
 SET FOREIGN_KEY_CHECKS = 1;

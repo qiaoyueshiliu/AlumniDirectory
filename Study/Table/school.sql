@@ -3,15 +3,15 @@
 
  Source Server         : MySQL
  Source Server Type    : MySQL
- Source Server Version : 80023
+ Source Server Version : 80022
  Source Host           : localhost:3306
  Source Schema         : book
 
  Target Server Type    : MySQL
- Target Server Version : 80023
+ Target Server Version : 80022
  File Encoding         : 65001
 
- Date: 19/04/2021 14:02:38
+ Date: 21/04/2021 00:07:03
 */
 
 SET NAMES utf8mb4;
@@ -22,11 +22,11 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 DROP TABLE IF EXISTS `school`;
 CREATE TABLE `school`  (
-  `schoolid` int NOT NULL AUTO_INCREMENT,
+  `schoolid` int(0) NOT NULL AUTO_INCREMENT,
   `schoolname` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `schoolguanwang` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`schoolid`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of school
