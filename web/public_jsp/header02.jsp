@@ -24,11 +24,11 @@
             <li><a href="manager/xunxiaoguanliSerlvet?action=page&pageNo=1&xuexiao=${sessionScope.user.xuexiao}">学校管理</a></li>
         </c:if>
         <c:if test="${sessionScope.user.quanxian eq 3}">
-            <li><a href="">班级管理</a></li>
+            <li><a href="manager/xunxiaoguanliSerlvet?action=page&pageNo=1&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">班级管理</a></li>
         </c:if>
         <c:if test="${sessionScope.user.quanxian eq 23}">
             <li><a href="manager/xunxiaoguanliSerlvet?action=page&pageNo=1&xuexiao=${sessionScope.user.xuexiao}">学校管理</a></li>
-            <li><a href="">班级管理</a></li>
+            <li><a href="manager/xunxiaoguanliSerlvet?action=page&pageNo=1&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">班级管理</a></li>
         </c:if>
         <li><a href="Gerenziliao/gerenziliao.jsp">${sessionScope.user.nickname}</a></li>
         <li><a href="userServlet?action=logout">注销</a></li>

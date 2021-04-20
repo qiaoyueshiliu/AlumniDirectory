@@ -60,10 +60,11 @@
                         <tr>
                             <td>No.${user.id}</td>
                             <td>${user.username}</td>
+                            <td>
                             <c:if test="${sessionScope.user.quanxian eq 1}">
-                                <td>${user.password}</td>
+                                ${user.password}
                             </c:if>
-
+                            </td>
 
                             <td>${user.nickname}</td>
                             <td>
