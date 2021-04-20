@@ -119,7 +119,7 @@
                                     <%--                                    <c:if test="${param.fankuiend < 2}">--%>
                                     <%--下面数字表示加载多少行--%>
                                     <c:set var="fankuiend" value="${param.fankuiend+1}" scope="page"/>
-                                    <a name="jiazaimaodian" href="Fankui/fankuizhuye.jsp?fankuiend=${pageScope.fankuiend}#jiazaimaodian">点击继续加载</a>
+                                    <a name="jiazaimaodian" href="Huodonggonggao/huodongZhuye.jsp?fankuiend=${pageScope.fankuiend}#jiazaimaodian">点击继续加载</a>
                                     <%--                                    </c:if>--%>
                                 </div>
                             </div>

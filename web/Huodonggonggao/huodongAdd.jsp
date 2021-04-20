@@ -57,7 +57,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td valign="top" bgcolor="#FFFFFF">反馈内容 </td>
+                        <td valign="top" bgcolor="#FFFFFF">活动内容 </td>
                         <td valign="top" bgcolor="#FFFFFF">
                             <div>
                                     <textarea  name="huodongNeirong"

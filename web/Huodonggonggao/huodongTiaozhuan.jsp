@@ -16,7 +16,7 @@
 <head>
     <title>Title</title>
     <meta http-equiv="refresh"
-          content="3;URL=huodonggonggao/huodongZhuye.jsp">
+          content="3;URL=Huodonggonggao/huodongZhuye.jsp">
 </head>
 <body>
 <div class="row">
