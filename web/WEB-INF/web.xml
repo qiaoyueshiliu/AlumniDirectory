@@ -12,6 +12,7 @@
 <!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
 <!--       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"-->
 
+    <!--搜索学生-->
     <servlet>
     <servlet-name>SerachStudentServlet</servlet-name>
     <servlet-class>com.atguigu.servlet.SerachStudentServlet</servlet-class>
@@ -26,6 +27,7 @@
 <!--        <listener-class>com.atguigu.listener.MyServletContextListenerImpl</listener-class>-->
 <!--    </listener>-->
 
+    <!--用户模块-->
     <servlet>
         <servlet-name>userServlet</servlet-name>
         <servlet-class>com.atguigu.web.UserServlet</servlet-class>
@@ -36,6 +38,7 @@
     </servlet-mapping>
 
 
+    <!--帖子模块后台-->
     <servlet>
         <servlet-name>BookServlet</servlet-name>
         <servlet-class>com.atguigu.web.BookServlet</servlet-class>
@@ -45,6 +48,7 @@
         <url-pattern>/manager/bookServlet</url-pattern>
     </servlet-mapping>
 
+    <!--前台模块-->
     <servlet>
         <servlet-name>BookServlet_qiantai</servlet-name>
         <servlet-class>com.atguigu.web.BookServlet_qiantai</servlet-class>
@@ -54,6 +58,7 @@
         <url-pattern>/client/bookServlet_qiantai</url-pattern>
     </servlet-mapping>
 
+    <!--用户管理模块-->
     <servlet>
         <servlet-name>YonghuguanliServlet</servlet-name>
         <servlet-class>com.atguigu.web.YonghuguanliServlet</servlet-class>
@@ -72,6 +77,7 @@
         <url-pattern>/client/bookServlet_index</url-pattern>
     </servlet-mapping>
 
+    <!--学校成员管理-->
     <servlet>
         <servlet-name>XunxiaoguanliSerlvet</servlet-name>
         <servlet-class>com.atguigu.web.XunxiaoguanliSerlvet</servlet-class>
@@ -81,4 +87,13 @@
         <url-pattern>/manager/xunxiaoguanliSerlvet</url-pattern>
     </servlet-mapping>
 
+    <!--班级成员管理-->
+    <servlet>
+        <servlet-name>BanjiSerlvet</servlet-name>
+        <servlet-class>com.atguigu.web.BanjiSerlvet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BanjiSerlvet</servlet-name>
+        <url-pattern>/manager/banjiSerlvet</url-pattern>
+    </servlet-mapping>
 </web-app>

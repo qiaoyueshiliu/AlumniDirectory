@@ -16,8 +16,8 @@ public interface BanjiDao {
 
     public List<User> queryUsers();
 
-    Integer queryForPageTotalCount(String xuexiao);
+    Integer queryForPageTotalCount(String xuexiao,String banji);
 
-    List<User> queryForPageItems(int begin, int pageSize, String xuexiao);
+    List<User> queryForPageItems(int begin, int pageSize, String xuexiao,String banji);
 
 }

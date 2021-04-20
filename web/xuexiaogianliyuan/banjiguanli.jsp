@@ -108,16 +108,16 @@
                                             if (pageNo < 1 || pageNo > pageTotal) {
                                                 alert("请输入正确的页码")
                                             } else {
-                                                location.href = "${pageScope.basePath}${requestScope.page.url}&xuexiao=${sessionScope.user.xuexiao}&pageNo=" + pageNo;
+                                                location.href = "${pageScope.basePath}${requestScope.page.url}&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}&pageNo="+pageNo;
                                             }
                                         });
                                     });
                                 </script>
                                 <%--    client/bookServlet_qiantai?action=page 替换为 ${requestScope.page.url} --%>
-                                <a class="nxt" href="${requestScope.page.url}&pageNo=1&xuexiao=${sessionScope.user.xuexiao}">首页</a>
+                                <a class="nxt" href="${requestScope.page.url}&pageNo=1&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">首页</a>
                                 <%--大于首页才显示--%>
                                 <c:if test="${requestScope.page.pageNo > 1}">
-                                    <a class="nxt" href="${requestScope.page.url}&pageNo=${requestScope.page.pageNo-1}&xuexiao=${sessionScope.user.xuexiao}">上一页</a>
+                                    <a class="nxt" href="${requestScope.page.url}&pageNo=${requestScope.page.pageNo-1}&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">上一页</a>
                                 </c:if>
                                 <%--页码输出的开始--%>
                                 <c:choose>
@@ -152,7 +152,7 @@
                                         <strong>${i}</strong>
                                     </c:if>
                                     <c:if test="${i != requestScope.page.pageNo}">
-                                        <a href="${requestScope.page.url}&pageNo=${i}&xuexiao=${sessionScope.user.xuexiao}">${i}</a>
+                                        <a href="${requestScope.page.url}&pageNo=${i}&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">${i}</a>
                                     </c:if>
                                 </c:forEach>
                                 <label>
@@ -162,10 +162,10 @@
                                 </label>
                                 <c:if test="${requestScope.page.pageNo < requestScope.page.pageTotal}">
                                     <a class="nxt"
-                                       href="${requestScope.page.url}&pageNo=${requestScope.page.pageNo+1}&xuexiao=${sessionScope.user.xuexiao}">下一页</a>
+                                       href="${requestScope.page.url}&pageNo=${requestScope.page.pageNo+1}&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">下一页</a>
                                 </c:if>
                                 <a class="nxt"
-                                   href="${requestScope.page.url}&pageNo=${requestScope.page.pageTotal}&xuexiao=${sessionScope.user.xuexiao}">末页</a>
+                                   href="${requestScope.page.url}&pageNo=${requestScope.page.pageTotal}&xuexiao=${sessionScope.user.xuexiao}&banji=${sessionScope.user.banji}">末页</a>
                             </div>
                         </td>
                     </tr>

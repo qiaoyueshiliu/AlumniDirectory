@@ -1,11 +1,12 @@
 package com.atguigu.dao.impl;
 
+import com.atguigu.dao.BanjiDao;
 import com.atguigu.dao.XuexiaoguanliDao;
 import com.atguigu.pojo.User;
 
 import java.util.List;
 
-public class BanjiDaoImpl extends BaseDao implements XuexiaoguanliDao {
+public class BanjiDaoImpl extends BaseDao implements BanjiDao {
     @Override
     public int addUser(User user) {
         String sql = "insert into t_user(`id`,`username`,`password`,`nickname`,`xuexiao`) values (?,?,?,?,?)";
@@ -36,22 +37,33 @@ public class BanjiDaoImpl extends BaseDao implements XuexiaoguanliDao {
         return queryForList(User.class,sql);
     }
 
+
     @Override
-    public Integer queryForPageTotalCount(String xuexiao) {
+    /**
+     * 获取总页数（学校班级）
+     * @param xuexiao 获取到的班级
+     * @param banji 获取到的学校
+     * @return 返回总页面数
+     */
+    public Integer queryForPageTotalCount(String xuexiao,String banji) {
         String xueXiao = "\""+xuexiao+"\"";
+        String banJi ="\""+banji+"\"";
         String sql = "select count(*) as num " +
                 "from t_user " +
-                "where xuexiao="+xueXiao;
+                "where xuexiao="+xueXiao+
+                " and banji="+banJi;
         Number count = (Number)queryForSingleValue(sql);
         return count.intValue();
     }
 
     @Override
-    public List<User> queryForPageItems(int begin, int pageSize,String xuexiao) {
+    public List<User> queryForPageItems(int begin, int pageSize,String xuexiao,String banji) {
         String xueXiao = "\""+xuexiao+"\"";
+        String banJi ="\""+banji+"\"";
         String sql = "select * " +
                 "from t_user " +
                 "where xuexiao="+xueXiao+" " +
+                "and banji="+banJi+" " +
                 "order by id desc " +
                 "limit ?,? ";
         return queryForList(User.class,sql,begin,pageSize);

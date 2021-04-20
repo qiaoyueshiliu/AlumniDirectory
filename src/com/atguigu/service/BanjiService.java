@@ -17,6 +17,6 @@ public interface BanjiService {
 
     public List<User> queryUsers();
 
-    Page<User> page(int pageNo, int pageSize, String xuexiao);
+    Page<User> page(int pageNo, int pageSize, String xuexiao,String banji);
 
 }
