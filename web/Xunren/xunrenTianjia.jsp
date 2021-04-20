@@ -27,13 +27,18 @@
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
-            <h1 style="font-size: 48px">
-        <span>寻人启事
-            <span class="um_span">
-            </span>发布成功
-        </span>
-            </h1>
-            <span style="font-size:18px;">3s后自动跳转</span>
+            <div style="text-align: center">
+                <h1 style="font-size: 48px">
+                    <span>寻人启事
+                        <span class="um_span">
+
+                        </span>发布成功
+                    </span>
+                </h1>
+            </div>
+            <div style="text-align: center">
+                <span style="font-size:18px;">3s后自动跳转</span>
+            </div>
             <%--连接数据库--%>
             <sql:setDataSource
                     var="snapshot"
