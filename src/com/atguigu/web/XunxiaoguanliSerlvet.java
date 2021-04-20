@@ -70,12 +70,13 @@ public class XunxiaoguanliSerlvet extends BaseServlet {
 //        2、调用 BookService.updateBook(book); 修改图书
         xunxiaogianliService.updateUser(user);
 
+//        req.getSession().setAttribute("xuexiao",user.getXuexiao());
 //        3、重定向会图书列表管理页面
 //              地址：/工程名/manager/bookServlet?action=list
         // getcontextpath获取 /工程路径
         System.out.println(req.getParameter("xuexiao"));
 //        resp.sendRedirect(req.getContextPath()+"/manager/xunxiaoguanliSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("xuexiao"));
-        req.getRequestDispatcher("/manager/xunxiaoguanliSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("xuexiao")).forward(req,resp);
+        req.getRequestDispatcher("/manager/xunxiaoguanliSerlvet?action=page&pageNo="+req.getParameter("pageNo")+"&xuexiao="+req.getParameter("school")).forward(req,resp);
     }
 
     protected void getUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
