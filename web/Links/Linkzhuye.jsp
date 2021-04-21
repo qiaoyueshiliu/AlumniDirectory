@@ -40,11 +40,22 @@
                             text-align: center">
                                 部分江苏省学校官网
                             </h1>
+                            <c:if test="${empty sessionScope.user}">
+                                <a href="Login/Login.jsp">登录后可申请添加友情链接</a>
+                            </c:if>
                             <c:if test="${sessionScope.user.quanxian eq 1}">
                                 <a href="Links/linkAdd.jsp"
                                    target="_blank">
                                     添加友情链接
                                 </a>
+                            </c:if>
+                            <c:if test="${not empty sessionScope.user}">
+                                <c:if test="${sessionScope.user.quanxian ne 1}">
+                                    <a href="Links/linkAddYonghu.jsp"
+                                       target="_blank">
+                                        添加友情链接
+                                    </a>
+                                </c:if>
                             </c:if>
                             <sql:setDataSource
                                     var="snapshot"

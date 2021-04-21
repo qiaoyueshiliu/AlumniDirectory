@@ -7,20 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/Table/fankui.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/Table/huodong.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/Table/t_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/Table/xuexiao.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/Table/xunrenqishi.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Links/linkAddYonghu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Links/linkTiaozhuanYonghu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/Table/huifu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Table/huifu.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/Table/school.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Table/school.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/Table/t_book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Table/t_book.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Links/Linkzhuye.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/Linkzhuye.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xuexiaogianliyuan/banjiUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/xuexiaogianliyuan/banjiUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/xuexiaogianliyuan/xuexiaoUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/xuexiaogianliyuan/xuexiaoUpdate.jsp" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="D:/源码/简约论坛/javaee_2.0/javaee_2.0/bbs/WebRoot/WEB-INF/classes/" />
-    <ignored path="D:/源码/JSP校友同学网站1/JSP校友同学网站/源码/jspmxyhwznsA1A2/build/classes/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,46 +62,6 @@
     <favorites_list name="Unnamed1">
       <favorite_root url="file://D:/源码/JSP校友同学网站/JSP校友同学网站/源码/jspmxyhwznsA1A2/WebContent/WEB-INF/lib/mysql-connector-java-8.0.23.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public_jsp/yemian.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/Register/Yonghuxiuguanlixiugai.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="148" column="10" lean-forward="true" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/xuexiaogianliyuan/banjiUpdate.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/xuexiaogianliyuan/xuexiaoUpdate.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,9 +128,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://D:/BaiduNetdiskDownload/资料/资料/14-项目第六、七阶段/代码/book/回收站/index/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -328,7 +278,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/Links" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -336,10 +286,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu.service" />
-      <recent name="com.atguigu.test" />
-      <recent name="com.atguigu.web" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Links" />
+      <recent name="D:\IDEA\AlumniDirectory\Study\MySQL\001-050" />
+      <recent name="D:\IDEA\AlumniDirectory\Study" />
+      <recent name="D:\IDEA\AlumniDirectory\Study\Table" />
+      <recent name="D:\IDEA\AlumniDirectory\Study\MySQL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BaiduNetdiskDownload\资料\资料\14-项目第六、七阶段\代码\book\回收站" />
@@ -351,19 +303,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.service" />
+      <recent name="com.atguigu.test" />
+      <recent name="com.atguigu.web" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.dao.impl" />
       <recent name="com.atguigu.dao" />
       <recent name="com.atguigu.service.impl" />
       <recent name="com.atguigu.service" />
       <recent name="com.atguigu.web" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\AlumniDirectory\Study\MySQL\001-050" />
-      <recent name="D:\IDEA\AlumniDirectory\Study" />
-      <recent name="D:\IDEA\AlumniDirectory\Study\Table" />
-      <recent name="D:\IDEA\AlumniDirectory\Study\MySQL" />
-      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\Study\Table" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -379,19 +329,20 @@
       </list>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Tomcat Server.yanshi">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookDaoTest.queryForPageItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlumniDirectory" />
       <extension name="coverage">
@@ -468,6 +419,53 @@
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.YonghuguanliServiceTest" />
       <option name="METHOD_NAME" value="updateUser" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AlumniDirectory" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AlumniDirectory" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -564,6 +562,8 @@
     <configuration name="yanshi" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AlumniDirectory" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="AlumniDirectory:war exploded">
@@ -669,7 +669,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1169,22 +1169,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1203,6 +1188,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -1240,7 +1226,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://D:/BaiduNetdiskDownload/资料/资料/14-项目第六、七阶段/代码/book/回收站/RegistServlet.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

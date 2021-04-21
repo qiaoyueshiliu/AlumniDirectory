@@ -35,7 +35,7 @@
         })
     </script>
 </head>
-<%@ include file="../public_jsp/admin_header.jsp" %>
+<%@ include file="../public_jsp/header02.jsp" %>
 <body>
 <div class="row">
     <div class="column side">
