@@ -96,4 +96,14 @@
         <servlet-name>BanjiSerlvet</servlet-name>
         <url-pattern>/manager/banjiSerlvet</url-pattern>
     </servlet-mapping>
+
+    <!--反馈内容管理-->
+    <servlet>
+        <servlet-name>FankuiServlet</servlet-name>
+        <servlet-class>com.atguigu.web.FankuiServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FankuiServlet</servlet-name>
+        <url-pattern>/manager/fankuiServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
