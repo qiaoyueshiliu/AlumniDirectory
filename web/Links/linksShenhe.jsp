@@ -32,7 +32,8 @@
         </div>
         <div class="card">
             <div id="mainguanli">
-                <table>
+                <form action="Links/linkTiaozhuanshenhe.jsp" method="get">
+                    <table>
                     <tr>
                         <td>学校</td>
                         <td>官网</td>
@@ -50,18 +51,24 @@
                         from school_sh
                     </sql:query>
                     <%--forEach循环开始--%>
+
                     <c:forEach var="row" items="${shenhelist.rows}">
                         <tr>
                             <td>${row.schoolname}</td>
+                            <input type="hidden" value="${row.schoolname}" name="schoolname"/>
                             <td><a href="${row.schoolguanwang}" target="_blank">${row.schoolguanwang}</a></td>
-                            <td>
-                                <a href="Links/linkTiaozhuanshenhe.jsp&">通过</a>
-                                <a href="">不通过</a>
+                            <input type="hidden" value="${row.schoolguanwang}" name="schoolguanwang"/>
+                            <td style="width: 150px;">
+                                <input type="submit" value="通过" name="pass">
+<%--                                <a href="Links/linkTiaozhuanshenhe.jsp?schoolname=${row.schoolname}&schoolguangwang=${row.schoolguanwang}">通过</a>--%>
+                                <input type="submit" value="不通过" name="pass">
+                            <%--                                <a href="">不通过</a>--%>
                             </td>
                         </tr>
                     <%--forEach 循环结束--%>
                     </c:forEach>
-                </table>
+                    </table>
+                </form>
             </div>
         </div>
 
