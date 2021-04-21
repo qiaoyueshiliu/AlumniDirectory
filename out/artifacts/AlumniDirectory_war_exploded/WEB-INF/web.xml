@@ -116,4 +116,14 @@
         <servlet-name>XunrenqishiServlet</servlet-name>
         <url-pattern>/manager/xunrenqishiServlet</url-pattern>
     </servlet-mapping>
+
+    <!--活动管理-->
+    <servlet>
+        <servlet-name>HuodongServlet</servlet-name>
+        <servlet-class>com.atguigu.web.HuodongServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HuodongServlet</servlet-name>
+        <url-pattern>/manager/huodongServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

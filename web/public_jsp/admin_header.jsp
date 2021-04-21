@@ -19,6 +19,7 @@
     <li><a href="Links/LinksManager.jsp">友情链接管理</a></li>
     <li><a href="manager/fankuiServlet?action=page&pageNo=1">反馈管理</a></li>
     <li><a href="manager/xunrenqishiServlet?action=page&pageNo=1">寻人启事管理</a></li>
+    <li><a href="manager/huodongServlet?action=page&pageNo=1">活动公告管理</a></li>
 
 </ul>
 </body>

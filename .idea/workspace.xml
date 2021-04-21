@@ -6,16 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 15:50:17 2.4.9 反馈管理简化">
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/XunrenqishiDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/XunrenqishiDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Xunrenqishi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/XunrenqishiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/XunrenqishiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/XunrenqishiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Xunren/ManagerXunren.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 15:50:17 2.4.9 寻人启事管理完成">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/HuodongDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/HuodongDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Huodong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/HuodongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/HuodongServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/HuodongServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Huodonggonggao/ManagerHuodong.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Huodonggonggao/ManagerHuodong.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" afterDir="false" />
     </list>
@@ -76,9 +77,9 @@
         <option value="HTML File" />
         <option value="jsf" />
         <option value="JUnit4 Test Class" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -314,11 +315,11 @@
       <recent name="com.atguigu.web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.pojo" />
       <recent name="com.atguigu.dao.impl" />
       <recent name="com.atguigu.dao" />
       <recent name="com.atguigu.service.impl" />
       <recent name="com.atguigu.service" />
-      <recent name="com.atguigu.web" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -686,14 +687,7 @@
       <workItem from="1618819923539" duration="3220000" />
       <workItem from="1618885496837" duration="30753000" />
       <workItem from="1618930034157" duration="4815000" />
-      <workItem from="1618973210865" duration="16099000" />
-    </task>
-    <task id="LOCAL-00109" summary="2021-4-15 13:33:19 2.0.3更新：分页栏公共部分抽取完成">
-      <created>1618464860767</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1618464860767</updated>
+      <workItem from="1618973210865" duration="18943000" />
     </task>
     <task id="LOCAL-00110" summary="2021-4-17 10:32:21 2.0.4更新：Session学习">
       <created>1618626775895</created>
@@ -1031,7 +1025,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618991426931</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="2021-4-21 15:50:17 2.4.9 寻人启事管理完成">
+      <created>1618994316861</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1618994316861</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,7 +1149,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-20 11:49:26 2.2.6 寻人启事添加页面完成" />
     <MESSAGE value="2021-4-20 12:03:13 2.2.7 用户反馈页面美化完成" />
     <MESSAGE value="2021-4-20 12:09:34 2.2.8 寻人添加美化" />
     <MESSAGE value="2021-4-20 12:16:20 2.2.9 1.导航栏活动完成；2.活动表完成" />
@@ -1173,7 +1173,8 @@
     <MESSAGE value="2021-4-21 14:28:35 2.4.8 回复功能完善" />
     <MESSAGE value="2021-4-21 14:28:35 2.4.8 反馈管理完成" />
     <MESSAGE value="2021-4-21 15:50:17 2.4.9 反馈管理简化" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 15:50:17 2.4.9 反馈管理简化" />
+    <MESSAGE value="2021-4-21 15:50:17 2.4.9 寻人启事管理完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 15:50:17 2.4.9 寻人启事管理完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
