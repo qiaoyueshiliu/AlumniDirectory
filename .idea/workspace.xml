@@ -6,16 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 13:37:39 2.4.7 友情链接功能完成">
-      <change afterPath="$PROJECT_DIR$/web/Links/LinksManager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Links/LinksManagerDel.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 14:28:35 2.4.8 回复功能完善">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/FankuiDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/FankuiDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Fankui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/FankuiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/FankuiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/FankuiServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Fankui/ManagerFankui.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Links/linksShenhe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/linksShenhe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/fatie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/fatie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/huifu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/huifutiaozhuan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifutiaozhuan.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/servlet/SessionServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +76,10 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="jsf" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -313,11 +315,11 @@
       <recent name="com.atguigu.web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.service.impl" />
+      <recent name="com.atguigu.web" />
       <recent name="com.atguigu.dao.impl" />
       <recent name="com.atguigu.dao" />
-      <recent name="com.atguigu.service.impl" />
       <recent name="com.atguigu.service" />
-      <recent name="com.atguigu.web" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -518,7 +520,6 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AlumniDirectory" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="AlumniDirectory:war exploded">
@@ -686,14 +687,7 @@
       <workItem from="1618819923539" duration="3220000" />
       <workItem from="1618885496837" duration="30753000" />
       <workItem from="1618930034157" duration="4815000" />
-      <workItem from="1618973210865" duration="8215000" />
-    </task>
-    <task id="LOCAL-00106" summary="2021-4-14 14:58:08 2.0.0 结束注册页数据库乱码问题">
-      <created>1618383540918</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1618383540921</updated>
+      <workItem from="1618973210865" duration="12702000" />
     </task>
     <task id="LOCAL-00107" summary="2021-4-14 20:10:25 2.0.1 首页自动请求完成">
       <created>1618402255988</created>
@@ -1031,7 +1025,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618983477687</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="2021-4-21 14:28:35 2.4.8 回复功能完善">
+      <created>1618986522617</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1618986522617</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,7 +1149,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-19 23:42:35 2.2.3 帖子页面-回复按钮修复" />
     <MESSAGE value="2021-4-19 23:48:11 2.2.4 寻人启事主页完成" />
     <MESSAGE value="2021-4-20 00:33:09 2.2.5 点击继续加载完成" />
     <MESSAGE value="2021-4-20 11:49:26 2.2.6 寻人启事添加页面完成" />
@@ -1173,7 +1173,8 @@
     <MESSAGE value="2021-4-21 10:41:24 2.4.5 用户友情链接添加按钮" />
     <MESSAGE value="2021-4-21 11:14:58 2.4.6 友情链接审核界面完成" />
     <MESSAGE value="2021-4-21 13:37:39 2.4.7 友情链接功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 13:37:39 2.4.7 友情链接功能完成" />
+    <MESSAGE value="2021-4-21 14:28:35 2.4.8 回复功能完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 14:28:35 2.4.8 回复功能完善" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
