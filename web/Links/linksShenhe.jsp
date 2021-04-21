@@ -18,8 +18,8 @@
 <link rel="stylesheet" href="public_jsp/zhuyefatieanniu.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/pg.css" type="text/css">
 <link rel="stylesheet" href="public_jsp/guanliyemian.css" type="text/css">
-<body>
-<div class="row">
+<body style="overflow-y: scroll">
+<div class="row" >
     <div class="column side">
         <img src="tupian/wallhaven-4gr3z3_200x1080.png" style="width: 100%">
 
@@ -32,7 +32,6 @@
         </div>
         <div class="card">
             <div id="mainguanli">
-                <form action="Links/linkTiaozhuanshenhe.jsp" method="get">
                     <table>
                     <tr>
                         <td>学校</td>
@@ -53,6 +52,8 @@
                     <%--forEach循环开始--%>
 
                     <c:forEach var="row" items="${shenhelist.rows}">
+                        <form action="Links/linkTiaozhuanshenhe.jsp" method="get">
+
                         <tr>
                             <td>${row.schoolname}</td>
                             <input type="hidden" value="${row.schoolname}" name="schoolname"/>
@@ -65,10 +66,11 @@
                             <%--                                <a href="">不通过</a>--%>
                             </td>
                         </tr>
-                    <%--forEach 循环结束--%>
+                        </form>
+
+                        <%--forEach 循环结束--%>
                     </c:forEach>
                     </table>
-                </form>
             </div>
         </div>
 

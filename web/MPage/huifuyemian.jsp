@@ -59,6 +59,7 @@
             order by t_book.tieziid desc;
         </sql:query>
         <c:forEach var="row" items="${result.rows}">
+            <%--本体内容--%>
             <div class="card" style="height: 70px;">
                 <c:if test="${not empty sessionScope.user}">
                     <div class="fatiekuangyi">
@@ -76,6 +77,7 @@
                     </div>
                 </c:if>
             </div>
+
             <div class="card">
 
                 <div class="topicModule">
@@ -121,6 +123,10 @@
                 </div>
             </div>
         </c:forEach>
+
+
+        <%--回复内容--%>
+
         <sql:query dataSource="${snapshot}" var="huifusql">
             select
             huifushijian,t_user.nickname,huifuneirong,huifu.id,huifuid,bankuai,t_book.tieziid
@@ -135,7 +141,7 @@
                 <div>回复</div>
                 <div class="topic-box">
                     <div class="topicList">
-                        <c:forEach var="row" items="${huifusql.rows}">
+                        <c:forEach var="row" items="${huifusql.rows}" end="${param.fankuiend}">
                             <div class="topicItem">
                                 <div class="content clearfix">
                                     <ul class="info">
@@ -159,6 +165,19 @@
                                 </div>
                             </div>
                         </c:forEach>
+                        <%--循环结束--%>
+
+                        <div class="topicItem" style="height: 60px">
+                            <div class="fatiekuang">
+                                <div class="fatie">
+                                    <%--                                    <c:if test="${param.fankuiend < 2}">--%>
+                                    <%--下面数字表示加载多少行--%>
+                                    <c:set var="fankuiend" value="${param.fankuiend+1}" scope="page"/>
+                                    <a name="jiazaimaodian" href="MPage/huifuyemian.jsp?tieziid=${param.tieziid}&fankuiend=${pageScope.fankuiend}#jiazaimaodian">点击继续加载</a>
+                                    <%--                                    </c:if>--%>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="topicItem">
                             <div class="fatiekuang">

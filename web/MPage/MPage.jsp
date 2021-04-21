@@ -42,13 +42,13 @@
                                             <a class="userName" href="user/control/home?userName=test">
                                                     ${book.nickname}
                                             </a>
-                                            <span class="userRoleName">用户${book.xuexiao}</span>
+                                            <span class="userRoleName">${book.xuexiao}</span>
                                             <span class="postTime">发表时间：${book.createtime}</span>
 <%--                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>--%>
                                         </li>
                                     </ul>
                                     <h2 class="title clearfix">
-                                        <a href="MPage/huifuyemian.jsp?tieziid=${book.tieziid}" target="_blank">
+                                        <a href="MPage/huifuyemian.jsp?tieziid=${book.tieziid}&fankuiend=4" target="_blank">
                                                 ${book.biaoti}
                                         </a>
                                     </h2>

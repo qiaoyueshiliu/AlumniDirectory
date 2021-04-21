@@ -6,11 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 11:14:58 2.4.6 友情链接审核界面完成">
-      <change afterPath="$PROJECT_DIR$/web/Links/linksShenheDel.jsp" afterDir="false" />
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 13:37:39 2.4.7 友情链接功能完成">
+      <change afterPath="$PROJECT_DIR$/web/Links/LinksManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Links/LinksManagerDel.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Links/linkTiaozhuanshenhe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/linkTiaozhuanshenhe.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Links/linksShenhe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Links/linksShenhe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/fatie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/fatie.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/huifu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/huifutiaozhuan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifutiaozhuan.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/huifuyemian.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -680,14 +686,7 @@
       <workItem from="1618819923539" duration="3220000" />
       <workItem from="1618885496837" duration="30753000" />
       <workItem from="1618930034157" duration="4815000" />
-      <workItem from="1618973210865" duration="5463000" />
-    </task>
-    <task id="LOCAL-00105" summary="2021-4-12 17:28:31 网站页面的美化">
-      <created>1618300934693</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1618300934695</updated>
+      <workItem from="1618973210865" duration="8215000" />
     </task>
     <task id="LOCAL-00106" summary="2021-4-14 14:58:08 2.0.0 结束注册页数据库乱码问题">
       <created>1618383540918</created>
@@ -1025,7 +1024,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618974933623</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="2021-4-21 13:37:39 2.4.7 友情链接功能完成">
+      <created>1618983477687</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1618983477687</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1142,7 +1148,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-19 23:14:45 2.2.2 导航栏-寻人启事完成" />
     <MESSAGE value="2021-4-19 23:42:35 2.2.3 帖子页面-回复按钮修复" />
     <MESSAGE value="2021-4-19 23:48:11 2.2.4 寻人启事主页完成" />
     <MESSAGE value="2021-4-20 00:33:09 2.2.5 点击继续加载完成" />
@@ -1167,7 +1172,8 @@
     <MESSAGE value="2021-4-21 10:41:24 2.4.5 用户友情链接添加" />
     <MESSAGE value="2021-4-21 10:41:24 2.4.5 用户友情链接添加按钮" />
     <MESSAGE value="2021-4-21 11:14:58 2.4.6 友情链接审核界面完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 11:14:58 2.4.6 友情链接审核界面完成" />
+    <MESSAGE value="2021-4-21 13:37:39 2.4.7 友情链接功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 13:37:39 2.4.7 友情链接功能完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">
