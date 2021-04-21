@@ -25,7 +25,7 @@
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
-            <form action="Links/linkTiaozhuan.jsp" method="get">
+            <form action="Links/linkTiaozhuanYonghu.jsp" method="get">
                 <input type="hidden" name="action" value="add">
                 <table id="rapidregTable" width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#d0f0f2">
                     <tr>

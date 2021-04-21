@@ -15,5 +15,6 @@
     <li><a href="client/bookServlet_qiantai?action=page&pageNo=1">网站主页</a></li>
     <li><a href="manager/bookServlet?action=page&pageNo=1">帖子管理</a></li>
     <li><a href="manager/yonghuguanliServlet?action=page&pageNo=1">用户管理</a></li>
+    <li><a href="Links/linksShenhe.jsp">友情链接审核</a></li>
 </ul>
 </body>

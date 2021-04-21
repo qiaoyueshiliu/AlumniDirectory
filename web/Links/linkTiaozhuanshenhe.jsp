@@ -10,7 +10,6 @@
 <html>
 <head>
     <title>Title</title>
-    <% System.out.println("正在跳转到 Linkzhuye.jsp");%>
     <meta http-equiv="refresh"
           content="3;URL=Linkzhuye.jsp">
 </head>
@@ -60,17 +59,16 @@
                             <h1>学校重复，请重试</h1>
                         </c:if>
                         <c:if test="${salary419155323 ne salary419155324}">
-                            <% System.out.println("执行添加友情链接命令（提交审核到管理员）");%>
                             <sql:update dataSource="${snapshot}"
                                         var="result">
-                                insert into `book`.`school_sh`
+                                insert into `book`.`school`
                                 (`schoolid`, `schoolname`, `schoolguanwang`)
                                 values(
                                 null,
                                 '${param.schoolname}',
                                 '${param.schoolguanwang}')
                             </sql:update>
-                            <h1>友情链接提交审核成功</h1>
+                            <h1>友情链接添加成功</h1>
                         </c:if>
                 </c:if>
         </div>
