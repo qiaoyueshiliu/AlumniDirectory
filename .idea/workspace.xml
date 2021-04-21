@@ -6,14 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 14:28:35 2.4.8 反馈管理完成">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 15:50:17 2.4.9 反馈管理简化">
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/XunrenqishiDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/XunrenqishiDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Xunrenqishi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/XunrenqishiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/XunrenqishiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atguigu/web/XunrenqishiServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Xunren/ManagerXunren.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/FankuiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/FankuiDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/FankuiDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/FankuiDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/FankuiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/FankuiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/FankuiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/FankuiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Fankui/ManagerFankui.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Fankui/ManagerFankui.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/admin_header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +77,8 @@
         <option value="jsf" />
         <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -279,7 +283,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Study/MySQL/001-050" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/Xunren" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -288,11 +292,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Xunren" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\Study\MySQL\001-050" />
       <recent name="C:\Users\DELL\IdeaProjects\AlumniDirectory\web\Links" />
       <recent name="D:\IDEA\AlumniDirectory\Study\MySQL\001-050" />
       <recent name="D:\IDEA\AlumniDirectory\Study" />
-      <recent name="D:\IDEA\AlumniDirectory\Study\Table" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BaiduNetdiskDownload\资料\资料\14-项目第六、七阶段\代码\book\回收站" />
@@ -310,11 +314,11 @@
       <recent name="com.atguigu.web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atguigu.service.impl" />
-      <recent name="com.atguigu.web" />
       <recent name="com.atguigu.dao.impl" />
       <recent name="com.atguigu.dao" />
+      <recent name="com.atguigu.service.impl" />
       <recent name="com.atguigu.service" />
+      <recent name="com.atguigu.web" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -682,14 +686,7 @@
       <workItem from="1618819923539" duration="3220000" />
       <workItem from="1618885496837" duration="30753000" />
       <workItem from="1618930034157" duration="4815000" />
-      <workItem from="1618973210865" duration="13307000" />
-    </task>
-    <task id="LOCAL-00108" summary="2021-4-14 20:54:26 2.0.2 分页栏公共部分的抽取">
-      <created>1618404900385</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1618404900385</updated>
+      <workItem from="1618973210865" duration="16099000" />
     </task>
     <task id="LOCAL-00109" summary="2021-4-15 13:33:19 2.0.3更新：分页栏公共部分抽取完成">
       <created>1618464860767</created>
@@ -1027,7 +1024,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618991032611</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="2021-4-21 15:50:17 2.4.9 反馈管理简化">
+      <created>1618991426931</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1618991426931</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1144,7 +1148,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-20 00:33:09 2.2.5 点击继续加载完成" />
     <MESSAGE value="2021-4-20 11:49:26 2.2.6 寻人启事添加页面完成" />
     <MESSAGE value="2021-4-20 12:03:13 2.2.7 用户反馈页面美化完成" />
     <MESSAGE value="2021-4-20 12:09:34 2.2.8 寻人添加美化" />
@@ -1169,7 +1172,8 @@
     <MESSAGE value="2021-4-21 13:37:39 2.4.7 友情链接功能完成" />
     <MESSAGE value="2021-4-21 14:28:35 2.4.8 回复功能完善" />
     <MESSAGE value="2021-4-21 14:28:35 2.4.8 反馈管理完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 14:28:35 2.4.8 反馈管理完成" />
+    <MESSAGE value="2021-4-21 15:50:17 2.4.9 反馈管理简化" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 15:50:17 2.4.9 反馈管理简化" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

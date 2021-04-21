@@ -18,6 +18,7 @@
     <li><a href="Links/linksShenhe.jsp">友情链接审核</a></li>
     <li><a href="Links/LinksManager.jsp">友情链接管理</a></li>
     <li><a href="manager/fankuiServlet?action=page&pageNo=1">反馈管理</a></li>
+    <li><a href="manager/xunrenqishiServlet?action=page&pageNo=1">寻人启事管理</a></li>
 
 </ul>
 </body>
