@@ -6,18 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 17:27:43 2.5.0 基本功能完成">
+    <list default="true" id="6f614549-f87b-4a67-a6dd-e938bb837bd9" name="Default Changelist" comment="2021-4-21 17:59:54 2.5.1 第一个地区完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AlumniDirectory_war_exploded/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/pojo/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/web/BookServlet_qiantai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/MPage/MPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/MPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/MPage/fatie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/MPage/fatie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public_jsp/daoHangLan.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/public_jsp/daoHangLan.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -686,14 +678,7 @@
       <workItem from="1618819923539" duration="3220000" />
       <workItem from="1618885496837" duration="30753000" />
       <workItem from="1618930034157" duration="4815000" />
-      <workItem from="1618973210865" duration="20965000" />
-    </task>
-    <task id="LOCAL-00112" summary="2021-4-17 12:29:59 2.0.5 servlet 学习至 servletConfig">
-      <created>1618635069371</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1618635069371</updated>
+      <workItem from="1618973210865" duration="22559000" />
     </task>
     <task id="LOCAL-00113" summary="2021-4-17 12:55:45 2.0.6 优化，提取导航栏css">
       <created>1618635386696</created>
@@ -1031,7 +1016,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618997268040</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="2021-4-21 17:59:54 2.5.1 第一个地区完成">
+      <created>1618999210843</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1618999210843</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1148,7 +1140,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2021-4-20 12:16:20 2.2.9 1.导航栏活动完成；2.活动表完成" />
     <MESSAGE value="2021-4-20 12:22:17 2.3.0 活动主页完成" />
     <MESSAGE value="2021-4-20 12:26:08 2.3.1 活动发布页完成" />
     <MESSAGE value="2021-4-20 12:26:08 2.3.2 寻人启事继续加载" />
@@ -1173,7 +1164,8 @@
     <MESSAGE value="2021-4-21 15:50:17 2.4.9 寻人启事管理完成" />
     <MESSAGE value="2021-4-21 15:50:17 2.4.9 功能完成" />
     <MESSAGE value="2021-4-21 17:27:43 2.5.0 基本功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 17:27:43 2.5.0 基本功能完成" />
+    <MESSAGE value="2021-4-21 17:59:54 2.5.1 第一个地区完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-4-21 17:59:54 2.5.1 第一个地区完成" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="XDebuggerManager">

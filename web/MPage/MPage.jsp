@@ -24,32 +24,31 @@
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
-            <ul class="DaoHangLan">
-                <li>
-                    <form action="client/bookServlet_qiantai" method="get">
-                        <input type="hidden" name="action" value="pageByDiqu">
-                        <input type="hidden" name="diqu" value="南京">
-                        <input type="submit" value="南京" />
-                    </form>
-                </li>
-                <li>
-                    <form action="client/bookServlet_qiantai" method="get">
-                        <input type="hidden" name="action" value="pageByDiqu">
-                        <input type="hidden" name="diqu" value="无锡">
-                        <input type="submit" value="无锡" />
-                    </form>
-                </li>
+            <ul class="DaoHangLan" style="height: 34px">
+                <%
+                    String[] args = {"南京", "无锡","徐州","常州","苏州","南通","连云港","淮安","盐城","扬州","镇江","泰州","宿迁"};
+                    request.setAttribute("args", args);
+                %>
+                <c:forEach var="dq" items="<%=args%>">
+                    <li>
+                        <form action="client/bookServlet_qiantai" method="get">
+                            <input type="hidden" name="action" value="pageByDiqu">
+                            <input type="hidden" name="diqu" value="${dq}">
+                            <input type="submit" value="${dq}" style="font-size: 16px;"/>
+                        </form>
+                    </li>
+                </c:forEach>
 
             </ul>
             <form action="client/bookServlet_qiantai" method="get">
                 <input type="hidden" name="action" value="pageByBankuai">
                 按学校搜索:<input id="lunTanSoSuo" type="text" name="lunTanSoSuo" value="${param.lunTanSoSuo}">
-                <input type="submit" value="搜索" />
+                <input type="submit" value="搜索"/>
             </form>
             <div class="topicModule">
                 <div class="topic-box">
                     <div class="topicList">
-<%--                        item:Page.java--%>
+                        <%--                        item:Page.java--%>
                         <c:forEach items="${requestScope.page.items}" var="book">
                             <div class="topicItem">
                                 <div class="content clearfix">
@@ -58,15 +57,16 @@
                                             <span class="tag">${book.diqu}</span>
                                             <span class="tag">${book.bankuai}</span>
 
-                                                    ${book.nickname}
+                                                ${book.nickname}
 
                                             <span class="userRoleName">${book.xuexiao}</span>
                                             <span class="postTime">发表时间：${book.createtime}</span>
-<%--                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>--%>
+                                                <%--                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>--%>
                                         </li>
                                     </ul>
                                     <h2 class="title clearfix">
-                                        <a href="MPage/huifuyemian.jsp?tieziid=${book.tieziid}&fankuiend=4" target="_blank">
+                                        <a href="MPage/huifuyemian.jsp?tieziid=${book.tieziid}&fankuiend=4"
+                                           target="_blank">
                                                 ${book.biaoti}
                                         </a>
                                     </h2>
@@ -97,18 +97,18 @@
                         <div class="topicPage">
                             <%--判断是否为登录状态,登录显示发帖--%>
                             <c:if test="${not empty sessionScope.user}">
-                            <div class="fatiekuangyi">
-                                <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
-                            </div>
+                                <div class="fatiekuangyi">
+                                    <a class="fatieanniu" href="MPage/fatie.jsp">发帖</a>
+                                </div>
                             </c:if>
-                                <%--判断是否为登录状态，未登录提示登录--%>
-                                <c:if test="${empty sessionScope.user}">
-                                    <div class="fatiekuangyi">
-                                        <a class="fatieanniu" href="Login/Login.jsp">请登录后发帖</a>
-                                    </div>
-                                </c:if>
+                            <%--判断是否为登录状态，未登录提示登录--%>
+                            <c:if test="${empty sessionScope.user}">
+                                <div class="fatiekuangyi">
+                                    <a class="fatieanniu" href="Login/Login.jsp">请登录后发帖</a>
+                                </div>
+                            </c:if>
                             <%--静态包含分页条--%>
-                            <%@include file="/public_jsp/page_nav.jsp"%>
+                            <%@include file="/public_jsp/page_nav.jsp" %>
                         </div>
                     </div>
                 </div>
