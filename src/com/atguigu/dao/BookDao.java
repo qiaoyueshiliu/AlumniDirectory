@@ -23,4 +23,8 @@ public interface BookDao {
     Integer queryForPageTotalCountByBankuai(String lunTanSoSuo);
 
     List<Book> queryForPageItemsByBankuai(int begin, int pageSize, String lunTanSoSuo);
+
+    Integer queryForPageTotalCountByDiqu(String diqu);
+
+    List<Book> queryForPageItemsByDiqu(int begin, int pageSize, String diqu);
 }

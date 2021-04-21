@@ -24,6 +24,23 @@
     <div class="column middle">
         <img src="head_css/wallhaven-n6dqgx_1920x400.png" style="width: 100%">
         <div class="card">
+            <ul class="DaoHangLan">
+                <li>
+                    <form action="client/bookServlet_qiantai" method="get">
+                        <input type="hidden" name="action" value="pageByDiqu">
+                        <input type="hidden" name="diqu" value="南京">
+                        <input type="submit" value="南京" />
+                    </form>
+                </li>
+                <li>
+                    <form action="client/bookServlet_qiantai" method="get">
+                        <input type="hidden" name="action" value="pageByDiqu">
+                        <input type="hidden" name="diqu" value="无锡">
+                        <input type="submit" value="无锡" />
+                    </form>
+                </li>
+
+            </ul>
             <form action="client/bookServlet_qiantai" method="get">
                 <input type="hidden" name="action" value="pageByBankuai">
                 按学校搜索:<input id="lunTanSoSuo" type="text" name="lunTanSoSuo" value="${param.lunTanSoSuo}">
@@ -38,10 +55,11 @@
                                 <div class="content clearfix">
                                     <ul class="info">
                                         <li>
+                                            <span class="tag">${book.diqu}</span>
                                             <span class="tag">${book.bankuai}</span>
-                                            <a class="userName" href="user/control/home?userName=test">
+
                                                     ${book.nickname}
-                                            </a>
+
                                             <span class="userRoleName">${book.xuexiao}</span>
                                             <span class="postTime">发表时间：${book.createtime}</span>
 <%--                                            <span class="lastReplyTime">最新回复：2020-07-24 02:00:50</span>--%>

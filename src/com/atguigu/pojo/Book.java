@@ -10,13 +10,23 @@ public class Book {
     private String biaoji;
     private Integer id;
     private String xuexiao;
+    private String diqu;
 
-    public String getXuexiao() {
-        return xuexiao;
+    public Book(Integer tieziid, String biaoti, String nickname, String createtime, String bankuai, String neirong, String biaoji, Integer id, String xuexiao, String diqu) {
+        this.tieziid = tieziid;
+        this.biaoti = biaoti;
+        this.nickname = nickname;
+        this.createtime = createtime;
+        this.bankuai = bankuai;
+        this.neirong = neirong;
+        this.biaoji = biaoji;
+        this.id = id;
+        this.xuexiao = xuexiao;
+        this.diqu = diqu;
     }
 
-    public void setXuexiao(String xuexiao) {
-        this.xuexiao = xuexiao;
+    public String getDiqu() {
+        return diqu;
     }
 
     @Override
@@ -31,7 +41,20 @@ public class Book {
                 ", biaoji='" + biaoji + '\'' +
                 ", id=" + id +
                 ", xuexiao='" + xuexiao + '\'' +
+                ", diqu='" + diqu + '\'' +
                 '}';
+    }
+
+    public void setDiqu(String diqu) {
+        this.diqu = diqu;
+    }
+
+    public String getXuexiao() {
+        return xuexiao;
+    }
+
+    public void setXuexiao(String xuexiao) {
+        this.xuexiao = xuexiao;
     }
 
     public Integer getId() {

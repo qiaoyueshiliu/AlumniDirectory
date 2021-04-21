@@ -11,10 +11,10 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     public int addBook(Book book) {
         System.out.println("开始进行添加 addBook");
         String sql = "insert into " +
-                        "t_book(`tieziid`,`biaoti`,`nickname`,`bankuai`,`neirong`,id) " +
-                        "values (?,?,?,?,?,?);";
+                        "t_book(`tieziid`,`biaoti`,`nickname`,`bankuai`,`neirong`,id,`diqu`) " +
+                        "values (?,?,?,?,?,?,?);";
         System.out.println("addBook 添加操作完成");
-        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai(),book.getNeirong(),book.getId());
+        return update(sql,book.getTieziid(),book.getBiaoti(),book.getNickname(),book.getBankuai(),book.getNeirong(),book.getId(),book.getDiqu());
     }
 
     @Override
@@ -36,7 +36,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public Book queryBookByTieziid(Integer tieziid) {
         System.out.println("开始查询 queryBookById ForOne");
-        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book where tieziid = ?";
+        String sql = "select * from t_book where tieziid = ?";
         System.out.println("queryBookById ForOne 查询结束");
         return queryForOne(Book.class,sql,tieziid);
     }
@@ -44,7 +44,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
     @Override
     public List<Book> queryBooks() {
         System.out.println("开始查询 queryBooks ForList");
-        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong`from t_book order by tieziid desc ";
+        String sql = "select * from t_book order by tieziid desc ";
         System.out.println("queryBooks ForList 查询结束");
         return queryForList(Book.class,sql);
     }
@@ -58,7 +58,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
 
     @Override
     public List<Book> queryForPageItems(int begin, int pageSize) {
-        String sql = "select `tieziid`,`createtime`,`bankuai`,`neirong`,`xuexiao`,`biaoti`,t_user.nickname,t_book.id,t_book.id\n" +
+        String sql = "select * ,t_user.nickname,t_book.id,t_book.id\n" +
                 "from t_book,t_user\n" +
                 "where t_book.id = t_user.id\n" +
                 "order by t_book.tieziid desc \n" +
@@ -78,12 +78,32 @@ public class BookDaoImpl extends BaseDao implements BookDao {
 
     @Override
     public List<Book> queryForPageItemsByBankuai(int begin, int pageSize, String lunTanSoSuo) {
-        String sql = "select `tieziid`,`biaoti`,`nickname`,`createtime`,`bankuai`,`neirong` " +
+        String sql = "select * " +
                 "from t_book " +
                 "where bankuai=? " +
                 "order by tieziid desc " +
                 "limit ?,? ";
         return queryForList(Book.class,sql,lunTanSoSuo,begin,pageSize);
+    }
+
+    @Override
+    public Integer queryForPageTotalCountByDiqu(String diqu) {
+        String Diqu= "\""+diqu+"\"";
+        String sql = "select count(*) as num " +
+                "from t_book " +
+                "where diqu="+Diqu;
+        Number count = (Number)queryForSingleValue(sql);
+        return count.intValue();
+    }
+
+    @Override
+    public List<Book> queryForPageItemsByDiqu(int begin, int pageSize, String diqu) {
+        String sql = "select * " +
+                "from t_book " +
+                "where diqu=? " +
+                "order by tieziid desc " +
+                "limit ?,? ";
+        return queryForList(Book.class,sql,diqu,begin,pageSize);
     }
 
 }

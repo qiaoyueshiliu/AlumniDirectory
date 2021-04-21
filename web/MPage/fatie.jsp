@@ -37,11 +37,19 @@
                             </td>
                         </tr>
                         <tr>
-                            <td valign="top" bgcolor="#FFFFFF">模块 </td>
+                            <td valign="top" bgcolor="#FFFFFF">学校模块 </td>
                             <td valign="top" bgcolor="#FFFFFF">
                                 <input name="bankuai"
                                        type="text" maxlength="20" size="15"
                                        id="bankuai" class="input"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF">地区 </td>
+                            <td valign="top" bgcolor="#FFFFFF">
+                                <input name="diqu"
+                                       type="text" maxlength="20" size="15"
+                                       id="diqu" class="input"/>
                             </td>
                         </tr>
                         <tr>
